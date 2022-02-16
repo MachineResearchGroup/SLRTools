@@ -1,0 +1,1234 @@
+TY  - EJOU
+AU  - Pearre, Ben
+AU  - Brown, Timothy X.
+TI  - Model-Free Trajectory Optimisation for Unmanned Aircraft Serving as Data Ferries for Widespread Sensors
+T2  - Remote Sensing
+
+PY  - 2012
+VL  - 4
+IS  - 10
+SN  - 2072-4292
+
+AB  - Given multiple widespread stationary data sources such as ground-based sensors, an unmanned aircraft can fly over the sensors and gather the data via a wireless link. Performance criteria for such a network may incorporate costs such as trajectory length for the aircraft or the energy required by the sensors for radio transmission. Planning is hampered by the complex vehicle and communication dynamics and by uncertainty in the locations of sensors, so we develop a technique based on model-free learning. We present a stochastic optimisation method that allows the data-ferrying aircraft to optimise data collection trajectories through an unknown environment in situ, obviating the need for system identification. We compare two trajectory representations, one that learns near-optimal trajectories at low data requirements but that fails at high requirements, and one that gives up some performance in exchange for a data collection guarantee. With either encoding the ferry is able to learn significantly improved trajectories compared with alternative heuristics. To demonstrate the versatility of the model-free learning approach, we also learn a policy to minimise the radio transmission energy required by the sensor nodes, allowing prolonged network lifetime.
+KW  - data ferries
+KW  - sensor networks
+KW  - delay-tolerant networks
+KW  - trajectory optimisation
+KW  - reinforcement learning
+KW  - stochastic approximation
+KW  - sensor energy conservation
+DO  - 10.3390/rs4102971
+TY  - EJOU
+AU  - Nigam, Nikhil
+TI  - The Multiple Unmanned Air Vehicle Persistent Surveillance Problem: A Review
+T2  - Machines
+
+PY  - 2014
+VL  - 2
+IS  - 1
+SN  - 2075-1702
+
+AB  - Control of autonomous vehicles for applications such as surveillance, search, and exploration has been a topic of great interest over the past two decades. In particular, there has been a rising interest in control of multiple vehicles for reasons such as increase in system reliability, robustness, and efficiency, with a possible reduction in cost. The exploration problem is NP hard even for a single vehicle/agent, and the use of multiple vehicles brings forth a whole new suite of problems associated with communication and cooperation between vehicles. The persistent surveillance problem differs from exploration since it involves continuous/repeated coverage of the target space, minimizing time between re-visits. The use of aerial vehicles demands consideration of vehicle dynamic and endurance constraints as well. Another aspect of the problem that has been investigated to a lesser extent is the design of the vehicles for particular missions. The intent of this paper is to thoroughly review the persistent surveillance problem, with particular focus on multiple Unmanned Air Vehicles (UAVs), and present some of our own work in this area. We investigate the different aspects of the problem and slightly digress into techniques that have been applied to exploration and coverage, but a comprehensive survey of all the work in multiple vehicle control for search, exploration, and coverage is beyond the scope of this paper.
+KW  - UAV
+KW  - persistent surveillance
+KW  - search
+KW  - exploration
+KW  - autonomous control
+KW  - multi-agent system
+KW  - coordination
+KW  - unmanned systems
+KW  - survey
+DO  - 10.3390/machines2010013
+TY  - EJOU
+AU  - Lanillos, Pablo
+AU  - Besada-Portas, Eva
+AU  - Lopez-Orozco, Jose A.
+AU  - De la Cruz, Jesus M.
+TI  - Minimum Time Search in Uncertain Dynamic Domains with Complex Sensorial Platforms
+T2  - Sensors
+
+PY  - 2014
+VL  - 14
+IS  - 8
+SN  - 1424-8220
+
+AB  - The minimum time search in uncertain domains is a searching task, which appears in real world problems such as natural disasters and sea rescue operations, where a target has to be found, as soon as possible, by a set of sensor-equipped searchers. The automation of this task, where the time to detect the target is critical, can be achieved by new probabilistic techniques that directly minimize the Expected Time (ET) to detect a dynamic target using the observation probability models and actual observations collected by the sensors on board the searchers. The selected technique, described in algorithmic form in this paper for completeness, has only been previously partially tested with an ideal binary detection model, in spite of being designed to deal with complex non-linear/non-differential sensorial models. This paper covers the gap, testing its performance and applicability over different searching tasks with searchers equipped with different complex sensors. The sensorial models under test vary from stepped detection probabilities to continuous/discontinuous differentiable/non-differentiable detection probabilities dependent on distance, orientation, and structured maps. The analysis of the simulated results of several static and dynamic scenarios performed in this paper validates the applicability of the technique with different types of sensor models.
+KW  - multi-agent systems
+KW  - Bayesian search theory
+KW  - Minimum Time Search
+KW  - Cross Entropy Optimization
+DO  - 10.3390/s140814131
+TY  - EJOU
+AU  - Wang, Qichen
+AU  - Phillips, Chris
+TI  - Cooperative Path-Planning for Multi-Vehicle Systems
+T2  - Electronics
+
+PY  - 2014
+VL  - 3
+IS  - 4
+SN  - 2079-9292
+
+AB  - In this paper, we propose a collision avoidance algorithm for multi-vehicle systems, which is a common problem in many areas, including navigation and robotics. In dynamic environments, vehicles may become involved in potential collisions with each other, particularly when the vehicle density is high and the direction of travel is unrestricted. Cooperatively planning vehicle movement can effectively reduce and fairly distribute  the detour inconvenience before subsequently returning vehicles to their intended paths.  We present a novel method of cooperative path planning for multi-vehicle systems based on reinforcement learning to address this problem as a decision process. A dynamic system is described as a multi-dimensional space formed by vectors as states to represent all participating vehicles’ position and orientation, whilst considering the kinematic constraints of the vehicles. Actions are defined for the system to transit from one state to another. In order to select appropriate actions whilst satisfying the constraints of path smoothness, constant speed and complying with a minimum distance between vehicles, an approximate value function is iteratively developed to indicate the desirability of every state-action pair from the continuous state space and action space. The proposed scheme comprises two phases. The convergence of the value function takes place in the former learning phase, and it is then used as a path planning guideline in the subsequent action phase. This paper summarizes the concept and methodologies used to implement this online cooperative collision avoidance algorithm and presents results and analysis regarding how this cooperative scheme improves upon two baseline schemes where vehicles make movement decisions independently.
+KW  - multi-agent system
+KW  - cooperative planning
+KW  - reinforcement learning
+DO  - 10.3390/electronics3040636
+TY  - EJOU
+AU  - Liu, Teng
+AU  - Zou, Yuan
+AU  - Liu, Dexing
+AU  - Sun, Fengchun
+TI  - Reinforcement Learning–Based Energy Management Strategy for a Hybrid Electric Tracked Vehicle
+T2  - Energies
+
+PY  - 2015
+VL  - 8
+IS  - 7
+SN  - 1996-1073
+
+AB  - This paper presents a reinforcement learning (RL)–based energy management strategy for a hybrid electric tracked vehicle. A control-oriented model of the powertrain and vehicle dynamics is first established. According to the sample information of the experimental driving schedule, statistical characteristics at various velocities are determined by extracting the transition probability matrix of the power request. Two RL-based algorithms, namely  Q-learning and Dyna algorithms, are applied to generate optimal control solutions. The two algorithms are simulated on the same driving schedule, and the simulation results are compared to clarify the merits and demerits of these algorithms. Although the Q-learning algorithm is faster (3 h) than the Dyna algorithm (7 h), its fuel consumption is 1.7% higher than that of the Dyna algorithm. Furthermore, the Dyna algorithm registers approximately the same fuel consumption as the dynamic programming–based global optimal solution.  The computational cost of the Dyna algorithm is substantially lower than that of the stochastic dynamic programming.
+KW  - reinforcement learning (RL)
+KW  - hybrid electric tracked vehicle (HETV)
+KW  -  Q-learning algorithm
+KW  - Dyna algorithm
+KW  - dynamic programming (DP)
+KW  - stochastic dynamic programming (SDP)
+DO  - 10.3390/en8077243
+TY  - EJOU
+AU  - Bradley, Justin M.
+AU  - Atkins, Ella M.
+TI  - Optimization and Control of Cyber-Physical Vehicle Systems
+T2  - Sensors
+
+PY  - 2015
+VL  - 15
+IS  - 9
+SN  - 1424-8220
+
+AB  - A cyber-physical system (CPS) is composed of tightly-integrated computation, communication and physical elements. Medical devices, buildings, mobile devices, robots, transportation and energy systems can benefit from CPS co-design and optimization techniques. Cyber-physical vehicle systems (CPVSs) are rapidly advancing due to progress in real-time computing, control and artificial intelligence. Multidisciplinary or multi-objective design optimization maximizes CPS efficiency, capability and safety, while online regulation enables the vehicle to be responsive to disturbances, modeling errors and uncertainties. CPVS optimization occurs at design-time and at run-time. This paper surveys the run-time cooperative optimization or co-optimization of cyber and physical systems, which have historically been considered separately. A run-time CPVS is also cooperatively regulated or co-regulated when cyber and physical resources are utilized in a manner that is responsive to both cyber and physical system requirements. This paper surveys research that considers both cyber and physical resources in co-optimization and co-regulation schemes with applications to mobile robotic and vehicle systems. Time-varying sampling patterns, sensor scheduling, anytime control, feedback scheduling, task and motion planning and resource sharing are examined.
+KW  - cyber-physical systems
+KW  - control
+KW  - real-time control
+KW  - optimization
+KW  - optimal control
+KW  - robotics
+DO  - 10.3390/s150923020
+TY  - EJOU
+AU  - Abdalzaher, Mohamed S.
+AU  - Seddik, Karim
+AU  - Elsabrouty, Maha
+AU  - Muta, Osamu
+AU  - Furukawa, Hiroshi
+AU  - Abdel-Rahman, Adel
+TI  - Game Theory Meets Wireless Sensor Networks Security Requirements and Threats Mitigation: A Survey
+T2  - Sensors
+
+PY  - 2016
+VL  - 16
+IS  - 7
+SN  - 1424-8220
+
+AB  - We present a study of using game theory for protecting wireless sensor networks (WSNs) from selfish behavior or malicious nodes. Due to scalability, low complexity and disseminated nature of WSNs, malicious attacks can be modeled effectively using game theory. In this study, we survey the different game-theoretic defense strategies for WSNs. We present a taxonomy of the game theory approaches based on the nature of the attack, whether it is caused by an external attacker or it is the result of an internal node acting selfishly or maliciously. We also present a general trust model using game theory for decision making. We, finally, identify the significant role of evolutionary games for WSNs security against intelligent attacks; then, we list several prospect applications of game theory to enhance the data trustworthiness and node cooperation in different WSNs.
+KW  - game theory
+KW  - WSNs security
+KW  - evolutionary game
+KW  - game-theoretic based trust model
+KW  - WSNs applications
+DO  - 10.3390/s16071003
+TY  - EJOU
+AU  - Yang, Tao
+AU  - Li, Guangpo
+AU  - Li, Jing
+AU  - Zhang, Yanning
+AU  - Zhang, Xiaoqiang
+AU  - Zhang, Zhuoyue
+AU  - Li, Zhi
+TI  - A Ground-Based Near Infrared Camera Array System for UAV Auto-Landing in GPS-Denied Environment
+T2  - Sensors
+
+PY  - 2016
+VL  - 16
+IS  - 9
+SN  - 1424-8220
+
+AB  - This paper proposes a novel infrared camera array guidance system with capability to track and provide real time position and speed of a fixed-wing Unmanned air vehicle (UAV) during a landing process. The system mainly include three novel parts: (1) Infrared camera array and near infrared laser lamp based cooperative long range optical imaging module; (2) Large scale outdoor camera array calibration module; and (3) Laser marker detection and 3D tracking module. Extensive automatic landing experiments with fixed-wing flight demonstrate that our infrared camera array system has the unique ability to guide the UAV landing safely and accurately in real time. Moreover, the measurement and control distance of our system is more than 1000 m. The experimental results also demonstrate that our system can be used for UAV automatic accurate landing in Global Position System (GPS)-denied environments.
+KW  - UAV
+KW  - automatic landing
+KW  - infrared camera array
+KW  - vision-based navigation
+DO  - 10.3390/s16091393
+TY  - EJOU
+AU  - Zhang, Xuxi
+AU  - Zhu, Qidan
+AU  - Liu, Xianping
+TI  - Consensus of Second Order Multi-Agent Systems with Exogenous Disturbance Generated by Unknown Exosystems
+T2  - Entropy
+
+PY  - 2016
+VL  - 18
+IS  - 12
+SN  - 1099-4300
+
+AB  - This paper is concerned with consensus problem of a class of second-order multi-agent systems subjecting to external disturbance generated from some unknown exosystems. In comparison with the case where the disturbance is generated from some known exosystems, we need to combine adaptive control and internal model design to deal with the external disturbance generated from the unknown exosystems. With the help of the internal model, an adaptive protocol is proposed for the consensus problem of the multi-agent systems. Finally, one numerical example is provided to demonstrate the effectiveness of the control design.
+KW  - consensus
+KW  - multi-agent systems
+KW  - internal model
+KW  - disturbance
+KW  - unknown exosystems
+DO  - 10.3390/e18120423
+TY  - EJOU
+AU  - Rodriguez Salazar, Leopoldo
+AU  - Cobano, Jose A.
+AU  - Ollero, Anibal
+TI  - Small UAS-Based Wind Feature Identification System Part 1: Integration and Validation
+T2  - Sensors
+
+PY  - 2017
+VL  - 17
+IS  - 1
+SN  - 1424-8220
+
+AB  - This paper presents a system for identification of wind features, such as gusts and wind shear. These are of particular interest in the context of energy-efficient navigation of Small Unmanned Aerial Systems (UAS). The proposed system generates real-time wind vector estimates and a novel algorithm to generate wind field predictions. Estimations are based on the integration of an off-the-shelf navigation system and airspeed readings in a so-called direct approach. Wind predictions use atmospheric models to characterize the wind field with different statistical analyses. During the prediction stage, the system is able to incorporate, in a big-data approach, wind measurements from previous flights in order to enhance the approximations. Wind estimates are classified and fitted into a Weibull probability density function. A Genetic Algorithm (GA) is utilized to determine the shaping and scale parameters of the distribution, which are employed to determine the most probable wind speed at a certain position. The system uses this information to characterize a wind shear or a discrete gust and also utilizes a Gaussian Process regression to characterize continuous gusts. The knowledge of the wind features is crucial for computing energy-efficient trajectories with low cost and payload. Therefore, the system provides a solution that does not require any additional sensors. The system architecture presents a modular decentralized approach, in which the main parts of the system are separated in modules and the exchange of information is managed by a communication handler to enhance upgradeability and maintainability. Validation is done providing preliminary results of both simulations and Software-In-The-Loop testing. Telemetry data collected from real flights, performed in the Seville Metropolitan Area in Andalusia (Spain), was used for testing. Results show that wind estimation and predictions can be calculated at 1    Hz    and a wind map can be updated at 0.4    Hz   . Predictions show a convergence time with a 95% confidence interval of approximately 30    s   .
+KW  - wind prediction
+KW  - wind estimation
+KW  - UAS
+KW  - wind shear
+KW  - gust
+KW  - multi-platform integration
+DO  - 10.3390/s17010008
+TY  - EJOU
+AU  - Li, Feimo
+AU  - Li, Shuxiao
+AU  - Zhu, Chengfei
+AU  - Lan, Xiaosong
+AU  - Chang, Hongxing
+TI  - Cost-Effective Class-Imbalance Aware CNN for Vehicle Localization and Categorization in High Resolution Aerial Images
+T2  - Remote Sensing
+
+PY  - 2017
+VL  - 9
+IS  - 5
+SN  - 2072-4292
+
+AB  - Joint vehicle localization and categorization in high resolution aerial images can provide useful information for applications such as traffic flow structure analysis. To maintain sufficient features to recognize small-scaled vehicles, a regions with convolutional neural network features (R-CNN) -like detection structure is employed. In this setting, cascaded localization error can be averted by equally treating the negatives and differently typed positives as a multi-class classification task, but the problem of class-imbalance remains. To address this issue, a cost-effective network extension scheme is proposed. In it, the correlated convolution and connection costs during extension are reduced by feature map selection and bi-partite main-side network construction, which are realized with the assistance of a novel feature map class-importance measurement and a new class-imbalance sensitive main-side loss function. By using an image classification dataset established from a set of traditional real-colored aerial images with 0.13 m ground sampling distance which are taken from the height of 1000 m by an imaging system composed of non-metric cameras, the effectiveness of the proposed network extension is verified by comparing with its similarly shaped strong counter-parts. Experiments show an equivalent or better performance, while requiring the least parameter and memory overheads are required.
+KW  - vehicle localization
+KW  - vehicle classification
+KW  - high resolution
+KW  - aerial image
+KW  - convolutional neural network (CNN)
+KW  - class imbalance
+DO  - 10.3390/rs9050494
+TY  - EJOU
+AU  - Xie, Guotao
+AU  - Zhang, Xinyu
+AU  - Gao, Hongbo
+AU  - Qian, Lijun
+AU  - Wang, Jianqiang
+AU  - Ozguner, Umit
+TI  - Situational Assessments Based on Uncertainty-Risk Awareness in Complex Traffic Scenarios
+T2  - Sustainability
+
+PY  - 2017
+VL  - 9
+IS  - 9
+SN  - 2071-1050
+
+AB  - Situational assessment (SA) is one of the key parts for the application of intelligent alternative-energy vehicles (IAVs) in the sustainable transportation. It helps IAVs understand and comprehend traffic environments better. In SA, it is crucial to be aware of uncertainty-risks, such as sensor failure or communication loss. The objective of this study is to assess traffic situations considering uncertainty-risks, including environment predicting uncertainty. According to the stochastic environment model, collision probabilities between multiple vehicles are estimated based on integrated trajectory prediction under uncertainty, which combines the physics- and maneuver-based trajectory prediction models for accurate prediction results in the long term. The SA method considers the probabilities of collision at different predicting points, the masses, and relative speeds between the possible colliding objects. In addition, risks beyond the prediction horizon are considered with the proposition of infinite risk assessments (IRAs). This method is applied and proved to assess risks regarding unexpected obstacles in traffic, sensor failure or communication loss, and imperfect detections with different sensing accuracies of the environment. The results indicate that the SA method could evaluate traffic risks under uncertainty in the dynamic traffic environment. This could help IAVs’ plan motion trajectories and make high-level decisions in uncertain environments.
+KW  - intelligent alternative-energy vehicles
+KW  - situational assessments
+KW  - uncertainty-risk awareness
+KW  - infinite risk assessments
+DO  - 10.3390/su9091582
+TY  - EJOU
+AU  - Zhang, Dan
+AU  - Wei, Bin
+TI  - On the Development of Learning Control for Robotic Manipulators
+T2  - Robotics
+
+PY  - 2017
+VL  - 6
+IS  - 4
+SN  - 2218-6581
+
+AB  - Learning control for robotic manipulators has been developed over the past decade and to the best of the authors’ knowledge, it is still in its infant development stage; the authors believe that it will become one of the most promising directions in the control area in robotic manipulators. Learning control in robotic manipulators is mainly used to address the issue that the friction at the joints of robotic mechanisms and other uncertainties may exist in the dynamic models, which are very complex and may even be impossible to model mathematically. In this paper, the authors review and discuss the learning control in robotic manipulators and some issues in learning control for robotic manipulators are also illustrated. This review is able to give a general guideline for future research in learning control for robotic manipulators.
+KW  - learning control
+KW  - robotic mechanisms
+KW  - planning
+KW  - uncertainties
+KW  - development
+DO  - 10.3390/robotics6040023
+TY  - EJOU
+AU  - Poux, Florent
+AU  - Neuville, Romain
+AU  - Van Wersch, Line
+AU  - Nys, Gilles-Antoine
+AU  - Billen, Roland
+TI  - 3D Point Clouds in Archaeology: Advances in Acquisition, Processing and Knowledge Integration Applied to Quasi-Planar Objects
+T2  - Geosciences
+
+PY  - 2017
+VL  - 7
+IS  - 4
+SN  - 2076-3263
+
+AB  - Digital investigations of the real world through point clouds and derivatives are changing how curators, cultural heritage researchers and archaeologists work and collaborate. To progressively aggregate expertise and enhance the working proficiency of all professionals, virtual reconstructions demand adapted tools to facilitate knowledge dissemination. However, to achieve this perceptive level, a point cloud must be semantically rich, retaining relevant information for the end user. In this paper, we review the state of the art of point cloud integration within archaeological applications, giving an overview of 3D technologies for heritage, digital exploitation and case studies showing the assimilation status within 3D GIS. Identified issues and new perspectives are addressed through a knowledge-based point cloud processing framework for multi-sensory data, and illustrated on mosaics and quasi-planar objects. A new acquisition, pre-processing, segmentation and ontology-based classification method on hybrid point clouds from both terrestrial laser scanning and dense image matching is proposed to enable reasoning for information extraction. Experiments in detection and semantic enrichment show promising results of 94% correct semantization. Then, we integrate the metadata in an archaeological smart point cloud data structure allowing spatio-semantic queries related to CIDOC-CRM. Finally, a WebGL prototype is presented that leads to efficient communication between actors by proposing optimal 3D data visualizations as a basis on which interaction can grow.
+KW  - point cloud
+KW  - data fusion
+KW  - laser scanning
+KW  - dense image-matching
+KW  - feature extraction
+KW  - classification
+KW  - knowledge integration
+KW  - cultural heritage
+KW  - ontology
+DO  - 10.3390/geosciences7040096
+TY  - EJOU
+AU  - Cai, Bowen
+AU  - Jiang, Zhiguo
+AU  - Zhang, Haopeng
+AU  - Zhao, Danpei
+AU  - Yao, Yuan
+TI  - Airport Detection Using End-to-End Convolutional Neural Network with Hard Example Mining
+T2  - Remote Sensing
+
+PY  - 2017
+VL  - 9
+IS  - 11
+SN  - 2072-4292
+
+AB  - Deep convolutional neural network (CNN) achieves outstanding performance in the field of target detection. As one of the most typical targets in remote sensing images (RSIs), airport has attracted increasing attention in recent years. However, the essential challenge for using deep CNN to detect airport is the great imbalance between the number of airports and background examples in large-scale RSIs, which may lead to over-fitting. In this paper, we develop a hard example mining and weight-balanced strategy to construct a novel end-to-end convolutional neural network for airport detection. The initial motivation of the proposed method is that backgrounds contain an overwhelming number of easy examples and a few hard examples. Therefore, we design a hard example mining layer to automatically select hard examples by their losses, and implement a new weight-balanced loss function to optimize CNN. Meanwhile, the cascade design of proposal extraction and object detection in our network releases the constraint on input image size and reduces spurious false positives. Compared with geometric characteristics and low-level manually designed features, the hard example mining based network could extract high-level features, which is more robust for airport detection in complex environment. The proposed method is validated on a multi-scale dataset with complex background collected from Google Earth. The experimental results demonstrate that our proposed method is robust, and superior to the state-of-the-art airport detection models.
+KW  - airport detection
+KW  - hard example mining
+KW  - convolutional neural network
+KW  - region proposal network
+DO  - 10.3390/rs9111198
+TY  - EJOU
+AU  - Zhang, Wei
+AU  - Wei, Shilin
+AU  - Teng, Yanbin
+AU  - Zhang, Jianku
+AU  - Wang, Xiufang
+AU  - Yan, Zheping
+TI  - Dynamic Obstacle Avoidance for Unmanned Underwater Vehicles Based on an Improved Velocity Obstacle Method
+T2  - Sensors
+
+PY  - 2017
+VL  - 17
+IS  - 12
+SN  - 1424-8220
+
+AB  - In view of a dynamic obstacle environment with motion uncertainty, we present a dynamic collision avoidance method based on the collision risk assessment and improved velocity obstacle method. First, through the fusion optimization of forward-looking sonar data, the redundancy of the data is reduced and the position, size and velocity information of the obstacles are obtained, which can provide an accurate decision-making basis for next-step collision avoidance. Second, according to minimum meeting time and the minimum distance between the obstacle and unmanned underwater vehicle (UUV), this paper establishes the collision risk assessment model, and screens key obstacles to avoid collision. Finally, the optimization objective function is established based on the improved velocity obstacle method, and a UUV motion characteristic is used to calculate the reachable velocity sets. The optimal collision speed of UUV is searched in velocity space. The corresponding heading and speed commands are calculated, and outputted to the motion control module. The above is the complete dynamic obstacle avoidance process. The simulation results show that the proposed method can obtain a better collision avoidance effect in the dynamic environment, and has good adaptability to the unknown dynamic environment.
+KW  - unmanned underwater vehicle
+KW  - velocity obstacle method
+KW  - dynamic collision avoidance
+KW  - forward-looking sonar
+DO  - 10.3390/s17122742
+TY  - EJOU
+AU  - Mueller, Markus S.
+AU  - Jutzi, Boris
+TI  - UAS Navigation with SqueezePoseNet—Accuracy Boosting for Pose Regression by Data Augmentation
+T2  - Drones
+
+PY  - 2018
+VL  - 2
+IS  - 1
+SN  - 2504-446X
+
+AB  - The navigation of Unmanned Aerial Vehicles (UAVs) nowadays is mostly based on Global Navigation Satellite Systems (GNSSs). Drawbacks of satellite-based navigation are failures caused by occlusions or multi-path interferences. Therefore, alternative methods have been developed in recent years. Visual navigation methods such as Visual Odometry (VO) or visual Simultaneous Localization and Mapping (SLAM) aid global navigation solutions by closing trajectory gaps or performing loop closures. However, if the trajectory estimation is interrupted or not available, a re-localization is mandatory. Furthermore, the latest research has shown promising results on pose regression in 6 Degrees of Freedom (DoF) based on Convolutional Neural Networks (CNNs). Additionally, existing navigation methods can benefit from these networks. In this article, a method for GNSS-free and fast image-based pose regression by utilizing a small Convolutional Neural Network is presented. Therefore, a small CNN (SqueezePoseNet) is utilized, transfer learning is applied and the network is tuned for pose regression. Furthermore, recent drawbacks are overcome by applying data augmentation on a training dataset utilizing simulated images. Experiments with small CNNs show promising results for GNSS-free and fast localization compared to larger networks. By training a CNN with an extended data set including simulated images, the accuracy on pose regression is improved up to 61.7% for position and up to 76.0% for rotation compared to training on a standard not-augmented data set.
+KW  - convolutional neural networks
+KW  - data augmentation
+KW  - image-based navigation
+KW  - pose estimation
+DO  - 10.3390/drones2010007
+TY  - EJOU
+AU  - Peterson, John
+AU  - Chaudhry, Haseeb
+AU  - Abdelatty, Karim
+AU  - Bird, John
+AU  - Kochersberger, Kevin
+TI  - Online Aerial Terrain Mapping for Ground Robot Navigation
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 2
+SN  - 1424-8220
+
+AB  - This work presents a collaborative unmanned aerial and ground vehicle system which utilizes the aerial vehicle’s overhead view to inform the ground vehicle’s path planning in real time. The aerial vehicle acquires imagery which is assembled into a orthomosaic and then classified. These terrain classes are used to estimate relative navigation costs for the ground vehicle so energy-efficient paths may be generated and then executed. The two vehicles are registered in a common coordinate frame using a real-time kinematic global positioning system (RTK GPS) and all image processing is performed onboard the unmanned aerial vehicle, which minimizes the data exchanged between the vehicles. This paper describes the architecture of the system and quantifies the registration errors between the vehicles.
+KW  - unmanned aircraft
+KW  - air–ground cooperation
+KW  - multi-robot coordination
+DO  - 10.3390/s18020630
+TY  - EJOU
+AU  - Zhang, Zhen
+AU  - Li, Yibing
+AU  - Jin, Shanshan
+AU  - Zhang, Zhaoyue
+AU  - Wang, Hui
+AU  - Qi, Lin
+AU  - Zhou, Ruolin
+TI  - Modulation Signal Recognition Based on Information Entropy and Ensemble Learning
+T2  - Entropy
+
+PY  - 2018
+VL  - 20
+IS  - 3
+SN  - 1099-4300
+
+AB  - In this paper, information entropy and ensemble learning based signal recognition theory and algorithms have been proposed. We have extracted 16 kinds of entropy features out of 9 types of modulated signals. The types of information entropy used are numerous, including Rényi entropy and energy entropy based on S Transform and Generalized S Transform. We have used three feature selection algorithms, including sequence forward selection (SFS), sequence forward floating selection (SFFS) and RELIEF-F to select the optimal feature subset from 16 entropy features. We use five classifiers, including k-nearest neighbor (KNN), support vector machine (SVM), Adaboost, Gradient Boosting Decision Tree (GBDT) and eXtreme Gradient Boosting (XGBoost) to classify the original feature set and the feature subsets selected by different feature selection algorithms. The simulation results show that the feature subsets selected by SFS and SFFS algorithms are the best, with a 48% increase in recognition rate over the original feature set when using KNN classifier and a 34% increase when using SVM classifier. For the other three classifiers, the original feature set can achieve the best recognition performance. The XGBoost classifier has the best recognition performance, the overall recognition rate is 97.74% and the recognition rate can reach 82% when the signal to noise ratio (SNR) is −10 dB.
+KW  - entropy feature
+KW  - feature selection
+KW  - ensemble learning
+KW  - radar
+DO  - 10.3390/e20030198
+TY  - EJOU
+AU  - Pappalardo, Carmine M.
+AU  - Guida, Domenico
+TI  - System Identification Algorithm for Computing the Modal Parameters of Linear Mechanical Systems
+T2  - Machines
+
+PY  - 2018
+VL  - 6
+IS  - 2
+SN  - 2075-1702
+
+AB  - The goal of this investigation is to construct a computational procedure for identifying the modal parameters of linear mechanical systems. The methodology employed in the paper is based on the Eigensystem Realization Algorithm implemented in conjunction with the Observer/Kalman Filter Identification method (ERA/OKID). This method represents an effective and efficient system identification numerical procedure based on the time domain. The algorithm developed in this work is tested by means of numerical experiments on a full-car vehicle model. To this end, the modal parameters necessary for the design of active and semi-active suspension systems are obtained for the vehicle system considered as an illustrative example. In order to analyze the performance of the methodology developed in this investigation, the system identification numerical procedure was tested considering two case studies, namely a full state measurement and an incomplete state measurement. As expected, the numerical results found for the identified dynamical model showed a good agreement with the modal parameters of the mechanical system model. Furthermore, numerical results demonstrated that the proposed method has good performance considering a scenario in which the signal-to-noise ratio of the input and output measurements is relatively high. The method developed in this paper can be effectively used for solving important engineering problems such as the design of control systems for road vehicles.
+KW  - applied mechanics
+KW  - system identification
+KW  - full-car vehicle model
+KW  - active and semi-active suspension systems
+DO  - 10.3390/machines6020012
+TY  - EJOU
+AU  - Pappalardo, Carmine M.
+AU  - Guida, Domenico
+TI  - Use of the Adjoint Method for Controlling the Mechanical Vibrations of Nonlinear Systems
+T2  - Machines
+
+PY  - 2018
+VL  - 6
+IS  - 2
+SN  - 2075-1702
+
+AB  - In this work, the analytical derivation and the computer implementation of the adjoint method are described. The adjoint method can be effectively used for solving the optimal control problem associated with a large class of nonlinear mechanical systems. As discussed in this investigation, the adjoint method represents a broad computational framework, rather than a single numerical algorithm, in which the control problem for nonlinear dynamical systems can be effectively formulated and implemented employing a set of advanced analytical methods as well as an array of well-established numerical procedures. A detailed theoretical derivation and a comprehensive description of the numerical algorithm suitable for the computer implementation of the methodology used for performing the adjoint analysis are provided in the paper. For this purpose, two important cases are analyzed in this work, namely the design of a feedforward control scheme and the development of a feedback control architecture. In this investigation, the control problem relative to the mechanical vibrations of a nonlinear oscillator characterized by a generalized Van der Pol damping model is considered in order to illustrate the effectiveness of the computational algorithm based on the adjoint method by means of numerical experiments.
+KW  - adjoint method
+KW  - nonlinear optimal control
+KW  - open-loop control scheme
+KW  - closed-loop control scheme
+KW  - nonlinear mechanical vibrations
+KW  - generalized Van der Pol damping model
+DO  - 10.3390/machines6020019
+TY  - EJOU
+AU  - Chen, Guanzhou
+AU  - Zhang, Xiaodong
+AU  - Tan, Xiaoliang
+AU  - Cheng, Yufeng
+AU  - Dai, Fan
+AU  - Zhu, Kun
+AU  - Gong, Yuanfu
+AU  - Wang, Qing
+TI  - Training Small Networks for Scene Classification of Remote Sensing Images via Knowledge Distillation
+T2  - Remote Sensing
+
+PY  - 2018
+VL  - 10
+IS  - 5
+SN  - 2072-4292
+
+AB  - Scene classification, aiming to identify the land-cover categories of remotely sensed image patches, is now a fundamental task in the remote sensing image analysis field. Deep-learning-model-based algorithms are widely applied in scene classification and achieve remarkable performance, but these high-level methods are computationally expensive and time-consuming. Consequently in this paper, we introduce a knowledge distillation framework, currently a mainstream model compression method, into remote sensing scene classification to improve the performance of smaller and shallower network models. Our knowledge distillation training method makes the high-temperature softmax output of a small and shallow student model match the large and deep teacher model. In our experiments, we evaluate knowledge distillation training method for remote sensing scene classification on four public datasets: AID dataset, UCMerced dataset, NWPU-RESISC dataset, and EuroSAT dataset. Results show that our proposed training method was effective and increased overall accuracy (3% in AID experiments, 5% in UCMerced experiments, 1% in NWPU-RESISC and EuroSAT experiments) for small and shallow models. We further explored the performance of the student model on small and unbalanced datasets. Our findings indicate that knowledge distillation can improve the performance of small network models on datasets with lower spatial resolution images, numerous categories, as well as fewer training samples.
+KW  - knowledge distillation
+KW  - scene classification
+KW  - convolutional neural networks (CNNs)
+KW  - remote sensing
+KW  - deep learning
+DO  - 10.3390/rs10050719
+TY  - EJOU
+AU  - Liu, Zhong
+AU  - Gao, Xiaoguang
+AU  - Fu, Xiaowei
+TI  - A Cooperative Search and Coverage Algorithm with Controllable Revisit and Connectivity Maintenance for Multiple Unmanned Aerial Vehicles
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 5
+SN  - 1424-8220
+
+AB  - In this paper, we mainly study a cooperative search and coverage algorithm for a given bounded rectangle region, which contains several unknown stationary targets, by a team of unmanned aerial vehicles (UAVs) with non-ideal sensors and limited communication ranges. Our goal is to minimize the search time, while gathering more information about the environment and finding more targets. For this purpose, a novel cooperative search and coverage algorithm with controllable revisit mechanism is presented. Firstly, as the representation of the environment, the cognitive maps that included the target probability map (TPM), the uncertain map (UM), and the digital pheromone map (DPM) are constituted. We also design a distributed update and fusion scheme for the cognitive map. This update and fusion scheme can guarantee that each one of the cognitive maps converges to the same one, which reflects the targets&rsquo; true existence or absence in each cell of the search region. Secondly, we develop a controllable revisit mechanism based on the DPM. This mechanism can concentrate the UAVs to revisit sub-areas that have a large target probability or high uncertainty. Thirdly, in the frame of distributed receding horizon optimizing, a path planning algorithm for the multi-UAVs cooperative search and coverage is designed. In the path planning algorithm, the movement of the UAVs is restricted by the potential fields to meet the requirements of avoiding collision and maintaining connectivity constraints. Moreover, using the minimum spanning tree (MST) topology optimization strategy, we can obtain a tradeoff between the search coverage enhancement and the connectivity maintenance. The feasibility of the proposed algorithm is demonstrated by comparison simulations by way of analyzing the effects of the controllable revisit mechanism and the connectivity maintenance scheme. The Monte Carlo method is employed to validate the influence of the number of UAVs, the sensing radius, the detection and false alarm probabilities, and the communication range on the proposed algorithm.
+KW  - multi-UAVs
+KW  - search and coverage
+KW  - digital pheromone
+KW  - distributed receding horizon optimizing
+KW  - collision avoidance
+KW  - connectivity maintenance
+KW  - minimum spanning tree
+KW  - potential field
+DO  - 10.3390/s18051472
+TY  - EJOU
+AU  - Nguyen, Phong H.
+AU  - Arsalan, Muhammad
+AU  - Koo, Ja H.
+AU  - Naqvi, Rizwan A.
+AU  - Truong, Noi Q.
+AU  - Park, Kang R.
+TI  - LightDenseYOLO: A Fast and Accurate Marker Tracker for Autonomous UAV Landing by Visible Light Camera Sensor on Drone
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 6
+SN  - 1424-8220
+
+AB  - Autonomous landing of an unmanned aerial vehicle or a drone is a challenging problem for the robotics research community. Previous researchers have attempted to solve this problem by combining multiple sensors such as global positioning system (GPS) receivers, inertial measurement unit, and multiple camera systems. Although these approaches successfully estimate an unmanned aerial vehicle location during landing, many calibration processes are required to achieve good detection accuracy. In addition, cases where drones operate in heterogeneous areas with no GPS signal should be considered. To overcome these problems, we determined how to safely land a drone in a GPS-denied environment using our remote-marker-based tracking algorithm based on a single visible-light-camera sensor. Instead of using hand-crafted features, our algorithm includes a convolutional neural network named lightDenseYOLO to extract trained features from an input image to predict a marker&rsquo;s location by visible light camera sensor on drone. Experimental results show that our method significantly outperforms state-of-the-art object trackers both using and not using convolutional neural network in terms of both accuracy and processing time.
+KW  - unmanned aerial vehicle
+KW  - autonomous landing
+KW  - real-time marker detection
+KW  - lightDenseYOLO
+KW  - visible light camera sensor on drone
+DO  - 10.3390/s18061703
+TY  - EJOU
+AU  - Zhai, Zhaoyu
+AU  - Martínez Ortega, José-Fernán
+AU  - Lucas Martínez, Néstor
+AU  - Rodríguez-Molina, Jesús
+TI  - A Mission Planning Approach for Precision Farming Systems Based on Multi-Objective Optimization
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 6
+SN  - 1424-8220
+
+AB  - As the demand for food grows continuously, intelligent agriculture has drawn much attention due to its capability of producing great quantities of food efficiently. The main purpose of intelligent agriculture is to plan agricultural missions properly and use limited resources reasonably with minor human intervention. This paper proposes a Precision Farming System (PFS) as a Multi-Agent System (MAS). Components of PFS are treated as agents with different functionalities. These agents could form several coalitions to complete the complex agricultural missions cooperatively. In PFS, mission planning should consider several criteria, like expected benefit, energy consumption or equipment loss. Hence, mission planning could be treated as a Multi-objective Optimization Problem (MOP). In order to solve MOP, an improved algorithm, MP-PSOGA, is proposed, taking advantages of the Genetic Algorithms and Particle Swarm Optimization. A simulation, called precise pesticide spraying mission, is performed to verify the feasibility of the proposed approach. Simulation results illustrate that the proposed approach works properly. This approach enables the PFS to plan missions and allocate scarce resources efficiently. The theoretical analysis and simulation is a good foundation for the future study. Once the proposed approach is applied to a real scenario, it is expected to bring significant economic improvement.
+KW  - precision farming system
+KW  - multi-agent system
+KW  - agent coalition
+KW  - multi-objective optimization
+KW  - mission planning approach
+DO  - 10.3390/s18061795
+TY  - EJOU
+AU  - Yu, Lingli
+AU  - Kong, Decheng
+AU  - Yan, Xiaoxin
+TI  - A Driving Behavior Planning and Trajectory Generation Method for Autonomous Electric Bus
+T2  - Future Internet
+
+PY  - 2018
+VL  - 10
+IS  - 6
+SN  - 1999-5903
+
+AB  - A framework of path planning for autonomous electric bus is presented. ArcGIS platform is utilized for map-building and global path planning. Firstly, a high-precision map is built based on GPS in ArcGIS for global planning. Then the global optimal path is obtained by network analysis tool in ArcGIS. To facilitate local planning, WGS-84 coordinates in the map are converted to local coordinates. Secondly, a double-layer finite state machine (FSM) is devised to plan driving behavior under different driving scenarios, such as structured driving, lane changing, turning, and so on. Besides, local optimal trajectory is generated by cubic polynomial, which takes full account of the safety and kinetics of the electric bus. Finally, the simulation results show that the framework is reliable and feasible for driving behavior planning and trajectory generation. Furthermore, its validity is proven with an autonomous bus platform 12 m in length.
+KW  - autonomous electric bus
+KW  - path planning
+KW  - high-precision map building
+KW  - trajectory generation
+DO  - 10.3390/fi10060051
+TY  - EJOU
+AU  - Nhut Khai Hoan, Tran
+AU  - Vu-Van, Hiep
+AU  - Koo, Insoo
+TI  - Joint Full-Duplex/Half-Duplex Transmission-Switching Scheduling and Transmission-Energy Allocation in Cognitive Radio Networks with Energy Harvesting
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 7
+SN  - 1424-8220
+
+AB  - The full-duplex transmission protocol has been widely investigated in the literature in order to improve radio spectrum usage efficiency. Unfortunately, due to the effect of imperfect self-interference suppression, the change in transmission power and path loss of non-line-of-sight fading channels will strongly affect performance of full-duplex transmission mode. This entails that the full-duplex transmission protocol is not always a better selection compared to the traditional half-duplex transmission protocol. Considering solar energy-harvesting-powered cognitive radio networks (CRNs), we investigate a joint full-duplex/half-duplex transmission switching scheduling and transmission power allocation in which we utilize the advantages of both half-duplex and full-duplex transmission modes for maximizing the long-term throughput of cognitive radio networks. First, we formulate the transmission rate of half-duplex and full-duplex links for fading channels between cognitive user and base station in which the channel gain is assumed to follow an exponential distribution. Afterward, by considering the availability probability of the primary channel, the limitation of the energy-harvesting capacity of the cognitive user, and the transmission capacity of half-duplex and full-duplex links, we describe the problem in terms of long-term expected throughput. The problem is then solved by adopting the partially observable Markov decision process framework to find the optimal transmission policy for the transmission pair between cognitive user and base station in order to maximize the long-term expected throughput. The optimal policy consists of either the half-duplex or the full-duplex transmission protocols as well as the corresponding amount of transmission energy in each time slot. In addition, to reduce the complexity in formulation and calculation, we also apply the actor&ndash;critic-based learning method to solve the considered problem. Finally, the performance of the proposed scheme was evaluated by comparing it with a conventional scheme in which the context of energy harvesting and long-term throughput is not considered.
+KW  - full-duplex/half-duplex switching scheduling
+KW  - energy harvesting
+KW  - cognitive radio
+KW  - transmission energy allocation
+KW  - POMDP
+KW  - actor–critic
+DO  - 10.3390/s18072295
+TY  - EJOU
+AU  - Liakos, Konstantinos G.
+AU  - Busato, Patrizia
+AU  - Moshou, Dimitrios
+AU  - Pearson, Simon
+AU  - Bochtis, Dionysis
+TI  - Machine Learning in Agriculture: A Review
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 8
+SN  - 1424-8220
+
+AB  - Machine learning has emerged with big data technologies and high-performance computing to create new opportunities for data intensive science in the multi-disciplinary agri-technologies domain. In this paper, we present a comprehensive review of research dedicated to applications of machine learning in agricultural production systems. The works analyzed were categorized in (a) crop management, including applications on yield prediction, disease detection, weed detection crop quality, and species recognition; (b) livestock management, including applications on animal welfare and livestock production; (c) water management; and (d) soil management. The filtering and classification of the presented articles demonstrate how agriculture will benefit from machine learning technologies. By applying machine learning to sensor data, farm management systems are evolving into real time artificial intelligence enabled programs that provide rich recommendations and insights for farmer decision support and action.
+KW  - crop management
+KW  - water management
+KW  - soil management
+KW  - livestock management
+KW  - artificial intelligence
+KW  - planning
+KW  - precision agriculture
+DO  - 10.3390/s18082674
+TY  - EJOU
+AU  - Huh, Jun-Ho
+TI  - PLC-Integrated Sensing Technology in Mountain Regions for Drone Landing Sites: Focusing on Software Technology
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 8
+SN  - 1424-8220
+
+AB  - In the Republic of Korea, one of the most widely discussed subjects related to future logistics technology is the drone-based delivery (transportation) system. Much (around 75%) of Korea&rsquo;s territory consists of mountainous areas; however, the costs of installing internet facilities for drone landing sites are very high compared to other countries. Therefore, this paper proposes the power-line communication (PLC) system introduced in the author&rsquo;s previous study as an alternative solution. For the system design, a number of lightning rods are used together with a monitoring system. The system algorithm performs substantial data analysis. Also, as the author found that instantaneous high-voltage currents were a major cause of fire incidents, a three-phase three-wire connection was used for the installation of the lightning rods (Bipolar Conventional Air Terminal). Thus, based on the PLC technology, an artificial intelligence (AI) which avoids lightning strikes at the drone landing site by interworking with a closed-circuit television (CCTV) monitoring system when a drone flies over the mountain regions is proposed in this paper. The algorithm was implemented with C++ and Unity/C#, whereas the application for the part concerning the integrated sensing was developed with Java Android.
+KW  - natural hazards
+KW  - lightning
+KW  - drone landing site
+KW  - Internet of Things (IoT)
+KW  - artificial intelligence
+KW  - AI
+KW  - App
+KW  - computer architecture
+KW  - protocol
+DO  - 10.3390/s18082693
+TY  - EJOU
+AU  - Pei, Zhaoyi
+AU  - Piao, Songhao
+AU  - Souidi, Mohammed E.
+AU  - Qadir, Muhammad Z.
+AU  - Li, Guo
+TI  - SLAM for Humanoid Multi-Robot Active Cooperation Based on Relative Observation
+T2  - Sustainability
+
+PY  - 2018
+VL  - 10
+IS  - 8
+SN  - 2071-1050
+
+AB  - The simultaneous localization and mapping (SLAM) of robot in the complex environment is a fundamental research topic for service robots. This paper presents a new humanoid multi-robot SLAM mechanism that allows robots to collaborate and localize each other in their own SLAM process. Each robot has two switchable modes: independent mode and collaborative mode. Each robot can respond to the requests of other robots and participate in chained localization of the target robot under the leadership of the organiser. We aslo discuss how to find the solution of optimal strategy for chained localization. This mechanism can improve the performance of bundle adjustment at the global level, especially when the image features are few or the results of closed loop are not ideal. The simulation results show that this method has a great effect on improving the accuracy of multi-robot localization and the efficiency of 3D mapping.
+KW  - SLAM
+KW  - multi-robot system (MRS)
+KW  - humanoid robot
+KW  - cooperative localization
+DO  - 10.3390/su10082946
+TY  - EJOU
+AU  - Kung, Chien-Chun
+TI  - Study on Consulting Air Combat Simulation of Cluster UAV Based on Mixed Parallel Computing Framework of Graphics Processing Unit
+T2  - Electronics
+
+PY  - 2018
+VL  - 7
+IS  - 9
+SN  - 2079-9292
+
+AB  - This paper combines matrix game theory with negotiating theory and uses U-solution to study the framework of the consulting air combat of UAV cluster. The processes to determine the optimal strategy in this paper follow three points: first, the UAV cluster are grouped into fleets; second, the best paring for the joint operations of the fleet member with the enemy fleet members are calculated; thirdly, consultations within the fleet are conducted to discuss the problems of optimal tactic, roles of main/assistance, and situational assessment within the fleet. In order to improve the computing efficiency of the framework, this article explores the use of the NVIDIA graphics processor programmed through MATLAB mixed C++/CUDA toolkit to accelerate the calculations of equations of motion of unmanned aerial vehicles, the prediction of superiority values and U values, computations of consultation, the evaluation of situational assessment and the optimal strategies. The effectiveness evaluation of GPGPU and CPU can be observed by the simulation results. When the number of team air combat is small, the CPU alone has better efficiency; however, when the number of air combat clusters exceeds 6 to 6, the architecture presented in this article can provide higher performance improvements and run faster than optimized CPU-only code.
+KW  - GPGPU
+KW  - MATLAB/CUDA
+KW  - matrix game
+KW  - consulting air combat
+KW  - UAV cluster
+KW  - maneuver decision-making
+DO  - 10.3390/electronics7090160
+TY  - EJOU
+AU  - Jafari, Mohammad
+AU  - Xu, Hao
+TI  - Intelligent Control for Unmanned Aerial Systems with System Uncertainties and Disturbances Using Artificial Neural Network
+T2  - Drones
+
+PY  - 2018
+VL  - 2
+IS  - 3
+SN  - 2504-446X
+
+AB  - Stabilizing the Unmanned Aircraft Systems (UAS) under complex environment including system uncertainties, unknown noise and/or disturbance is so challenging. Therefore, this paper proposes an adaptive neural network based intelligent control method to overcome these challenges. Based on a class of artificial neural network, named Radial Basis Function (RBF) networks an adaptive neural network controller is designed. To handle the unknown dynamics and uncertainties in the system, firstly, we develop a neural network based identifier. Then, a neural network based controller is generated based on both the identified model of the system and the linear or nonlinear controller. To ensure the stability of the system during its online training phase, the linear or nonlinear controller is utilized. The learning capability of the proposed intelligent controller makes it a promising approach to take system uncertainties, noises and/or disturbances into account. The satisfactory performance of the proposed intelligent controller is validated based on the computer based simulation results of a benchmark UAS with system uncertainties and disturbances, such as wind gusts disturbance.
+KW  - Unmanned Aircraft Systems (UAS)
+KW  - artificial neural network
+KW  - intelligent control
+KW  - adaptive control
+DO  - 10.3390/drones2030030
+TY  - EJOU
+AU  - Cavazza, Marc
+TI  - A Motivational Model of BCI-Controlled Heuristic Search
+T2  - Brain Sciences
+
+PY  - 2018
+VL  - 8
+IS  - 9
+SN  - 2076-3425
+
+AB  - Several researchers have proposed a new application for human augmentation, which is to provide human supervision to autonomous artificial intelligence (AI) systems. In this paper, we introduce a framework to implement this proposal, which consists of using Brain&ndash;Computer Interfaces (BCI) to influence AI computation via some of their core algorithmic components, such as heuristic search. Our framework is based on a joint analysis of philosophical proposals characterising the behaviour of autonomous AI systems and recent research in cognitive neuroscience that support the design of appropriate BCI. Our framework is defined as a motivational approach, which, on the AI side, influences the shape of the solution produced by heuristic search using a BCI motivational signal reflecting the user&rsquo;s disposition towards the anticipated result. The actual mapping is based on a measure of prefrontal asymmetry, which is translated into a non-admissible variant of the heuristic function. Finally, we discuss results from a proof-of-concept experiment using functional near-infrared spectroscopy (fNIRS) to capture prefrontal asymmetry and control the progression of AI computation of traditional heuristic search problems.
+KW  - augmented cognition
+KW  - brain–computer interfaces
+KW  - superintelligence
+KW  - heuristic search
+DO  - 10.3390/brainsci8090166
+TY  - EJOU
+AU  - Yu, Lingli
+AU  - Shao, Xuanya
+AU  - Wei, Yadong
+AU  - Zhou, Kaijun
+TI  - Intelligent Land-Vehicle Model Transfer Trajectory Planning Method Based on Deep Reinforcement Learning
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 9
+SN  - 1424-8220
+
+AB  - To address the problem of model error and tracking dependence in the process of intelligent vehicle motion planning, an intelligent vehicle model transfer trajectory planning method based on deep reinforcement learning is proposed, which is able to obtain an effective control action sequence directly. Firstly, an abstract model of the real environment is extracted. On this basis, a deep deterministic policy gradient (DDPG) and a vehicle dynamic model are adopted to jointly train a reinforcement learning model, and to decide the optimal intelligent driving maneuver. Secondly, the actual scene is transferred to an equivalent virtual abstract scene using a transfer model. Furthermore, the control action and trajectory sequences are calculated according to the trained deep reinforcement learning model. Thirdly, the optimal trajectory sequence is selected according to an evaluation function in the real environment. Finally, the results demonstrate that the proposed method can deal with the problem of intelligent vehicle trajectory planning for continuous input and continuous output. The model transfer method improves the model&rsquo;s generalization performance. Compared with traditional trajectory planning, the proposed method outputs continuous rotation-angle control sequences. Moreover, the lateral control errors are also reduced.
+KW  - intelligent driving vehicle
+KW  - trajectory planning
+KW  - end-to-end
+KW  - deep reinforcement learning
+KW  - model transfer
+DO  - 10.3390/s18092905
+TY  - EJOU
+AU  - Lotte, Rodolfo G.
+AU  - Haala, Norbert
+AU  - Karpina, Mateusz
+AU  - Aragão, Luiz E.
+AU  - Shimabukuro, Yosio E.
+TI  - 3D Façade Labeling over Complex Scenarios: A Case Study Using Convolutional Neural Network and Structure-From-Motion
+T2  - Remote Sensing
+
+PY  - 2018
+VL  - 10
+IS  - 9
+SN  - 2072-4292
+
+AB  - Urban environments are regions in which spectral variability and spatial variability are extremely high, with a huge range of shapes and sizes, and they also demand high resolution images for applications involving their study. Due to the fact that these environments can grow even more over time, applications related to their monitoring tend to turn to autonomous intelligent systems, which together with remote sensing data could help or even predict daily life situations. The task of mapping cities by autonomous operators was usually carried out by aerial optical images due to its scale and resolution; however new scientific questions have arisen, and this has led research into a new era of highly-detailed data extraction. For many years, using artificial neural models to solve complex problems such as automatic image classification was commonplace, owing much of their popularity to their ability to adapt to complex situations without needing human intervention. In spite of that, their popularity declined in the mid-2000s, mostly due to the complex and time-consuming nature of their methods and workflows. However, newer neural network architectures have brought back the interest in their application for autonomous classifiers, especially for image classification purposes. Convolutional Neural Networks (CNN) have been a trend for pixel-wise image segmentation, showing flexibility when detecting and classifying any kind of object, even in situations where humans failed to perceive differences, such as in city scenarios. In this paper, we aim to explore and experiment with state-of-the-art technologies to semantically label 3D urban models over complex scenarios. To achieve these goals, we split the problem into two main processing lines: first, how to correctly label the fa&ccedil;ade features in the 2D domain, where a supervised CNN is used to segment ground-based fa&ccedil;ade images into six feature classes, roof, window, wall, door, balcony and shop; second, a Structure-from-Motion (SfM) and Multi-View-Stereo (MVS) workflow is used to extract the geometry of the fa&ccedil;ade, wherein the segmented images in the previous stage are then used to label the generated mesh by a &ldquo;reverse&rdquo; ray-tracing technique. This paper demonstrates that the proposed methodology is robust in complex scenarios. The fa&ccedil;ade feature inferences have reached up to 93% accuracy over most of the datasets used. Although it still presents some deficiencies in unknown architectural styles and needs some improvements to be made regarding 3D-labeling, we present a consistent and simple methodology to handle the problem.
+KW  - façade feature detection
+KW  - 3D reconstruction
+KW  - deep-learning
+KW  - structure-from-motion
+DO  - 10.3390/rs10091435
+TY  - EJOU
+AU  - Deng, Fei
+AU  - Pu, Shengliang
+AU  - Chen, Xuehong
+AU  - Shi, Yusheng
+AU  - Yuan, Ting
+AU  - Pu, Shengyan
+TI  - Hyperspectral Image Classification with Capsule Network Using Limited Training Samples
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 9
+SN  - 1424-8220
+
+AB  - Deep learning techniques have boosted the performance of hyperspectral image (HSI) classification. In particular, convolutional neural networks (CNNs) have shown superior performance to that of the conventional machine learning algorithms. Recently, a novel type of neural networks called capsule networks (CapsNets) was presented to improve the most advanced CNNs. In this paper, we present a modified two-layer CapsNet with limited training samples for HSI classification, which is inspired by the comparability and simplicity of the shallower deep learning models. The presented CapsNet is trained using two real HSI datasets, i.e., the PaviaU (PU) and SalinasA datasets, representing complex and simple datasets, respectively, and which are used to investigate the robustness or representation of every model or classifier. In addition, a comparable paradigm of network architecture design has been proposed for the comparison of CNN and CapsNet. Experiments demonstrate that CapsNet shows better accuracy and convergence behavior for the complex data than the state-of-the-art CNN. For CapsNet using the PU dataset, the Kappa coefficient, overall accuracy, and average accuracy are 0.9456, 95.90%, and 96.27%, respectively, compared to the corresponding values yielded by CNN of 0.9345, 95.11%, and 95.63%. Moreover, we observed that CapsNet has much higher confidence for the predicted probabilities. Subsequently, this finding was analyzed and discussed with probability maps and uncertainty analysis. In terms of the existing literature, CapsNet provides promising results and explicit merits in comparison with CNN and two baseline classifiers, i.e., random forests (RFs) and support vector machines (SVMs).
+KW  - capsule network
+KW  - hyperspectral
+KW  - image classification
+KW  - deep learning
+KW  - possibility density
+DO  - 10.3390/s18093153
+TY  - EJOU
+AU  - Zhang, Han-ye
+AU  - Lin, Wei-ming
+AU  - Chen, Ai-xia
+TI  - Path Planning for the Mobile Robot: A Review
+T2  - Symmetry
+
+PY  - 2018
+VL  - 10
+IS  - 10
+SN  - 2073-8994
+
+AB  - Good path planning technology of mobile robot can not only save a lot of time, but also reduce the wear and capital investment of mobile robot. Several methodologies have been proposed and reported in the literature for the path planning of mobile robot. Although these methodologies do not guarantee an optimal solution, they have been successfully applied in their works. The purpose of this paper is to review the modeling, optimization criteria and solution algorithms for the path planning of mobile robot. The survey shows GA (genetic algorithm), PSO (particle swarm optimization algorithm), APF (artificial potential field), and ACO (ant colony optimization algorithm) are the most used approaches to solve the path planning of mobile robot. Finally, future research is discussed which could provide reference for the path planning of mobile robot.
+KW  - path planning
+KW  - mobile robot
+KW  - environmental modeling
+KW  - optimization criteria
+KW  - path search
+DO  - 10.3390/sym10100450
+TY  - EJOU
+AU  - Van Pham, Hai
+AU  - Moore, Philip
+TI  - Robot Coverage Path Planning under Uncertainty Using Knowledge Inference and Hedge Algebras
+T2  - Machines
+
+PY  - 2018
+VL  - 6
+IS  - 4
+SN  - 2075-1702
+
+AB  - Human behaviour demonstrates environmental awareness and self-awareness which is used to arrive at decisions and actions or reach conclusions based on reasoning and inference. Environmental awareness and self-awareness are traits which autonomous robotic systems must have to effectively plan an optimal route and operate in dynamic operating environments. This paper proposes a novel approach to enable autonomous robotic systems to achieve efficient coverage path planning, which combines adaptation with knowledge reasoning techniques and hedge algebras to achieve optimal coverage path planning in multiple decision-making under dynamic operating environments. To evaluate the proposed approach we have implemented it in a mobile cleaning robot. The results demonstrate the ability to avoid static and dynamic (moving) obstacles while achieving efficient coverage path planning with low repetition rates. While alternative current coverage path planning algorithms have achieved acceptable results, our reported results have demonstrated a significant performance improvement over the alternative coverage path planning algorithms.
+KW  - autonomous robotic systems
+KW  - coverage path planning
+KW  - knowledge reasoning and inference
+KW  - hedge algebras
+KW  - decision-support systems
+KW  - machine cognition
+KW  - machine consciousness
+KW  - self-awareness
+KW  - environmental awareness
+DO  - 10.3390/machines6040046
+TY  - EJOU
+AU  - Sengupta, Saptarshi
+AU  - Basak, Sanchita
+AU  - Peters, Richard A.
+TI  - Particle Swarm Optimization: A Survey of Historical and Recent Developments with Hybridization Perspectives
+T2  - Machine Learning and Knowledge Extraction
+
+PY  - 2019
+VL  - 1
+IS  - 1
+SN  - 2504-4990
+
+AB  - Particle Swarm Optimization (PSO) is a metaheuristic global optimization paradigm that has gained prominence in the last two decades due to its ease of application in unsupervised, complex multidimensional problems that cannot be solved using traditional deterministic algorithms. The canonical particle swarm optimizer is based on the flocking behavior and social co-operation of birds and fish schools and draws heavily from the evolutionary behavior of these organisms. This paper serves to provide a thorough survey of the PSO algorithm with special emphasis on the development, deployment, and improvements of its most basic as well as some of the very recent state-of-the-art implementations. Concepts and directions on choosing the inertia weight, constriction factor, cognition and social weights and perspectives on convergence, parallelization, elitism, niching and discrete optimization as well as neighborhood topologies are outlined. Hybridization attempts with other evolutionary and swarm paradigms in selected applications are covered and an up-to-date review is put forward for the interested reader.
+KW  - Particle Swarm Optimization
+KW  - swarm intelligence
+KW  - evolutionary computation
+KW  - intelligent agents
+KW  - optimization
+KW  - hybrid algorithms
+KW  - heuristic search
+KW  - approximate algorithms
+KW  - robotics and autonomous systems
+KW  - applications of PSO
+DO  - 10.3390/make1010010
+TY  - EJOU
+AU  - Adeyemi, Olutobi
+AU  - Grove, Ivan
+AU  - Peets, Sven
+AU  - Domun, Yuvraj
+AU  - Norton, Tomas
+TI  - Dynamic Neural Network Modelling of Soil Moisture Content for Predictive Irrigation Scheduling
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 10
+SN  - 1424-8220
+
+AB  - Sustainable freshwater management is underpinned by technologies which improve the efficiency of agricultural irrigation systems. Irrigation scheduling has the potential to incorporate real-time feedback from soil moisture and climatic sensors. However, for robust closed-loop decision support, models of the soil moisture dynamics are essential in order to predict crop water needs while adapting to external perturbation and disturbances. This paper presents a Dynamic Neural Network approach for modelling of the temporal soil moisture fluxes. The models are trained to generate a one-day-ahead prediction of the volumetric soil moisture content based on past soil moisture, precipitation, and climatic measurements. Using field data from three sites, a      R 2      value above 0.94 was obtained during model evaluation in all sites. The models were also able to generate robust soil moisture predictions for independent sites which were not used in training the models. The application of the Dynamic Neural Network models in a predictive irrigation scheduling system was demonstrated using AQUACROP simulations of the potato-growing season. The predictive irrigation scheduling system was evaluated against a rule-based system that applies irrigation based on predefined thresholds. Results indicate that the predictive system achieves a water saving ranging between 20 and 46% while realizing a yield and water use efficiency similar to that of the rule-based system.
+KW  - irrigation scheduling
+KW  - modeling
+KW  - dynamic neural networks
+KW  - soil moisture dynamics
+KW  - sensors
+DO  - 10.3390/s18103408
+TY  - EJOU
+AU  - Feng, Yi
+AU  - Zhang, Cong
+AU  - Baek, Stanley
+AU  - Rawashdeh, Samir
+AU  - Mohammadi, Alireza
+TI  - Autonomous Landing of a UAV on a Moving Platform Using Model Predictive Control
+T2  - Drones
+
+PY  - 2018
+VL  - 2
+IS  - 4
+SN  - 2504-446X
+
+AB  - Developing methods for autonomous landing of an unmanned aerial vehicle (UAV) on a mobile platform has been an active area of research over the past decade, as it offers an attractive solution for cases where rapid deployment and recovery of a fleet of UAVs, continuous flight tasks, extended operational ranges, and mobile recharging stations are desired. In this work, we present a new autonomous landing method that can be implemented on micro UAVs that require high-bandwidth feedback control loops for safe landing under various uncertainties and wind disturbances. We present our system architecture, including dynamic modeling of the UAV with a gimbaled camera, implementation of a Kalman filter for optimal localization of the mobile platform, and development of model predictive control (MPC), for guidance of UAVs. We demonstrate autonomous landing with an error of less than 37 cm from the center of a mobile platform traveling at a speed of up to 12 m/s under the condition of noisy measurements and wind disturbances.
+KW  - quadcopter
+KW  - drone
+KW  - Kalman filter
+KW  - vision-based guidance system
+KW  - autonomous vehicle
+KW  - unmanned aerial vehicle
+KW  - model predictive control
+KW  - aerospace control
+DO  - 10.3390/drones2040034
+TY  - EJOU
+AU  - Xu, Yifan
+AU  - Ren, Guochun
+AU  - Chen, Jin
+AU  - Zhang, Xiaobo
+AU  - Jia, Luliang
+AU  - Kong, Lijun
+TI  - Interference-Aware Cooperative Anti-Jamming Distributed Channel Selection in UAV Communication Networks
+T2  - Applied Sciences
+
+PY  - 2018
+VL  - 8
+IS  - 10
+SN  - 2076-3417
+
+AB  - This paper investigates the cooperative anti-jamming distributed channel selection problem in UAV communication networks. Considering the existence of malicious jamming and co-channel interference, we design an interference-aware cooperative anti-jamming scheme for the purpose of maximizing users&rsquo; utilities. Moreover, the channel switching cost and cooperation cost are introduced, which have a great impact on users&rsquo; utilities. Users in the UAV group sense the co-channel interference signal energy to judge whether they are influenced by co-channel interference. When the received co-channel interference signal energy is lower than the co-channel interference threshold, users conduct channel selection strategies independently. Otherwise, users cooperate with each other and take joint actions with a cooperative anti-jamming pattern under the impact of co-channel interference. Aiming at the independent anti-jamming channel selection problem under no co-channel interference, a Markov decision process framework is introduced, whereas for the cooperative anti-jamming channel selection case under the influence of co-channel mutual interference, a Markov game framework is employed. Furthermore, motivated by Q-learning with a &ldquo;cooperation-decision-feedback-adjustment&rdquo; idea, we design an interference-aware cooperative anti-jamming distributed channel selection algorithm (ICADCSA) to obtain the optimal anti-jamming channel strategies for users in a distributed way. In addition, a discussion on the quick decision for UAVs is conducted. Finally, simulation results show that the proposed algorithm converges to a stable solution with which the UAV group can avoid malicious jamming, as well as co-channel interference effectively and can realize a quick decision in high mobility UAV communication networks.
+KW  - interference-aware
+KW  - cooperative anti-jamming
+KW  - Markov decision process
+KW  - Markov game
+KW  - Q-learning
+DO  - 10.3390/app8101911
+TY  - EJOU
+AU  - Ruan, Lang
+AU  - Chen, Jin
+AU  - Guo, Qiuju
+AU  - Zhang, Xiaobo
+AU  - Zhang, Yuli
+AU  - Liu, Dianxiong
+TI  - Group Buying-Based Data Transmission in Flying Ad-Hoc Networks: A Coalition Game Approach
+T2  - Information
+
+PY  - 2018
+VL  - 9
+IS  - 10
+SN  - 2078-2489
+
+AB  - In scenarios such as natural disasters and military strikes, it is common for unmanned aerial vehicles (UAVs) to form groups to execute reconnaissance and surveillance. To ensure the effectiveness of UAV communications, repeated resource acquisition issues and transmission mechanism designs need to be addressed urgently. Since large-scale UAVs will generate high transmission overhead due to the overlapping resource requirements, in this paper, we propose a resource allocation optimization method based on distributed data content in a Flying Ad-hoc network (FANET). The resource allocation problem with the goal of throughput maximization is constructed as a coalition game framework. Firstly, a data transmission mechanism is designed for UAVs to execute information interaction within the coalitions. Secondly, a novel mechanism of coalition selection based on group-buying is investigated for UAV coalitions to acquire data from the central UAV. The data transmission and coalition selection problem are modeled as coalition graph game and coalition formation game, respectively. Through the design of the utility function, we prove that both games have stable solutions. We also prove the convergence of the proposed approach with coalition order and Pareto order. Based on simulation results, coalition order based coalition selection algorithm (CO-CSA) and Pareto order based coalition selection algorithm (PO-CSA) are proposed to explore the stable coalition partition of system model. CO-CSA and PO-CSA can achieve higher data throughput than the contrast onetime coalition selection algorithm (Onetime-CSA) (at least increased by 34.5% and 16.9%, respectively). Besides, although PO-CSA has relatively lower throughput gain, its convergence times is on average 50.9% less than that of CO-CSA, which means that the algorithm choice is scenario-dependent.
+KW  - coalition formation game
+KW  - coalition graph game
+KW  - data transmission
+KW  - Nash equilibrium
+KW  - resource allocation
+KW  - unmanned aerial vehicle (UAV)
+DO  - 10.3390/info9100253
+TY  - EJOU
+AU  - Zhang, Xianbing
+AU  - Liu, Guoqing
+AU  - Yang, Chaojie
+AU  - Wu, Jiang
+TI  - Research on Air Confrontation Maneuver Decision-Making Method Based on Reinforcement Learning
+T2  - Electronics
+
+PY  - 2018
+VL  - 7
+IS  - 11
+SN  - 2079-9292
+
+AB  - With the development of information technology, the degree of intelligence in air confrontation is increasing, and the demand for automated intelligent decision-making systems is becoming more intense. Based on the characteristics of over-the-horizon air confrontation, this paper constructs a super-horizon air confrontation training environment, which includes aircraft model modeling, air confrontation scene design, enemy aircraft strategy design, and reward and punishment signal design. In order to improve the efficiency of the reinforcement learning algorithm for the exploration of strategy space, this paper proposes a heuristic Q-Network method that integrates expert experience, and uses expert experience as a heuristic signal to guide the search process. At the same time, heuristic exploration and random exploration are combined. Aiming at the over-the-horizon air confrontation maneuver decision problem, the heuristic Q-Network method is adopted to train the neural network model in the over-the-horizon air confrontation training environment. Through continuous interaction with the environment, self-learning of the air confrontation maneuver strategy is realized. The efficiency of the heuristic Q-Network method and effectiveness of the air confrontation maneuver strategy are verified by simulation experiments.
+KW  - over-the-horizon air confrontation
+KW  - maneuver decision
+KW  - Q-Network
+KW  - heuristic exploration
+KW  - reinforcement learning
+DO  - 10.3390/electronics7110279
+TY  - EJOU
+AU  - Wu, Keyu
+AU  - Abolfazli Esfahani, Mahdi
+AU  - Yuan, Shenghai
+AU  - Wang, Han
+TI  - Learn to Steer through Deep Reinforcement Learning
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 11
+SN  - 1424-8220
+
+AB  - It is crucial for robots to autonomously steer in complex environments safely without colliding with any obstacles. Compared to conventional methods, deep reinforcement learning-based methods are able to learn from past experiences automatically and enhance the generalization capability to cope with unseen circumstances. Therefore, we propose an end-to-end deep reinforcement learning algorithm in this paper to improve the performance of autonomous steering in complex environments. By embedding a branching noisy dueling architecture, the proposed model is capable of deriving steering commands directly from raw depth images with high efficiency. Specifically, our learning-based approach extracts the feature representation from depth inputs through convolutional neural networks and maps it to both linear and angular velocity commands simultaneously through different streams of the network. Moreover, the training framework is also meticulously designed to improve the learning efficiency and effectiveness. It is worth noting that the developed system is readily transferable from virtual training scenarios to real-world deployment without any fine-tuning by utilizing depth images. The proposed method is evaluated and compared with a series of baseline methods in various virtual environments. Experimental results demonstrate the superiority of the proposed model in terms of average reward, learning efficiency, success rate as well as computational time. Moreover, a variety of real-world experiments are also conducted which reveal the high adaptability of our model to both static and dynamic obstacle-cluttered environments.
+KW  - deep reinforcement learning
+KW  - autonomous steering
+KW  - depth image
+DO  - 10.3390/s18113650
+TY  - EJOU
+AU  - Valentino, Rico
+AU  - Jung, Woo-Sung
+AU  - Ko, Young-Bae
+TI  - A Design and Simulation of the Opportunistic Computation Offloading with Learning-Based Prediction for Unmanned Aerial Vehicle (UAV) Clustering Networks
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 11
+SN  - 1424-8220
+
+AB  - Drones have recently become extremely popular, especially in military and civilian applications. Examples of drone utilization include reconnaissance, surveillance, and packet delivery. As time has passed, drones’ tasks have become larger and more complex. As a result, swarms or clusters of drones are preferred, because they offer more coverage, flexibility, and reliability. However, drone systems have limited computing power and energy resources, which means that sometimes it is difficult for drones to finish their tasks on schedule. A solution to this is required so that drone clusters can complete their work faster. One possible solution is an offloading scheme between drone clusters. In this study, we propose an opportunistic computational offloading system, which allows for a drone cluster with a high intensity task to borrow computing resources opportunistically from other nearby drone clusters. We design an artificial neural network-based response time prediction module for deciding whether it is faster to finish tasks by offloading them to other drone clusters. The offloading scheme is conducted only if the predicted offloading response time is smaller than the local computing time. Through simulation results, we show that our proposed scheme can decrease the response time of drone clusters through an opportunistic offloading process.
+KW  - drone cluster
+KW  - computation offloading
+KW  - neural network
+KW  - wireless communication
+DO  - 10.3390/s18113751
+TY  - EJOU
+AU  - Cui, Jun-hui
+AU  - Wei, Rui-xuan
+AU  - Liu, Zong-cheng
+AU  - Zhou, Kai
+TI  - UAV Motion Strategies in Uncertain Dynamic Environments: A Path Planning Method Based on Q-Learning Strategy
+T2  - Applied Sciences
+
+PY  - 2018
+VL  - 8
+IS  - 11
+SN  - 2076-3417
+
+AB  - A solution framework for UAV motion strategies in uncertain dynamic environments is constructed in this paper. Considering that the motion states of UAV might be influenced by some dynamic uncertainties, such as control strategies, flight environments, and any other bursting-out threats, we model the uncertain factors that might cause such influences to the path planning of the UAV, unified as an unobservable part of the system and take the acceleration together with the bank angle of the UAV as a control variable. Meanwhile, the cost function is chosen based on the tracking error, then the control instructions and flight path for UAV can be achieved. Then, the cost function can be optimized through Q-learning, and the best UAV action sequence for conflict avoidance under the moving threat environment can be obtained. According to Bellman&rsquo;s optimization principle, the optimal action strategies can be obtained from the current confidence level. The method in this paper is more in line with the actual UAV path planning, since the generation of the path planning strategy at each moment takes into account the influence of the UAV control strategy on its motion at the next moment. The simulation results show that all the planning paths that are created according to the solution framework proposed in this paper have a very high tracking accuracy, and this method has a much shorter processing time as well as a shorter path it can create.
+KW  - unmanned aerial vehicle
+KW  - path planning
+KW  - Q-Learning strategy
+KW  - observational error
+DO  - 10.3390/app8112169
+TY  - EJOU
+AU  - Pan, Qi
+AU  - Wen, Xiangming
+AU  - Lu, Zhaoming
+AU  - Li, Linpei
+AU  - Jing, Wenpeng
+TI  - Dynamic Speed Control of Unmanned Aerial Vehicles for Data Collection under Internet of Things
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 11
+SN  - 1424-8220
+
+AB  - With the new advancements in flight control and integrated circuit (IC) technology, unmanned aerial vehicles (UAVs) have been widely used in various applications. One of the typical application scenarios is data collection for large-scale and remote sensor devices in the Internet of things (IoT). However, due to the characteristics of massive connections, access collisions in the MAC layer lead to high power consumption for both sensor devices and UAVs, and low efficiency for the data collection. In this paper, a dynamic speed control algorithm for UAVs (DSC-UAV) is proposed to maximize the data collection efficiency, while alleviating the access congestion for the UAV-based base stations. With a cellular network considered for support of the communication between sensor devices and drones, the connection establishment process was analyzed and modeled in detail. In addition, the data collection efficiency is also defined and derived. Based on the analytical models, optimal speed under different sensor device densities is obtained and verified. UAVs can dynamically adjust the speed according to the sensor device density under their coverages to keep high data collection efficiency. Finally, simulation results are also conducted to verify the accuracy of the proposed analytical models and show that the DSC-UAV outperforms others with the highest data collection efficiency, while maintaining a high successful access probability, low average access delay, low block probability, and low collision probability.
+KW  - unmanned aerial vehicles (UAVs)
+KW  - speed control
+KW  - access congestion
+KW  - Internet of Things (IoT)
+KW  - data collection
+KW  - wireless sensor network (WSN)
+DO  - 10.3390/s18113951
+TY  - EJOU
+AU  - Sun, Jian
+AU  - Huang, Guanhua
+AU  - Sun, Gang
+AU  - Yu, Hongfang
+AU  - Sangaiah, Arun K.
+AU  - Chang, Victor
+TI  - A Q-Learning-Based Approach for Deploying Dynamic Service Function Chains
+T2  - Symmetry
+
+PY  - 2018
+VL  - 10
+IS  - 11
+SN  - 2073-8994
+
+AB  - As the size and service requirements of today&rsquo;s networks gradually increase, large numbers of proprietary devices are deployed, which leads to network complexity, information security crises and makes network service and service provider management increasingly difficult. Network function virtualization (NFV) technology is one solution to this problem. NFV separates network functions from hardware and deploys them as software on a common server. NFV can be used to improve service flexibility and isolate the services provided for each user, thus guaranteeing the security of user data. Therefore, the use of NFV technology includes many problems worth studying. For example, when there is a free choice of network path, one problem is how to choose a service function chain (SFC) that both meets the requirements and offers the service provider maximum profit. Most existing solutions are heuristic algorithms with high time efficiency, or integer linear programming (ILP) algorithms with high accuracy. It&rsquo;s necessary to design an algorithm that symmetrically considers both time efficiency and accuracy. In this paper, we propose the Q-learning Framework Hybrid Module algorithm (QLFHM), which includes reinforcement learning to solve this SFC deployment problem in dynamic networks. The reinforcement learning module in QLFHM is responsible for the output of alternative paths, while the load balancing module in QLFHM is responsible for picking the optimal solution from them. The results of a comparison simulation experiment on a dynamic network topology show that the proposed algorithm can output the approximate optimal solution in a relatively short time while also considering the network load balance. Thus, it achieves the goal of maximizing the benefit to the service provider.
+KW  - network function virtualization
+KW  - service function chain
+KW  - reinforcement learning
+KW  - load balancing
+KW  - security
+DO  - 10.3390/sym10110646
+TY  - EJOU
+AU  - N. de Sousa, Marcelo
+AU  - S. Thomä, Reiner
+TI  - Enhancement of Localization Systems in NLOS Urban Scenario with Multipath Ray Tracing Fingerprints and Machine Learning
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 11
+SN  - 1424-8220
+
+AB  - A hybrid technique is proposed to enhance the localization performance of a time difference of arrival (TDOA) deployed in non-line-of-sight (NLOS) suburban scenario. The idea was to use Machine Learning framework on the dataset, produced by the ray tracing simulation, and the Channel Impulse Response estimation from the real signal received by each sensor. Conventional localization techniques mitigate errors trying to avoid NLOS measurements in processing emitter position, while the proposed method uses the multipath fingerprint information produced by ray tracing (RT) simulation together with calibration emitters to refine a Machine Learning engine, which gives an extra layer of information to improve the emitter position estimation. The ray-tracing fingerprints perform the target localization embedding all the reflection and diffraction in the propagation scenario. A validation campaign was performed and showed the feasibility of the proposed method, provided that the buildings can be appropriately included in the scenario description.
+KW  - wireless positioning
+KW  - cooperative positioning
+KW  - machine learning
+KW  - hybrid positioning
+KW  - multipath exploitation
+KW  - time difference of arrival localization
+KW  - ray tracing fingerprints
+DO  - 10.3390/s18114073
+TY  - EJOU
+AU  - Ruan, Lang
+AU  - Chen, Jin
+AU  - Guo, Qiuju
+AU  - Jiang, Han
+AU  - Zhang, Yuli
+AU  - Liu, Dianxiong
+TI  - A Coalition Formation Game Approach for Efficient Cooperative Multi-UAV Deployment
+T2  - Applied Sciences
+
+PY  - 2018
+VL  - 8
+IS  - 12
+SN  - 2076-3417
+
+AB  - Unmanned aerial vehicle (UAV) cooperative control has been an important issue in UAV-assisted sensor networks, thanks to the considerable benefit obtained from the cooperative mechanism of UAVs being applied as a flying base station. In a coverage scenarios, the trade-off between coverage and transmission performance often makes deployment of UAVs fall into a dilemma, since both indexes are related to the distance between UAVs. To address this issue, UAV coverage and data transmission mechanism is analyzed in this paper; then, an efficient multi-UAV cooperative deployment model is proposed. The problem is modeled as a coalition formation game (CFG). The CFG with Pareto order is proved to have a stable partition. Then, an effective approach consisting of coverage deployment and coalition selection is designed, wherein UAVs can decide strategies cooperatively to achieve better coverage performance. Combining analysis of game approach, coalition selection and the position deployment algorithm based on Pareto order (CSPDA-PO) is designed to execute coverage deployment and coalition selection. Finally, simulation results are shown to validate the proposed approach based on an efficient multi-UAV cooperative deployment model.
+KW  - UAV-assisted sensor network
+KW  - UAV cooperative coverage
+KW  - coalition formation game
+KW  - stable coalition partition
+KW  - Nash equilibrium
+DO  - 10.3390/app8122427
+TY  - EJOU
+AU  - Fu, Kun
+AU  - Li, Yang
+AU  - Sun, Hao
+AU  - Yang, Xue
+AU  - Xu, Guangluan
+AU  - Li, Yuting
+AU  - Sun, Xian
+TI  - A Ship Rotation Detection Model in Remote Sensing Images Based on Feature Fusion Pyramid Network and Deep Reinforcement Learning
+T2  - Remote Sensing
+
+PY  - 2018
+VL  - 10
+IS  - 12
+SN  - 2072-4292
+
+AB  - Ship detection plays an important role in automatic remote sensing image interpretation. The scale difference, large aspect ratio of ship, complex remote sensing image background and ship dense parking scene make the detection task difficult. To handle the challenging problems above, we propose a ship rotation detection model based on a Feature Fusion Pyramid Network and deep reinforcement learning (FFPN-RL) in this paper. The detection network can efficiently generate the inclined rectangular box for ship. First, we propose the Feature Fusion Pyramid Network (FFPN) that strengthens the reuse of different scales features, and FFPN can extract the low level location and high level semantic information that has an important impact on multi-scale ship detection and precise location of dense parking ships. Second, in order to get accurate ship angle information, we apply deep reinforcement learning to the inclined ship detection task for the first time. In addition, we put forward prior policy guidance and a long-term training method to train an angle prediction agent constructed through a dueling structure Q network, which is able to iteratively and accurately obtain the ship angle. In addition, we design soft rotation non-maximum suppression to reduce the missed ship detection while suppressing the redundant detection boxes. We carry out detailed experiments on the remote sensing ship image dataset, and the experiments validate that our FFPN-RL ship detection model has efficient detection performance.
+KW  - ship detection
+KW  - deep reinforcement learning
+KW  - convolution neural network
+KW  - feature map fusion
+DO  - 10.3390/rs10121922
+TY  - EJOU
+AU  - Jawhar, Imad
+AU  - Mohamed, Nader
+AU  - Wu, Jie
+AU  - Al-Jaroodi, Jameela
+TI  - Networking of Multi-Robot Systems: Architectures and Requirements
+T2  - Journal of Sensor and Actuator Networks
+
+PY  - 2018
+VL  - 7
+IS  - 4
+SN  - 2224-2708
+
+AB  - A large number of advancements have taken place in microprocessor-based systems leading to significantly more processing, memory, storage, sensing, actuating, recognition, controlling and communication capabilities. Robotics is one of the areas that have benefited a lot from these advancements. Many important and useful applications for single-robot and multi-robot systems (MRS) have emerged. Such applications include search and rescue, detection of forest fires, mining, construction, disaster management, and many more. MRS systems greatly enhance the capabilities and effectiveness of today&rsquo;s robots. They extend the robotic system capabilities by increasing the ability to perform more complex tasks and allow performance of inherently distributed ones. In addition, they increase parallelism, enhance robustness, and improve system reliability. However, to perform their tasks in an effective manner, communication between the individual robots becomes an essential component. In this paper, we discuss the various types and architectures of MRS systems and focus on the networking issues, and services that are required to enable MRS systems to be more efficient in performing their roles in their respective applications. We also identify the similarities and differences between mobile ad hoc networks (MANETs) and MRS systems, analyze robot-to-robot (R2R) and robot-to-infrastructure (R2I) communication links, and identify the protocols that can be used at the various levels in the MRS hierarchy.
+KW  - robots
+KW  - multi-robot systems (MRS)
+KW  - multi-robot networks (MRNs)
+KW  - mobile ad hoc networks (MANETs)
+KW  - networking architectures
+KW  - network protocols
+DO  - 10.3390/jsan7040052
+TY  - EJOU
+AU  - Wang, Tao
+AU  - Wang, Jianqin
+AU  - Wu, Chao
+AU  - Zhao, Min
+AU  - Ge, Tong
+TI  - Disturbance-Rejection Control for the Hover and Transition Modes of a Negative-Buoyancy Quad Tilt-Rotor Autonomous Underwater Vehicle
+T2  - Applied Sciences
+
+PY  - 2018
+VL  - 8
+IS  - 12
+SN  - 2076-3417
+
+AB  - This paper proposes a Negative-buoyancy Quad Tilt-rotor Autonomous Underwater Vehicle (NQTAUV), for which an attitude-tracking controller is designed for the hover and transition modes based on a disturbance-rejection control scheme. First, the structure of NQTAUV is illustrated, a mathematical model based on the Rodrigues parameters is proposed, and the attitude-tracking error model is derived. To simplify the disturbance-observer design procedure, a disturbance observer with a single parameter was designed to estimate the disturbance torque acting on the vehicle. The controller was designed to track the target attitude, and the stability of the whole system is analyzed. Finally, the performance of the proposed method was validated by three experiments. The primary benefit of the proposed method is the simplicity of its tuning and implementation.
+KW  - disturbance-rejection control
+KW  - extended state observer (ESO)
+KW  - hover mode
+KW  - transition mode
+KW  - negative buoyancy
+KW  - quad-tilt rotor
+KW  - autonomous underwater vehicle (AUV)
+KW  - Rodrigues parameters
+DO  - 10.3390/app8122459
+TY  - EJOU
+AU  - Hireche, Chabha
+AU  - Dezan, Catherine
+AU  - Mocanu, Stéphane
+AU  - Heller, Dominique
+AU  - Diguet, Jean-Philippe
+TI  - Context/Resource-Aware Mission Planning Based on BNs and Concurrent MDPs for Autonomous UAVs
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 12
+SN  - 1424-8220
+
+AB  - This paper presents a scalable approach to model uncertainties within a UAV (Unmanned Aerial Vehicle) embedded mission manager. It proposes a concurrent version of BFM models, which are Bayesian Networks built from FMEA (Failure Mode and Effects Analysis) and used by MDPs (Markov Decision Processes). The models can separately handle different applications during the mission; they consider the context of the mission including external constraints (luminosity, climate, etc.), the health of the UAV (Energy, Sensor) as well as the computing resource availability including CPU (Central Processing Unit) load, FPGA (Field Programmable Gate Array) use and timing performances. The proposed solution integrates the constraints into a mission specification by means of FMEA tables in order to facilitate their specifications by non-experts. Decision-making processes are elaborated following a &ldquo;just enough&rdquo; quality management by automatically providing adequate implementation of the embedded applications in order to achieve the mission goals, in the context given by the sensors and the on-board monitors. We illustrate the concurrent BFM approach with a case study of a typical tracking UAV mission. This case also considers a FPGA-SoC (FPGA-System on Chip) platform into consideration and demonstrates the benefits to tune the quality of the embedded applications according to the environmental context.
+KW  - fault recovery
+KW  - anomaly detection
+KW  - diagnosis
+KW  - mission planning
+KW  - Markov Decision Process
+KW  - Bayesian Networks
+KW  - System-on-Chip
+DO  - 10.3390/s18124266
+TY  - EJOU
+AU  - Zheng, Naishan
+AU  - Luo, Manman
+AU  - Zou, Xiuguo
+AU  - Qiu, Xinfa
+AU  - Lu, Jingxia
+AU  - Han, Jiaqi
+AU  - Wang, Siyu
+AU  - Wei, Yuning
+AU  - Zhang, Shikai
+AU  - Yao, Heyang
+TI  - A Novel Method for the Recognition of Air Visibility Level Based on the Optimal Binary Tree Support Vector Machine
+T2  - Atmosphere
+
+PY  - 2018
+VL  - 9
+IS  - 12
+SN  - 2073-4433
+
+AB  - As the traditional methods for the recognition of air visibility level have the disadvantages of high cost, complicated operation, and the need to set markers, this paper proposes a novel method for the recognition of air visibility level based on an optimal binary tree support vector machine (SVM) using image processing techniques. Firstly, morphological processing is performed on the image. Then, whether the region of interest (ROI) is extracted is determined by the extracted feature values, that is, the contrast features and edge features are extracted in the ROI. After that, the transmittance features of red, green and blue channels (RGB) are extracted throughout the whole image. These feature values are used to construct the visibility level recognition model based on optimal binary tree SVM. The experiments are carried out to verify the proposed method. The experimental results show that the recognition accuracies of the proposed method for four levels of visibility, i.e., good air quality, mild pollution, moderate pollution, and heavy pollution, are 92.00%, 92%, 88.00%, and 100.00%, respectively, with an average recognition accuracy of 93.00%. The proposed method is compared with one-to-one SVM and one-to-many SVM in terms of training time and recognition accuracy. The experimental results show that the proposed method can distinguish four levels of visibility at a relatively satisfactory level, and it performs better than the other two methods in terms of training time and recognition accuracy. This proposed method provides an effective solution for the recognition of air visibility level.
+KW  - air visibility recognition
+KW  - optimal binary tree
+KW  - support vector machine
+KW  - image processing
+DO  - 10.3390/atmos9120481
+TY  - EJOU
+AU  - Colpaert, Achiel
+AU  - Vinogradov, Evgenii
+AU  - Pollin, Sofie
+TI  - Aerial Coverage Analysis of Cellular Systems at LTE and mmWave Frequencies Using 3D City Models
+T2  - Sensors
+
+PY  - 2018
+VL  - 18
+IS  - 12
+SN  - 1424-8220
+
+AB  - Cellular connectivity for UAV systems is interesting because it promises coverage in beyond visual line of sight scenarios. Inter-cell interference has been shown to be the main limiting factor at high altitudes. Using a realistic 3D simulator model, with real base station locations, this study confirms that UAVs at high altitudes suffer from significant interference, resulting in a worse coverage compared to ground users. When replacing the existing base stations by mmWave cells, our results indicate that ground coverage is decreased to only 90%, while UAVs just above rooftop level have a coverage probability of 100%. However, UAVs at higher altitude still suffer from excessive interference. Beamforming has the potential to improve mmWave link budget and to decrease interference and is for this reason a promising technology for ensuring connectivity to aerial users.
+KW  - UAV
+KW  - LTE
+KW  - mmWave
+KW  - beamforming
+KW  - cellular
+KW  - drone
+KW  - interference
+KW  - SINR
+DO  - 10.3390/s18124311
+TY  - EJOU
+AU  - Madni, Azad M.
+AU  - Madni, Carla C.
+TI  - Architectural Framework for Exploring Adaptive Human-Machine Teaming Options in Simulated Dynamic Environments
+T2  - Systems
+
+PY  - 2018
+VL  - 6
+IS  - 4
+SN  - 2079-8954
+
+AB  - With the growing complexity of environments in which systems are expected to operate, adaptive human-machine teaming (HMT) has emerged as a key area of research. While human teams have been extensively studied in the psychological and training literature, and agent teams have been investigated in the artificial intelligence research community, the commitment to research in HMT is relatively new and fueled by several technological advances such as electrophysiological sensors, cognitive modeling, machine learning, and adaptive/adaptable human-machine systems. This paper presents an architectural framework for investigating HMT options in various simulated operational contexts including responding to systemic failures and external disruptions. The paper specifically discusses new and novel roles for machines made possible by new technology and offers key insights into adaptive human-machine teams. Landed aircraft perimeter security is used as an illustrative example of an adaptive cyber-physical-human system (CPHS). This example is used to illuminate the use of the HMT framework in identifying the different human and machine roles involved in this scenario. The framework is domain-independent and can be applied to both defense and civilian adaptive HMT. The paper concludes with recommendations for advancing the state-of-the-art in HMT.
+KW  - human-machine teaming
+KW  - human-machine teams
+KW  - architectural framework
+KW  - dynamic function allocation
+KW  - intent inferencing
+KW  - machine learning
+DO  - 10.3390/systems6040044
+TY  - EJOU
+AU  - Koksal, N.
+AU  - Jalalmaab, M.
+AU  - Fidan, B.
+TI  - Adaptive Linear Quadratic Attitude Tracking Control of a Quadrotor UAV Based on IMU Sensor Data Fusion
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 1
+SN  - 1424-8220
+
+AB  - In this paper, an infinite-horizon adaptive linear quadratic tracking (ALQT) control scheme is designed for optimal attitude tracking of a quadrotor unmanned aerial vehicle (UAV). The proposed control scheme is experimentally validated in the presence of real-world uncertainties in quadrotor system parameters and sensor measurement. The designed control scheme guarantees asymptotic stability of the close-loop system with the help of complete controllability of the attitude dynamics in applying optimal control signals. To achieve robustness against parametric uncertainties, the optimal tracking solution is combined with an online least squares based parameter identification scheme to estimate the instantaneous inertia of the quadrotor. Sensor measurement noises are also taken into account for the on-board Inertia Measurement Unit (IMU) sensors. To improve controller performance in the presence of sensor measurement noises, two sensor fusion techniques are employed, one based on Kalman filtering and the other based on complementary filtering. The ALQT controller performance is compared for the use of these two sensor fusion techniques, and it is concluded that the Kalman filter based approach provides less mean-square estimation error, better attitude estimation, and better attitude control performance.
+KW  - quadrotor UAV
+KW  - adaptive linear quadratic tracking
+KW  - indirect estimation
+KW  - least squares estimation
+KW  - sensor fusion
+KW  - Kalman filter
+DO  - 10.3390/s19010046
+TY  - EJOU
+AU  - Zhou, Xiaomao
+AU  - Gao, Yanbin
+AU  - Guan, Lianwu
+TI  - Towards Goal-Directed Navigation Through Combining Learning Based Global and Local Planners
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 1
+SN  - 1424-8220
+
+AB  - Robot navigation is a fundamental problem in robotics and various approaches have been developed to cope with this problem. Despite the great success of previous approaches, learning-based methods are receiving growing interest in the research community. They have shown great efficiency in solving navigation tasks and offer considerable promise to build intelligent navigation systems. This paper presents a goal-directed robot navigation system that integrates global planning based on goal-directed end-to-end learning and local planning based on reinforcement learning (RL). The proposed system aims to navigate the robot to desired goal positions while also being adaptive to changes in the environment. The global planner is trained to imitate an expert&rsquo;s navigation between different positions by goal-directed end-to-end learning, where both the goal representations and local observations are incorporated to generate actions. However, it is trained in a supervised fashion and is weak in dealing with changes in the environment. To solve this problem, a local planner based on deep reinforcement learning (DRL) is designed. The local planner is first implemented in a simulator and then transferred to the real world. It works complementarily to deal with situations that have not been met during training the global planner and is able to generalize over different situations. The experimental results on a robot platform demonstrate the effectiveness of the proposed navigation system.
+KW  - robot navigation
+KW  - global planning
+KW  - end-to-end learning
+KW  - local planning
+KW  - reinforcement learning
+DO  - 10.3390/s19010176

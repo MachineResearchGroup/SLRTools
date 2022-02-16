@@ -1,0 +1,677 @@
+TY  - EJOU
+AU  - Pan, Xin
+AU  - Zhao, Jian
+AU  - Xu, Jun
+TI  - An End-to-End and Localized Post-Processing Method for Correcting High-Resolution Remote Sensing Classification Result Images
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 5
+SN  - 2072-4292
+
+AB  - Since the result images obtained by deep semantic segmentation neural networks are usually not perfect, especially at object borders, the conditional random field (CRF) method is frequently utilized in the result post-processing stage to obtain the corrected classification result image. The CRF method has achieved many successes in the field of computer vision, but when it is applied to remote sensing images, overcorrection phenomena may occur. This paper proposes an end-to-end and localized post-processing method (ELP) to correct the result images of high-resolution remote sensing image classification methods. ELP has two advantages. (1) End-to-end evaluation: ELP can identify which locations of the result image are highly suspected of having errors without requiring samples. This characteristic allows ELP to be adapted to an end-to-end classification process. (2) Localization: Based on the suspect areas, ELP limits the CRF analysis and update area to a small range and controls the iteration termination condition. This characteristic avoids the overcorrections caused by the global processing of the CRF. In the experiments, ELP is used to correct the classification results obtained by various deep semantic segmentation neural networks. Compared with traditional methods, the proposed method more effectively corrects the classification result and improves classification accuracy.
+KW  - semantic segmentation
+KW  - high-resolution remote sensing image
+KW  - pixel-wise classification
+KW  - result correction
+KW  - conditional random field (CRF)
+DO  - 10.3390/rs12050852
+TY  - EJOU
+AU  - Communier, David
+AU  - Botez, Ruxandra M.
+AU  - Wong, Tony
+TI  - Design and Validation of a New Morphing Camber System by Testing in the Price—Païdoussis Subsonic Wind Tunnel
+T2  - Aerospace
+
+PY  - 2020
+VL  - 7
+IS  - 3
+SN  - 2226-4310
+
+AB  - This paper presents the design and wind tunnel testing of a morphing camber system and an estimation of performances on an unmanned aerial vehicle. The morphing camber system is a combination of two subsystems: the morphing trailing edge and the morphing leading edge. Results of the present study show that the aerodynamics effects of the two subsystems are combined, without interfering with each other on the wing. The morphing camber system acts only on the lift coefficient at a 0&deg; angle of attack when morphing the trailing edge, and only on the stall angle when morphing the leading edge. The behavior of the aerodynamics performances from the MTE and the MLE should allow individual control of the morphing camber trailing and leading edges. The estimation of the performances of the morphing camber on an unmanned aerial vehicle indicates that the morphing of the camber allows a drag reduction. This result is due to the smaller angle of attack needed for an unmanned aerial vehicle equipped with the morphing camber system than an unmanned aerial vehicle equipped with classical aileron. In the case study, the morphing camber system was found to allow a reduction of the drag when the lift coefficient was higher than 0.48.
+KW  - morphing camber
+KW  - morphing trailing edge
+KW  - morphing leading edge
+KW  - wind tunnel testing
+KW  - morphing wing
+DO  - 10.3390/aerospace7030023
+TY  - EJOU
+AU  - Shang, Ronghua
+AU  - Zhang, Jiyu
+AU  - Jiao, Licheng
+AU  - Li, Yangyang
+AU  - Marturi, Naresh
+AU  - Stolkin, Rustam
+TI  - Multi-scale Adaptive Feature Fusion Network for Semantic Segmentation in Remote Sensing Images
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 5
+SN  - 2072-4292
+
+AB  - Semantic segmentation of high-resolution remote sensing images is highly challenging due to the presence of a complicated background, irregular target shapes, and similarities in the appearance of multiple target categories. Most of the existing segmentation methods that rely only on simple fusion of the extracted multi-scale features often fail to provide satisfactory results when there is a large difference in the target sizes. Handling this problem through multi-scale context extraction and efficient fusion of multi-scale features, in this paper we present an end-to-end multi-scale adaptive feature fusion network (MANet) for semantic segmentation in remote sensing images. It is a coding and decoding structure that includes a multi-scale context extraction module (MCM) and an adaptive fusion module (AFM). The MCM employs two layers of atrous convolutions with different dilatation rates and global average pooling to extract context information at multiple scales in parallel. MANet embeds the channel attention mechanism to fuse semantic features. The high- and low-level semantic information are concatenated to generate global features via global average pooling. These global features are used as channel weights to acquire adaptive weight information of each channel by the fully connected layer. To accomplish an efficient fusion, these tuned weights are applied to the fused features. Performance of the proposed method has been evaluated by comparing it with six other state-of-the-art networks: fully convolutional networks (FCN), U-net, UZ1, Light-weight RefineNet, DeepLabv3+, and APPD. Experiments performed using the publicly available Potsdam and Vaihingen datasets show that the proposed MANet significantly outperforms the other existing networks, with overall accuracy reaching 89.4% and 88.2%, respectively and with average of F1 reaching 90.4% and 86.7% respectively.
+KW  - multi-scale context
+KW  - adaptive fusion
+KW  - remote sensing image
+KW  - semantic segmentation
+KW  - CNN
+KW  - deep learning
+DO  - 10.3390/rs12050872
+TY  - EJOU
+AU  - Zhang, Qian
+AU  - Liu, Yeqi
+AU  - Gong, Chuanyang
+AU  - Chen, Yingyi
+AU  - Yu, Huihui
+TI  - Applications of Deep Learning for Dense Scenes Analysis in Agriculture: A Review
+T2  - Sensors
+
+PY  - 2020
+VL  - 20
+IS  - 5
+SN  - 1424-8220
+
+AB  - Deep Learning (DL) is the state-of-the-art machine learning technology, which shows superior performance in computer vision, bioinformatics, natural language processing, and other areas. Especially as a modern image processing technology, DL has been successfully applied in various tasks, such as object detection, semantic segmentation, and scene analysis. However, with the increase of dense scenes in reality, due to severe occlusions, and small size of objects, the analysis of dense scenes becomes particularly challenging. To overcome these problems, DL recently has been increasingly applied to dense scenes and has begun to be used in dense agricultural scenes. The purpose of this review is to explore the applications of DL for dense scenes analysis in agriculture. In order to better elaborate the topic, we first describe the types of dense scenes in agriculture, as well as the challenges. Next, we introduce various popular deep neural networks used in these dense scenes. Then, the applications of these structures in various agricultural tasks are comprehensively introduced in this review, including recognition and classification, detection, counting and yield estimation. Finally, the surveyed DL applications, limitations and the future work for analysis of dense images in agriculture are summarized.
+KW  - deep learning
+KW  - dense scenes
+KW  - agricultural application
+KW  - computer vision
+DO  - 10.3390/s20051520
+TY  - EJOU
+AU  - Liu, Haojie
+AU  - Liao, Kang
+AU  - Lin, Chunyu
+AU  - Zhao, Yao
+AU  - Liu, Meiqin
+TI  - PLIN: A Network for Pseudo-LiDAR Point Cloud Interpolation
+T2  - Sensors
+
+PY  - 2020
+VL  - 20
+IS  - 6
+SN  - 1424-8220
+
+AB  - LiDAR sensors can provide dependable 3D spatial information at a low frequency (around 10 Hz) and have been widely applied in the field of autonomous driving and unmanned aerial vehicle (UAV). However, the camera with a higher frequency (around 20 Hz) has to be decreased so as to match with LiDAR in a multi-sensor system. In this paper, we propose a novel Pseudo-LiDAR interpolation network (PLIN) to increase the frequency of LiDAR sensor data. PLIN can generate temporally and spatially high-quality point cloud sequences to match the high frequency of cameras. To achieve this goal, we design a coarse interpolation stage guided by consecutive sparse depth maps and motion relationship. We also propose a refined interpolation stage guided by the realistic scene. Using this coarse-to-fine cascade structure, our method can progressively perceive multi-modal information and generate accurate intermediate point clouds. To the best of our knowledge, this is the first deep framework for Pseudo-LiDAR point cloud interpolation, which shows appealing applications in navigation systems equipped with LiDAR and cameras. Experimental results demonstrate that PLIN achieves promising performance on the KITTI dataset, significantly outperforming the traditional interpolation method and the state-of-the-art video interpolation technique.
+KW  - 3D point cloud
+KW  - pseudo-LiDAR interpolation
+KW  - convolutional neural networks
+KW  - depth completion
+KW  - video interpolation
+DO  - 10.3390/s20061573
+TY  - EJOU
+AU  - Osco, Lucas P.
+AU  - Ramos, Ana P.
+AU  - Faita Pinheiro, Mayara M.
+AU  - Moriya, Érika A.
+AU  - Imai, Nilton N.
+AU  - Estrabis, Nayara
+AU  - Ianczyk, Felipe
+AU  - Araújo, Fábio F.
+AU  - Liesenberg, Veraldo
+AU  - Jorge, Lúcio A.
+AU  - Li, Jonathan
+AU  - Ma, Lingfei
+AU  - Gonçalves, Wesley N.
+AU  - Marcato Junior, José
+AU  - Eduardo Creste, José
+TI  - A Machine Learning Framework to Predict Nutrient Content in Valencia-Orange Leaf Hyperspectral Measurements
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 6
+SN  - 2072-4292
+
+AB  - This paper presents a framework based on machine learning algorithms to predict nutrient content in leaf hyperspectral measurements. This is the first approach to evaluate macro- and micronutrient content with both machine learning and reflectance/first-derivative data. For this, citrus-leaves collected at a Valencia-orange orchard were used. Their spectral data was measured with a Fieldspec ASD FieldSpec&reg; HandHeld 2 spectroradiometer and the surface reflectance and first-derivative spectra from the spectral range of 380 to 1020 nm (640 spectral bands) was evaluated. A total of 320 spectral signatures were collected, and the leaf-nutrient content (N, P, K, Mg, S, Cu, Fe, Mn, and Zn) was associated with them. For this, 204,800 (320 &times; 640) combinations were used. The following machine learning algorithms were used in this framework: k-Nearest Neighbor (kNN), Lasso Regression, Ridge Regression, Support Vector Machine (SVM), Artificial Neural Network (ANN), Decision Tree (DT), and Random Forest (RF). The training methods were assessed based on Cross-Validation and Leave-One-Out. The Relief-F metric of the algorithms&rsquo; prediction was used to determine the most contributive wavelength or spectral region associated with each nutrient. This approach was able to return, with high predictions (R2), nutrients like N (0.912), Mg (0.832), Cu (0.861), Mn (0.898), and Zn (0.855), and, to a lesser extent, P (0.771), K (0.763), and S (0.727). These accuracies were obtained with different algorithms, but RF was the most suitable to model most of them. The results indicate that, for the Valencia-orange leaves, surface reflectance data is more suitable to predict macronutrients, while first-derivative spectra is better linked to micronutrients. A final contribution of this study is the identification of the wavelengths responsible for contributing to these predictions.
+KW  - spectroscopy
+KW  - proximal sensor
+KW  - macronutrient
+KW  - micronutrient
+KW  - artificial intelligence
+DO  - 10.3390/rs12060906
+TY  - EJOU
+AU  - Hu, Qiong
+AU  - Yang, Jingya
+AU  - Xu, Baodong
+AU  - Huang, Jianxi
+AU  - Memon, Muhammad S.
+AU  - Yin, Gaofei
+AU  - Zeng, Yelu
+AU  - Zhao, Jing
+AU  - Liu, Ke
+TI  - Evaluation of Global Decametric-Resolution LAI, FAPAR and FVC Estimates Derived from Sentinel-2 Imagery
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 6
+SN  - 2072-4292
+
+AB  - Global biophysical products at decametric resolution derived from Sentinel-2 imagery have emerged as a promising dataset for fine-scale ecosystem modeling and agricultural monitoring. Evaluating uncertainties of different Sentinel-2 biophysical products over various regions and vegetation types is pivotal in the application of land surface models. In this study, we quantified the performance of Sentinel-2-derived Leaf Area Index (LAI), Fraction of Absorbed Photosynthetically Active Radiation (FAPAR), and Fractional Vegetation Cover (FVC) estimates using global ground observations with consistent measurement criteria. Our results show that the accuracy of vegetation and non-vegetated classification based on Sentinel-2 surface reflectance products is greater than 95%, which indicates the vegetation identification is favorable for the practical application of biophysical estimates, as several LAI, FAPAR, and FVC retrievals were derived for non-vegetated pixels. The rate of best retrievals is similar between LAI and FAPAR estimates, both accounting for 87% of all vegetation pixels, while it is almost 100% for FVC estimates. Additionally, the Sentinel-2 FAPAR and FVC estimates agree well with ground-measurements-derived (GMD) reference maps, whereas a large discrepancy is observed for Sentinel-2 LAI estimates by comparing with both GMD effective LAI (LAIe) and actual LAI (LAI) reference maps. Furthermore, the uncertainties of Sentinel-2 LAI, FAPAR and FVC estimates are 1.09 m2/m2, 1.14 m2/m2, 0.13 and 0.17 through comparisons to ground LAIe, LAI, FAPAR, and FVC measurements, respectively. Given the temporal difference between Sentinel-2 observations and ground measurements, Sentinel-2 LAI estimates are more consistent with LAIe than LAI values. The robustness of evaluation results can be further improved as long as more multi-temporal ground measurements across different regions are obtained. Overall, this study provides fundamental information about the performance of Sentinel-2 LAI, FAPAR, and FVC estimates, which imbues our confidence in the broad applications of these decametric products.
+KW  - leaf area index (LAI)
+KW  - fraction of absorbed photosynthetically active radiation (FAPAR)
+KW  - fractional vegetation cover (FVC)
+KW  - Sentinel-2
+KW  - Evaluation
+KW  - Uncertainty
+DO  - 10.3390/rs12060912
+TY  - EJOU
+AU  - Dong, Luofan
+AU  - Du, Huaqiang
+AU  - Han, Ning
+AU  - Li, Xuejian
+AU  - Zhu, Di’en
+AU  - Mao, Fangjie
+AU  - Zhang, Meng
+AU  - Zheng, Junlong
+AU  - Liu, Hua
+AU  - Huang, Zihao
+AU  - He, Shaobai
+TI  - Application of Convolutional Neural Network on Lei Bamboo Above-Ground-Biomass (AGB) Estimation Using Worldview-2
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 6
+SN  - 2072-4292
+
+AB  - Above-ground biomass (AGB) directly relates to the productivity of forests. Precisely, AGB mapping for regional forests based on very high resolution (VHR) imagery is widely needed for evaluation of productivity. However, the diversity of variables and algorithms and the difficulties inherent in high resolution optical imagery make it complex. In this paper, we explored the potentials of the state-of-art algorithm convolutional neural networks (CNNs), which are widely used for its high-level representation, but rarely applied for AGB estimation. Four experiments were carried out to compare the performance of CNNs and other state-of-art Machine Learning (ML) algorithms: (1) performance of CNN using bands, (2) performance of Random Forest (RF), support vector regression (SVR), artificial neural network (ANN) on bands, and vegetation indices (VIs). (3) Performance of RF, SVR, and ANN on gray-level co-occurrence matrices (GLCM), and exploratory spatial data analysis (ESDA), and (4) performance of RF, SVR, and ANN based on all combined data and ESDA+VIs. CNNs reached satisfactory results (with R2 = 0.943) even with limited input variables (i.e., only bands). In comparison, RF and SVR with elaborately designed data obtained slightly better accuracy than CNN. For examples, RF based on GLCM textures reached an R2 of 0.979 and RF based on all combined data reached a close R2 of 0.974. However, the results of ANN were much worse (with the best R2 of 0.885).
+KW  - deep learning (DL)
+KW  - machine learning (ML)
+KW  - above ground biomass (AGB)
+KW  - very high-resolution imagery
+KW  - textures
+DO  - 10.3390/rs12060958
+TY  - EJOU
+AU  - Pashaei, Mohammad
+AU  - Kamangir, Hamid
+AU  - Starek, Michael J.
+AU  - Tissot, Philippe
+TI  - Review and Evaluation of Deep Learning Architectures for Efficient Land Cover Mapping with UAS Hyper-Spatial Imagery: A Case Study Over a Wetland
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 6
+SN  - 2072-4292
+
+AB  - Deep learning has already been proved as a powerful state-of-the-art technique for many image understanding tasks in computer vision and other applications including remote sensing (RS) image analysis. Unmanned aircraft systems (UASs) offer a viable and economical alternative to a conventional sensor and platform for acquiring high spatial and high temporal resolution data with high operational flexibility. Coastal wetlands are among some of the most challenging and complex ecosystems for land cover prediction and mapping tasks because land cover targets often show high intra-class and low inter-class variances. In recent years, several deep convolutional neural network (CNN) architectures have been proposed for pixel-wise image labeling, commonly called semantic image segmentation. In this paper, some of the more recent deep CNN architectures proposed for semantic image segmentation are reviewed, and each model&rsquo;s training efficiency and classification performance are evaluated by training it on a limited labeled image set. Training samples are provided using the hyper-spatial resolution UAS imagery over a wetland area and the required ground truth images are prepared by manual image labeling. Experimental results demonstrate that deep CNNs have a great potential for accurate land cover prediction task using UAS hyper-spatial resolution images. Some simple deep learning architectures perform comparable or even better than complex and very deep architectures with remarkably fewer training epochs. This performance is especially valuable when limited training samples are available, which is a common case in most RS applications.
+KW  - coastal wetland
+KW  - land cover mapping
+KW  - semantic image segmentation
+KW  - machine learning
+KW  - deep learning
+KW  - convolutional neural networks
+KW  - transfer learning
+KW  - unmanned aircraft systems
+DO  - 10.3390/rs12060959
+TY  - EJOU
+AU  - Liu, Changyu
+AU  - Huang, Xiaodong
+AU  - Li, Xubing
+AU  - Liang, Tiangang
+TI  - MODIS Fractional Snow Cover Mapping Using Machine Learning Technology in a Mountainous Area
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 6
+SN  - 2072-4292
+
+AB  - To improve the poor accuracy of the MODIS (Moderate Resolution Imaging Spectroradiometer) daily fractional snow cover product over the complex terrain of the Tibetan Plateau (RMSE = 0.30), unmanned aerial vehicle and machine learning technologies are employed to map the fractional snow cover based on MODIS over this terrain. Three machine learning models, including random forest, support vector machine, and back-propagation artificial neural network models, are trained and compared in this study. The results indicate that compared with the MODIS daily fractional snow cover product, the introduction of a highly accurate snow map acquired by unmanned aerial vehicles as a reference into machine learning models can significantly improve the MODIS fractional snow cover mapping accuracy. The random forest model shows the best accuracy among the three machine learning models, with an RMSE (root-mean-square error) of 0.23, especially over forestland and shrubland, with RMSEs of 0.13 and 0.18, respectively. Although the accuracy of the support vector machine and back-propagation artificial neural network models are worse over forestland and shrubland, their average errors are still better than that of MOD10A1. Different fractional snow cover gradients also affect the accuracy of the machine learning algorithms. Nevertheless, the random forest model remains stable in different fractional snow cover gradients and is, therefore, the best machine learning algorithm for MODIS fractional snow cover mapping in Tibetan Plateau areas with complex terrain and severely fragmented snow cover.
+KW  - MODIS
+KW  - fractinal snow cover
+KW  - UAV
+KW  - Tibetan Plateau
+DO  - 10.3390/rs12060962
+TY  - EJOU
+AU  - Bosman, Lisa B.
+AU  - Leon-Salas, Walter D.
+AU  - Hutzel, William
+AU  - Soto, Esteban A.
+TI  - PV System Predictive Maintenance: Challenges, Current Approaches, and Opportunities
+T2  - Energies
+
+PY  - 2020
+VL  - 13
+IS  - 6
+SN  - 1996-1073
+
+AB  - Within the United States solar energy industry, there is a general motto of &ldquo;set it and forget it&rdquo; with solar energy. This notion is derived from much of the research and reliability studies around the photovoltaic (PV) panels themselves, not necessarily the PV system as a whole (including the inverter and other components). This implies that maintenance and regular monitoring is not needed. Yet many things can go wrong to cause the actual performance to deviate from the expected performance. If failures and/or unanticipated degradation issues go undetected, they will lead to reduced energy generation (and associated electricity credits) and/or potential loss of component warranty because of manufacturer turnover. Given the size of the problem and gaps with current solutions, the authors propose that PV system owners need an unbiased third-party off-the-shelf system-level predictive maintenance tool to optimize return-on-investment and minimize time to warranty claim in PV installations. This paper reviews the literature highlighting challenges, current approaches, and opportunities for PV predictive maintenance. The paper concludes with a call to action for establishing a collaborative agenda toward prioritizing PV predictive maintenance.
+KW  - solar energy
+KW  - system-level
+KW  - degradation
+KW  - ROI
+KW  - quality assurance
+KW  - responsive
+KW  - third party evaluation
+KW  - net-metering
+KW  - grid-tied
+KW  - optimization
+DO  - 10.3390/en13061398
+TY  - EJOU
+AU  - Kuffer, Monika
+AU  - Thomson, Dana R.
+AU  - Boo, Gianluca
+AU  - Mahabir, Ron
+AU  - Grippa, Taïs
+AU  - Vanhuysse, Sabine
+AU  - Engstrom, Ryan
+AU  - Ndugwa, Robert
+AU  - Makau, Jack
+AU  - Darin, Edith
+AU  - de Albuquerque, João P.
+AU  - Kabaria, Caroline
+TI  - The Role of Earth Observation in an Integrated Deprived Area Mapping “System” for Low-to-Middle Income Countries
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 6
+SN  - 2072-4292
+
+AB  - Urbanization in the global South has been accompanied by the proliferation of vast informal and marginalized urban areas that lack access to essential services and infrastructure. UN-Habitat estimates that close to a billion people currently live in these deprived and informal urban settlements, generally grouped under the term of urban slums. Two major knowledge gaps undermine the efforts to monitor progress towards the corresponding sustainable development goal (i.e., SDG 11&mdash;Sustainable Cities and Communities). First, the data available for cities worldwide is patchy and insufficient to differentiate between the diversity of urban areas with respect to their access to essential services and their specific infrastructure needs. Second, existing approaches used to map deprived areas (i.e., aggregated household data, Earth observation (EO), and community-driven data collection) are mostly siloed, and, individually, they often lack transferability and scalability and fail to include the opinions of different interest groups. In particular, EO-based-deprived area mapping approaches are mostly top-down, with very little attention given to ground information and interaction with urban communities and stakeholders. Existing top-down methods should be complemented with bottom-up approaches to produce routinely updated, accurate, and timely deprived area maps. In this review, we first assess the strengths and limitations of existing deprived area mapping methods. We then propose an Integrated Deprived Area Mapping System (IDeAMapS) framework that leverages the strengths of EO- and community-based approaches. The proposed framework offers a way forward to map deprived areas globally, routinely, and with maximum accuracy to support SDG 11 monitoring and the needs of different interest groups.
+KW  - deprived areas
+KW  - slums
+KW  - informal settlement
+KW  - machine learning
+KW  - urban remote sensing
+DO  - 10.3390/rs12060982
+TY  - EJOU
+AU  - Gierz, Łukasz
+AU  - Przybył, Krzysztof
+AU  - Koszela, Krzysztof
+AU  - Markowski, Piotr
+TI  - The Effectiveness of the Application of a Chemical Agent (Dressing) to Seed Potatoes by Means of an Innovative Valve Enabling Intermittent Flow of a Liquid
+T2  - Agriculture
+
+PY  - 2020
+VL  - 10
+IS  - 3
+SN  - 2077-0472
+
+AB  - The protection of potatoes from pests and diseases, especially at an early stage of their development, is an indispensable element of cultivation. Pesticides are most commonly used for protection, but their high doses may adversely affect the natural environment, including soil and water. This study compares the losses of a chemical agent emitted during the dressing of seed potatoes by means of an innovative valve enabling intermittent outflow of the liquid and by means of a standard valve with a continuous outflow. The research proved that the intermittent outflow of the working liquid decreased the amount of the chemical agent emitted into the environment ten times. The article also describes the site at which the innovative valve was tested and compares the results of laboratory tests for three distances of the sprayer from the potato fall path (50, 100, 150 mm) and four different pressures of the working liquid (1&ndash;4 kPa). The research showed that the amount of losses, i.e., emissions of the chemical agent into the environment from the innovative valve (intermittent stream of the working liquid) depended on the difference in the air and liquid pressure. The solution is environmentally friendly. The results showed that the distance between the sprayer valve and the seed potato falling path had minimal influence on the amount of the agent left on the surface of seed potatoes when a continuous stream was applied, but it had considerable influence when an intermittent stream was applied. The distance had negative effect on the ratio of retention of the applied liquid at pressures of 100 and 200 kPa, but it had positive effect at pressures of 300 and 400 kPa (at an intermittent flow). When a continuous stream was applied and the distance between the spray valve and the seed potato falling path increased from 100 to 150 mm, it had positive effect on the retention coefficient for all the four pressures tested (100, 200, 300, 400 kPa).
+KW  - potato
+KW  - intermittent stream of liquid
+KW  - innovative valve
+KW  - emission of chemical agent
+KW  - weight method
+DO  - 10.3390/agriculture10030085
+TY  - EJOU
+AU  - Itakura, Kenta
+AU  - Hosoi, Fumiki
+TI  - Automatic Tree Detection from Three-Dimensional Images Reconstructed from 360° Spherical Camera Using YOLO v2
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 6
+SN  - 2072-4292
+
+AB  - It is important to grasp the number and location of trees, and measure tree structure attributes, such as tree trunk diameter and height. The accurate measurement of these parameters will lead to efficient forest resource utilization, maintenance of trees in urban cities, and feasible afforestation planning in the future. Recently, light detection and ranging (LiDAR) has been receiving considerable attention, compared with conventional manual measurement techniques. However, it is difficult to use LiDAR for widespread applications, mainly because of the costs. We propose a method for tree measurement using 360&deg; spherical cameras, which takes omnidirectional images. For the structural measurement, the three-dimensional (3D) images were reconstructed using a photogrammetric approach called structure from motion. Moreover, an automatic tree detection method from the 3D images was presented. First, the trees included in the 360&deg; spherical images were detected using YOLO v2. Then, these trees were detected with the tree information obtained from the 3D images reconstructed using structure from motion algorithm. As a result, the trunk diameter and height could be accurately estimated from the 3D images. The tree detection model had an F-measure value of 0.94. This method could automatically estimate some of the structural parameters of trees and contribute to more efficient tree measurement.
+KW  - automatic detection
+KW  - deep learning
+KW  - machine learning
+KW  - spherical camera
+KW  - structure from motion
+KW  - three-dimensional (3D)
+KW  - tree trunk diameter
+KW  - tree height
+KW  - YOLO
+KW  - 360-degree camera
+DO  - 10.3390/rs12060988
+TY  - EJOU
+AU  - Deng, Dan
+AU  - Li, Xingwang
+AU  - Zhao, Ming
+AU  - Rabie, Khaled M.
+AU  - Kharel, Rupak
+TI  - Deep Learning-Based Secure MIMO Communications with Imperfect CSI for Heterogeneous Networks
+T2  - Sensors
+
+PY  - 2020
+VL  - 20
+IS  - 6
+SN  - 1424-8220
+
+AB  - Perfect channel state information (CSI) is required in most of the classical physical-layer security techniques, while it is difficult to obtain the ideal CSI due to the time-varying wireless fading channel. Although imperfect CSI has a great impact on the security of MIMO communications, deep learning is becoming a promising solution to handle the negative effect of imperfect CSI. In this work, we propose two types of deep learning-based secure MIMO detectors for heterogeneous networks, where the macro base station (BS) chooses the null-space eigenvectors to prevent information leakage to the femto BS. Thus, the bit error rate of the associated user is adopted as the metric to evaluate the system performance. With the help of deep convolutional neural networks (CNNs), the macro BS obtains the refined version from the imperfect CSI. Simulation results are provided to validate the proposed algorithms. The impacts of system parameters, such as the correlation factor of imperfect CSI, the normalized doppler frequency, the number of antennas is investigated in different setup scenarios. The results show that considerable performance gains can be obtained from the deep learning-based detectors compared with the classical maximum likelihood algorithm.
+KW  - physical-layer security
+KW  - deep learning
+KW  - imperfect CSI
+KW  - heterogeneous networks
+KW  - channel estimation
+DO  - 10.3390/s20061730
+TY  - EJOU
+AU  - Tomaszewski, Michał
+AU  - Michalski, Paweł
+AU  - Osuchowski, Jakub
+TI  - Evaluation of Power Insulator Detection Efficiency with the Use of Limited Training Dataset
+T2  - Applied Sciences
+
+PY  - 2020
+VL  - 10
+IS  - 6
+SN  - 2076-3417
+
+AB  - This article presents an analysis of the effectiveness of object detection in digital images with the application of a limited quantity of input. The possibility of using a limited set of learning data was achieved by developing a detailed scenario of the task, which strictly defined the conditions of detector operation in the considered case of a convolutional neural network. The described solution utilizes known architectures of deep neural networks in the process of learning and object detection. The article presents comparisons of results from detecting the most popular deep neural networks while maintaining a limited training set composed of a specific number of selected images from diagnostic video. The analyzed input material was recorded during an inspection flight conducted along high-voltage lines. The object detector was built for a power insulator. The main contribution of the presented papier is the evidence that a limited training set (in our case, just 60 training frames) could be used for object detection, assuming an outdoor scenario with low variability of environmental conditions. The decision of which network will generate the best result for such a limited training set is not a trivial task. Conducted research suggests that the deep neural networks will achieve different levels of effectiveness depending on the amount of training data. The most beneficial results were obtained for two convolutional neural networks: the faster region-convolutional neural network (faster R-CNN) and the region-based fully convolutional network (R-FCN). Faster R-CNN reached the highest AP (average precision) at a level of 0.8 for 60 frames. The R-FCN model gained a worse AP result; however, it can be noted that the relationship between the number of input samples and the obtained results has a significantly lower influence than in the case of other CNN models, which, in the authors&rsquo; assessment, is a desired feature in the case of a limited training set.
+KW  - convolutional neural network
+KW  - deep neural network
+KW  - insulator detection
+KW  - efficiency evaluation
+KW  - power system maintenance
+DO  - 10.3390/app10062104
+TY  - EJOU
+AU  - Tmušić, Goran
+AU  - Manfreda, Salvatore
+AU  - Aasen, Helge
+AU  - James, Mike R.
+AU  - Gonçalves, Gil
+AU  - Ben-Dor, Eyal
+AU  - Brook, Anna
+AU  - Polinova, Maria
+AU  - Arranz, Jose J.
+AU  - Mészáros, János
+AU  - Zhuang, Ruodan
+AU  - Johansen, Kasper
+AU  - Malbeteau, Yoann
+AU  - de Lima, Isabel P.
+AU  - Davids, Corine
+AU  - Herban, Sorin
+AU  - McCabe, Matthew F.
+TI  - Current Practices in UAS-based Environmental Monitoring
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 6
+SN  - 2072-4292
+
+AB  - With the increasing role that unmanned aerial systems (UAS) are playing in data collection for environmental studies, two key challenges relate to harmonizing and providing standardized guidance for data collection, and also establishing protocols that are applicable across a broad range of environments and conditions. In this context, a network of scientists are cooperating within the framework of the Harmonious Project to develop and promote harmonized mapping strategies and disseminate operational guidance to ensure best practice for data collection and interpretation. The culmination of these efforts is summarized in the present manuscript. Through this synthesis study, we identify the many interdependencies of each step in the collection and processing chain, and outline approaches to formalize and ensure a successful workflow and product development. Given the number of environmental conditions, constraints, and variables that could possibly be explored from UAS platforms, it is impractical to provide protocols that can be applied universally under all scenarios. However, it is possible to collate and systematically order the fragmented knowledge on UAS collection and analysis to identify the best practices that can best ensure the streamlined and rigorous development of scientific products.
+KW  - UAS-based mapping
+KW  - environmental monitoring
+KW  - effective workflow
+KW  - guidelines
+DO  - 10.3390/rs12061001
+TY  - EJOU
+AU  - Xu, Jin
+AU  - Wang, Haixia
+AU  - Cui, Can
+AU  - Zhao, Baigang
+AU  - Li, Bo
+TI  - Oil Spill Monitoring of Shipborne Radar Image Features Using SVM and Local Adaptive Threshold
+T2  - Algorithms
+
+PY  - 2020
+VL  - 13
+IS  - 3
+SN  - 1999-4893
+
+AB  - In the case of marine accidents, monitoring marine oil spills can provide an important basis for identifying liabilities and assessing the damage. Shipborne radar can ensure large-scale, real-time monitoring, in all weather, with high-resolution. It therefore has the potential for broad applications in oil spill monitoring. Considering the original gray-scale image from the shipborne radar acquired in the case of the Dalian 7.16 oil spill accident, a complete oil spill detection method is proposed. Firstly, the co-frequency interferences and speckles in the original image are eliminated by preprocessing. Secondly, the wave information is classified using a support vector machine (SVM), and the effective wave monitoring area is generated according to the gray distribution matrix. Finally, oil spills are detected by a local adaptive threshold and displayed on an electronic chart based on geographic information system (GIS). The results show that the SVM can extract the effective wave information from the original shipborne radar image, and the local adaptive threshold method has strong applicability for oil film segmentation. This method can provide a technical basis for real-time cleaning and liability determination in oil spill accidents.
+KW  - oil spill
+KW  - SVM
+KW  - real-time monitoring
+KW  - shipborne radar
+KW  - remote sensing
+KW  - image processing
+KW  - GIS
+DO  - 10.3390/a13030069
+TY  - EJOU
+AU  - Nguyen, Truong L.
+AU  - Han, DongYeob
+TI  - Detection of Road Surface Changes from Multi-Temporal Unmanned Aerial Vehicle Images Using a Convolutional Siamese Network
+T2  - Sustainability
+
+PY  - 2020
+VL  - 12
+IS  - 6
+SN  - 2071-1050
+
+AB  - Road quality commonly decreases due to aging and deterioration of road surfaces. As the number of roads that need to be surveyed increases, general maintenance&mdash;particularly surveillance&mdash;can be quite costly if carried out using traditional methods. Therefore, using unmanned aerial vehicles (UAVs) and deep learning to detect changes via surveys is a promising strategy. This study proposes a method for detecting changes on road surfaces using pairs of UAV images captured at different times. First, a convolutional Siamese network is introduced to extract the features of an image pair and a Euclidean distance function is applied to calculate the distance between two features. Then, a contrastive loss function is used to enlarge the distance between changed feature pairs and reduce the distance between unchanged feature pairs. Finally, the initial change map is improved based on the preliminary differences between the two input images. Our experimental results confirm the effectiveness of this approach.
+KW  - change detection
+KW  - convolutional Siamese network
+KW  - unmanned aerial vehicles
+KW  - image processing
+DO  - 10.3390/su12062482
+TY  - EJOU
+AU  - Godone, Danilo
+AU  - Allasia, Paolo
+AU  - Borrelli, Luigi
+AU  - Gullà, Giovanni
+TI  - UAV and Structure from Motion Approach to Monitor the Maierato Landslide Evolution
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 6
+SN  - 2072-4292
+
+AB  - In February 2010 a large landslide affected the Maierato municipality (Calabria, Italy). The landslide, mainly caused by a period of prolonged and intense rainfalls, produced a mass displacement of about 5 million m&sup3; and several damages to farmlands, houses and infrastructures. In the aftermath several conventional monitoring actions were carried out. In the current post emergency phase, the monitoring was resumed by carrying out unmanned aerial vehicles (UAV) flights in order to describe the recent behavior of the landslide and to assess residual risk. Thanks to the potentialities of the structure from motion algorithms and the availability of post emergency reconnaissance photos and a previous 3D dataset, the three-dimensional evolution of the area was computed. Moreover, an experimental multispectral flight was carried out and its results supported the interpretation of local phenomena. The dataset allowed to quantify the elevation losses and raises in several peculiar sectors of the landslide. The obtained results confirm that the UAV monitoring and the structure from motion approach can effectively contribute to manage residual risk in the medium and long term within an integrated geotechnical monitoring network.
+KW  - GIS analysis
+KW  - large landslide
+KW  - monitoring
+KW  - residual risk
+KW  - RPAS
+KW  - salvaged datasets
+DO  - 10.3390/rs12061039
+TY  - EJOU
+AU  - Gibril, Mohamed Barakat A.
+AU  - Kalantar, Bahareh
+AU  - Al-Ruzouq, Rami
+AU  - Ueda, Naonori
+AU  - Saeidi, Vahideh
+AU  - Shanableh, Abdallah
+AU  - Mansor, Shattri
+AU  - Shafri, Helmi Z. M.
+TI  - Mapping Heterogeneous Urban Landscapes from the Fusion of Digital Surface Model and Unmanned Aerial Vehicle-Based Images Using Adaptive Multiscale Image Segmentation and Classification
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 7
+SN  - 2072-4292
+
+AB  - Considering the high-level details in an ultrahigh-spatial-resolution (UHSR) unmanned aerial vehicle (UAV) dataset, detailed mapping of heterogeneous urban landscapes is extremely challenging because of the spectral similarity between classes. In this study, adaptive hierarchical image segmentation optimization, multilevel feature selection, and multiscale (MS) supervised machine learning (ML) models were integrated to accurately generate detailed maps for heterogeneous urban areas from the fusion of the UHSR orthomosaic and digital surface model (DSM). The integrated approach commenced through a preliminary MS image segmentation parameter selection, followed by the application of three supervised ML models, namely, random forest (RF), support vector machine (SVM), and decision tree (DT). These models were implemented at the optimal MS levels to identify preliminary information, such as the optimal segmentation level(s) and relevant features, for extracting 12 land use/land cover (LULC) urban classes from the fused datasets. Using the information obtained from the first phase of the analysis, detailed MS classification was iteratively conducted to improve the classification accuracy and derive the final urban LULC maps. Two UAV-based datasets were used to develop and assess the effectiveness of the proposed framework. The hierarchical classification of the pilot study area showed that the RF was superior with an overall accuracy (OA) of 94.40% and a kappa coefficient (K) of 0.938, followed by SVM (OA = 92.50% and K = 0.917) and DT (OA = 91.60% and K = 0.908). The classification results of the second dataset revealed that SVM was superior with an OA of 94.45% and K of 0.938, followed by RF (OA = 92.46% and K = 0.916) and DT (OA = 90.46% and K = 0.893). The proposed framework exhibited an excellent potential for the detailed mapping of heterogeneous urban landscapes from the fusion of UHSR orthophoto and DSM images using various ML models.
+KW  - unmanned aerial vehicle
+KW  - urban LULC
+KW  - GEOBIA
+KW  - multiscale classification
+DO  - 10.3390/rs12071081
+TY  - EJOU
+AU  - Zhang, Weixing
+AU  - Liljedahl, Anna K.
+AU  - Kanevskiy, Mikhail
+AU  - Epstein, Howard E.
+AU  - Jones, Benjamin M.
+AU  - Jorgenson, M. T.
+AU  - Kent, Kelcy
+TI  - Transferability of the Deep Learning Mask R-CNN Model for Automated Mapping of Ice-Wedge Polygons in High-Resolution Satellite and UAV Images
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 7
+SN  - 2072-4292
+
+AB  - State-of-the-art deep learning technology has been successfully applied to relatively small selected areas of very high spatial resolution (0.15 and 0.25 m) optical aerial imagery acquired by a fixed-wing aircraft to automatically characterize ice-wedge polygons (IWPs) in the Arctic tundra. However, any mapping of IWPs at regional to continental scales requires images acquired on different sensor platforms (particularly satellite) and a refined understanding of the performance stability of the method across sensor platforms through reliable evaluation assessments. In this study, we examined the transferability of a deep learning Mask Region-Based Convolutional Neural Network (R-CNN) model for mapping IWPs in satellite remote sensing imagery (~0.5 m) covering 272 km2 and unmanned aerial vehicle (UAV) (0.02 m) imagery covering 0.32 km2. Multi-spectral images were obtained from the WorldView-2 satellite sensor and pan-sharpened to ~0.5 m, and a 20 mp CMOS sensor camera onboard a UAV, respectively. The training dataset included 25,489 and 6022 manually delineated IWPs from satellite and fixed-wing aircraft aerial imagery near the Arctic Coastal Plain, northern Alaska. Quantitative assessments showed that individual IWPs were correctly detected at up to 72% and 70%, and delineated at up to 73% and 68% F1 score accuracy levels for satellite and UAV images, respectively. Expert-based qualitative assessments showed that IWPs were correctly detected at good (40&ndash;60%) and excellent (80&ndash;100%) accuracy levels for satellite and UAV images, respectively, and delineated at excellent (80&ndash;100%) level for both images. We found that (1) regardless of spatial resolution and spectral bands, the deep learning Mask R-CNN model effectively mapped IWPs in both remote sensing satellite and UAV images; (2) the model achieved a better accuracy in detection with finer image resolution, such as UAV imagery, yet a better accuracy in delineation with coarser image resolution, such as satellite imagery; (3) increasing the number of training data with different resolutions between the training and actual application imagery does not necessarily result in better performance of the Mask R-CNN in IWPs mapping; (4) and overall, the model underestimates the total number of IWPs particularly in terms of disjoint/incomplete IWPs.
+KW  - ice-wedge polygons
+KW  - Arctic
+KW  - deep learning
+KW  - Mask R-CNN
+KW  - WorldView-2
+KW  - UAV
+DO  - 10.3390/rs12071085
+TY  - EJOU
+AU  - Bao, Hanqing
+AU  - Ming, Dongping
+AU  - Guo, Ya
+AU  - Zhang, Kui
+AU  - Zhou, Keqi
+AU  - Du, Shigao
+TI  - DFCNN-Based Semantic Recognition of Urban Functional Zones by Integrating Remote Sensing Data and POI Data
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 7
+SN  - 2072-4292
+
+AB  - The urban functional zone, as a special fundamental unit of the city, helps to understand the complex interaction between human space activities and environmental changes. Based on the recognition of physical and social semantics of buildings, combining remote sensing data and social sensing data is an effective way to quickly and accurately comprehend urban functional zone patterns. From the object level, this paper proposes a novel object-wise recognition strategy based on very high spatial resolution images (VHSRI) and social sensing data. First, buildings are extracted according to the physical semantics of objects; second, remote sensing and point of interest (POI) data are combined to comprehend the spatial distribution and functional semantics in the social function context; finally, urban functional zones are recognized and determined by building with physical and social functional semantics. When it comes to building geometrical information extraction, this paper, given the importance of building boundary information, introduces the deeper edge feature map (DEFM) into the segmentation and classification, and improves the result of building boundary recognition. Given the difficulty in understanding deeper semantics and spatial information and the limitation of traditional convolutional neural network (CNN) models in feature extraction, we propose the Deeper-Feature Convolutional Neural Network (DFCNN), which is able to extract more and deeper features for building semantic recognition. Experimental results conducted on a Google Earth image of Shenzhen City show that the proposed method and model are able to effectively, quickly, and accurately recognize urban functional zones by combining building physical semantics and social functional semantics, and are able to ensure the accuracy of urban functional zone recognition.
+KW  - urban functional zones
+KW  - semantic recognition
+KW  - stratified scale estimation
+KW  - deeper-feature CNN (DFCNN)
+KW  - POIs
+DO  - 10.3390/rs12071088
+TY  - EJOU
+AU  - Song, Ahram
+AU  - Kim, Yongil
+TI  - Transfer Change Rules from Recurrent Fully Convolutional Networks for Hyperspectral Unmanned Aerial Vehicle Images without Ground Truth Data
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 7
+SN  - 2072-4292
+
+AB  - Change detection (CD) networks based on supervised learning have been used in diverse CD tasks. However, such supervised CD networks require a large amount of data and only use information from current images. In addition, it is time consuming to manually acquire the ground truth data for newly obtained images. Here, we proposed a novel method for CD in case of a lack of training data in an area near by another one with the available ground truth data. The proposed method automatically entails generating training data and fine-tuning the CD network. To detect changes in target images without ground truth data, the difference images were generated using spectral similarity measure, and the training data were selected via fuzzy c-means clustering. Recurrent fully convolutional networks with multiscale three-dimensional filters were used to extract objects of various sizes from unmanned aerial vehicle (UAV) images. The CD network was pre-trained on labeled source domain data; then, the network was fine-tuned on target images using generated training data. Two further CD networks were trained with a combined weighted loss function. The training data in the target domain were iteratively updated using he prediction map of the CD network. Experiments on two hyperspectral UAV datasets confirmed that the proposed method is capable of transferring change rules and improving CD results based on training data extracted in an unsupervised way.
+KW  - change detection
+KW  - hyperspectral unmanned aerial vehicle
+KW  - spectral similarity measures
+DO  - 10.3390/rs12071099
+TY  - EJOU
+AU  - Papacharalampopoulos, Alexios
+AU  - Giannoulis, Christos
+AU  - Stavropoulos, Panos
+AU  - Mourtzis, Dimitris
+TI  - A Digital Twin for Automated Root-Cause Search of Production Alarms Based on KPIs Aggregated from IoT
+T2  - Applied Sciences
+
+PY  - 2020
+VL  - 10
+IS  - 7
+SN  - 2076-3417
+
+AB  - A dashboard application is proposed and developed to act as a Digital Twin that would indicate the Measured Value to be held accountable for any future failures. The current study describes a method for the exploitation of historical data that are related to production performance and aggregated from IoT, to eliciting the future behavior of the production, while indicating the measured values that are responsible for negative production performance, without training. The dashboard is implemented in the Java programming language, while information is stored into a Database that is aggregated by an Online Analytical Processing (OLAP) server. This achieves easy Key Performance Indicators (KPIs) visualization through the dashboard. Finally, indicative cases of a simulated transfer line are presented and numerical examples are given for validation and demonstration purposes. The need for human intervention is pointed out.
+KW  - digital twin
+KW  - decision support system
+KW  - factor analysis
+KW  - KPI
+KW  - quantitative analysis
+KW  - root-cause analysis
+DO  - 10.3390/app10072377
+TY  - EJOU
+AU  - Yuzugullu, Onur
+AU  - Lorenz, Frank
+AU  - Fröhlich, Peter
+AU  - Liebisch, Frank
+TI  - Understanding Fields by Remote Sensing: Soil Zoning and Property Mapping
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 7
+SN  - 2072-4292
+
+AB  - Precision agriculture aims to optimize field management to increase agronomic yield, reduce environmental impact, and potentially foster soil carbon sequestration. In 2015, the Copernicus mission, with Sentinel-1 and -2, opened a new era by providing freely available high spatial and temporal resolution satellite data. Since then, many studies have been conducted to understand, monitor and improve agricultural systems. This paper presents results from the SolumScire project, focusing on the prediction of the spatial distribution of soil zones and topsoil properties, such as pH, soil organic matter (SOM) and clay content in agricultural fields through random forest algorithms. For this purpose, samples from 120 fields were investigated. The zoning and soil property prediction has an accuracy greater than 90%. This is supported by a high agreement of the derived zones with farmer&rsquo;s observations. The trained models revealed a prediction accuracy of 94%, 89% and 96% for pH, SOM and clay content, respectively. The obtained models for soil properties can support precision field management, the improvement of soil sampling and fertilization strategies, and eventually the management of soil properties such as SOM.
+KW  - soil property prediction
+KW  - pH
+KW  - soil organic matter
+KW  - soil clay content
+KW  - precision agriculture
+KW  - Copernicus mission
+KW  - Sentinel
+KW  - multi-spectral imagery
+KW  - synthetic aperture radar imagery
+KW  - machine learning
+KW  - random forest
+DO  - 10.3390/rs12071116
+TY  - EJOU
+AU  - Farhood, Helia
+AU  - Perry, Stuart
+AU  - Cheng, Eva
+AU  - Kim, Juno
+TI  - Enhanced 3D Point Cloud from a Light Field Image
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 7
+SN  - 2072-4292
+
+AB  - The importance of three-dimensional (3D) point cloud technologies in the field of agriculture environmental research has increased in recent years. Obtaining dense and accurate 3D reconstructions of plants and urban areas provide useful information for remote sensing. In this paper, we propose a novel strategy for the enhancement of 3D point clouds from a single 4D light field (LF) image. Using a light field camera in this way creates an easy way for obtaining 3D point clouds from one snapshot and enabling diversity in monitoring and modelling applications for remote sensing. Considering an LF image and associated depth map as an input, we first apply histogram equalization and histogram stretching to enhance the separation between depth planes. We then apply multi-modal edge detection by using feature matching and fuzzy logic from the central sub-aperture LF image and the depth map. These two steps of depth map enhancement are significant parts of our novelty for this work. After combing the two previous steps and transforming the point&ndash;plane correspondence, we can obtain the 3D point cloud. We tested our method with synthetic and real world image databases. To verify the accuracy of our method, we compared our results with two different state-of-the-art algorithms. The results showed that our method can reliably mitigate noise and had the highest level of detail compared to other existing methods.
+KW  - 3D point cloud
+KW  - light field camera
+KW  - 3D reconstruction
+KW  - 3D modelling
+KW  - three-dimensional data
+KW  - enhanced depth map
+DO  - 10.3390/rs12071125
+TY  - EJOU
+AU  - Lee, Seung H.
+TI  - Optimization of Cold Metal Transfer-Based Wire Arc Additive Manufacturing Processes Using Gaussian Process Regression
+T2  - Metals
+
+PY  - 2020
+VL  - 10
+IS  - 4
+SN  - 2075-4701
+
+AB  - Wire and arc additive manufacturing (WAAM) is among the most promising additive manufacturing techniques for metals because it yields high productivity at low raw material costs. However, additional post-processing is required to remove redundant surface material from components manufactured by the WAAM process, and thus the productivity decreases. To increase productivity, multi-variable process parameters need to be optimized, including thermo-mechanical effects caused by high deposition rates. When the process is modeled, deposit shape and productivity are challenging to quantify due to uncertainty in multiple variables of the complicated WAAM process. Therefore, we modeled the WAAM process parameters, including uncertainties, using a Gaussian process regression (GPR) method, thus allowing us to develop a WAAM optimization model to improve both productivity and the quality of the deposit shape. The accuracy of the optimized output was verified through a close agreement with experimental values. The optimized deposited material had a wide effective area ratio, small height differences, and near 90&deg; deposition angle, highlighting the usefulness of the GPR model approach to deposit nearly ideal material shapes.
+KW  - wire arc additive manufacturing (WAAM)
+KW  - buy-to-fly ratio (BTF)
+KW  - cold metal transfer (CMT)
+KW  - Gaussian process regression (GPR)
+KW  - parameter optimization
+DO  - 10.3390/met10040461
+TY  - EJOU
+AU  - Kislov, Dmitry E.
+AU  - Korznikov, Kirill A.
+TI  - Automatic Windthrow Detection Using Very-High-Resolution Satellite Imagery and Deep Learning
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 7
+SN  - 2072-4292
+
+AB  - Wind disturbances are significant phenomena in forest spatial structure and succession dynamics. They cause changes in biodiversity, impact on forest ecosystems at different spatial scales, and have a strong influence on economics and human beings. The reliable recognition and mapping of windthrow areas are of high importance from the perspective of forest management and nature conservation. Recent research in artificial intelligence and computer vision has demonstrated the incredible potential of neural networks in addressing image classification problems. The most efficient algorithms are based on artificial neural networks of nested and complex architecture (e.g., convolutional neural networks (CNNs)), which are usually referred to by a common term&mdash;deep learning. Deep learning provides powerful algorithms for the precise segmentation of remote sensing data. We developed an algorithm based on a U-Net-like CNN, which was trained to recognize windthrow areas in Kunashir Island, Russia. We used satellite imagery of very-high spatial resolution (0.5 m/pixel) as source data. We performed a grid search among 216 parameter combinations defining different U-Net-like architectures. The best parameter combination allowed us to achieve an overall accuracy for recognition of windthrow sites of up to 94% for forested landscapes by coniferous and mixed coniferous forests. We found that the false-positive decisions of our algorithm correspond to either seashore logs, which may look similar to fallen tree trunks, or leafless forest stands. While the former can be rectified by applying a forest mask, the latter requires the usage of additional information, which is not always provided by satellite imagery.
+KW  - convolutional neural network
+KW  - deep learning
+KW  - image segmentation
+KW  - machine learning
+KW  - forest disturbance
+KW  - windthrow
+DO  - 10.3390/rs12071145
+TY  - EJOU
+AU  - Karballaeezadeh, Nader
+AU  - Zaremotekhases, Farah
+AU  - Shamshirband, Shahaboddin
+AU  - Mosavi, Amir
+AU  - Nabipour, Narjes
+AU  - Csiba, Peter
+AU  - Várkonyi-Kóczy, Annamária R.
+TI  - Intelligent Road Inspection with Advanced Machine Learning; Hybrid Prediction Models for Smart Mobility and Transportation Maintenance Systems
+T2  - Energies
+
+PY  - 2020
+VL  - 13
+IS  - 7
+SN  - 1996-1073
+
+AB  - Prediction models in mobility and transportation maintenance systems have been dramatically improved by using machine learning methods. This paper proposes novel machine learning models for an intelligent road inspection. The traditional road inspection systems based on the pavement condition index (PCI) are often associated with the critical safety, energy and cost issues. Alternatively, the proposed models utilize surface deflection data from falling weight deflectometer (FWD) tests to predict the PCI. Machine learning methods are the single multi-layer perceptron (MLP) and radial basis function (RBF) neural networks as well as their hybrids, i.e., Levenberg&ndash;Marquardt (MLP-LM), scaled conjugate gradient (MLP-SCG), imperialist competitive (RBF-ICA), and genetic algorithms (RBF-GA). Furthermore, the committee machine intelligent systems (CMIS) method was adopted to combine the results and improve the accuracy of the modeling. The results of the analysis have been verified through using four criteria of average percent relative error (APRE), average absolute percent relative error (AAPRE), root mean square error (RMSE) and standard error (SE). The CMIS model outperforms other models with the promising results of APRE = 2.3303, AAPRE = 11.6768, RMSE = 12.0056 and SD = 0.0210.
+KW  - transportation
+KW  - mobility
+KW  - prediction model
+KW  - machine learning
+KW  - pavement management
+KW  - pavement condition index
+KW  - highway
+KW  - structural health monitoring
+KW  - falling weight deflectometer
+KW  - multilayer perceptron
+KW  - radial basis function
+KW  - artificial neural network
+KW  - intelligent machine system committee
+DO  - 10.3390/en13071718

@@ -1,0 +1,639 @@
+TY  - EJOU
+AU  - Papić, Vladan
+AU  - Šolić, Petar
+AU  - Milan, Ante
+AU  - Gotovac, Sven
+AU  - Polić, Miljenko
+TI  - High-Resolution Image Transmission from UAV to Ground Station for Search and Rescue Missions Planning
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 5
+SN  - 2076-3417
+
+AB  - Search and rescue (SAR) missions comprise search for, and provision of aid to people who are in distress or imminent danger. Providing the best possible input for the planners and search teams, up-to-date information about the terrain is of essential importance because every additional hour needed to search a person decreases probability of success. Therefore, availability of aerial images and updated terrain maps as a basis for planning and monitoring SAR missions in real-time is very important for rescuers. In this paper, we present a system for transmission of high-resolution images from an unmanned aerial vehicle (UAV) to the ground station (GS). We define and calculate data rate and transmission distance requirements between the UAV and GS in a mission scenario. Five tests were designed and carried out to confirm the viability of the proposed system architecture and modules. Test results present throughput measurements for various UAV and GS distances, antenna heights and UAV antenna yaw angles. Experimental results from the series of conducted outdoor tests show that the proposed solution using two pMDDL2450 datalinks at 2.4 GHz and a directional antenna on the receiving side can be used for a real-time transmission of high-resolution images acquired with a camera on a UAV. Achieved throughput at a UAV-GS distance of 5 km was 1.4 MB/s (11.2 Mbps). The limitations and possible improvements of the proposed system as well as future work are also discussed.
+KW  - search and rescue
+KW  - high-resolution images transmission
+KW  - throughput
+KW  - data link
+DO  - 10.3390/app11052105
+TY  - EJOU
+AU  - Sadeghi-Tehran, Pouria
+AU  - Virlet, Nicolas
+AU  - Hawkesford, Malcolm J.
+TI  - A Neural Network Method for Classification of Sunlit and Shaded Components of Wheat Canopies in the Field Using High-Resolution Hyperspectral Imagery
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 5
+SN  - 2072-4292
+
+AB  - (1) Background: Information rich hyperspectral sensing, together with robust image analysis, is providing new research pathways in plant phenotyping. This combination facilitates the acquisition of spectral signatures of individual plant organs as well as providing detailed information about the physiological status of plants. Despite the advances in hyperspectral technology in field-based plant phenotyping, little is known about the characteristic spectral signatures of shaded and sunlit components in wheat canopies. Non-imaging hyperspectral sensors cannot provide spatial information; thus, they are not able to distinguish the spectral reflectance differences between canopy components. On the other hand, the rapid development of high-resolution imaging spectroscopy sensors opens new opportunities to investigate the reflectance spectra of individual plant organs which lead to the understanding of canopy biophysical and chemical characteristics. (2) Method: This study reports the development of a computer vision pipeline to analyze ground-acquired imaging spectrometry with high spatial and spectral resolutions for plant phenotyping. The work focuses on the critical steps in the image analysis pipeline from pre-processing to the classification of hyperspectral images. In this paper, two convolutional neural networks (CNN) are employed to automatically map wheat canopy components in shaded and sunlit regions and to determine their specific spectral signatures. The first method uses pixel vectors of the full spectral features as inputs to the CNN model and the second method integrates the dimension reduction technique known as linear discriminate analysis (LDA) along with the CNN to increase the feature discrimination and improves computational efficiency. (3) Results: The proposed technique alleviates the limitations and lack of separability inherent in existing pre-defined hyperspectral classification methods. It optimizes the use of hyperspectral imaging and ensures that the data provide information about the spectral characteristics of the targeted plant organs, rather than the background. We demonstrated that high-resolution hyperspectral imagery along with the proposed CNN model can be powerful tools for characterizing sunlit and shaded components of wheat canopies in the field. The presented method will provide significant advances in the determination and relevance of spectral properties of shaded and sunlit canopy components under natural light conditions.
+KW  - hyperspectral imaging
+KW  - phenotyping
+KW  - hyperspectral image classification (HSI)
+KW  - wheat canopies
+KW  - segmentation
+KW  - near infrared
+DO  - 10.3390/rs13050898
+TY  - EJOU
+AU  - Tai, Kuan-Chen
+AU  - Tang, Chih-Wei
+TI  - Siamese Networks-Based People Tracking Using Template Update for 360-Degree Videos Using EAC Format
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 5
+SN  - 1424-8220
+
+AB  - Rich information is provided by 360-degree videos. However, non-uniform geometric deformation caused by sphere-to-plane projection significantly decreases tracking accuracy of existing trackers, and the huge amount of data makes it difficult to achieve real-time tracking. Thus, this paper proposes a Siamese networks-based people tracker using template update for 360-degree equi-angular cubemap (EAC) format videos. Face stitching overcomes the problem of content discontinuity of the EAC format and avoids raising new geometric deformation in stitched images. Fully convolutional Siamese networks enable tracking at high speed. Mostly important, to be robust against combination of non-uniform geometric deformation of the EAC format and partial occlusions caused by zero padding in stitched images, this paper proposes a novel Bayes classifier-based timing detector of template update by referring to the linear discriminant feature and statistics of a score map generated by Siamese networks. Experimental results show that the proposed scheme significantly improves tracking accuracy of the fully convolutional Siamese networks SiamFC on the EAC format with operation beyond the frame acquisition rate. Moreover, the proposed score map-based timing detector of template update outperforms state-of-the-art score map-based timing detectors.
+KW  - people tracking
+KW  - 360-degree videos
+KW  - equi-angular cubemap (EAC)
+KW  - siamese networks
+KW  - timing detector of template update
+KW  - machine learning
+KW  - dimension reduction
+DO  - 10.3390/s21051682
+TY  - EJOU
+AU  - Munaye, Yirga Y.
+AU  - Juang, Rong-Terng
+AU  - Lin, Hsin-Piao
+AU  - Tarekegn, Getaneh B.
+AU  - Lin, Ding-Bing
+TI  - Deep Reinforcement Learning Based Resource Management in UAV-Assisted IoT Networks
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 5
+SN  - 2076-3417
+
+AB  - The resource management in wireless networks with massive Internet of Things (IoT) users is one of the most crucial issues for the advancement of fifth-generation networks. The main objective of this study is to optimize the usage of resources for IoT networks. Firstly, the unmanned aerial vehicle is considered to be a base station for air-to-ground communications. Secondly, according to the distribution and fluctuation of signals; the IoT devices are categorized into urban and suburban clusters. This clustering helps to manage the environment easily. Thirdly, real data collection and preprocessing tasks are carried out. Fourthly, the deep reinforcement learning approach is proposed as a main system development scheme for resource management. Fifthly, K-means and round-robin scheduling algorithms are applied for clustering and managing the users’ resource requests, respectively. Then, the TensorFlow (python) programming tool is used to test the overall capability of the proposed method. Finally, this paper evaluates the proposed approach with related works based on different scenarios. According to the experimental findings, our proposed scheme shows promising outcomes. Moreover, on the evaluation tasks, the outcomes show rapid convergence, suitable for heterogeneous IoT networks, and low complexity.
+KW  - wireless resource management
+KW  - deep reinforcement learning
+KW  - unmanned aerial vehicles
+KW  - wireless networks
+DO  - 10.3390/app11052163
+TY  - EJOU
+AU  - Ali, Luqman
+AU  - Alnajjar, Fady
+AU  - Jassmi, Hamad A.
+AU  - Gocho, Munkhjargal
+AU  - Khan, Wasif
+AU  - Serhani, M. A.
+TI  - Performance Evaluation of Deep CNN-Based Crack Detection and Localization Techniques for Concrete Structures
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 5
+SN  - 1424-8220
+
+AB  - This paper proposes a customized convolutional neural network for crack detection in concrete structures. The proposed method is compared to four existing deep learning methods based on training data size, data heterogeneity, network complexity, and the number of epochs. The performance of the proposed convolutional neural network (CNN) model is evaluated and compared to pretrained networks, i.e., the VGG-16, VGG-19, ResNet-50, and Inception V3 models, on eight datasets of different sizes, created from two public datasets. For each model, the evaluation considered computational time, crack localization results, and classification measures, e.g., accuracy, precision, recall, and F1-score. Experimental results demonstrated that training data size and heterogeneity among data samples significantly affect model performance. All models demonstrated promising performance on a limited number of diverse training data; however, increasing the training data size and reducing diversity reduced generalization performance, and led to overfitting. The proposed customized CNN and VGG-16 models outperformed the other methods in terms of classification, localization, and computational time on a small amount of data, and the results indicate that these two models demonstrate superior crack detection and localization for concrete structures.
+KW  - automatic inspection
+KW  - convolutional neural networks
+KW  - crack detection
+KW  - deep learning
+KW  - transfer learning
+DO  - 10.3390/s21051688
+TY  - EJOU
+AU  - Nakama, Justin
+AU  - Parada, Ricky
+AU  - Matos-Carvalho, João P.
+AU  - Azevedo, Fábio
+AU  - Pedro, Dário
+AU  - Campos, Luís
+TI  - Autonomous Environment Generator for UAV-Based Simulation
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 5
+SN  - 2076-3417
+
+AB  - The increased demand for Unmanned Aerial Vehicles (UAV) has also led to higher demand for realistic and efficient UAV testing environments. The current use of simulated environments has been shown to be a relatively inexpensive, safe, and repeatable way to evaluate UAVs before real-world use. However, the use of generic environments and manually-created custom scenarios leaves more to be desired. In this paper, we propose a new testbed that utilizes machine learning algorithms to procedurally generate, scale, and place 3D models to create a realistic environment. These environments are additionally based on satellite images, thus providing users with a more robust example of real-world UAV deployment. Although certain graphical improvements could be made, this paper serves as a proof of concept for an novel autonomous and relatively-large scale environment generator. Such a testbed could allow for preliminary operational planning and testing worldwide, without the need for on-site evaluation or data collection in the future.
+KW  - UAV
+KW  - autonomous vehicles
+KW  - artificial intelligence
+KW  - machine learning
+KW  - neural network
+KW  - deep learning
+KW  - real-world testbed
+KW  - satellite images
+DO  - 10.3390/app11052185
+TY  - EJOU
+AU  - Najafi, Payam
+AU  - Feizizadeh, Bakhtiar
+AU  - Navid, Hossein
+TI  - A Comparative Approach of Fuzzy Object Based Image Analysis and Machine Learning Techniques Which Are Applied to Crop Residue Cover Mapping by Using Sentinel-2 Satellite and UAV Imagery
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 5
+SN  - 2072-4292
+
+AB  - Conservation tillage methods through leaving the crop residue cover (CRC) on the soil surface protect it from water and wind erosions. Hence, the percentage of the CRC on the soil surface is very critical for the evaluation of tillage intensity. The objective of this study was to develop a new methodology based on the semiautomated fuzzy object based image analysis (fuzzy OBIA) and compare its efficiency with two machine learning algorithms which include: support vector machine (SVM) and artificial neural network (ANN) for the evaluation of the previous CRC and tillage intensity. We also considered the spectral images from two remotely sensed platforms of the unmanned aerial vehicle (UAV) and Sentinel-2 satellite, respectively. The results indicated that fuzzy OBIA for multispectral Sentinel-2 image based on Gaussian membership function with overall accuracy and Cohen’s kappa of 0.920 and 0.874, respectively, surpassed machine learning algorithms and represented the useful results for the classification of tillage intensity. The results also indicated that overall accuracy and Cohen’s kappa for the classification of RGB images from the UAV using fuzzy OBIA method were 0.860 and 0.779, respectively. The semiautomated fuzzy OBIA clearly outperformed machine learning approaches in estimating the CRC and the classification of the tillage methods and also it has the potential to substitute or complement field techniques.
+KW  - fuzzy object based approach
+KW  - neural network
+KW  - support vector machine
+KW  - tillage intensity
+KW  - soil erosion
+DO  - 10.3390/rs13050937
+TY  - EJOU
+AU  - Xue, Yongan
+AU  - Zhao, Jinling
+AU  - Zhang, Mingmei
+TI  - A Watershed-Segmentation-Based Improved Algorithm for Extracting Cultivated Land Boundaries
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 5
+SN  - 2072-4292
+
+AB  - To accurately extract cultivated land boundaries based on high-resolution remote sensing imagery, an improved watershed segmentation algorithm was proposed herein based on a combination of pre- and post-improvement procedures. Image contrast enhancement was used as the pre-improvement, while the color distance of the Commission Internationale de l´Eclairage (CIE) color space, including the Lab and Luv, was used as the regional similarity measure for region merging as the post-improvement. Furthermore, the area relative error criterion (δA), the pixel quantity error criterion (δP), and the consistency criterion (Khat) were used for evaluating the image segmentation accuracy. The region merging in Red–Green–Blue (RGB) color space was selected to compare the proposed algorithm by extracting cultivated land boundaries. The validation experiments were performed using a subset of Chinese Gaofen-2 (GF-2) remote sensing image with a coverage area of 0.12 km2. The results showed the following: (1) The contrast-enhanced image exhibited an obvious gain in terms of improving the image segmentation effect and time efficiency using the improved algorithm. The time efficiency increased by 10.31%, 60.00%, and 40.28%, respectively, in the RGB, Lab, and Luv color spaces. (2) The optimal segmentation and merging scale parameters in the RGB, Lab, and Luv color spaces were C for minimum areas of 2000, 1900, and 2000, and D for a color difference of 1000, 40, and 40. (3) The algorithm improved the time efficiency of cultivated land boundary extraction in the Lab and Luv color spaces by 35.16% and 29.58%, respectively, compared to the RGB color space. The extraction accuracy was compared to the RGB color space using the δA, δP, and Khat, that were improved by 76.92%, 62.01%, and 16.83%, respectively, in the Lab color space, while they were 55.79%, 49.67%, and 13.42% in the Luv color space. (4) Through the visual comparison, time efficiency, and segmentation accuracy, the comprehensive extraction effect using the proposed algorithm was obviously better than that of RGB color-based space algorithm. The established accuracy evaluation indicators were also proven to be consistent with the visual evaluation. (5) The proposed method has a satisfying transferability by a wider test area with a coverage area of 1 km2. In addition, the proposed method, based on the image contrast enhancement, was to perform the region merging in the CIE color space according to the simulated immersion watershed segmentation results. It is a useful attempt for the watershed segmentation algorithm to extract cultivated land boundaries, which provides a reference for enhancing the watershed algorithm.
+KW  - cultivated land
+KW  - watershed segmentation algorithm
+KW  - image contrast enhancement
+KW  - region merging
+KW  - CIE color space
+KW  - Lab
+KW  - Luv
+DO  - 10.3390/rs13050939
+TY  - EJOU
+AU  - Müezzinoğlu, Taha
+AU  - Karaköse, Mehmet
+TI  - An Intelligent Human–Unmanned Aerial Vehicle Interaction Approach in Real Time Based on Machine Learning Using Wearable Gloves
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 5
+SN  - 1424-8220
+
+AB  - The interactions between humans and unmanned aerial vehicles (UAVs), whose applications are increasing in the civilian field rather than for military purposes, are a popular future research area. Human–UAV interactions are a challenging problem because UAVs move in a three-dimensional space. In this paper, we present an intelligent human–UAV interaction approach in real time based on machine learning using wearable gloves. The proposed approach offers scientific contributions such as a multi-mode command structure, machine-learning-based recognition, task scheduling algorithms, real-time usage, robust and effective use, and high accuracy rates. For this purpose, two wearable smart gloves working in real time were designed. The signal data obtained from the gloves were processed with machine-learning-based methods and classified multi-mode commands were included in the human–UAV interaction process via the interface according to the task scheduling algorithm to facilitate sequential and fast operation. The performance of the proposed approach was verified on a data set created using 25 different hand gestures from 20 different people. In a test using the proposed approach on 49,000 datapoints, process time performance of a few milliseconds was achieved with approximately 98 percent accuracy.
+KW  - human–UAV interaction
+KW  - wearable technologies
+KW  - Internet of Things (IoT)
+KW  - human–computer interaction
+KW  - smart systems
+DO  - 10.3390/s21051766
+TY  - EJOU
+AU  - Crusiol, Luís G.
+AU  - Nanni, Marcos R.
+AU  - Furlanetto, Renato H.
+AU  - Sibaldelli, Rubson N.
+AU  - Cezar, Everson
+AU  - Sun, Liang
+AU  - Foloni, José S.
+AU  - Mertz-Henning, Liliane M.
+AU  - Nepomuceno, Alexandre L.
+AU  - Neumaier, Norman
+AU  - Farias, José R.
+TI  - Yield Prediction in Soybean Crop Grown under Different Levels of Water Availability Using Reflectance Spectroscopy and Partial Least Squares Regression
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 5
+SN  - 2072-4292
+
+AB  - Soybean grain yield has regularly been impaired by drought periods, and the future climatic scenarios for soybean production might drastically impact yields worldwide. In this context, the knowledge of soybean yield is extremely important to subsidize government and corporative decisions over technical issues. This paper aimed to predict grain yield in soybean crop grown under different levels of water availability using reflectance spectroscopy and partial least square regression (PLSR). Field experiments were undertaken at Embrapa Soja (Brazilian Agricultural Research Corporation) in the 2016/2017, 2017/2018 and 2018/2019 cropping seasons. The data collected were analyzed following a split plot model in a randomized complete block design, with four blocks. The following water conditions were distributed in the field plots: irrigated (IRR), non-irrigated (NIRR) and water deficit induced at the vegetative (WDV) and reproductive stages (WDR) using rainout shelters. Soybean genotypes with different responses to water deficit were distributed in the subplots. Soil moisture and weather data were monitored daily. A total of 7216 leaf reflectance (from 400 to 2500 nm, measured by the FieldSpec 3 Jr spectroradiometer) was collected at 24 days in the three cropping seasons. The PLSR (p ≤ 0.05) was performed to predict soybean grain yield by its leaf-based reflectance spectroscopy. The results demonstrated the highest accuracy in soybean grain yield prediction at the R5 phenological stage, corresponding to the period when grains are being formed (R2 ranging from 0.731 to 0.924 and the RMSE from 334 to 403 kg ha−1—7.77 to 11.33%). Analyzing the three cropping seasons into a single PLSR model at R5 stage, R2 equal to 0.775, 0.730 and 0.688 were obtained at the calibration, cross-validation and external validation stages, with RMSE lower than 634 kg ha−1 (13.34%). The PLSR demonstrated higher accuracy in plants submitted to water deficit both at the vegetative and reproductive periods in comparison to plants under natural rainfall or irrigation.
+KW  - Glycine max (L.) Merrill
+KW  - drought stress
+KW  - soybean genotypes
+KW  - leaf-based data
+KW  - hyperspectral reflectance
+DO  - 10.3390/rs13050977
+TY  - EJOU
+AU  - Malhotra, Parushi
+AU  - Singh, Yashwant
+AU  - Anand, Pooja
+AU  - Bangotra, Deep K.
+AU  - Singh, Pradeep K.
+AU  - Hong, Wei-Chiang
+TI  - Internet of Things: Evolution, Concerns and Security Challenges
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 5
+SN  - 1424-8220
+
+AB  - The escalated growth of the Internet of Things (IoT) has started to reform and reshape our lives. The deployment of a large number of objects adhered to the internet has unlocked the vision of the smart world around us, thereby paving a road towards automation and humongous data generation and collection. This automation and continuous explosion of personal and professional information to the digital world provides a potent ground to the adversaries to perform numerous cyber-attacks, thus making security in IoT a sizeable concern. Hence, timely detection and prevention of such threats are pre-requisites to prevent serious consequences. The survey conducted provides a brief insight into the technology with prime attention towards the various attacks and anomalies and their detection based on the intelligent intrusion detection system (IDS). The comprehensive look-over presented in this paper provides an in-depth analysis and assessment of diverse machine learning and deep learning-based network intrusion detection system (NIDS). Additionally, a case study of healthcare in IoT is presented. The study depicts the architecture, security, and privacy issues and application of learning paradigms in this sector. The research assessment is finally concluded by listing the results derived from the literature. Additionally, the paper discusses numerous research challenges to allow further rectifications in the approaches to deal with unusual complications.
+KW  - Internet of Things (IoT)
+KW  - machine learning
+KW  - deep learning
+KW  - intrusion detection system
+KW  - wireless sensor network
+KW  - testbed
+DO  - 10.3390/s21051809
+TY  - EJOU
+AU  - Solis, Jorge
+AU  - Karlsson, Christoffer
+AU  - Johansson, Simon
+AU  - Richardsson, Kristoffer
+TI  - Towards the Development of an Automatic UAV-Based Indoor Environmental Monitoring System: Distributed Off-Board Control System for a Micro Aerial Vehicle
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 5
+SN  - 2076-3417
+
+AB  - This research aims to develop an automatic unmanned aerial vehicle (UAV)-based indoor environmental monitoring system for the acquisition of data at a very fine scale to detect rapid changes in environmental features of plants growing in greenhouses. Due to the complexity of the proposed research, in this paper we proposed an off-board distributed control system based on visual input for a micro aerial vehicle (MAV) able to hover, navigate, and fly to a desired target location without considerably affecting the effective flight time. Based on the experimental results, the MAV was able to land on the desired location within a radius of about 10 cm from the center point of the landing pad, with a reduction in the effective flight time of about 28%.
+KW  - micro aerial vehicles
+KW  - visual-based control
+KW  - Kalman filter
+DO  - 10.3390/app11052347
+TY  - EJOU
+AU  - Gebrehiwot, Asmamaw A.
+AU  - Hashemi-Beni, Leila
+TI  - Three-Dimensional Inundation Mapping Using UAV Image Segmentation and Digital Surface Model
+T2  - ISPRS International Journal of Geo-Information
+
+PY  - 2021
+VL  - 10
+IS  - 3
+SN  - 2220-9964
+
+AB  - Flood occurrence is increasing due to the expansion of urbanization and extreme weather like hurricanes; hence, research on methods of inundation monitoring and mapping has increased to reduce the severe impacts of flood disasters. This research studies and compares two methods for inundation depth estimation using UAV images and topographic data. The methods consist of three main stages: (1) extracting flooded areas and create 2D inundation polygons using deep learning; (2) reconstructing 3D water surface using the polygons and topographic data; and (3) deriving a water depth map using the 3D reconstructed water surface and a pre-flood DEM. The two methods are different at reconstructing the 3D water surface (stage 2). The first method uses structure from motion (SfM) for creating a point cloud of the area from overlapping UAV images, and the water polygons resulted from stage 1 is applied for water point cloud classification. While the second method reconstructs the water surface by intersecting the water polygons and a pre-flood DEM created using the pre-flood LiDAR data. We evaluate the proposed methods for inundation depth mapping over the Town of Princeville during a flooding event during Hurricane Matthew. The methods are compared and validated using the USGS gauge water level data acquired during the flood event. The RMSEs for water depth using the SfM method and integrated method based on deep learning and DEM were 0.34m and 0.26m, respectively.
+KW  - 3D inundation mapping
+KW  - remote sensing
+KW  - CNN
+KW  - SfM
+KW  - LiDAR
+KW  - GFI
+DO  - 10.3390/ijgi10030144
+TY  - EJOU
+AU  - Zhao, Wei
+AU  - Li, Tianxin
+AU  - Qi, Bozhao
+AU  - Nie, Qifan
+AU  - Runge, Troy
+TI  - Terrain Analytics for Precision Agriculture with Automated Vehicle Sensors and Data Fusion
+T2  - Sustainability
+
+PY  - 2021
+VL  - 13
+IS  - 5
+SN  - 2071-1050
+
+AB  - Precision agriculture aims to use minimal inputs to generate maximal yields by managing the plant and its environment at a discrete instead of a field level. This new farming methodology requires localized field data including topological terrain attributes, which influence irrigation, field moisture, nutrient runoff, soil compaction, and traction and stability for traversing agriculture machines. Existing research studies have used different sensors, such as distance sensors and cameras, to collect topological information, which may be constrained by energy cost, performance, price, etc. This study proposed a low-cost method to perform farmland topological analytics using sensor implementation and data processing. Inertial measurement unit sensors, which are widely used in automated vehicle study, and a camera are set up on a robot vehicle. Then experiments are conducted under indoor simulated environments that include five common topographies that would be encountered on farms, combined with validation experiments in a real-world field. A data fusion approach was developed and implemented to track robot vehicle movements, monitor the surrounding environment, and finally recognize the topography type in real time. The resulting method was able to clearly recognize topography changes. This low-cost and easy-mount method will be able to augment and calibrate existing mapping algorithms with multidimensional information. Practically, it can also achieve immediate improvement for the operation and path planning of large agricultural machines.
+KW  - inertial measurement units
+KW  - movements and monitor tracking
+KW  - gyroscope
+KW  - accelerometer
+KW  - multidimensional information
+DO  - 10.3390/su13052905
+TY  - EJOU
+AU  - Oñate-López, José
+AU  - Navarro, Loraine
+AU  - Quintero M., Christian G.
+AU  - Pardo, Mauricio
+TI  - Intelligent Exploration Approaches Based on Utility Functions Optimization for Multi-Agent Environment Applications
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 5
+SN  - 2076-3417
+
+AB  - In this work, the problem of exploring an unknown environment with a team of agents and search different targets on it is considered. The key problem to be solved in multiple agents is choosing appropriate target points for the individual agents to simultaneously explore different regions of the environment. An intelligent approach is presented to coordinate several agents using a market-based model to identify the appropriate task for each agent. It is proposed to compare the fitting of the market utility function using neural networks and optimize this function using genetic algorithms to avoid heavy computation in the Non-Polynomial (NP: nondeterministic polynomial time) path-planning problem. An indoor environment inspires the proposed approach with homogeneous physical agents, and its performance is tested in simulations. The results show that the proposed approach allocates agents effectively to the environment and enables them to carry out their mission quickly.
+KW  - exploration algorithms
+KW  - multi-agent systems
+KW  - coordination mechanism
+KW  - search-target problem
+KW  - intelligent task allocation
+DO  - 10.3390/app11052408
+TY  - EJOU
+AU  - Roberts, Ronald
+AU  - Inzerillo, Laura
+AU  - Di Mino, Gaetano
+TI  - Exploiting Data Analytics and Deep Learning Systems to Support Pavement Maintenance Decisions
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 6
+SN  - 2076-3417
+
+AB  - Road networks are critical infrastructures within any region and it is imperative to maintain their conditions for safe and effective movement of goods and services. Road Management, therefore, plays a key role to ensure consistent efficient operation. However, significant resources are required to perform necessary maintenance activities to achieve and maintain high levels of service. Pavement maintenance can typically be very expensive and decisions are needed concerning planning and prioritizing interventions. Data are key towards enabling adequate maintenance planning but in many instances, there is limited available information especially in small or under-resourced urban road authorities. This study develops a roadmap to help these authorities by using flexible data analysis and deep learning computational systems to highlight important factors within road networks, which are used to construct models that can help predict future intervention timelines. A case study in Palermo, Italy was successfully developed to demonstrate how the techniques could be applied to perform appropriate feature selection and prediction models based on limited data sources. The workflow provides a pathway towards more effective pavement maintenance management practices using techniques that can be readily adapted based on different environments. This takes another step towards automating these practices within the pavement management system.
+KW  - pavement management systems
+KW  - pavement maintenance decisions
+KW  - road asset databases
+KW  - data mining
+KW  - feature importance
+KW  - deep learning
+DO  - 10.3390/app11062458
+TY  - EJOU
+AU  - Stathopoulou, Elisavet K.
+AU  - Battisti, Roberto
+AU  - Cernea, Dan
+AU  - Remondino, Fabio
+AU  - Georgopoulos, Andreas
+TI  - Semantically Derived Geometric Constraints for MVS Reconstruction of Textureless Areas
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 6
+SN  - 2072-4292
+
+AB  - Conventional multi-view stereo (MVS) approaches based on photo-consistency measures are generally robust, yet often fail in calculating valid depth pixel estimates in low textured areas of the scene. In this study, a novel approach is proposed to tackle this challenge by leveraging semantic priors into a PatchMatch-based MVS in order to increase confidence and support depth and normal map estimation. Semantic class labels on image pixels are used to impose class-specific geometric constraints during multiview stereo, optimising the depth estimation on weakly supported, textureless areas, commonly present in urban scenarios of building facades, indoor scenes, or aerial datasets. Detecting dominant shapes, e.g., planes, with RANSAC, an adjusted cost function is introduced that combines and weighs both photometric and semantic scores propagating, thus, more accurate depth estimates. Being adaptive, it fills in apparent information gaps and smoothing local roughness in problematic regions while at the same time preserves important details. Experiments on benchmark and custom datasets demonstrate the effectiveness of the presented approach.
+KW  - multi view stereo (MVS)
+KW  - PatchMatch
+KW  - depth estimation
+KW  - dense point cloud
+KW  - 3D reconstruction
+KW  - semantic segmentation
+KW  - plane detection
+KW  - RANSAC
+DO  - 10.3390/rs13061053
+TY  - EJOU
+AU  - Nemer, Ibrahim
+AU  - Sheltami, Tarek
+AU  - Ahmad, Irfan
+AU  - Yasar, Ansar U.
+AU  - Abdeen, Mohammad A. R.
+TI  - RF-Based UAV Detection and Identification Using Hierarchical Learning Approach
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 6
+SN  - 1424-8220
+
+AB  - Unmanned Aerial Vehicles (UAVs) are widely available in the current market to be used either for recreation as a hobby or to serve specific industrial requirements, such as agriculture and construction. However, illegitimate and criminal usage of UAVs is also on the rise which introduces their effective identification and detection as a research challenge. This paper proposes a novel machine learning-based for efficient identification and detection of UAVs. Specifically, an improved UAV identification and detection approach is presented using an ensemble learning based on the hierarchical concept, along with pre-processing and feature extraction stages for the Radio Frequency (RF) data. Filtering is applied on the RF signals in the detection approach to improve the output. This approach consists of four classifiers and they are working in a hierarchical way. The sample will pass the first classifier to check the availability of the UAV, and then it will specify the type of the detected UAV using the second classifier. The last two classifiers will handle the sample that is related to Bebop and AR to specify their mode. Evaluation of the proposed approach with publicly available dataset demonstrates better efficiency compared to existing detection systems in the literature. It has the ability to investigate whether a UAV is flying within the area or not, and it can directly identify the type of UAV and then the flight mode of the detected UAV with accuracy around 99%.
+KW  - radio frequency
+KW  - unmanned aerial vehicles
+KW  - machine learning
+KW  - detection and identification
+DO  - 10.3390/s21061947
+TY  - EJOU
+AU  - Fotouhi, Azade
+AU  - Ding, Ming
+AU  - Hassan, Mahbub
+TI  - Deep Q-Learning for Two-Hop Communications of Drone Base Stations
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 6
+SN  - 1424-8220
+
+AB  - In this paper, we address the application of the flying Drone Base Stations (DBS) in order to improve the network performance. Given the high degrees of freedom of a DBS, it can change its position and adapt its trajectory according to the users movements and the target environment. A two-hop communication model, between an end-user and a macrocell through a DBS, is studied in this work. We propose Q-learning and Deep Q-learning based solutions to optimize the drone’s trajectory. Simulation results show that, by employing our proposed models, the drone can autonomously fly and adapts its mobility according to the users’ movements. Additionally, the Deep Q-learning model outperforms the Q-learning model and can be applied in more complex environments.
+KW  - drone base station
+KW  - deep Q-learning
+KW  - Q-learning
+KW  - autonomous navigation
+KW  - UAV
+DO  - 10.3390/s21061960
+TY  - EJOU
+AU  - Dainelli, Riccardo
+AU  - Toscano, Piero
+AU  - Di Gennaro, Salvatore F.
+AU  - Matese, Alessandro
+TI  - Recent Advances in Unmanned Aerial Vehicle Forest Remote Sensing—A Systematic Review. Part I: A General Framework
+T2  - Forests
+
+PY  - 2021
+VL  - 12
+IS  - 3
+SN  - 1999-4907
+
+AB  - Natural, semi-natural, and planted forests are a key asset worldwide, providing a broad range of positive externalities. For sustainable forest planning and management, remote sensing (RS) platforms are rapidly going mainstream. In a framework where scientific production is growing exponentially, a systematic analysis of unmanned aerial vehicle (UAV)-based forestry research papers is of paramount importance to understand trends, overlaps and gaps. The present review is organized into two parts (Part I and Part II). Part II inspects specific technical issues regarding the application of UAV-RS in forestry, together with the pros and cons of different UAV solutions and activities where additional effort is needed, such as the technology transfer. Part I systematically analyzes and discusses general aspects of applying UAV in natural, semi-natural and artificial forestry ecosystems in the recent peer-reviewed literature (2018–mid-2020). The specific goals are threefold: (i) create a carefully selected bibliographic dataset that other researchers can draw on for their scientific works; (ii) analyze general and recent trends in RS forest monitoring (iii) reveal gaps in the general research framework where an additional activity is needed. Through double-step filtering of research items found in the Web of Science search engine, the study gathers and analyzes a comprehensive dataset (226 articles). Papers have been categorized into six main topics, and the relevant information has been subsequently extracted. The strong points emerging from this study concern the wide range of topics in the forestry sector and in particular the retrieval of tree inventory parameters often through Digital Aerial Photogrammetry (DAP), RGB sensors, and machine learning techniques. Nevertheless, challenges still exist regarding the promotion of UAV-RS in specific parts of the world, mostly in the tropical and equatorial forests. Much additional research is required for the full exploitation of hyperspectral sensors and for planning long-term monitoring.
+KW  - UAV
+KW  - drone
+KW  - forest
+KW  - precision forestry
+KW  - remote sensing
+KW  - meta-analysis
+KW  - management
+KW  - natural woodland
+KW  - plantation forests
+DO  - 10.3390/f12030327
+TY  - EJOU
+AU  - Ma, Qian
+AU  - Han, Wenting
+AU  - Huang, Shenjin
+AU  - Dong, Shide
+AU  - Li, Guang
+AU  - Chen, Haipeng
+TI  - Distinguishing Planting Structures of Different Complexity from UAV Multispectral Images
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 6
+SN  - 1424-8220
+
+AB  - This study explores the classification potential of a multispectral classification model for farmland with planting structures of different complexity. Unmanned aerial vehicle (UAV) remote sensing technology is used to obtain multispectral images of three study areas with low-, medium-, and high-complexity planting structures, containing three, five, and eight types of crops, respectively. The feature subsets of three study areas are selected by recursive feature elimination (RFE). Object-oriented random forest (OB-RF) and object-oriented support vector machine (OB-SVM) classification models are established for the three study areas. After training the models with the feature subsets, the classification results are evaluated using a confusion matrix. The OB-RF and OB-SVM models’ classification accuracies are 97.09% and 99.13%, respectively, for the low-complexity planting structure. The equivalent values are 92.61% and 99.08% for the medium-complexity planting structure and 88.99% and 97.21% for the high-complexity planting structure. For farmland with fragmentary plots and a high-complexity planting structure, as the planting structure complexity changed from low to high, both models’ overall accuracy levels decreased. The overall accuracy of the OB-RF model decreased by 8.1%, and that of the OB-SVM model only decreased by 1.92%. OB-SVM achieves an overall classification accuracy of 97.21%, and a single-crop extraction accuracy of at least 85.65%. Therefore, UAV multispectral remote sensing can be used for classification applications in highly complex planting structures.
+KW  - UAV
+KW  - multispectral remote sensing
+KW  - farmland objects
+KW  - classification
+KW  - RF
+KW  - SVM
+DO  - 10.3390/s21061994
+TY  - EJOU
+AU  - Liu, Zhen
+AU  - Wu, Wenxiu
+AU  - Gu, Xingyu
+AU  - Li, Shuwei
+AU  - Wang, Lutai
+AU  - Zhang, Tianjie
+TI  - Application of Combining YOLO Models and 3D GPR Images in Road Detection and Maintenance
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 6
+SN  - 2072-4292
+
+AB  - Improving the detection efficiency and maintenance benefits is one of the greatest challenges in road testing and maintenance. To address this problem, this paper presents a method for combining the you only look once (YOLO) series with 3D ground-penetrating radar (GPR) images to recognize the internal defects in asphalt pavement and compares the effectiveness of traditional detection and GPR detection by evaluating the maintenance benefits. First, traditional detection is conducted to survey and summarize the surface conditions of tested roads, which are missing the internal information. Therefore, GPR detection is implemented to acquire the images of concealed defects. Then, the YOLOv5 model with the most even performance of the six selected models is applied to achieve the rapid identification of road defects. Finally, the benefits evaluation of maintenance programs based on these two detection methods is conducted from economic and environmental perspectives. The results demonstrate that the economic scores are improved and the maintenance cost is reduced by $49,398/km based on GPR detection; the energy consumption and carbon emissions are reduced by 792,106 MJ/km (16.94%) and 56,289 kg/km (16.91%), respectively, all of which indicates the effectiveness of 3D GPR in pavement detection and maintenance.
+KW  - ground-penetrating radar
+KW  - road defect detection
+KW  - YOLOv5 models
+KW  - road defects image recognition
+KW  - road maintenance benefit
+KW  - road maintenance effectiveness
+DO  - 10.3390/rs13061081
+TY  - EJOU
+AU  - Peng, Xingshuo
+AU  - Han, Wenting
+AU  - Ao, Jianyi
+AU  - Wang, Yi
+TI  - Assimilation of LAI Derived from UAV Multispectral Data into the SAFY Model to Estimate Maize Yield
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 6
+SN  - 2072-4292
+
+AB  - In this study, we develop a method to estimate corn yield based on remote sensing data and ground monitoring data under different water treatments. Spatially explicit information on crop yields is essential for farmers and agricultural agencies to make well-informed decisions. One approach to estimate crop yield with remote sensing is data assimilation, which integrates sequential observations of canopy development from remote sensing into model simulations of crop growth processes. We found that leaf area index (LAI) inversion based on unmanned aerial vehicle (UAV) vegetation index has a high accuracy, with R2 and root mean square error (RMSE) values of 0.877 and 0.609, respectively. Maize yield estimation based on UAV remote sensing data and simple algorithm for yield (SAFY) crop model data assimilation has different yield estimation accuracy under different water treatments. This method can be used to estimate corn yield, where R2 is 0.855 and RMSE is 692.8kg/ha. Generally, the higher the water stress, the lower the estimation accuracy. Furthermore, we perform the yield estimate mapping at 2 m spatial resolution, which has a higher spatial resolution and accuracy than satellite remote sensing. The great potential of incorporating UAV observations with crop data to monitor crop yield, and improve agricultural management is therefore indicated.
+KW  - UAV
+KW  - leaf area index
+KW  - yield estimation
+KW  - yield
+KW  - SAFY model
+KW  - EnKF
+DO  - 10.3390/rs13061094
+TY  - EJOU
+AU  - Liang, Zhongwei
+AU  - Liu, Xiaochu
+AU  - Zou, Tao
+AU  - Xiao, Jinrui
+TI  - Adaptive Prediction of Water Droplet Infiltration Effectiveness of Sprinkler Irrigation Using Regularized Sparse Autoencoder–Adaptive Network-Based Fuzzy Inference System (RSAE–ANFIS)
+T2  - Water
+
+PY  - 2021
+VL  - 13
+IS  - 6
+SN  - 2073-4441
+
+AB  - As the high productive efficiency of sprinkler irrigation is largely based on balanced soil moisture distribution, it is essential to study the exact effectiveness of water droplet infiltration, which provides a theoretical basis for rationally scheduling the circulation efficiency of groundwater in agricultural irrigation performance. This research carried out adaptive prediction of the droplet infiltration effectiveness of sprinkler irrigation by using a novel approach of a regularized sparse autoencoder–adaptive network-based fuzzy inference system (RSAE–ANFIS), for the purpose of quantifying actual water droplet infiltration and effectiveness results of precision irrigation in various environmental conditions. The intelligent prediction experiment we implemented could be phased as: the demonstration of governing equations of droplet infiltration for sprinkler irrigation modeling; the measurement and computation of probability densities in water droplet infiltration; innovative establishment and working analysis of RSAE–ANFIS; and the adaptive prediction of infiltration effectiveness indexes, such as average soil moisture depth increment (θ, mm), irrigation infiltration efficiency (ea, %), irrigation turn duration efficiency (et, mm/min), and the uniformity coefficient of soil moisture infiltration (Cu, %), which were implemented to provide a comprehensive illustration for the effective scheduling of sprinkler irrigation. Result comparisons indicated that when jetting pressure (Pw) was 255.2 kPa, the impinge angle (Wa) was 42.5°, the water flow rate (Fa) was 0.67 kg/min, and continuous irrigation time (Tc) was 32.4 min (error tolerance = ±5%, the same as follows), thereby an optimum and stable effectiveness quality of sprinkler irrigation could be achieved, whereas average soil moisture depth increment (θ) was 57.6 mm, irrigation infiltration efficiency (ea) was 62.5%, irrigation turn duration efficiency (et) was 34.5 mm/min, and the uniformity coefficient of soil moisture infiltration (Cu) was 53.6%, accordingly. It could be concluded that the proposed approach of the regularized sparse autoencoder–adaptive network-based fuzzy inference system has outstanding predictive capability and possesses much better working superiority for infiltration effectiveness in accuracy and efficiency; meanwhile, a high agreement between the adaptive predicted and actual measured values of infiltration effectiveness could be obtained. This novel intelligent prediction system has been promoted constructively to improve the quality uniformity of sprinkler irrigation and, consequently, to facilitate the productive management of sprinkler irrigated agriculture.
+KW  - sprinkler irrigation
+KW  - infiltration effect
+KW  - intelligent prediction
+KW  - RSAE–ANFIS
+KW  - performance evaluation
+DO  - 10.3390/w13060791
+TY  - EJOU
+AU  - Yang, Xinghai
+AU  - Wang, Fengjiao
+AU  - Bai, Zhiquan
+AU  - Xun, Feifei
+AU  - Zhang, Yulin
+AU  - Zhao, Xiuyang
+TI  - Deep Learning-Based Congestion Detection at Urban Intersections
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 6
+SN  - 1424-8220
+
+AB  - In this paper, a deep learning-based traffic state discrimination method is proposed to detect traffic congestion at urban intersections. The detection algorithm includes two parts, global speed detection and a traffic state discrimination algorithm. Firstly, the region of interest (ROI) is selected as the road intersection from the input image of the You Only Look Once (YOLO) v3 object detection algorithm for vehicle target detection. The Lucas-Kanade (LK) optical flow method is employed to calculate the vehicle speed. Then, the corresponding intersection state can be obtained based on the vehicle speed and the discrimination algorithm. The detection of the vehicle takes the position information obtained by YOLOv3 as the input of the LK optical flow algorithm and forms an optical flow vector to complete the vehicle speed detection. Experimental results show that the detection algorithm can detect the vehicle speed and traffic state discrimination method can judge the traffic state accurately, which has a strong anti-interference ability and meets the practical application requirements.
+KW  - congestion detection
+KW  - image processing
+KW  - optical flow
+KW  - surveillance video
+KW  - YOLOv3
+DO  - 10.3390/s21062052
+TY  - EJOU
+AU  - Dias, Pollyanna G. Faria
+AU  - Silva, Mateus C.
+AU  - Rocha Filho, Geraldo P.
+AU  - Vargas, Patrícia A.
+AU  - Cota, Luciano P.
+AU  - Pessin, Gustavo
+TI  - Swarm Robotics: A Perspective on the Latest Reviewed Concepts and Applications
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 6
+SN  - 1424-8220
+
+AB  - Known as an artificial intelligence subarea, Swarm Robotics is a developing study field investigating bio-inspired collaborative control approaches and integrates a huge collection of agents, reasonably plain robots, in a distributed and decentralized manner. It offers an inspiring essential platform for new researchers to be engaged and share new knowledge to examine their concepts in analytical and heuristic strategies. This paper introduces an overview of current activities in Swarm Robotics and examines the present literature in this area to establish to approach between a realistic swarm robotic system and real-world enforcements. First, we review several Swarm Intelligence concepts to define Swarm Robotics systems, reporting their essential qualities and features and contrast them to generic multi-robotic systems. Second, we report a review of the principal projects that allow realistic study of Swarm Robotics. We demonstrate knowledge regarding current hardware platforms and multi-robot simulators. Finally, the forthcoming promissory applications and the troubles to surpass with a view to achieving them have been described and analyzed.
+KW  - Swarm Robotics
+KW  - multi-robot systems
+KW  - robotics
+KW  - Swarm Intelligence
+DO  - 10.3390/s21062062
+TY  - EJOU
+AU  - Naseem, Usman
+AU  - Khushi, Matloob
+AU  - Khan, Shah K.
+AU  - Shaukat, Kamran
+AU  - Moni, Mohammad A.
+TI  - A Comparative Analysis of Active Learning for Biomedical Text Mining
+T2  - Applied System Innovation
+
+PY  - 2021
+VL  - 4
+IS  - 1
+SN  - 2571-5577
+
+AB  - An enormous amount of clinical free-text information, such as pathology reports, progress reports, clinical notes and discharge summaries have been collected at hospitals and medical care clinics. These data provide an opportunity of developing many useful machine learning applications if the data could be transferred into a learn-able structure with appropriate labels for supervised learning. The annotation of this data has to be performed by qualified clinical experts, hence, limiting the use of this data due to the high cost of annotation. An underutilised technique of machine learning that can label new data called active learning (AL) is a promising candidate to address the high cost of the label the data. AL has been successfully applied to labelling speech recognition and text classification, however, there is a lack of literature investigating its use for clinical purposes. We performed a comparative investigation of various AL techniques using ML and deep learning (DL)-based strategies on three unique biomedical datasets. We investigated random sampling (RS), least confidence (LC), informative diversity and density (IDD), margin and maximum representativeness-diversity (MRD) AL query strategies. Our experiments show that AL has the potential to significantly reducing the cost of manual labelling. Furthermore, pre-labelling performed using AL expediates the labelling process by reducing the time required for labelling.
+KW  - active learning
+KW  - machine learning
+KW  - biomedical natural language processing
+DO  - 10.3390/asi4010023
+TY  - EJOU
+AU  - Herlin, Anders
+AU  - Brunberg, Emma
+AU  - Hultgren, Jan
+AU  - Högberg, Niclas
+AU  - Rydberg, Anna
+AU  - Skarin, Anna
+TI  - Animal Welfare Implications of Digital Tools for Monitoring and Management of Cattle and Sheep on Pasture
+T2  - Animals
+
+PY  - 2021
+VL  - 11
+IS  - 3
+SN  - 2076-2615
+
+AB  - The opportunities for natural animal behaviours in pastures imply animal welfare benefits. Nevertheless, monitoring the animals can be challenging. The use of sensors, cameras, positioning equipment and unmanned aerial vehicles in large pastures has the potential to improve animal welfare surveillance. Directly or indirectly, sensors measure environmental factors together with the behaviour and physiological state of the animal, and deviations can trigger alarms for, e.g., disease, heat stress and imminent calving. Electronic positioning includes Radio Frequency Identification (RFID) for the recording of animals at fixed points. Positioning units (GPS) mounted on collars can determine animal movements over large areas, determine their habitat and, somewhat, health and welfare. In combination with other sensors, such units can give information that helps to evaluate the welfare of free-ranging animals. Drones equipped with cameras can also locate and count the animals, as well as herd them. Digitally defined virtual fences can keep animals within a predefined area without the use of physical barriers, relying on acoustic signals and weak electric shocks. Due to individual variations in learning ability, some individuals may be exposed to numerous electric shocks, which might compromise their welfare. More research and development are required, especially regarding the use of drones and virtual fences.
+KW  - animal welfare
+KW  - cattle
+KW  - monitoring
+KW  - precision livestock farming
+KW  - sensor
+KW  - sheep
+KW  - virtual fence
+DO  - 10.3390/ani11030829
+TY  - EJOU
+AU  - Li, Jing
+AU  - Xie, Yuguang
+AU  - Li, Congcong
+AU  - Dai, Yanran
+AU  - Ma, Jiaxin
+AU  - Dong, Zheng
+AU  - Yang, Tao
+TI  - UAV-Assisted Wide Area Multi-Camera Space Alignment Based on Spatiotemporal Feature Map
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 6
+SN  - 2072-4292
+
+AB  - In this paper, we investigate the problem of aligning multiple deployed camera into one united coordinate system for cross-camera information sharing and intercommunication. However, the difficulty is greatly increased when faced with large-scale scene under chaotic camera deployment. To address this problem, we propose a UAV-assisted wide area multi-camera space alignment approach based on spatiotemporal feature map. It employs the great global perception of Unmanned Aerial Vehicles (UAVs) to meet the challenge from wide-range environment. Concretely, we first present a novel spatiotemporal feature map construction approach to represent the input aerial and ground monitoring data. In this way, the motion consistency across view is well mined to overcome the great perspective gap between the UAV and ground cameras. To obtain the corresponding relationship between their pixels, we propose a cross-view spatiotemporal matching strategy. Through solving relative relationship with the above air-to-ground point correspondences, all ground cameras can be aligned into one surveillance space. The proposed approach was evaluated in both simulation and real environments qualitatively and quantitatively. Extensive experimental results demonstrate that our system can successfully align all ground cameras with very small pixel error. Additionally, the comparisons with other works on different test situations also verify its superior performance.
+KW  - multi-camera system
+KW  - space alignment
+KW  - UAV-assisted calibration
+KW  - cross-view matching
+KW  - spatiotemporal feature map
+KW  - view-invariant description
+KW  - air-to-ground synchronization
+DO  - 10.3390/rs13061117
+TY  - EJOU
+AU  - Swinney, Carolyn J.
+AU  - Woods, John C.
+TI  - Unmanned Aerial Vehicle Operating Mode Classification Using Deep Residual Learning Feature Extraction
+T2  - Aerospace
+
+PY  - 2021
+VL  - 8
+IS  - 3
+SN  - 2226-4310
+
+AB  - Unmanned Aerial Vehicles (UAVs) undoubtedly pose many security challenges. We need only look to the December 2018 Gatwick Airport incident for an example of the disruption UAVs can cause. In total, 1000 flights were grounded for 36 h over the Christmas period which was estimated to cost over 50 million pounds. In this paper, we introduce a novel approach which considers UAV detection as an imagery classification problem. We consider signal representations Power Spectral Density (PSD); Spectrogram, Histogram and raw IQ constellation as graphical images presented to a deep Convolution Neural Network (CNN) ResNet50 for feature extraction. Pre-trained on ImageNet, transfer learning is utilised to mitigate the requirement for a large signal dataset. We evaluate performance through machine learning classifier Logistic Regression. Three popular UAVs are classified in different modes; switched on; hovering; flying; flying with video; and no UAV present, creating a total of 10 classes. Our results, validated with 5-fold cross validation and an independent dataset, show PSD representation to produce over 91% accuracy for 10 classifications. Our paper treats UAV detection as an imagery classification problem by presenting signal representations as images to a ResNet50, utilising the benefits of transfer learning and outperforming previous work in the field.
+KW  - unmanned aerial vehicles
+KW  - UAV detection
+KW  - RF spectrum analysis
+KW  - machine learning classification
+KW  - deep learning
+KW  - convolutional neural network
+KW  - transfer learning
+KW  - signal analysis
+DO  - 10.3390/aerospace8030079

@@ -1,0 +1,641 @@
+TY  - EJOU
+AU  - Xie, Jiajia
+AU  - Zhou, Rui
+AU  - Liu, Yuan
+AU  - Luo, Jun
+AU  - Xie, Shaorong
+AU  - Peng, Yan
+AU  - Pu, Huayan
+TI  - Reinforcement-Learning-Based Asynchronous Formation Control Scheme for Multiple Unmanned Surface Vehicles
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 2
+SN  - 2076-3417
+
+AB  - The high performance and efficiency of multiple unmanned surface vehicles (multi-USV) promote the further civilian and military applications of coordinated USV. As the basis of multiple USVs&rsquo; cooperative work, considerable attention has been spent on developing the decentralized formation control of the USV swarm. Formation control of multiple USV belongs to the geometric problems of a multi-robot system. The main challenge is the way to generate and maintain the formation of a multi-robot system. The rapid development of reinforcement learning provides us with a new solution to deal with these problems. In this paper, we introduce a decentralized structure of the multi-USV system and employ reinforcement learning to deal with the formation control of a multi-USV system in a leader&ndash;follower topology. Therefore, we propose an asynchronous decentralized formation control scheme based on reinforcement learning for multiple USVs. First, a simplified USV model is established. Simultaneously, the formation shape model is built to provide formation parameters and to describe the physical relationship between USVs. Second, the advantage deep deterministic policy gradient algorithm (ADDPG) is proposed. Third, formation generation policies and formation maintenance policies based on the ADDPG are proposed to form and maintain the given geometry structure of the team of USVs during movement. Moreover, three new reward functions are designed and utilized to promote policy learning. Finally, various experiments are conducted to validate the performance of the proposed formation control scheme. Simulation results and contrast experiments demonstrate the efficiency and stability of the formation control scheme.
+KW  - deep reinforcement
+KW  - formation control
+KW  - formation generation
+KW  - formation maintenance learning
+KW  - multi-USV system
+DO  - 10.3390/app11020546
+TY  - EJOU
+AU  - Bigazzi, Luca
+AU  - Gherardini, Stefano
+AU  - Innocenti, Giacomo
+AU  - Basso, Michele
+TI  - Development of Non Expensive Technologies for Precise Maneuvering of Completely Autonomous Unmanned Aerial Vehicles
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 2
+SN  - 1424-8220
+
+AB  - In this paper, solutions for precise maneuvering of an autonomous small (e.g., 350-class) Unmanned Aerial Vehicles (UAVs) are designed and implemented from smart modifications of non expensive mass market technologies. The considered class of vehicles suffers from light load, and, therefore, only a limited amount of sensors and computing devices can be installed on-board. Then, to make the prototype capable of moving autonomously along a fixed trajectory, a &ldquo;cyber-pilot&rdquo;, able on demand to replace the human operator, has been implemented on an embedded control board. This cyber-pilot overrides the commands thanks to a custom hardware signal mixer. The drone is able to localize itself in the environment without ground assistance by using a camera possibly mounted on a 3 Degrees Of Freedom (DOF) gimbal suspension. A computer vision system elaborates the video stream pointing out land markers with known absolute position and orientation. This information is fused with accelerations from a 6-DOF Inertial Measurement Unit (IMU) to generate a &ldquo;virtual sensor&rdquo; which provides refined estimates of the pose, the absolute position, the speed and the angular velocities of the drone. Due to the importance of this sensor, several fusion strategies have been investigated. The resulting data are, finally, fed to a control algorithm featuring a number of uncoupled digital PID controllers which work to bring to zero the displacement from the desired trajectory.
+KW  - aircraft navigation
+KW  - automatic control
+KW  - computer vision
+KW  - sensor fusion
+KW  - unmanned aerial vehicles
+DO  - 10.3390/s21020391
+TY  - EJOU
+AU  - Wei, Ziang
+AU  - Fernandes, Henrique
+AU  - Herrmann, Hans-Georg
+AU  - Tarpani, Jose R.
+AU  - Osman, Ahmad
+TI  - A Deep Learning Method for the Impact Damage Segmentation of Curve-Shaped CFRP Specimens Inspected by Infrared Thermography
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 2
+SN  - 1424-8220
+
+AB  - Advanced materials such as continuous carbon fiber-reinforced thermoplastic (CFRP) laminates are commonly used in many industries, mainly because of their strength, stiffness to weight ratio, toughness, weldability, and repairability. Structural components working in harsh environments such as satellites are permanently exposed to some sort of damage during their lifetimes. To detect and characterize these damages, non-destructive testing and evaluation techniques are essential tools, especially for composite materials. In this study, artificial intelligence was applied in combination with infrared thermography to detected and segment impact damage on curved laminates that were previously submitted to a severe thermal stress cycles and subsequent ballistic impacts. Segmentation was performed on both mid-wave and long-wave infrared sequences obtained simultaneously during pulsed thermography experiments by means of a deep neural network. A deep neural network was trained for each wavelength. Both networks generated satisfactory results. The model trained with mid-wave images achieved an F1-score of 92.74% and the model trained with long-wave images achieved an F1-score of 87.39%.
+KW  - composite materials
+KW  - infrared thermography
+KW  - deep learning
+KW  - damage segmentation
+KW  - curve shaped laminates
+DO  - 10.3390/s21020395
+TY  - EJOU
+AU  - Galyaev, Andrey A.
+AU  - Lysenko, Pavel V.
+AU  - Yakhno, Victor P.
+TI  - 2D Optimal Trajectory Planning Problem in Threat Environment for UUV with Non-Uniform Radiation Pattern
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 2
+SN  - 1424-8220
+
+AB  - Path planning is necessary in many applications using unmanned underwater vehicles (UUVs). The main class of tasks is the planning of safe routes with minimal energy costs and/or minimal levels of emitted physical and information signals. Since the action planner is on board the UUV, the main focus is on methods and algorithms that allow it to build reference trajectories while minimizing the number of calculations. The study is devoted to the problem of the optimal route planning for a UUV with a non-uniform radiation pattern. The problem is stated in the form of two point variational problem for which necessary and sufficient optimality conditions are proved. Particular attention is paid to cases where optimality conditions are not met. These cases are directly related to found specific forms of a radiation pattern. Sufficient optimality conditions are extended on the class of two-link and multi-link motion paths. Software tools have been developed and computer simulations have been performed for various types of radiation patterns.
+KW  - UUV path/trajectory planning
+KW  - non-detection probability
+KW  - non-uniform radiation pattern
+DO  - 10.3390/s21020396
+TY  - EJOU
+AU  - Dirscherl, Mariel
+AU  - Dietz, Andreas J.
+AU  - Kneisel, Christof
+AU  - Kuenzer, Claudia
+TI  - A Novel Method for Automated Supraglacial Lake Mapping in Antarctica Using Sentinel-1 SAR Imagery and Deep Learning
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 2
+SN  - 2072-4292
+
+AB  - Supraglacial meltwater accumulation on ice sheets can be a main driver for accelerated ice discharge, mass loss, and global sea-level-rise. With further increasing surface air temperatures, meltwater-induced hydrofracturing, basal sliding, or surface thinning will cumulate and most likely trigger unprecedented ice mass loss on the Greenland and Antarctic ice sheets. While the Greenland surface hydrological network as well as its impacts on ice dynamics and mass balance has been studied in much detail, Antarctic supraglacial lakes remain understudied with a circum-Antarctic record of their spatio-temporal development entirely lacking. This study provides the first automated supraglacial lake extent mapping method using Sentinel-1 synthetic aperture radar (SAR) imagery over Antarctica and complements the developed optical Sentinel-2 supraglacial lake detection algorithm presented in our companion paper. In detail, we propose the use of a modified U-Net for semantic segmentation of supraglacial lakes in single-polarized Sentinel-1 imagery. The convolutional neural network (CNN) is implemented with residual connections for optimized performance as well as an Atrous Spatial Pyramid Pooling (ASPP) module for multiscale feature extraction. The algorithm is trained on 21,200 Sentinel-1 image patches and evaluated in ten spatially or temporally independent test acquisitions. In addition, George VI Ice Shelf is analyzed for intra-annual lake dynamics throughout austral summer 2019/2020 and a decision-level fused Sentinel-1 and Sentinel-2 maximum lake extent mapping product is presented for January 2020 revealing a more complete supraglacial lake coverage (~770 km2) than the individual single-sensor products. Classification results confirm the reliability of the proposed workflow with an average Kappa coefficient of 0.925 and a F1-score of 93.0% for the supraglacial water class across all test regions. Furthermore, the algorithm is applied in an additional test region covering supraglacial lakes on the Greenland ice sheet which further highlights the potential for spatio-temporal transferability. Future work involves the integration of more training data as well as intra-annual analyses of supraglacial lake occurrence across the whole continent and with focus on supraglacial lake development throughout a summer melt season and into Antarctic winter.
+KW  - Antarctica
+KW  - Antarctic ice sheet
+KW  - supraglacial lakes
+KW  - ice sheet hydrology
+KW  - Sentinel-1
+KW  - remote sensing
+KW  - machine learning
+KW  - deep learning
+KW  - semantic segmentation
+KW  - convolutional neural network
+DO  - 10.3390/rs13020197
+TY  - EJOU
+AU  - Korznikov, Kirill A.
+AU  - Kislov, Dmitry E.
+AU  - Altman, Jan
+AU  - Doležal, Jiří
+AU  - Vozmishcheva, Anna S.
+AU  - Krestov, Pavel V.
+TI  - Using U-Net-Like Deep Convolutional Neural Networks for Precise Tree Recognition in Very High Resolution RGB (Red, Green, Blue) Satellite Images
+T2  - Forests
+
+PY  - 2021
+VL  - 12
+IS  - 1
+SN  - 1999-4907
+
+AB  - Very high resolution satellite imageries provide an excellent foundation for precise mapping of plant communities and even single plants. We aim to perform individual tree recognition on the basis of very high resolution RGB (red, green, blue) satellite images using deep learning approaches for northern temperate mixed forests in the Primorsky Region of the Russian Far East. We used a pansharpened satellite RGB image by GeoEye-1 with a spatial resolution of 0.46 m/pixel, obtained in late April 2019. We parametrized the standard U-Net convolutional neural network (CNN) and trained it in manually delineated satellite images to solve the satellite image segmentation problem. For comparison purposes, we also applied standard pixel-based classification algorithms, such as random forest, k-nearest neighbor classifier, naive Bayes classifier, and quadratic discrimination. Pattern-specific features based on grey level co-occurrence matrices (GLCM) were computed to improve the recognition ability of standard machine learning methods. The U-Net-like CNN allowed us to obtain precise recognition of Mongolian poplar (Populus suaveolens Fisch. ex Loudon s.l.) and evergreen coniferous trees (Abies holophylla Maxim., Pinus koraiensis Siebold &amp; Zucc.). We were able to distinguish species belonging to either poplar or coniferous groups but were unable to separate species within the same group (i.e. A. holophylla and P. koraiensis were not distinguishable). The accuracy of recognition was estimated by several metrics and exceeded values obtained for standard machine learning approaches. In contrast to pixel-based recognition algorithms, the U-Net-like CNN does not lead to an increase in false-positive decisions when facing green-colored objects that are similar to trees. By means of U-Net-like CNN, we obtained a mean accuracy score of up to 0.96 in our computational experiments. The U-Net-like CNN recognizes tree crowns not as a set of pixels with known RGB intensities but as spatial objects with a specific geometry and pattern. This CNN&rsquo;s specific feature excludes misclassifications related to objects of similar colors as objects of interest. We highlight that utilization of satellite images obtained within the suitable phenological season is of high importance for successful tree recognition. The suitability of the phenological season is conceptualized as a group of conditions providing highlighting objects of interest over other components of vegetation cover. In our case, the use of satellite images captured in mid-spring allowed us to recognize evergreen fir and pine trees as the first class of objects (&ldquo;conifers&rdquo;) and poplars as the second class, which were in a leafless state among other deciduous tree species.
+KW  - tree recognition
+KW  - machine learning
+KW  - convolutional neural network
+DO  - 10.3390/f12010066
+TY  - EJOU
+AU  - Wang, Yutang
+AU  - Wang, Jia
+AU  - Chang, Shuping
+AU  - Sun, Lu
+AU  - An, Likun
+AU  - Chen, Yuhan
+AU  - Xu, Jiangqi
+TI  - Classification of Street Tree Species Using UAV Tilt Photogrammetry
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 2
+SN  - 2072-4292
+
+AB  - As an important component of the urban ecosystem, street trees have made an outstanding contribution to alleviating urban environmental pollution. Accurately extracting tree characteristics and species information can facilitate the monitoring and management of street trees, as well as aiding landscaping and studies of urban ecology. In this study, we selected the suburban areas of Beijing and Zhangjiakou and investigated six representative street tree species using unmanned aerial vehicle (UAV) tilt photogrammetry. We extracted five tree attributes and four combined attribute parameters and used four types of commonly-used machine learning classification algorithms as classifiers for tree species classification. The results show that random forest (RF), support vector machine (SVM), and back propagation (BP) neural network provide better classification results when using combined parameters for tree species classification, compared with those using individual tree attributes alone; however, the K-nearest neighbor (KNN) algorithm produced the opposite results. The best combination for classification is the BP neural network using combined attributes, with a classification precision of 89.1% and F-measure of 0.872, and we conclude that this approach best meets the requirements of street tree surveys. The results also demonstrate that optical UAV tilt photogrammetry combined with a machine learning classification algorithm is a low-cost, high-efficiency, and high-precision method for tree species classification.
+KW  - tree species classification
+KW  - street trees
+KW  - UAV
+KW  - machine learning
+KW  - tilt photogrammetry
+DO  - 10.3390/rs13020216
+TY  - EJOU
+AU  - Xu, Jin
+AU  - Pan, Xinxiang
+AU  - Jia, Baozhu
+AU  - Wu, Xuerui
+AU  - Liu, Peng
+AU  - Li, Bo
+TI  - Oil Spill Detection Using LBP Feature and K-Means Clustering in Shipborne Radar Image
+T2  - Journal of Marine Science and Engineering
+
+PY  - 2021
+VL  - 9
+IS  - 1
+SN  - 2077-1312
+
+AB  - Oil spill accidents have seriously harmed the marine environment. Effective oil spill monitoring can provide strong scientific and technological support for emergency response of law enforcement departments. Shipborne radar can be used to monitor oil spills immediately after the accident. In this paper, the original shipborne radar image collected by the teaching-practice ship Yukun of Dalian Maritime University during the oil spill accident of Dalian on 16 July 2010 was taken as the research data, and an oil spill detection method was proposed by using LBP texture feature and K-means algorithm. First, Laplacian operator, Otsu algorithm, and mean filter were used to suppress the co-frequency interference noises and high brightness pixels. Then the gray intensity correction matrix was used to reduce image nonuniformity. Next, using LBP texture feature and K-means clustering algorithm, the effective oil spill regions were extracted. Finally, the adaptive threshold was applied to identify the oil films. This method can automatically detect oil spills in shipborne radar image. It can provide a guarantee for real-time monitoring of oil spill accidents.
+KW  - oil spill
+KW  - LBP
+KW  - K-means
+KW  - shipborne radar
+KW  - remote sensing
+KW  - oil pollution
+KW  - image analysis
+KW  - machine learning
+KW  - radar detection
+DO  - 10.3390/jmse9010065
+TY  - EJOU
+AU  - Moeini, Mohammadreza
+AU  - Shojaeizadeh, Ali
+AU  - Geza, Mengistu
+TI  - Supervised Machine Learning for Estimation of Total Suspended Solids in Urban Watersheds
+T2  - Water
+
+PY  - 2021
+VL  - 13
+IS  - 2
+SN  - 2073-4441
+
+AB  - Machine Learning (ML) algorithms provide an alternative for the prediction of pollutant concentration. We compared eight ML algorithms (Linear Regression (LR), uniform weighting k-Nearest Neighbor (UW-kNN), variable weighting k-Nearest Neighbor (VW-kNN), Support Vector Regression (SVR), Artificial Neural Network (ANN), Regression Tree (RT), Random Forest (RF), and Adaptive Boosting (AdB)) to evaluate the feasibility of ML approaches for estimation of Total Suspended Solids (TSS) using the national stormwater quality database. Six factors were used as features to train the algorithms with TSS concentration as the target parameter: Drainage area, land use, percent of imperviousness, rainfall depth, runoff volume, and antecedent dry days. Comparisons among the ML methods demonstrated a higher degree of variability in model performance, with the coefficient of determination (R2) and Nash&ndash;Sutcliffe (NSE) values ranging from 0.15 to 0.77. The Root Mean Square (RMSE) values ranged from 110 mg/L to 220 mg/L. The best fit was obtained using the AdB and RF models, with R2 values of 0.77 and 0.74 in the training step and 0.67 and 0.64 in the prediction step. The NSE values were 0.76 and 0.72 in the training step and 0.67 and 0.62 in the prediction step. The predictions from AdB were sensitive to all six factors. However, the sensitivity level was variable.
+KW  - stormwater quality
+KW  - urban watersheds
+KW  - machine learning algorithms
+KW  - total suspended solids
+DO  - 10.3390/w13020147
+TY  - EJOU
+AU  - Yu, Tong
+AU  - Wu, Wenjin
+AU  - Gong, Chen
+AU  - Li, Xinwu
+TI  - Residual Multi-Attention Classification Network for A Forest Dominated Tropical Landscape Using High-Resolution Remote Sensing Imagery
+T2  - ISPRS International Journal of Geo-Information
+
+PY  - 2021
+VL  - 10
+IS  - 1
+SN  - 2220-9964
+
+AB  - Tropical forests are of vital importance for maintaining biodiversity, regulating climate and material cycles while facing deforestation, agricultural reclamation, and managing various pressures. Remote sensing (RS) can support effective monitoring and mapping approaches for tropical forests, and to facilitate this we propose a deep neural network with an encoder&ndash;decoder architecture here to classify tropical forests and their environment. To deal with the complexity of tropical landscapes, this method utilizes a multi-scale convolution neural network (CNN) to expand the receptive field and extract multi-scale features. The model refines the features with several attention modules and fuses them through an upsampling module. A two-stage training strategy is proposed to alleviate misclassifications caused by sample imbalances. A joint loss function based on cross-entropy loss and the generalized Dice loss is applied in the first stage, and the second stage used the focal loss to fine-tune the weights. As a case study, we use Hainan tropical reserves to test the performance of this model. Compared with four state-of-the-art (SOTA) semantic segmentation networks, our network achieves the best performance with two Hainan datasets (mean intersection over union (MIoU) percentages of 85.78% and 82.85%). We also apply the new model to classify a public true color dataset which has 17 semantic classes and obtain results with an 83.75% MIoU. This further demonstrates the applicability and potential of this model in complex classification tasks.
+KW  - remote sensing
+KW  - deep convolution network
+KW  - image analysis
+KW  - land use and land cover (LULC)
+KW  - tropical forest
+DO  - 10.3390/ijgi10010022
+TY  - EJOU
+AU  - Canata, Tatiana F.
+AU  - Wei, Marcelo C.
+AU  - Maldaner, Leonardo F.
+AU  - Molin, José P.
+TI  - Sugarcane Yield Mapping Using High-Resolution Imagery Data and Machine Learning Technique
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 2
+SN  - 2072-4292
+
+AB  - Yield maps provide essential information to guide precision agriculture (PA) practices. Yet, on-board yield monitoring for sugarcane can be challenging. At the same time, orbital images have been widely used for indirect crop yield estimation for many crops like wheat, corn, and rice, but not for sugarcane. Due to this, the objective of this study is to explore the potential of multi-temporal imagery data as an alternative for sugarcane yield mapping. The study was based on developing predictive sugarcane yield models integrating time-series orbital imaging and a machine learning technique. A commercial sugarcane site was selected, and Sentinel-2 images were acquired from the beginning of the ratoon sprouting until harvesting of two consecutive cropping seasons. The predictive yield models RF (Random forest) and MLR (Multiple Linear Regression) were developed using orbital images and yield maps generated by a commercial sensor-system on harvesting. Original yield data were filtered and interpolated with the same spatial resolution of the orbital images. The entire dataset was divided into training and testing datasets. Spectral bands, especially the near-infrared at tillering crop stage showed greater contribution to predicting sugarcane yield than the use of derived spectral vegetation indices. The Root Mean Squared Error (RMSE) obtained for the RF regression based on multiple spectral bands was 4.63 Mg ha&minus;1 with an R2 of 0.70 for the testing dataset. Overall, the RF regression had better performance than the MLR to predict sugarcane yield.
+KW  - orbital images
+KW  - precision agriculture
+KW  - remote sensing
+KW  - vegetation index
+DO  - 10.3390/rs13020232
+TY  - EJOU
+AU  - Fenu, Gianni
+AU  - Malloci, Francesca M.
+TI  - Forecasting Plant and Crop Disease: An Explorative Study on Current Algorithms
+T2  - Big Data and Cognitive Computing
+
+PY  - 2021
+VL  - 5
+IS  - 1
+SN  - 2504-2289
+
+AB  - Every year, plant diseases cause a significant loss of valuable food crops around the world. The plant and crop disease management practice implemented in order to mitigate damages have changed considerably. Today, through the application of new information and communication technologies, it is possible to predict the onset or change in the severity of diseases using modern big data analysis techniques. In this paper, we present an analysis and classification of research studies conducted over the past decade that forecast the onset of disease at a pre-symptomatic stage (i.e., symptoms not visible to the naked eye) or at an early stage. We examine the specific approaches and methods adopted, pre-processing techniques and data used, performance metrics, and expected results, highlighting the issues encountered. The results of the study reveal that this practice is still in its infancy and that many barriers need to be overcome.
+KW  - plant disease prediction
+KW  - precision agriculture
+KW  - machine learning
+KW  - artificial intelligence
+KW  - deep learning
+KW  - food security
+KW  - review
+DO  - 10.3390/bdcc5010002
+TY  - EJOU
+AU  - Shao, Zhenfeng
+AU  - Zhou, Zifan
+AU  - Huang, Xiao
+AU  - Zhang, Ya
+TI  - MRENet: Simultaneous Extraction of Road Surface and Road Centerline in Complex Urban Scenes from Very High-Resolution Images
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 2
+SN  - 2072-4292
+
+AB  - Automatic extraction of the road surface and road centerline from very high-resolution (VHR) remote sensing images has always been a challenging task in the field of feature extraction. Most existing road datasets are based on data with simple and clear backgrounds under ideal conditions, such as images derived from Google Earth. Therefore, the studies on road surface extraction and road centerline extraction under complex scenes are insufficient. Meanwhile, most existing efforts addressed these two tasks separately, without considering the possible joint extraction of road surface and centerline. With the introduction of multitask convolutional neural network models, it is possible to carry out these two tasks simultaneously by facilitating information sharing within a multitask deep learning model. In this study, we first design a challenging dataset using remote sensing images from the GF-2 satellite. The dataset contains complex road scenes with manually annotated images. We then propose a two-task and end-to-end convolution neural network, termed Multitask Road-related Extraction Network (MRENet), for road surface extraction and road centerline extraction. We take features extracted from the road as the condition of centerline extraction, and the information transmission and parameter sharing between the two tasks compensate for the potential problem of insufficient road centerline samples. In the network design, we use atrous convolutions and a pyramid scene parsing pooling module (PSP pooling), aiming to expand the network receptive field, integrate multilevel features, and obtain more abundant information. In addition, we use a weighted binary cross-entropy function to alleviate the background imbalance problem. Experimental results show that the proposed algorithm outperforms several comparative methods in the aspects of classification precision and visual interpretation.
+KW  - multitask learning
+KW  - convolutional neural networks
+KW  - road surface extraction
+KW  - road centerline extraction
+KW  - VHR remote sensing images
+DO  - 10.3390/rs13020239
+TY  - EJOU
+AU  - Wang, Le
+AU  - Xiang, Lirong
+AU  - Tang, Lie
+AU  - Jiang, Huanyu
+TI  - A Convolutional Neural Network-Based Method for Corn Stand Counting in the Field
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 2
+SN  - 1424-8220
+
+AB  - Accurate corn stand count in the field at early season is of great interest to corn breeders and plant geneticists. However, the commonly used manual counting method is time consuming, laborious, and prone to error. Nowadays, unmanned aerial vehicles (UAV) tend to be a popular base for plant-image-collecting platforms. However, detecting corn stands in the field is a challenging task, primarily because of camera motion, leaf fluttering caused by wind, shadows of plants caused by direct sunlight, and the complex soil background. As for the UAV system, there are mainly two limitations for early seedling detection and counting. First, flying height cannot ensure a high resolution for small objects. It is especially difficult to detect early corn seedlings at around one week after planting, because the plants are small and difficult to differentiate from the background. Second, the battery life and payload of UAV systems cannot support long-duration online counting work. In this research project, we developed an automated, robust, and high-throughput method for corn stand counting based on color images extracted from video clips. A pipeline developed based on the YoloV3 network and Kalman filter was used to count corn seedlings online. The results demonstrate that our method is accurate and reliable for stand counting, achieving an accuracy of over 98% at growth stages V2 and V3 (vegetative stages with two and three visible collars) with an average frame rate of 47 frames per second (FPS). This pipeline can also be mounted easily on manned cart, tractor, or field robotic systems for online corn counting.
+KW  - deep learning
+KW  - YoloV3
+KW  - video tracking
+KW  - corn stand counting
+DO  - 10.3390/s21020507
+TY  - EJOU
+AU  - Lemaire, Pierre
+AU  - Crispim-Junior, Carlos F.
+AU  - Robinault, Lionel
+AU  - Tougne, Laure
+TI  - Registering Unmanned Aerial Vehicle Videos in the Long Term
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 2
+SN  - 1424-8220
+
+AB  - Unmanned aerial vehicles (UAVs) have become a very popular way of acquiring video within contexts such as remote data acquisition or surveillance. Unfortunately, their viewpoint is often unstable, which tends to impact the automatic processing of their video flux negatively. To counteract the effects of an inconsistent viewpoint, two video processing strategies are classically adopted, namely registration and stabilization, which tend to be affected by distinct issues, namely jitter and drifting. Following our prior work, we suggest that the motion estimators used in both situations can be modeled to take into account their inherent errors. By acknowledging that drifting and jittery errors are of a different nature, we propose a combination that is able to limit their influence and build a hybrid solution for jitter-free video registration. In this work, however, our modeling was restricted to 2D-rigid transforms, which are rather limited in the case of airborne videos. In the present paper, we extend and refine the theoretical ground of our previous work. This addition allows us to show how to practically adapt our previous work to perspective transforms, which our study shows to be much more accurate for this problem. A lightweight implementation enables us to automatically register stationary UAV videos in real time. Our evaluation includes traffic surveillance recordings of up to 2 h and shows the potential of the proposed approach when paired with background subtraction tasks.
+KW  - registration
+KW  - stabilization
+KW  - unmanned aerial vehicle
+KW  - drone
+DO  - 10.3390/s21020513
+TY  - EJOU
+AU  - Boaretto, Joel
+AU  - Fotouhi, Mohammad
+AU  - Tende, Eduardo
+AU  - Aver, Gustavo F.
+AU  - Marcon, Victoria R.
+AU  - Cordeiro, Guilherme L.
+AU  - Bergmann, Carlos P.
+AU  - Vannucchi de Camargo, Felipe
+TI  - Biomimetics and Composite Materials toward Efficient Mobility: A Review
+T2  - Journal of Composites Science
+
+PY  - 2021
+VL  - 5
+IS  - 1
+SN  - 2504-477X
+
+AB  - The development of new materials has always been strictly related to the rise of new technologies and progressively efficient systems. However, cutting-edge materials might not be enough to ensure the effectiveness of a given product if the design guidelines used do not favor the specific advantages of this material. Polymeric composites are known for their excellent mechanical properties, but current manufacturing techniques and the relatively narrow expertise in the field amongst engineers impose the challenge to provide the most suitable designs to certain applications. Bio-inspired designs, supported by thousands of years of evolution of nature, have shown to be extremely profitable tools for the design of optimized yet structurally complex shapes in which the tailoring aspect of polymeric composites perfectly fit. Bearing in mind the current but old-fashioned designs of auto-parts and vehicles built with metals with little or no topological optimization, the present work addresses how biomimicry is being applied in the mobility industry nowadays to provide lightweight structures and efficient designs. A general overview of biomimicry is made regarding vehicles, approaching how the use of composite materials has already contributed to successful cases.
+KW  - biomimicry
+KW  - bio-inspired design
+KW  - polymers
+KW  - FRP
+KW  - mobility
+KW  - sustainability
+DO  - 10.3390/jcs5010022
+TY  - EJOU
+AU  - Nguyen, Ha T.
+AU  - Lopez Caceres, Maximo L.
+AU  - Moritake, Koma
+AU  - Kentsch, Sarah
+AU  - Shu, Hase
+AU  - Diez, Yago
+TI  - Individual Sick Fir Tree (Abies mariesii) Identification in Insect Infested Forests by Means of UAV Images and Deep Learning
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 2
+SN  - 2072-4292
+
+AB  - Insect outbreaks are a recurrent natural phenomenon in forest ecosystems expected to increase due to climate change. Recent advances in Unmanned Aerial Vehicles (UAV) and Deep Learning (DL) Networks provide us with tools to monitor them. In this study we used nine orthomosaics and normalized Digital Surface Models (nDSM) to detect and classify healthy and sick Maries fir trees as well as deciduous trees. This study aims at automatically classifying treetops by means of a novel computer vision treetops detection algorithm and the adaptation of existing DL architectures. Considering detection alone, the accuracy results showed 85.70% success. In terms of detection and classification, we were able to detect/classify correctly 78.59% of all tree classes (39.64% for sick fir). However, with data augmentation, detection/classification percentage of the sick fir class rose to 73.01% at the cost of the result accuracy of all tree classes that dropped 63.57%. The implementation of UAV, computer vision and DL techniques contribute to the development of a new approach to evaluate the impact of insect outbreaks in forest.
+KW  - deep learning
+KW  - computer vision
+KW  - UAV
+KW  - individual tree detection
+KW  - tree classification
+KW  - sick tree detection
+DO  - 10.3390/rs13020260
+TY  - EJOU
+AU  - Hashima, Sherief
+AU  - ElHalawany, Basem M.
+AU  - Hatano, Kohei
+AU  - Wu, Kaishun
+AU  - Mohamed, Ehab M.
+TI  - Leveraging Machine-Learning for D2D Communications in 5G/Beyond 5G Networks
+T2  - Electronics
+
+PY  - 2021
+VL  - 10
+IS  - 2
+SN  - 2079-9292
+
+AB  - Device-to-device (D2D) communication is a promising paradigm for the fifth generation (5G) and beyond 5G (B5G) networks. Although D2D communication provides several benefits, including limited interference, energy efficiency, reduced delay, and network overhead, it faces a lot of technical challenges such as network architecture, and neighbor discovery, etc. The complexity of configuring D2D links and managing their interference, especially when using millimeter-wave (mmWave), inspire researchers to leverage different machine-learning (ML) techniques to address these problems towards boosting the performance of D2D networks. In this paper, a comprehensive survey about recent research activities on D2D networks will be explored with putting more emphasis on utilizing mmWave and ML methods. After exploring existing D2D research directions accompanied with their existing conventional solutions, we will show how different ML techniques can be applied to enhance the D2D networks performance over using conventional ways. Then, still open research directions in ML applications on D2D networks will be investigated including their essential needs. A case study of applying multi-armed bandit (MAB) as an efficient online ML tool to enhance the performance of neighbor discovery and selection (NDS) in mmWave D2D networks will be presented. This case study will put emphasis on the high potency of using ML solutions over using the conventional non-ML based methods for highly improving the average throughput performance of mmWave NDS.
+KW  - D2D communication
+KW  - mmWave
+KW  - machine-learning applications
+KW  - 5G
+KW  - B5G
+DO  - 10.3390/electronics10020169
+TY  - EJOU
+AU  - Wada, Daichi
+AU  - Araujo-Estrada, Sergio A.
+AU  - Windsor, Shane
+TI  - Unmanned Aerial Vehicle Pitch Control Using Deep Reinforcement Learning with Discrete Actions in Wind Tunnel Test
+T2  - Aerospace
+
+PY  - 2021
+VL  - 8
+IS  - 1
+SN  - 2226-4310
+
+AB  - Deep reinforcement learning is a promising method for training a nonlinear attitude controller for fixed-wing unmanned aerial vehicles. Until now, proof-of-concept studies have demonstrated successful attitude control in simulation. However, detailed experimental investigations have not yet been conducted. This study applied deep reinforcement learning for one-degree-of-freedom pitch control in wind tunnel tests with the aim of gaining practical understandings of attitude control application. Three controllers with different discrete action choices, that is, elevator angles, were designed. The controllers with larger action rates exhibited better performance in terms of following angle-of-attack commands. The root mean square errors for tracking angle-of-attack commands decreased from 3.42&deg; to 1.99&deg; as the maximum action rate increased from 10&deg;/s to 50&deg;/s. The comparison between experimental and simulation results showed that the controller with a smaller action rate experienced the friction effect, and the controllers with larger action rates experienced fluctuating behaviors in elevator maneuvers owing to delay. The investigation of the effect of friction and delay on pitch control highlighted the importance of conducting experiments to understand actual control performances, specifically when the controllers were trained with a low-fidelity model.
+KW  - attitude control
+KW  - deep reinforcement learning
+KW  - fixed-wing aircraft
+KW  - unmanned aerial vehicle
+KW  - wind tunnel test
+DO  - 10.3390/aerospace8010018
+TY  - EJOU
+AU  - Andreu-Perez, Ana R.
+AU  - Kiani, Mehrin
+AU  - Andreu-Perez, Javier
+AU  - Reddy, Pratusha
+AU  - Andreu-Abela, Jaime
+AU  - Pinto, Maria
+AU  - Izzetoglu, Kurtulus
+TI  - Single-Trial Recognition of Video Gamer’s Expertise from Brain Haemodynamic and Facial Emotion Responses
+T2  - Brain Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 1
+SN  - 2076-3425
+
+AB  - With an increase in consumer demand of video gaming entertainment, the game industry is exploring novel ways of game interaction such as providing direct interfaces between the game and the gamers&rsquo; cognitive or affective responses. In this work, gamer&rsquo;s brain activity has been imaged using functional near infrared spectroscopy (fNIRS) whilst they watch video of a video game (League of Legends) they play. A video of the face of the participants is also recorded for each of a total of 15 trials where a trial is defined as watching a gameplay video. From the data collected, i.e., gamer&rsquo;s fNIRS data in combination with emotional state estimation from gamer&rsquo;s facial expressions, the expertise level of the gamers has been decoded per trial in a multi-modal framework comprising of unsupervised deep feature learning and classification by state-of-the-art models. The best tri-class classification accuracy is obtained using a cascade of random convolutional kernel transform (ROCKET) feature extraction method and deep classifier at 91.44%. This is the first work that aims at decoding expertise level of gamers using non-restrictive and portable technologies for brain imaging, and emotional state recognition derived from gamers&rsquo; facial expressions. This work has profound implications for novel designs of future human interactions with video games and brain-controlled games.
+KW  - mind-controlled games
+KW  - brain signals
+KW  - fNIRS
+KW  - facial expressions
+DO  - 10.3390/brainsci11010106
+TY  - EJOU
+AU  - Zheng, Qiong
+AU  - Ye, Huichun
+AU  - Huang, Wenjiang
+AU  - Dong, Yingying
+AU  - Jiang, Hao
+AU  - Wang, Chongyang
+AU  - Li, Dan
+AU  - Wang, Li
+AU  - Chen, Shuisen
+TI  - Integrating Spectral Information and Meteorological Data to Monitor Wheat Yellow Rust at a Regional Scale: A Case Study
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 2
+SN  - 2072-4292
+
+AB  - Wheat yellow rust has a severe impact on wheat production and threatens food security in China; as such, an effective monitoring method is necessary at the regional scale. We propose a model for yellow rust monitoring based on Sentinel-2 multispectral images and a series of two-stage vegetation indices and meteorological data. Sensitive spectral vegetation indices (single- and two-stage indices) and meteorological features for wheat yellow rust discrimination were selected using the random forest method. Wheat yellow rust monitoring models were established using three different classification methods: linear discriminant analysis (LDA), support vector machine (SVM), and artificial neural network (ANN). The results show that models based on two-stage indices (i.e., those calculated using images from two different days) significantly outperform single-stage index models (i.e., those calculated using an image from a single day), the overall accuracy improved from 63.2% to 78.9%. The classification accuracies of models combining a vegetation index with meteorological feature are higher than those of pure vegetation index models. Among them, the model based on two-stage vegetation indices and meteorological features performs best, with a classification accuracy exceeding 73.7%. The SVM algorithm performed best for wheat yellow rust monitoring among the three algorithms; its classification accuracy (84.2%) was ~10.5% and 5.3% greater than those of LDA and ANN, respectively. Combined with crop growth and environmental information, our model has great potential for monitoring wheat yellow rust at a regional scale. Future work will focus on regional-scale monitoring and forecasting of crop disease.
+KW  - wheat yellow rust
+KW  - vegetation indices
+KW  - meteorological information
+KW  - food security
+KW  - regional remote sensing
+DO  - 10.3390/rs13020278
+TY  - EJOU
+AU  - Biundini, Iago Z.
+AU  - Pinto, Milena F.
+AU  - Melo, Aurelio G.
+AU  - Marcato, Andre L. M.
+AU  - Honório, Leonardo M.
+AU  - Aguiar, Maria J. R.
+TI  - A Framework for Coverage Path Planning Optimization Based on Point Cloud for Structural Inspection
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 2
+SN  - 1424-8220
+
+AB  - Different practical applications have emerged in the last few years, requiring periodic and detailed inspections to verify possible structural changes. Inspections using Unmanned Aerial Vehicles (UAVs) should minimize flight time due to battery time restrictions and identify the terrain&rsquo;s topographic features. In this sense, Coverage Path Planning (CPP) aims at finding the best path to coverage of a determined area respecting the operation&rsquo;s restrictions. Photometric information from the terrain is used to create routes or even refine paths already created. Therefore, this research&rsquo;s main contribution is developing a methodology that uses a metaheuristic algorithm based on point cloud data to inspect slope and dams structures. The technique was applied in a simulated and real scenario to verify its effectiveness. The results showed an increasing 3D reconstructions&rsquo; quality observing optimizing photometric and mission time criteria.
+KW  - 3D inspection
+KW  - coverage path planning
+KW  - point cloud analysis
+KW  - optimization
+KW  - UAV
+DO  - 10.3390/s21020570
+TY  - EJOU
+AU  - Zhang, Xiaomin
+AU  - Zhao, Zhiyao
+AU  - Wang, Zhaoyang
+AU  - Wang, Xiaoyi
+TI  - Fault Detection and Identification Method for Quadcopter Based on Airframe Vibration Signals
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 2
+SN  - 1424-8220
+
+AB  - Quadcopters are widely used in a variety of military and civilian mission scenarios. Real-time online detection of the abnormal state of the quadcopter is vital to the safety of aircraft. Existing data-driven fault detection methods generally usually require numerous sensors to collect data. However, quadcopter airframe space is limited. A large number of sensors cannot be loaded, meaning that it is difficult to use additional sensors to capture fault signals for quadcopters. In this paper, without additional sensors, a Fault Detection and Identification (FDI) method for quadcopter blades based on airframe vibration signals is proposed using the airborne acceleration sensor. This method integrates multi-axis data information and effectively detects and identifies quadcopter blade faults through Long and Short-Term Memory (LSTM) network models. Through flight experiments, the quadcopter triaxial accelerometer data are collected for airframe vibration signals at first. Then, the wavelet packet decomposition method is employed to extract data features, and the standard deviations of the wavelet packet coefficients are employed to form the feature vector. Finally, the LSTM-based FDI model is constructed for quadcopter blade FDI. The results show that the method can effectively detect and identify quadcopter blade faults with a better FDI performance and a higher model accuracy compared with the Back Propagation (BP) neural network-based FDI model.
+KW  - quadcopter
+KW  - fault detection and identification
+KW  - wavelet packet decomposition
+KW  - LSTM network
+KW  - airframe vibration signals
+DO  - 10.3390/s21020581
+TY  - EJOU
+AU  - Debella-Gilo, Misganu
+AU  - Gjertsen, Arnt K.
+TI  - Mapping Seasonal Agricultural Land Use Types Using Deep Learning on Sentinel-2 Image Time Series
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 2
+SN  - 2072-4292
+
+AB  - The size and location of agricultural fields that are in active use and the type of use during the growing season are among the vital information that is needed for the careful planning and forecasting of agricultural production at national and regional scales. In areas where such data are not readily available, an independent seasonal monitoring method is needed. Remote sensing is a widely used tool to map land use types, although there are some limitations that can partly be circumvented by using, among others, multiple observations, careful feature selection and appropriate analysis methods. Here, we used Sentinel-2 satellite image time series (SITS) over the land area of Norway to map three agricultural land use classes: cereal crops, fodder crops (grass) and unused areas. The Multilayer Perceptron (MLP) and two variants of the Convolutional Neural Network (CNN), are implemented on SITS data of four different temporal resolutions. These enabled us to compare twelve model-dataset combinations to identify the model-dataset combination that results in the most accurate predictions. The CNN is implemented in the spectral and temporal dimensions instead of the conventional spatial dimension. Rather than using existing deep learning architectures, an autotuning procedure is implemented so that the model hyperparameters are empirically optimized during the training. The results obtained on held-out test data show that up to 94% overall accuracy and 90% Cohen&rsquo;s Kappa can be obtained when the 2D CNN is applied on the SITS data with a temporal resolution of 7 days. This is closely followed by the 1D CNN on the same dataset. However, the latter performs better than the former in predicting data outside the training set. It is further observed that cereal is predicted with the highest accuracy, followed by grass. Predicting the unused areas has been found to be difficult as there is no distinct surface condition that is common for all unused areas.
+KW  - multilayer perceptron
+KW  - CNN
+KW  - hyperparameter tuning
+KW  - cereal
+KW  - grass
+DO  - 10.3390/rs13020289
+TY  - EJOU
+AU  - Moreni, Mael
+AU  - Theau, Jerome
+AU  - Foucher, Samuel
+TI  - Train Fast While Reducing False Positives: Improving Animal Classification Performance Using Convolutional Neural Networks
+T2  - Geomatics
+
+PY  - 2021
+VL  - 1
+IS  - 1
+SN  - 2673-7418
+
+AB  - The combination of unmanned aerial vehicles (UAV) with deep learning models has the capacity to replace manned aircrafts for wildlife surveys. However, the scarcity of animals in the wild often leads to highly unbalanced, large datasets for which even a good detection method can return a large amount of false detections. Our objectives in this paper were to design a training method that would reduce training time, decrease the number of false positives and alleviate the fine-tuning effort of an image classifier in a context of animal surveys. We acquired two highly unbalanced datasets of deer images with a UAV and trained a Resnet-18 classifier using hard-negative mining and a series of recent techniques. Our method achieved sub-decimal false positive rates on two test sets (1 false positive per 19,162 and 213,312 negatives respectively), while training on small but relevant fractions of the data. The resulting training times were therefore significantly shorter than they would have been using the whole datasets. This high level of efficiency was achieved with little tuning effort and using simple techniques. We believe this parsimonious approach to dealing with highly unbalanced, large datasets could be particularly useful to projects with either limited resources or extremely large datasets.
+KW  - unmanned aerial vehicles
+KW  - convolutional neural network
+KW  - wildlife survey
+KW  - remote sensing
+KW  - deep learning
+KW  - conservation
+KW  - hard-negative mining
+DO  - 10.3390/geomatics1010004
+TY  - EJOU
+AU  - Li, Haolu
+AU  - Wang, Guojie
+AU  - Dong, Zhen
+AU  - Wei, Xikun
+AU  - Wu, Mengjuan
+AU  - Song, Huihui
+AU  - Amankwah, Solomon O.
+TI  - Identifying Cotton Fields from Remote Sensing Images Using Multiple Deep Learning Networks
+T2  - Agronomy
+
+PY  - 2021
+VL  - 11
+IS  - 1
+SN  - 2073-4395
+
+AB  - Remote sensing imageries processed through empirical and deterministic approaches help predict multiple agronomic traits throughout the growing season. Accurate identification of cotton crop from remotely sensed imageries is a significant task in precision agriculture. This study aims to utilize a deep learning-based framework for cotton crop field identification with Gaofen-1 (GF-1) high-resolution (16 m) imageries in Wei-Ku region, China. An optimized model for the pixel-wise multidimensional densely connected convolutional neural network (DenseNet) was used. Four widely-used classic convolutional neural networks (CNNs), including ResNet, VGG, SegNet, and DeepLab v3+, were also used for accuracy assessment. The results infer that DenseNet can identify cotton crop features within a relatively shorter time about 5 h for training convergence. The model performance was examined by multiple indicators (P, F1, R, and mIou) produced through the confusion matrix, and the derived cotton fields were then visualized. The DenseNet model has illustrated considerable improvements in comparison with the preceding mainstream models. The results showed that the retrieval precision was 0.948, F1 score was 0.953, and mIou was 0.911. Furthermore, its performance is relatively better in discriminating cotton crop fields&rsquo; fine structures when clouds, mountain shadows, and urban built up.
+KW  - cotton identification
+KW  - deep learning
+KW  - DenseNet
+KW  - remote sensing images
+DO  - 10.3390/agronomy11010174
+TY  - EJOU
+AU  - Zou, Kunlin
+AU  - Chen, Xin
+AU  - Zhang, Fan
+AU  - Zhou, Hang
+AU  - Zhang, Chunlong
+TI  - A Field Weed Density Evaluation Method Based on UAV Imaging and Modified U-Net
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 2
+SN  - 2072-4292
+
+AB  - Weeds are one of the main factors affecting the yield and quality of agricultural products. Accurate evaluation of weed density is of great significance for field management, especially precision weeding. In this paper, a weed density calculating and mapping method in the field is proposed. An unmanned aerial vehicle (UAV) was used to capture field images. The excess green minus excess red index, combined with the minimum error threshold segmentation method, was used to segment green plants and bare land. A modified U-net was used to segment crops from images. After removing the bare land and crops from the field, images of weeds were obtained. The weed density was evaluated by the ratio of weed area to total area on the segmented image. The accuracy of the green plant segmentation was 93.5%. In terms of crop segmentation, the intersection over union (IoU) was 93.40%, and the segmentation time of a single image was 35.90 ms. Finally, the determination coefficient of the UAV evaluated weed density and the manually observed weed density was 0.94, and the root mean square error was 0.03. With the proposed method, the weed density of a field can be effectively evaluated from UAV images, hence providing critical information for precision weeding.
+KW  - semantic segmentation
+KW  - U-net
+KW  - UAV
+KW  - weed density
+DO  - 10.3390/rs13020310
+TY  - EJOU
+AU  - Ni, Ming
+AU  - Wang, Hongjie
+AU  - Liu, Xudong
+AU  - Liao, Yilin
+AU  - Fu, Lin
+AU  - Wu, Qianqian
+AU  - Mu, Jiong
+AU  - Chen, Xiaoyan
+AU  - Li, Jun
+TI  - Design of Variable Spray System for Plant Protection UAV Based on CFD Simulation and Regression Analysis
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 2
+SN  - 1424-8220
+
+AB  - Multi-rotor unmanned aerial vehicles (UAVs) for plant protection are widely used in China&rsquo;s agricultural production. However, spray droplets often drift and distribute nonuniformly, thereby harming its utilization and the environment. A variable spray system is designed, discussed, and verified to solve this problem. The distribution characteristics of droplet deposition under different spray states (flight state, environment state, nozzle state) are obtained through computational fluid dynamics simulation. In the verification experiment, the wind velocity error of most sample points is less than 1 m/s, and the deposition ratio error is less than 10%, indicating that the simulation is reliable. A simulation data set is used to train support vector regression and back propagation neural network with multiple parameters. An optimal regression model with the root mean square error of 6.5% is selected. The UAV offset and nozzle flow of the variable spray system can be obtained in accordance with the current spray state by multi-sensor fusion and the predicted deposition distribution characteristics. The farmland experiment shows that the deposition volume error between the prediction and experiment is within 30%, thereby proving the effectiveness of the system. This article provides a reference for the improvement of UAV intelligent spray system.
+KW  - aviation plant protection
+KW  - downwash wind field
+KW  - deposition distribution characteristic
+KW  - support vector regression
+KW  - back propagation neural network
+KW  - farmland experiment
+DO  - 10.3390/s21020638
+TY  - EJOU
+AU  - Zhou, Kai
+AU  - Xie, Yan
+AU  - Gao, Zhan
+AU  - Miao, Fang
+AU  - Zhang, Lei
+TI  - FuNet: A Novel Road Extraction Network with Fusion of Location Data and Remote Sensing Imagery
+T2  - ISPRS International Journal of Geo-Information
+
+PY  - 2021
+VL  - 10
+IS  - 1
+SN  - 2220-9964
+
+AB  - Road semantic segmentation is unique and difficult. Road extraction from remote sensing imagery often produce fragmented road segments leading to road network disconnection due to the occlusion of trees, buildings, shadows, cloud, etc. In this paper, we propose a novel fusion network (FuNet) with fusion of remote sensing imagery and location data, which plays an important role of location data in road connectivity reasoning. A universal iteration reinforcement (IteR) module is embedded into FuNet to enhance the ability of network learning. We designed the IteR formula to repeatedly integrate original information and prediction information and designed the reinforcement loss function to control the accuracy of road prediction output. Another contribution of this paper is the use of histogram equalization data pre-processing to enhance image contrast and improve the accuracy by nearly 1%. We take the excellent D-LinkNet as the backbone network, designing experiments based on the open dataset. The experiment result shows that our method improves over the compared advanced road extraction methods, which not only increases the accuracy of road extraction, but also improves the road topological connectivity.
+KW  - road extraction
+KW  - road connectivity
+KW  - remote sensing image
+KW  - location data
+KW  - data augmentation
+KW  - data post-processing
+KW  - deep convolutional neural network
+DO  - 10.3390/ijgi10010039
+TY  - EJOU
+AU  - Kadhim, Israa
+AU  - Abed, Fanar M.
+TI  - The Potential of LiDAR and UAV-Photogrammetric Data Analysis to Interpret Archaeological Sites: A Case Study of Chun Castle in South-West England
+T2  - ISPRS International Journal of Geo-Information
+
+PY  - 2021
+VL  - 10
+IS  - 1
+SN  - 2220-9964
+
+AB  - With the increasing demands to use remote sensing approaches, such as aerial photography, satellite imagery, and LiDAR in archaeological applications, there is still a limited number of studies assessing the differences between remote sensing methods in extracting new archaeological finds. Therefore, this work aims to critically compare two types of fine-scale remotely sensed data: LiDAR and an Unmanned Aerial Vehicle (UAV) derived Structure from Motion (SfM) photogrammetry. To achieve this, aerial imagery and airborne LiDAR datasets of Chun Castle were acquired, processed, analyzed, and interpreted. Chun Castle is one of the most remarkable ancient sites in Cornwall County (Southwest England) that had not been surveyed and explored by non-destructive techniques. The work outlines the approaches that were applied to the remotely sensed data to reveal potential remains: Visualization methods (e.g., hillshade and slope raster images), ISODATA clustering, and Support Vector Machine (SVM) algorithms. The results display various archaeological remains within the study site that have been successfully identified. Applying multiple methods and algorithms have successfully improved our understanding of spatial attributes within the landscape. The outcomes demonstrate how raster derivable from inexpensive approaches can be used to identify archaeological remains and hidden monuments, which have the possibility to revolutionize archaeological understanding.
+KW  - archaeology
+KW  - automatic detection
+KW  - Chun Castle
+KW  - drone
+KW  - hidden features
+KW  - Iron Age
+KW  - LiDAR
+KW  - SfM-photogrammetry
+KW  - remote sensing
+KW  - RRIMs
+KW  - visualization methods
+DO  - 10.3390/ijgi10010041

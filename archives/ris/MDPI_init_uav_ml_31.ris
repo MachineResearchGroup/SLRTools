@@ -1,0 +1,305 @@
+TY  - EJOU
+AU  - Li, Wangbin
+AU  - Sun, Kaimin
+AU  - Du, Zhuotong
+AU  - Hu, Xiuqing
+AU  - Li, Wenzhuo
+AU  - Wei, Jinjiang
+AU  - Gao, Song
+TI  - PCNet: Cloud Detection in FY-3D True-Color Imagery Using Multi-Scale Pyramid Contextual Information
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 18
+SN  - 2072-4292
+
+AB  - Cloud, one of the poor atmospheric conditions, significantly reduces the usability of optical remote-sensing data and hampers follow-up applications. Thus, the identification of cloud remains a priority for various remote-sensing activities, such as product retrieval, land-use/cover classification, object detection, and especially for change detection. However, the complexity of clouds themselves make it difficult to detect thin clouds and small isolated clouds. To accurately detect clouds in satellite imagery, we propose a novel neural network named the Pyramid Contextual Network (PCNet). Considering the limited applicability of a regular convolution kernel, we employed a Dilated Residual Block (DRB) to extend the receptive field of the network, which contains a dilated convolution and residual connection. To improve the detection ability for thin clouds, the proposed new model, pyramid contextual block (PCB), was used to generate global information at different scales. FengYun-3D MERSI-II remote-sensing images covering China with 14,165 × 24,659 pixels, acquired on 17 July 2019, are processed to conduct cloud-detection experiments. Experimental results show that the overall precision rates of the trained network reach 97.1% and the overall recall rates reach 93.2%, which performs better both in quantity and quality than U-Net, UNet++, UNet3+, PSPNet and DeepLabV3+.
+KW  - cloud detection
+KW  - FY-3D remote-sensing images
+KW  - pyramid contextual
+KW  - deep learning
+DO  - 10.3390/rs13183670
+TY  - EJOU
+AU  - Shaukat, Nabil
+AU  - Moinuddin, Muhammad
+AU  - Otero, Pablo
+TI  - Underwater Vehicle Positioning by Correntropy-Based Fuzzy Multi-Sensor Fusion
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 18
+SN  - 1424-8220
+
+AB  - The ability of the underwater vehicle to determine its precise position is vital to completing a mission successfully. Multi-sensor fusion methods for underwater vehicle positioning are commonly based on Kalman filtering, which requires the knowledge of process and measurement noise covariance. As the underwater conditions are continuously changing, incorrect process and measurement noise covariance affect the accuracy of position estimation and sometimes cause divergence. Furthermore, the underwater multi-path effect and nonlinearity cause outliers that have a significant impact on positional accuracy. These non-Gaussian outliers are difficult to handle with conventional Kalman-based methods and their fuzzy variants. To address these issues, this paper presents a new and improved adaptive multi-sensor fusion method by using information-theoretic, learning-based fuzzy rules for Kalman filter covariance adaptation in the presence of outliers. Two novel metrics are proposed by utilizing correntropy Gaussian and Versoria kernels for matching theoretical and actual covariance. Using correntropy-based metrics and fuzzy logic together makes the algorithm robust against outliers in nonlinear dynamic underwater conditions. The performance of the proposed sensor fusion technique is compared and evaluated using Monte-Carlo simulations, and substantial improvements in underwater position estimation are obtained.
+KW  - underwater vehicle
+KW  - fuzzy
+KW  - multi-sensor fusion
+KW  - correntropy
+KW  - positioning
+KW  - Kalman filtering
+KW  - underwater robotics
+DO  - 10.3390/s21186165
+TY  - EJOU
+AU  - Chaturvedi, Vineet
+AU  - de Vries, Walter T.
+TI  - Machine Learning Algorithms for Urban Land Use Planning: A Review
+T2  - Urban Science
+
+PY  - 2021
+VL  - 5
+IS  - 3
+SN  - 2413-8851
+
+AB  - Urbanization is persistent globally and has increasingly significant spatial and environmental consequences. It is especially challenging in developing countries due to the increasing pressure on the limited resources, and damage to the bio-physical environment. Traditional analytical methods of studying the urban land use dynamics associated with urbanization are static and tend to rely on top-down approaches, such as linear and mathematical modeling. These traditional approaches do not capture the nonlinear properties of land use change. New technologies, such as artificial intelligence (AI) and machine learning (ML) have made it possible to model and predict the nonlinear aspects of urban land dynamics. AI and ML are programmed to recognize patterns and carry out predictions, decision making and perform operations with speed and accuracy. Classification, analysis and modeling using earth observation-based data forms the basis for the geospatial support for land use planning. In the process of achieving higher accuracies in the classification of spatial data, ML algorithms are being developed and being improved to enhance the decision-making process. The purpose of the research is to bring out the various ML algorithms and statistical models that have been applied to study aspects of land use planning using earth observation-based data (EO). It intends to review their performance, functional requirements, interoperability requirements and for which research problems can they be applied best. The literature review revealed that random forest (RF), deep learning like convolutional neural network (CNN) and support vector machine (SVM) algorithms are best suited for classification and pattern analysis of earth observation-based data. GANs (generative adversarial networks) have been used to simulate urban patterns. Algorithms like cellular automata, spatial logistic regression and agent-based modeling have been used for studying urban growth, land use change and settlement pattern analysis. Most of the papers reviewed applied ML algorithms for classification of EO data and to study urban growth and land use change. It is observed that hybrid approaches have better performance in terms of accuracies, efficiency and computational cost.
+KW  - urban growth
+KW  - land use change
+KW  - earth observation
+KW  - modeling
+DO  - 10.3390/urbansci5030068
+TY  - EJOU
+AU  - Daranagama, Samitha
+AU  - Witayangkurn, Apichon
+TI  - Automatic Building Detection with Polygonizing and Attribute Extraction from High-Resolution Images
+T2  - ISPRS International Journal of Geo-Information
+
+PY  - 2021
+VL  - 10
+IS  - 9
+SN  - 2220-9964
+
+AB  - Buildings can be introduced as a fundamental element for forming a city. Therefore, up-to-date building maps have become vital for many applications, including urban mapping and urban expansion analysis. With the development of deep learning, segmenting building footprints from high-resolution remote sensing imagery has become a subject of intense study. Here, a modified version of the U-Net architecture with a combination of pre- and post-processing techniques was developed to extract building footprints from high-resolution aerial imagery and unmanned aerial vehicle (UAV) imagery. Data pre-processing with the logarithmic correction image enhancing algorithm showed the most significant improvement in the building detection accuracy for aerial images; meanwhile, the CLAHE algorithm improved the most concerning UAV images. This study developed a post-processing technique using polygonizing and polygon smoothing called the Douglas–Peucker algorithm, which made the building output directly ready to use for different applications. The attribute information, land use data, and population count data were applied using two open datasets. In addition, the building area and perimeter of each building were calculated as geometric attributes.
+KW  - deep learning
+KW  - building extraction
+KW  - UAV images
+KW  - aerial images
+KW  - semantic segmentation
+KW  - transfer learning
+KW  - polygonizing
+KW  - polygon smoothing
+KW  - attribute extraction
+DO  - 10.3390/ijgi10090606
+TY  - EJOU
+AU  - Wang, Andong
+AU  - Zhou, Guoxu
+AU  - Zhao, Qibin
+TI  - Guaranteed Robust Tensor Completion via ∗L-SVD with Applications to Remote Sensing Data
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 18
+SN  - 2072-4292
+
+AB  - This paper conducts a rigorous analysis for the problem of robust tensor completion, which aims at recovering an unknown three-way tensor from incomplete observations corrupted by gross sparse outliers and small dense noises simultaneously due to various reasons such as sensor dead pixels, communication loss, electromagnetic interferences, cloud shadows, etc. To estimate the underlying tensor, a new penalized least squares estimator is first formulated by exploiting the low rankness of the signal tensor within the framework of tensor ∗L-Singular Value Decomposition (∗L-SVD) and leveraging the sparse structure of the outlier tensor. Then, an algorithm based on the Alternating Direction Method of Multipliers (ADMM) is designed to compute the estimator in an efficient way. Statistically, the non-asymptotic upper bound on the estimation error is established and further proved to be optimal (up to a log factor) in a minimax sense. Simulation studies on synthetic data demonstrate that the proposed error bound can predict the scaling behavior of the estimation error with problem parameters (i.e., tubal rank of the underlying tensor, sparsity of the outliers, and the number of uncorrupted observations). Both the effectiveness and efficiency of the proposed algorithm are evaluated through experiments for robust completion on seven different types of remote sensing data.
+KW  - remote sensing data restoration
+KW  - robust tensor completion
+KW  - tensor SVD
+KW  - statistical performance
+KW  - ADMM
+DO  - 10.3390/rs13183671
+TY  - EJOU
+AU  - Lee, Donghee
+AU  - Park, Wooryong
+AU  - Nam, Woochul
+TI  - Autonomous Landing of Micro Unmanned Aerial Vehicles with Landing-Assistive Platform and Robust Spherical Object Detection
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 18
+SN  - 2076-3417
+
+AB  - Autonomous unmanned aerial vehicle (UAV) landing can be useful in multiple applications. Precise landing is a difficult task because of the significant navigation errors of the global positioning system (GPS). To overcome these errors and to realize precise landing control, various sensors have been installed on UAVs. However, this approach can be challenging for micro UAVs (MAVs) because strong thrust forces are required to carry multiple sensors. In this study, a new autonomous MAV landing system is proposed, in which a landing platform actively assists vehicle landing. In addition to the vision system of the UAV, a camera was installed on the platform to precisely control the MAV near the landing area. The platform was also designed with various types of equipment to assist the MAV in searching, approaching, alignment, and landing. Furthermore, a novel algorithm was developed for robust spherical object detection under different illumination conditions. To validate the proposed landing system and detection algorithm, 80 flight experiments were conducted using a DJI TELLO drone, which successfully landed on the platform in every trial with a small landing position average error of 2.7 cm.
+KW  - micro unmanned aerial vehicle
+KW  - autonomous landing
+KW  - landing-assistive platform
+KW  - spherical object detection
+DO  - 10.3390/app11188555
+TY  - EJOU
+AU  - Krause, Johannes R.
+AU  - Hinojosa-Corona, Alejandro
+AU  - Gray, Andrew B.
+AU  - Burke Watson, Elizabeth
+TI  - Emerging Sensor Platforms Allow for Seagrass Extent Mapping in a Turbid Estuary and from the Meadow to Ecosystem Scale
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 18
+SN  - 2072-4292
+
+AB  - Seagrass meadows are globally important habitats, protecting shorelines, providing nursery areas for fish, and sequestering carbon. However, both anthropogenic and natural environmental stressors have led to a worldwide reduction seagrass habitats. For purposes of management and restoration, it is essential to produce accurate maps of seagrass meadows over a variety of spatial scales, resolutions, and at temporal frequencies ranging from months to years. Satellite remote sensing has been successfully employed to produce maps of seagrass in the past, but turbid waters and difficulty in obtaining low-tide scenes pose persistent challenges. This study builds on an increased availability of affordable high temporal frequency imaging platforms, using seasonal unmanned aerial vehicle (UAV) surveys of seagrass extent at the meadow scale, to inform machine learning classifications of satellite imagery of a 40 km2 bay. We find that object-based image analysis is suitable to detect seasonal trends in seagrass extent from UAV imagery and find that trends vary between individual meadows at our study site Bahía de San Quintín, Baja California, México, during our study period in 2019. We further suggest that compositing multiple satellite imagery classifications into a seagrass probability map allows for an estimation of seagrass extent in turbid waters and report that in 2019, seagrass covered 2324 ha of Bahía de San Quintín, indicating a recovery from losses reported for previous decades.
+KW  - seagrass
+KW  - unmanned aerial vehicle (UAV)
+KW  - object-based image analysis
+KW  - planet
+KW  - machine learning
+KW  - turbid
+KW  - estuary
+DO  - 10.3390/rs13183681
+TY  - EJOU
+AU  - Espinoza-Fraire, Tadeo
+AU  - Saenz, Armando
+AU  - Salas, Francisco
+AU  - Juarez, Raymundo
+AU  - Giernacki, Wojciech
+TI  - Trajectory Tracking with Adaptive Robust Control for Quadrotor
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 18
+SN  - 2076-3417
+
+AB  - This work proposes three robust mechanisms based on the MIT rule and the sliding-mode techniques. These robust mechanisms have to tune the gains of an adaptive Proportional-Derivative controller to steer a quadrotor in a predefined trajectory. The adaptive structure is a model reference adaptive control (MRAC). The robust mechanisms proposed to achieve the control objective (trajectory tracking) are MIT rule, MIT rule with sliding mode (MIT-SM), MIT rule with twisting (MIT-Twisting), and MIT rule with high order sliding mode (MIT-HOSM).
+KW  - adaptive control
+KW  - MIT rule
+KW  - sliding mode
+KW  - trajectory following
+DO  - 10.3390/app11188571
+TY  - EJOU
+AU  - Kwan, Chiman
+AU  - Larkin, Jude
+TI  - Detection of Small Moving Objects in Long Range Infrared Videos from a Change Detection Perspective
+T2  - Photonics
+
+PY  - 2021
+VL  - 8
+IS  - 9
+SN  - 2304-6732
+
+AB  - Detection of small moving objects in long range infrared (IR) videos is challenging due to background clutter, air turbulence, and small target size. In this paper, we present two unsupervised, modular, and flexible frameworks to detect small moving targets. The key idea was inspired by change detection (CD) algorithms where frame differences can help detect motions. Our frameworks consist of change detection, small target detection, and some post-processing algorithms such as image denoising and dilation. Extensive experiments using actual long range mid-wave infrared (MWIR) videos with target distances beyond 3500 m from the camera demonstrated that one approach, using Local Intensity Gradient (LIG) only once in the workflow, performed better than the other, which used LIG in two places, in a 3500 m video, but slightly worse in 4000 m and 5000 m videos. Moreover, we also investigated the use of synthetic bands for target detection and observed promising results for 4000 m and 5000 m videos. Finally, a comparative study with two conventional methods demonstrated that our proposed scheme has comparable performance.
+KW  - infrared videos
+KW  - change detection
+KW  - object detection
+KW  - long range videos
+KW  - synthetic images
+DO  - 10.3390/photonics8090394
+TY  - EJOU
+AU  - Benammar, Samir
+AU  - Tee, Kong F.
+TI  - Criticality Analysis and Maintenance of Solar Tower Power Plants by Integrating the Artificial Intelligence Approach
+T2  - Energies
+
+PY  - 2021
+VL  - 14
+IS  - 18
+SN  - 1996-1073
+
+AB  - Maintenance of solar tower power plants (STPP) is very important to ensure production continuity. However, random and non-optimal maintenance can increase the intervention cost. In this paper, a new procedure, based on the criticality analysis, was proposed to improve the maintenance of the STPP. This procedure is the combination of three methods, which are failure mode effects and criticality analysis (FMECA), Bayesian network and artificial intelligence. The FMECA is used to estimate the criticality index of the different elements of STPP. Moreover, corrections and improvements were introduced on the criticality index values based on the expert advice method. The modeling and the simulation of the FMECA estimations incorporating the expert advice method corrections were performed using the Bayesian network. The artificial neural network is used to predicate the criticality index of the STPP exploiting the database obtained from the Bayesian network simulations. The results showed a good agreement comparing predicted and actual criticality index values. In order to reduce the criticality index value of the critical elements of STPP, some maintenance recommendations were suggested.
+KW  - criticality analysis
+KW  - solar tower power plants
+KW  - maintenance
+KW  - artificial intelligence
+KW  - bayesian network
+DO  - 10.3390/en14185861
+TY  - EJOU
+AU  - Abdollahi, Abolfazl
+AU  - Pradhan, Biswajeet
+AU  - Shukla, Nagesh
+AU  - Chakraborty, Subrata
+AU  - Alamri, Abdullah
+TI  - Multi-Object Segmentation in Complex Urban Scenes from High-Resolution Remote Sensing Data
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 18
+SN  - 2072-4292
+
+AB  - Terrestrial features extraction, such as roads and buildings from aerial images using an automatic system, has many usages in an extensive range of fields, including disaster management, change detection, land cover assessment, and urban planning. This task is commonly tough because of complex scenes, such as urban scenes, where buildings and road objects are surrounded by shadows, vehicles, trees, etc., which appear in heterogeneous forms with lower inter-class and higher intra-class contrasts. Moreover, such extraction is time-consuming and expensive to perform by human specialists manually. Deep convolutional models have displayed considerable performance for feature segmentation from remote sensing data in the recent years. However, for the large and continuous area of obstructions, most of these techniques still cannot detect road and building well. Hence, this work’s principal goal is to introduce two novel deep convolutional models based on UNet family for multi-object segmentation, such as roads and buildings from aerial imagery. We focused on buildings and road networks because these objects constitute a huge part of the urban areas. The presented models are called multi-level context gating UNet (MCG-UNet) and bi-directional ConvLSTM UNet model (BCL-UNet). The proposed methods have the same advantages as the UNet model, the mechanism of densely connected convolutions, bi-directional ConvLSTM, and squeeze and excitation module to produce the segmentation maps with a high resolution and maintain the boundary information even under complicated backgrounds. Additionally, we implemented a basic efficient loss function called boundary-aware loss (BAL) that allowed a network to concentrate on hard semantic segmentation regions, such as overlapping areas, small objects, sophisticated objects, and boundaries of objects, and produce high-quality segmentation maps. The presented networks were tested on the Massachusetts building and road datasets. The MCG-UNet improved the average F1 accuracy by 1.85%, and 1.19% and 6.67% and 5.11% compared with UNet and BCL-UNet for road and building extraction, respectively. Additionally, the presented MCG-UNet and BCL-UNet networks were compared with other state-of-the-art deep learning-based networks, and the results proved the superiority of the networks in multi-object segmentation tasks.
+KW  - building extraction
+KW  - boundary-aware loss
+KW  - deep learning
+KW  - remote sensing
+KW  - road extraction
+DO  - 10.3390/rs13183710
+TY  - EJOU
+AU  - Weber, Daniel
+AU  - Gühmann, Clemens
+AU  - Seel, Thomas
+TI  - RIANN—A Robust Neural Network Outperforms Attitude Estimation Filters
+T2  - AI
+
+PY  - 2021
+VL  - 2
+IS  - 3
+SN  - 2673-2688
+
+AB  - Inertial-sensor-based attitude estimation is a crucial technology in various applications, from human motion tracking to autonomous aerial and ground vehicles. Application scenarios differ in characteristics of the performed motion, presence of disturbances, and environmental conditions. Since state-of-the-art attitude estimators do not generalize well over these characteristics, their parameters must be tuned for the individual motion characteristics and circumstances. We propose RIANN, a ready-to-use, neural network-based, parameter-free, real-time-capable inertial attitude estimator, which generalizes well across different motion dynamics, environments, and sampling rates, without the need for application-specific adaptations. We gather six publicly available datasets of which we exploit two datasets for the method development and the training, and we use four datasets for evaluation of the trained estimator in three different test scenarios with varying practical relevance. Results show that RIANN outperforms state-of-the-art attitude estimation filters in the sense that it generalizes much better across a variety of motions and conditions in different applications, with different sensor hardware and different sampling frequencies. This is true even if the filters are tuned on each individual test dataset, whereas RIANN was trained on completely separate data and has never seen any of these test datasets. RIANN can be applied directly without adaptations or training and is therefore expected to enable plug-and-play solutions in numerous applications, especially when accuracy is crucial but no ground-truth data is available for tuning or when motion and disturbance characteristics are uncertain. We made RIANN publicly available.
+KW  - attitude estimation
+KW  - nonlinear filters
+KW  - inertial sensors
+KW  - information fusion
+KW  - neural networks
+KW  - recurrent neural networks
+KW  - performance evaluation
+DO  - 10.3390/ai2030028
+TY  - EJOU
+AU  - Richardson, Galen
+AU  - Leblanc, Sylvain G.
+AU  - Lovitt, Julie
+AU  - Rajaratnam, Krishan
+AU  - Chen, Wenjun
+TI  - Leveraging AI to Estimate Caribou Lichen in UAV Orthomosaics from Ground Photo Datasets
+T2  - Drones
+
+PY  - 2021
+VL  - 5
+IS  - 3
+SN  - 2504-446X
+
+AB  - Relating ground photographs to UAV orthomosaics is a key linkage required for accurate multi-scaled lichen mapping. Conventional methods of multi-scaled lichen mapping, such as random forest models and convolutional neural networks, heavily rely on pixel DN values for classification. However, the limited spectral range of ground photos requires additional characteristics to differentiate lichen from spectrally similar objects, such as bright logs. By applying a neural network to tiles of a UAV orthomosaics, additional characteristics, such as surface texture and spatial patterns, can be used for inferences. Our methodology used a neural network (UAV LiCNN) trained on ground photo mosaics to predict lichen in UAV orthomosaic tiles. The UAV LiCNN achieved mean user and producer accuracies of 85.84% and 92.93%, respectively, in the high lichen class across eight different orthomosaics. We compared the known lichen percentages found in 77 vegetation microplots with the predicted lichen percentage calculated from the UAV LiCNN, resulting in a R2 relationship of 0.6910. This research shows that AI models trained on ground photographs effectively classify lichen in UAV orthomosaics. Limiting factors include the misclassification of spectrally similar objects to lichen in the RGB bands and dark shadows cast by vegetation.
+KW  - image classification
+KW  - lichen mapping
+KW  - orthomosaics
+KW  - artificial intelligence
+KW  - UAV
+DO  - 10.3390/drones5030099
+TY  - EJOU
+AU  - Kim, Eric J.
+AU  - Perez, Ruben E.
+TI  - Neuroevolutionary Control for Autonomous Soaring
+T2  - Aerospace
+
+PY  - 2021
+VL  - 8
+IS  - 9
+SN  - 2226-4310
+
+AB  - The energy efficiency and flight endurance of small unmanned aerial vehicles (SUAVs) can be improved through the implementation of autonomous soaring strategies. Biologically inspired flight techniques such as dynamic and thermal soaring offer significant energy savings through the exploitation of naturally occurring wind phenomena for thrustless flight. Recent interest in the application of artificial intelligence algorithms for autonomous soaring has been motivated by the pursuit of instilling generalized behavior in control systems, centered around the use of neural networks. However, the topology of such networks is usually predetermined, restricting the search space of potential solutions, while often resulting in complex neural networks that can pose implementation challenges for the limited hardware onboard small-scale autonomous vehicles. In exploring a novel method of generating neurocontrollers, this paper presents a neural network-based soaring strategy to extend flight times and advance the potential operational capability of SUAVs. In this study, the Neuroevolution of Augmenting Topologies (NEAT) algorithm is used to train efficient and effective neurocontrollers that can control a simulated aircraft along sustained dynamic and thermal soaring trajectories. The proposed approach evolves interpretable neural networks in a way that preserves simplicity while maximizing performance without requiring extensive training datasets. As a result, the combined trajectory planning and aircraft control strategy is suitable for real-time implementation on SUAV platforms.
+KW  - dynamic soaring
+KW  - thermal soaring
+KW  - neurocontrol
+KW  - artificial neural network
+KW  - neuroevolution
+KW  - unmanned aerial vehicle
+KW  - flight trajectory
+KW  - aircraft control
+KW  - trajectory optimization
+KW  - optimal control
+DO  - 10.3390/aerospace8090267
+TY  - EJOU
+AU  - Memon, Mehak M.
+AU  - Hashmani, Manzoor A.
+AU  - Junejo, Aisha Z.
+AU  - Rizvi, Syed S.
+AU  - Arain, Adnan A.
+TI  - A Novel Luminance-Based Algorithm for Classification of Semi-Dark Images
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 18
+SN  - 2076-3417
+
+AB  - Image classification of a visual scene based on visibility is significant due to the rise in readily available automated solutions. Currently, there are only two known spectrums of image visibility i.e., dark, and bright. However, normal environments include semi-dark scenarios. Hence, visual extremes that will lead to the accurate extraction of image features should be duly discarded. Fundamentally speaking there are two broad methods to perform visual scene-based image classification, i.e., machine learning (ML) methods and computer vision methods. In ML, the issues of insufficient data, sophisticated hardware and inadequate image classifier training time remain significant problems to be handled. These techniques fail to classify the visual scene-based images with high accuracy. The other alternative is computer vision (CV) methods, which also have major issues. CV methods do provide some basic procedures which may assist in such classification but, to the best of our knowledge, no CV algorithm exists to perform such classification, i.e., these do not account for semi-dark images in the first place. Moreover, these methods do not provide a well-defined protocol to calculate images’ content visibility and thereby classify images. One of the key algorithms for calculation of images’ content visibility is backed by the HSL (hue, saturation, lightness) color model. The HSL color model allows the visibility calculation of a scene by calculating the lightness/luminance of a single pixel. Recognizing the high potential of the HSL color model, we propose a novel framework relying on the simple approach of the statistical manipulation of an entire image’s pixel intensities, represented by HSL color model. The proposed algorithm, namely, Relative Perceived Luminance Classification (RPLC) uses the HSL (hue, saturation, lightness) color model to correctly identify the luminosity values of the entire image. Our findings prove that the proposed method yields high classification accuracy (over 78%) with a small error rate. We show that the computational complexity of RPLC is much less than that of the state-of-the-art ML algorithms.
+KW  - Relative Perceived Luminance Classification (RPLC)
+KW  - color model
+KW  - luminosity
+KW  - bright
+KW  - dark
+KW  - semi-dark
+DO  - 10.3390/app11188694

@@ -1,0 +1,668 @@
+TY  - EJOU
+AU  - Abdi, Omid
+AU  - Uusitalo, Jori
+AU  - Kivinen, Veli-Pekka
+TI  - Logging Trail Segmentation via a Novel U-Net Convolutional Neural Network and High-Density Laser Scanning Data
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 2
+SN  - 2072-4292
+
+AB  - Logging trails are one of the main components of modern forestry. However, spotting the accurate locations of old logging trails through common approaches is challenging and time consuming. This study was established to develop an approach, using cutting-edge deep-learning convolutional neural networks and high-density laser scanning data, to detect logging trails in different stages of commercial thinning, in Southern Finland. We constructed a U-Net architecture, consisting of encoder and decoder paths with several convolutional layers, pooling and non-linear operations. The canopy height model (CHM), digital surface model (DSM), and digital elevation models (DEMs) were derived from the laser scanning data and were used as image datasets for training the model. The labeled dataset for the logging trails was generated from different references as well. Three forest areas were selected to test the efficiency of the algorithm that was developed for detecting logging trails. We designed 21 routes, including 390 samples of the logging trails and non-logging trails, covering all logging trails inside the stands. The results indicated that the trained U-Net using DSM (k = 0.846 and IoU = 0.867) shows superior performance over the trained model using CHM (k = 0.734 and IoU = 0.782), DEMavg (k = 0.542 and IoU = 0.667), and DEMmin (k = 0.136 and IoU = 0.155) in distinguishing logging trails from non-logging trails. Although the efficiency of the developed approach in young and mature stands that had undergone the commercial thinning is approximately perfect, it needs to be improved in old stands that have not received the second or third commercial thinning.
+KW  - U-Net
+KW  - high-density laser scanning
+KW  - logging trails
+KW  - digital surface model
+KW  - canopy height model
+KW  - commercial thinning
+KW  - semantic segmentation
+KW  - convolutional neural networks
+DO  - 10.3390/rs14020349
+ER  -
+TY  - EJOU
+AU  - Beltran-Carbajal, Francisco
+AU  - Yañez-Badillo, Hugo
+AU  - Tapia-Olvera, Ruben
+AU  - Favela-Contreras, Antonio
+AU  - Valderrabano-Gonzalez, Antonio
+AU  - Lopez-Garcia, Irvin
+TI  - On Active Vibration Absorption in Motion Control of a Quadrotor UAV
+T2  - Mathematics
+
+PY  - 2022
+VL  - 10
+IS  - 2
+SN  - 2227-7390
+
+AB  - Conventional dynamic vibration absorbers are physical control devices designed to be coupled to flexible mechanical structures to be protected against undesirable forced vibrations. In this article, an approach to extend the capabilities of forced vibration suppression of the dynamic vibration absorbers into desired motion trajectory tracking control algorithms for a four-rotor unmanned aerial vehicle (UAV) is introduced. Nevertheless, additional physical control devices for mechanical vibration absorption are unnecessary in the proposed motion profile reference tracking control design perspective. A new dynamic control design approach for efficient tracking of desired motion profiles as well as for simultaneous active harmonic vibration absorption for a quadrotor helicopter is then proposed. In contrast to other control design methods, the presented motion tracking control scheme is based on the synthesis of multiple virtual (nonphysical) dynamic vibration absorbers. The mathematical structure of these physical mechanical devices, known as dynamic vibration absorbers, is properly exploited and extended for control synthesis for underactuated multiple-input multiple-output four-rotor nonlinear aerial dynamic systems. In this fashion, additional capabilities of active suppression of vibrating forces and torques can be achieved in specified motion directions on four-rotor helicopters. Moreover, since the dynamic vibration absorbers are designed to be virtual, these can be directly tuned for diverse operating conditions. In the present study, it is thus demonstrated that the mathematical structure of physical mechanical vibration absorbers can be extended for the design of active vibration control schemes for desired motion trajectory tracking tasks on four-rotor aerial vehicles subjected to adverse harmonic disturbances. The effectiveness of the presented novel design perspective of virtual dynamic vibration absorption schemes is proved by analytical and numerical results. Several operating case studies to stress the advantages to extend the undesirable vibration attenuation capabilities of the dynamic vibration absorbers into trajectory tracking control algorithms for nonlinear four-rotor helicopter systems are presented.
+KW  - vibration control
+KW  - dynamic vibration absorbers
+KW  - aerial vehicles
+KW  - quadrotor
+KW  - motion tracking control
+DO  - 10.3390/math10020235
+ER  -
+TY  - EJOU
+AU  - Sharma, Prakriti
+AU  - Leigh, Larry
+AU  - Chang, Jiyul
+AU  - Maimaitijiang, Maitiniyazi
+AU  - Caffé, Melanie
+TI  - Above-Ground Biomass Estimation in Oats Using UAV Remote Sensing and Machine Learning
+T2  - Sensors
+
+PY  - 2022
+VL  - 22
+IS  - 2
+SN  - 1424-8220
+
+AB  - Current strategies for phenotyping above-ground biomass in field breeding nurseries demand significant investment in both time and labor. Unmanned aerial vehicles (UAV) can be used to derive vegetation indices (VIs) with high throughput and could provide an efficient way to predict forage yield with high accuracy. The main objective of the study is to investigate the potential of UAV-based multispectral data and machine learning approaches in the estimation of oat biomass. UAV equipped with a multispectral sensor was flown over three experimental oat fields in Volga, South Shore, and Beresford, South Dakota, USA, throughout the pre- and post-heading growth phases of oats in 2019. A variety of vegetation indices (VIs) derived from UAV-based multispectral imagery were employed to build oat biomass estimation models using four machine-learning algorithms: partial least squares (PLS), support vector machine (SVM), Artificial neural network (ANN), and random forest (RF). The results showed that several VIs derived from the UAV collected images were significantly positively correlated with dry biomass for Volga and Beresford (r = 0.2&ndash;0.65), however, in South Shore, VIs were either not significantly or weakly correlated with biomass. For Beresford, approximately 70% of the variance was explained by PLS, RF, and SVM validation models using data collected during the post-heading phase. Likewise for Volga, validation models had lower coefficient of determination (R2 = 0.20&ndash;0.25) and higher error (RMSE = 700&ndash;800 kg/ha) than training models (R2 = 0.50&ndash;0.60; RMSE = 500&ndash;690 kg/ha). In South Shore, validation models were only able to explain approx. 15&ndash;20% of the variation in biomass, which is possibly due to the insignificant correlation values between VIs and biomass. Overall, this study indicates that airborne remote sensing with machine learning has potential for above-ground biomass estimation in oat breeding nurseries. The main limitation was inconsistent accuracy in model prediction across locations. Multiple-year spectral data, along with the inclusion of textural features like crop surface model (CSM) derived height and volumetric indicators, should be considered in future studies while estimating biophysical parameters like biomass.
+KW  - high throughput phenotyping
+KW  - remote sensing
+KW  - machine learning
+KW  - UAV/drone
+KW  - biomass estimation
+KW  - oats
+DO  - 10.3390/s22020601
+ER  -
+TY  - EJOU
+AU  - Zhang, Tong
+AU  - Liu, Chunjiang
+AU  - Li, Jiaqi
+AU  - Pang, Minghui
+AU  - Wang, Mingang
+TI  - A New Visual Inertial Simultaneous Localization and Mapping (SLAM) Algorithm Based on Point and Line Features
+T2  - Drones
+
+PY  - 2022
+VL  - 6
+IS  - 1
+SN  - 2504-446X
+
+AB  - In view of traditional point-line feature visual inertial simultaneous localization and mapping (SLAM) system, which has weak performance in accuracy so that it cannot be processed in real time under the condition of weak indoor texture and light and shade change, this paper proposes an inertial SLAM method based on point-line vision for indoor weak texture and illumination. Firstly, based on Bilateral Filtering, we apply the Speeded Up Robust Features (SURF) point feature extraction and Fast Nearest neighbor (FLANN) algorithms to improve the robustness of point feature extraction result. Secondly, we establish a minimum density threshold and length suppression parameter selection strategy of line feature, and take the geometric constraint line feature matching into consideration to improve the efficiency of processing line feature. And the parameters and biases of visual inertia are initialized based on maximum posterior estimation method. Finally, the simulation experiments are compared with the traditional tightly-coupled monocular visual&ndash;inertial odometry using point and line features (PL-VIO) algorithm. The simulation results demonstrate that the proposed an inertial SLAM method based on point-line vision for indoor weak texture and illumination can be effectively operated in real time, and its positioning accuracy is 22% higher on average and 40% higher in the scenario that illumination changes and blurred image.
+KW  - simultaneous localization and mapping (SLAM)
+KW  - fast bilateral filtering
+KW  - SURF algorithm
+KW  - nearest-neighbor algorithm
+KW  - geometric constraints
+KW  - feature extraction
+DO  - 10.3390/drones6010023
+ER  -
+TY  - EJOU
+AU  - Salles, Roberto N.
+AU  - Campos Velho, Haroldo F.
+AU  - Shiguemori, Elcio H.
+TI  - Automatic Position Estimation Based on Lidar &times; Lidar Data for Autonomous Aerial Navigation in the Amazon Forest Region
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 2
+SN  - 2072-4292
+
+AB  - In this paper we post-process and evaluate the position estimation of pairs of template windows and geo-referenced images generated from LiDAR cloud point data using the Normalized Cross-Correlation (NCC) method. We created intensity, surface and terrain pairs of images for use with template matching, with 5 m pixel spacing, through binning. We evaluated square and circular binning approaches, without filtering the original data. Template matching achieved approximately 7 m root mean square error (RMSE) on intensity and surface templates on the respective geo-referenced images, while on terrain templates it had many mismatches due to insufficient terrain features over the assumed flight transect. Analysis of NCC showed the possibility of rejecting bad matches of intensity and surface templates, but terrain templates required an additional criteria of flatness for rejection. The combined NCC of intensity, surface and terrain proved stable for rejection of bad matches and had the lowest RMSE. Filtering outliers from surface images changed very little the accuracy of the matches, but greatly improved correlation values, indicating that the forest canopy might have the best features for geo-localization with template matching. Position estimation is essential for autonomous navigation of aerial vehicles and the these experiments with LiDAR data show potential for localization over densely forested regions where methods using optical camera data may fail to acquire distinguishable features.
+KW  - terrain-referenced navigation (TRN)
+KW  - normalized cross-correlation (NCC)
+KW  - template matching
+KW  - LiDAR
+KW  - Amazon region
+DO  - 10.3390/rs14020361
+ER  -
+TY  - EJOU
+AU  - Correia, Carlos A. M.
+AU  - Andrade, Fabio A. A.
+AU  - Sivertsen, Agnar
+AU  - Guedes, Ihannah P.
+AU  - Pinto, Milena F.
+AU  - Manhães, Aline G.
+AU  - Haddad, Diego B.
+TI  - Comprehensive Direct Georeferencing of Aerial Images for Unmanned Aerial Systems Applications
+T2  - Sensors
+
+PY  - 2022
+VL  - 22
+IS  - 2
+SN  - 1424-8220
+
+AB  - Optical image sensors are the most common remote sensing data acquisition devices present in Unmanned Aerial Systems (UAS). In this context, assigning a location in a geographic frame of reference to the acquired image is a necessary task in the majority of the applications. This process is denominated direct georeferencing when ground control points are not used. Despite it applies simple mathematical fundamentals, the complete direct georeferencing process involves much information, such as camera sensor characteristics, mounting measurements, attitude and position of the UAS, among others. In addition, there are many rotations and translations between the different reference frames, among many other details, which makes the whole process a considerable complex operation. Another problem is that manufacturers and software tools may use different reference frames posing additional difficulty when implementing the direct georeferencing. As this information is spread among many sources, researchers may face difficulties on having a complete vision of the method. In fact, there is absolutely no paper in the literature that explain this process in a comprehensive way. In order to supply this implicit demand, this paper presents a comprehensive method for direct georeferencing of aerial images acquired by cameras mounted on UAS, where all required information, mathematical operations and implementation steps are explained in detail. Finally, in order to show the practical use of the method and to prove its accuracy, both simulated and real flights were performed, where objects of the acquired images were georeferenced.
+KW  - direct georeferencing
+KW  - UAS
+KW  - pinhole camera model
+DO  - 10.3390/s22020604
+ER  -
+TY  - EJOU
+AU  - Jing, Yafei
+AU  - Ren, Yuhuan
+AU  - Liu, Yalan
+AU  - Wang, Dacheng
+AU  - Yu, Linjun
+TI  - Automatic Extraction of Damaged Houses by Earthquake Based on Improved YOLOv5: A Case Study in Yangbi
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 2
+SN  - 2072-4292
+
+AB  - Efficiently and automatically acquiring information on earthquake damage through remote sensing has posed great challenges because the classical methods of detecting houses damaged by destructive earthquakes are often both time consuming and low in accuracy. A series of deep-learning-based techniques have been developed and recent studies have demonstrated their high intelligence for automatic target extraction for natural and remote sensing images. For the detection of small artificial targets, current studies show that You Only Look Once (YOLO) has a good performance in aerial and Unmanned Aerial Vehicle (UAV) images. However, less work has been conducted on the extraction of damaged houses. In this study, we propose a YOLOv5s-ViT-BiFPN-based neural network for the detection of rural houses. Specifically, to enhance the feature information of damaged houses from the global information of the feature map, we introduce the Vision Transformer into the feature extraction network. Furthermore, regarding the scale differences for damaged houses in UAV images due to the changes in flying height, we apply the Bi-Directional Feature Pyramid Network (BiFPN) for multi-scale feature fusion to aggregate features with different resolutions and test the model. We took the 2021 Yangbi earthquake with a surface wave magnitude (Ms) of 6.4 in Yunan, China, as an example; the results show that the proposed model presents a better performance, with the average precision (AP) being increased by 9.31% and 1.23% compared to YOLOv3 and YOLOv5s, respectively, and a detection speed of 80 FPS, which is 2.96 times faster than YOLOv3. In addition, the transferability test for five other areas showed that the average accuracy was 91.23% and the total processing time was 4 min, while 100 min were needed for professional visual interpreters. The experimental results demonstrate that the YOLOv5s-ViT-BiFPN model can automatically detect damaged rural houses due to destructive earthquakes in UAV images with a good performance in terms of accuracy and timeliness, as well as being robust and transferable.
+KW  - damaged houses
+KW  - detection
+KW  - orthophotos of UAV
+KW  - YOLOv5s-ViT-BiFPN
+KW  - Yangbi Ms6.4 earthquake
+DO  - 10.3390/rs14020382
+ER  -
+TY  - EJOU
+AU  - Li, Zongpeng
+AU  - Chen, Zhen
+AU  - Cheng, Qian
+AU  - Duan, Fuyi
+AU  - Sui, Ruixiu
+AU  - Huang, Xiuqiao
+AU  - Xu, Honggang
+TI  - UAV-Based Hyperspectral and Ensemble Machine Learning for Predicting Yield in Winter Wheat
+T2  - Agronomy
+
+PY  - 2022
+VL  - 12
+IS  - 1
+SN  - 2073-4395
+
+AB  - Winter wheat is a widely-grown cereal crop worldwide. Using growth-stage information to estimate winter wheat yields in a timely manner is essential for accurate crop management and rapid decision-making in sustainable agriculture, and to increase productivity while reducing environmental impact. UAV remote sensing is widely used in precision agriculture due to its flexibility and increased spatial and spectral resolution. Hyperspectral data are used to model crop traits because of their ability to provide continuous rich spectral information and higher spectral fidelity. In this study, hyperspectral image data of the winter wheat crop canopy at the flowering and grain-filling stages was acquired by a low-altitude unmanned aerial vehicle (UAV), and machine learning was used to predict winter wheat yields. Specifically, a large number of spectral indices were extracted from the spectral data, and three feature selection methods, recursive feature elimination (RFE), Boruta feature selection, and the Pearson correlation coefficient (PCC), were used to filter high spectral indices in order to reduce the dimensionality of the data. Four major basic learner models, (1) support vector machine (SVM), (2) Gaussian process (GP), (3) linear ridge regression (LRR), and (4) random forest (RF), were also constructed, and an ensemble machine learning model was developed by combining the four base learner models. The results showed that the SVM yield prediction model, constructed on the basis of the preferred features, performed the best among the base learner models, with an R2 between 0.62 and 0.73. The accuracy of the proposed ensemble learner model was higher than that of each base learner model; moreover, the R2 (0.78) for the yield prediction model based on Boruta&rsquo;s preferred characteristics was the highest at the grain-filling stage.
+KW  - yield
+KW  - feature selection
+KW  - flowering
+KW  - grain filling
+KW  - prediction model
+DO  - 10.3390/agronomy12010202
+ER  -
+TY  - EJOU
+AU  - Talaei Khoei, Tala
+AU  - Ismail, Shereen
+AU  - Kaabouch, Naima
+TI  - Dynamic Selection Techniques for Detecting GPS Spoofing Attacks on UAVs
+T2  - Sensors
+
+PY  - 2022
+VL  - 22
+IS  - 2
+SN  - 1424-8220
+
+AB  - Unmanned aerial vehicles are prone to several cyber-attacks, including Global Positioning System spoofing. Several techniques have been proposed for detecting such attacks. However, the recurrence and frequent Global Positioning System spoofing incidents show a need for effective security solutions to protect unmanned aerial vehicles. In this paper, we propose two dynamic selection techniques, Metric Optimized Dynamic selector and Weighted Metric Optimized Dynamic selector, which identify the most effective classifier for the detection of such attacks. We develop a one-stage ensemble feature selection method to identify and discard the correlated and low importance features from the dataset. We implement the proposed techniques using ten machine-learning models and compare their performance in terms of four evaluation metrics: accuracy, probability of detection, probability of false alarm, probability of misdetection, and processing time. The proposed techniques dynamically choose the classifier with the best results for detecting attacks. The results indicate that the proposed dynamic techniques outperform the existing ensemble models with an accuracy of 99.6%, a probability of detection of 98.9%, a probability of false alarm of 1.56%, a probability of misdetection of 1.09%, and a processing time of 1.24 s.
+KW  - unmanned aerial vehicles
+KW  - global positioning system
+KW  - GPS spoofing attacks
+KW  - detection techniques
+KW  - machine learning
+KW  - dynamic selection
+KW  - hyperparameter tuning
+DO  - 10.3390/s22020662
+ER  -
+TY  - EJOU
+AU  - Shi, Yue
+AU  - Han, Liangxiu
+AU  - Kleerekoper, Anthony
+AU  - Chang, Sheng
+AU  - Hu, Tongle
+TI  - Novel CropdocNet Model for Automated Potato Late Blight Disease Detection from Unmanned Aerial Vehicle-Based Hyperspectral Imagery
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 2
+SN  - 2072-4292
+
+AB  - The accurate and automated diagnosis of potato late blight disease, one of the most destructive potato diseases, is critical for precision agricultural control and management. Recent advances in remote sensing and deep learning offer the opportunity to address this challenge. This study proposes a novel end-to-end deep learning model (CropdocNet) for accurate and automated late blight disease diagnosis from UAV-based hyperspectral imagery. The proposed method considers the potential disease-specific reflectance radiation variance caused by the canopy&rsquo;s structural diversity and introduces multiple capsule layers to model the part-to-whole relationship between spectral&ndash;spatial features and the target classes to represent the rotation invariance of the target classes in the feature space. We evaluate the proposed method with real UAV-based HSI data under controlled and natural field conditions. The effectiveness of the hierarchical features is quantitatively assessed and compared with the existing representative machine learning/deep learning methods on both testing and independent datasets. The experimental results show that the proposed model significantly improves accuracy when considering the hierarchical structure of spectral&ndash;spatial features, with average accuracies of 98.09% for the testing dataset and 95.75% for the independent dataset, respectively.
+KW  - potato late blight
+KW  - automated crop disease diagnosis
+KW  - UAV-based hyperspectral imagery
+KW  - deep learning
+KW  - classification
+DO  - 10.3390/rs14020396
+ER  -
+TY  - EJOU
+AU  - Zhang, Fangfang
+AU  - Wang, Changkun
+AU  - Pan, Kai
+AU  - Guo, Zhiying
+AU  - Liu, Jie
+AU  - Xu, Aiai
+AU  - Ma, Haiyi
+AU  - Pan, Xianzhang
+TI  - The Simultaneous Prediction of Soil Properties and Vegetation Coverage from Vis-NIR Hyperspectral Data with a One-Dimensional Convolutional Neural Network: A Laboratory Simulation Study
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 2
+SN  - 2072-4292
+
+AB  - Remote sensing of land surface mostly obtains a mixture of spectral information of soil and vegetation. It is thus of great value if soil and vegetation information can be acquired simultaneously from one model. In this study, we designed a laboratory experiment to simulate land surface compositions, including various soil types with varying soil moisture and vegetation coverage. A model of a one-dimensional convolutional neural network (1DCNN) was established to simultaneously estimate soil properties (organic matter, soil moisture, clay, and sand) and vegetation coverage based on the hyperspectral data measured in the experiment. The results showed that the model achieved excellent predictions for soil properties (R2 = 0.88&ndash;0.91, RPIQ = 4.01&ndash;5.78) and vegetation coverage (R2 = 0.95, RPIQ = 7.75). Compared with the partial least-squares regression (PLSR), the prediction accuracy of 1DCNN improved 42.20%, 45.82%, 43.32%, and 36.46% in terms of the root-mean-squared error (RMSE) for predicting soil organic matter, sand, clay, and soil moisture, respectively. The improvement might be caused by the fact that the spectral preprocessing and spectral features useful for predicting soil properties were successfully identified in the 1DCNN model. For the prediction of vegetation coverage, although the prediction accuracy by 1DCNN was excellent, its performance (R2 = 0.95, RPIQ = 7.75, RMSE = 3.92%) was lower than the PLSR model (R2 = 0.98, RPIQ = 12.57, RMSE = 2.41%). These results indicate that 1DCNN can simultaneously predict soil properties and vegetation coverage. However, the factors such as surface roughness and vegetation type that could affect the prediction accuracy should be investigated in the future.
+KW  - convolutional neural network
+KW  - multitask learning
+KW  - soil properties
+KW  - vegetation coverage
+DO  - 10.3390/rs14020397
+ER  -
+TY  - EJOU
+AU  - Lu, Zhumao
+AU  - Gong, Hao
+AU  - Jin, Qiuheng
+AU  - Hu, Qingwu
+AU  - Wang, Shaohua
+TI  - A Transmission Tower Tilt State Assessment Approach Based on Dense Point Cloud from UAV-Based LiDAR
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 2
+SN  - 2072-4292
+
+AB  - Transmission towers are easily affected by various meteorological and geological disasters. In this paper, a transmission tower tilt state assessment approach&mdash;based on high precision and dense point cloud from UAV LiDAR&mdash;was proposed. First, the transmission tower point cloud was rapidly located and extracted from the 3D point cloud obtained by UAV-LiDAR line patrol. A robust histogram local extremum extraction method with additional constraints was proposed to achieve adaptive segmentation of the tower head and tower body point cloud. Second, an accurate and efficient extraction and simplification strategy of the contour of the feature plane point cloud was proposed. The central axis of the tower was constrained by the contour of the feature plane through the four-prism structure to calculate the tilt angle of the tower and evaluate the state of the tower. Finally, the point cloud of tower head from UAV-based LiDAR was accurately matched with the designed tower head model from database, and a tower head state evaluation model based on matching offset parameters was proposed to evaluate tower head tilt state. The experimental results of simulation and measured data showed that the calculation accuracy of the tilt parameters of transmission tower body was better than 0.5 degrees, that the proposed method can effectively evaluate the risk of tower head with complex structure, and improve the rapid and mass intelligent perception level of the risk state of the transmission line tower, which has a wide prospects for application.
+KW  - UAV LiDAR
+KW  - point cloud
+KW  - transmission tower
+KW  - tilt
+KW  - state assessment
+DO  - 10.3390/rs14020408
+ER  -
+TY  - EJOU
+AU  - Hung, Kuo-Ching
+AU  - Lin, Meng-Chun
+AU  - Lin, Sheng-Fuu
+TI  - A Novel Power-Saving Reversing Camera System with Artificial Intelligence Object Detection
+T2  - Electronics
+
+PY  - 2022
+VL  - 11
+IS  - 2
+SN  - 2079-9292
+
+AB  - According to a study by the Insurance Institute for Highway Safety (IIHS), the driving collision rate of using only the reversing camera system is lower than that of using both the reversing camera system and the reversing radar. In this article, we implemented a reversing camera system with artificial intelligence object detection to increase the information of the reversing image. Our system consists of an image processing chip (IPC) with wide-angle image distortion correction and an image buffer controller, a low-power KL520 chip and an optimized artificial intelligence model MobileNetV2-YOLOV3-Optimized (MNYLO). The results of the experiment show the three advantages of our system. Firstly, through the image distortion correction of IPC, we can restore the distorted reversing image. Secondly, by using a public dataset and collected images of various weathers for artificial intelligence model training, our system does not need to use image algorithms that eliminate bad weathers such as rain, fog, and snow to restore polluted images. Objects can still be detected by our system in images contaminated by weather. Thirdly, compared with the AI model Tiny_YOLOV3, not only the parameters of our MNYLO have been reduced by 72.3%, the amount of calculation has been reduced by 86.4%, but the object detection rate has also been maintained and avoided sharp drops.
+KW  - artificial intelligence
+KW  - image distortion correction
+KW  - MobileNetV2
+KW  - object detection
+KW  - reversing camera system
+KW  - Tiny-YOLOV3
+DO  - 10.3390/electronics11020282
+ER  -
+TY  - EJOU
+AU  - Xu, Zhibo
+AU  - Huang, Xiaopeng
+AU  - Huang, Yuan
+AU  - Sun, Haobo
+AU  - Wan, Fangxin
+TI  - A Real-Time Zanthoxylum Target Detection Method for an Intelligent Picking Robot under a Complex Background, Based on an Improved YOLOv5s Architecture
+T2  - Sensors
+
+PY  - 2022
+VL  - 22
+IS  - 2
+SN  - 1424-8220
+
+AB  - The target recognition algorithm is one of the core technologies of Zanthoxylum pepper-picking robots. However, most existing detection algorithms cannot effectively detect Zanthoxylum fruit covered by branches, leaves and other fruits in natural scenes. To improve the work efficiency and adaptability of the Zanthoxylum-picking robot in natural environments, and to recognize and detect fruits in complex environments under different lighting conditions, this paper presents a Zanthoxylum-picking-robot target detection method based on improved YOLOv5s. Firstly, an improved CBF module based on the CBH module in the backbone is raised to improve the detection accuracy. Secondly, the Specter module based on CBF is presented to replace the bottleneck CSP module, which improves the speed of detection with a lightweight structure. Finally, the Zanthoxylum fruit algorithm is checked by the improved YOLOv5 framework, and the differences in detection between YOLOv3, YOLOv4 and YOLOv5 are analyzed and evaluated. Through these improvements, the recall rate, recognition accuracy and mAP of the YOLOv5s are 4.19%, 28.7% and 14.8% higher than those of the original YOLOv5s, YOLOv3 and YOLOv4 models, respectively. Furthermore, the model is transferred to the computing platform of the robot with the cutting-edge NVIDIA Jetson TX2 device. Several experiments are implemented on the TX2, yielding an average time of inference of 0.072, with an average GPU load in 30 s of 20.11%. This method can provide technical support for pepper-picking robots to detect multiple pepper fruits in real time.
+KW  - Zanthoxylum
+KW  - artificial intelligence
+KW  - YOLOv5
+KW  - target detection
+KW  - picking robot
+DO  - 10.3390/s22020682
+ER  -
+TY  - EJOU
+AU  - Paux, Etienne
+AU  - Lafarge, Stéphane
+AU  - Balfourier, François
+AU  - Derory, Jérémy
+AU  - Charmet, Gilles
+AU  - Alaux, Michael
+AU  - Perchet, Geoffrey
+AU  - Bondoux, Marion
+AU  - Baret, Frédéric
+AU  - Barillot, Romain
+AU  - Ravel, Catherine
+AU  - Sourdille, Pierre
+AU  - Le Gouis, Jacques
+AU  - on behalf of the BREEDWHEAT Consortium
+TI  - Breeding for Economically and Environmentally Sustainable Wheat Varieties: An Integrated Approach from Genomics to Selection
+T2  - Biology
+
+PY  - 2022
+VL  - 11
+IS  - 1
+SN  - 2079-7737
+
+AB  - There is currently a strong societal demand for sustainability, quality, and safety in bread wheat production. To address these challenges, new and innovative knowledge, resources, tools, and methods to facilitate breeding are needed. This starts with the development of high throughput genomic tools including single nucleotide polymorphism (SNP) arrays, high density molecular marker maps, and full genome sequences. Such powerful tools are essential to perform genome-wide association studies (GWAS), to implement genomic and phenomic selection, and to characterize the worldwide diversity. This is also useful to breeders to broaden the genetic basis of elite varieties through the introduction of novel sources of genetic diversity. Improvement in varieties particularly relies on the detection of genomic regions involved in agronomical traits including tolerance to biotic (diseases and pests) and abiotic (drought, nutrient deficiency, high temperature) stresses. When enough resolution is achieved, this can result in the identification of candidate genes that could further be characterized to identify relevant alleles. Breeding must also now be approached through in silico modeling to simulate plant development, investigate genotype &times; environment interactions, and introduce marker&ndash;trait linkage information in the models to better implement genomic selection. Breeders must be aware of new developments and the information must be made available to the world wheat community to develop new high-yielding varieties that can meet the challenge of higher wheat production in a sustainable and fluctuating agricultural context. In this review, we compiled all knowledge and tools produced during the BREEDWHEAT project to show how they may contribute to face this challenge in the coming years.
+KW  - wheat
+KW  - Triticum aestivum
+KW  - wheat breeding
+KW  - molecular tools
+KW  - genomic selection
+KW  - high throughput phenotyping
+KW  - diversity
+KW  - wheat database
+DO  - 10.3390/biology11010149
+ER  -
+TY  - EJOU
+AU  - Qi, Guanqiu
+AU  - Zhang, Yuanchuan
+AU  - Wang, Kunpeng
+AU  - Mazur, Neal
+AU  - Liu, Yang
+AU  - Malaviya, Devanshi
+TI  - Small Object Detection Method Based on Adaptive Spatial Parallel Convolution and Fast Multi-Scale Fusion
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 2
+SN  - 2072-4292
+
+AB  - As one type of object detection, small object detection has been widely used in daily-life-related applications with many real-time requirements, such as autopilot and navigation. Although deep-learning-based object detection methods have achieved great success in recent years, they are not effective in small object detection and most of them cannot achieve real-time processing. Therefore, this paper proposes a single-stage small object detection network (SODNet) that integrates the specialized feature extraction and information fusion techniques. An adaptively spatial parallel convolution module (ASPConv) is proposed to alleviate the lack of spatial information for target objects and adaptively obtain the corresponding spatial information through multi-scale receptive fields, thereby improving the feature extraction ability. Additionally, a split-fusion sub-module (SF) is proposed to effectively reduce the time complexity of ASPConv. A fast multi-scale fusion module (FMF) is proposed to alleviate the insufficient fusion of both semantic and spatial information. FMF uses two fast upsampling operators to first unify the resolution of the multi-scale feature maps extracted by the network and then fuse them, thereby effectively improving the small object detection ability. Comparative experimental results prove that the proposed method considerably improves the accuracy of small object detection on multiple benchmark datasets and achieves a high real-time performance.
+KW  - small object detection
+KW  - adaptive spatial parallel convolution
+KW  - multi-scale fusion
+DO  - 10.3390/rs14020420
+ER  -
+TY  - EJOU
+AU  - Zhang, Shiyu
+AU  - Yang, Qing
+AU  - Gao, Yuchen
+AU  - Gao, Dexin
+TI  - Real-Time Fire Detection Method for Electric Vehicle Charging Stations Based on Machine Vision
+T2  - World Electric Vehicle Journal
+
+PY  - 2022
+VL  - 13
+IS  - 2
+SN  - 2032-6653
+
+AB  - During the charging process of electric vehicles (EV), the circuit inside the charger plug is connected in series, the charger input voltage does not match the rated input voltage, the temperature caused by the severe heating of the charging time is too high for too long, and other factors are very likely to trigger a fire in the vehicle charging pile. In this paper, an improved You Only Look Once v4 (YOLOv4) real-time target detection algorithm based on machine vision is proposed to monitor the site based on existing monitoring equipment, transmit live video information in real-time, expand the monitoring range, and significantly reduce the cost of use. During the experiment, the improved neural network model was trained by a homemade fire video image dataset, and a K-means clustering algorithm iwasintroduced to recalculate the anchor frame size for the specific object of flame; the existing dataset was used to perform multiple divisions by using a tenfold cross-validation algorithm, thus avoiding the selection of chance hyperparameters and models that do not have generalization ability because of special divisions. The experimental results show that the improved algorithm is fast and accurate in detecting large-size flames in real-time and small-size flames at the beginning of a fire, with a detection speed of 43 fps/s, mAP value of 91.53%, and F1 value of 0.91. Compared with YOLOv3 and YOLOv4 models, the improved model is sensitive to detecting different sizes of flames. It can suppress false alarms well in a variety of complex lighting environments. The prediction frame size fits the area where the target is located, the detection accuracy remains stable, and the comprehensive performance of the network model is significantly improved to meet the demand of real-time monitoring. It is significant for developing the EV industry and enhancing emergency response capability.
+KW  - electric vehicle charging stations
+KW  - machine vision
+KW  - fire detection
+KW  - YOLOv4
+KW  - K-means clustering algorithm
+DO  - 10.3390/wevj13020023
+ER  -
+TY  - EJOU
+AU  - Cui, Xue-Zhi
+AU  - Feng, Quan
+AU  - Wang, Shu-Zhi
+AU  - Zhang, Jian-Hua
+TI  - Monocular Depth Estimation with Self-Supervised Learning for Vineyard Unmanned Agricultural Vehicle
+T2  - Sensors
+
+PY  - 2022
+VL  - 22
+IS  - 3
+SN  - 1424-8220
+
+AB  - To find an economical solution to infer the depth of the surrounding environment of unmanned agricultural vehicles (UAV), a lightweight depth estimation model called MonoDA based on a convolutional neural network is proposed. A series of sequential frames from monocular videos are used to train the model. The model is composed of two subnetworks&mdash;the depth estimation subnetwork and the pose estimation subnetwork. The former is a modified version of U-Net that reduces the number of bridges, while the latter takes EfficientNet-B0 as its backbone network to extract the features of sequential frames and predict the pose transformation relations between the frames. The self-supervised strategy is adopted during the training, which means the depth information labels of frames are not needed. Instead, the adjacent frames in the image sequence and the reprojection relation of the pose are used to train the model. Subnetworks&rsquo; outputs (depth map and pose relation) are used to reconstruct the input frame, then a self-supervised loss between the reconstructed input and the original input is calculated. Finally, the loss is employed to update the parameters of the two subnetworks through the backward pass. Several experiments are conducted to evaluate the model&rsquo;s performance, and the results show that MonoDA has competitive accuracy over the KITTI raw dataset as well as our vineyard dataset. Besides, our method also possessed the advantage of non-sensitivity to color. On the computing platform of our UAV&rsquo;s environment perceptual system NVIDIA JETSON TX2, the model could run at 18.92 FPS. To sum up, our approach provides an economical solution for depth estimation by using monocular cameras, which achieves a good trade-off between accuracy and speed and can be used as a novel auxiliary depth detection paradigm for UAVs.
+KW  - edge computing device
+KW  - monocular depth estimation
+KW  - self-supervised learning
+KW  - vineyard scene
+DO  - 10.3390/s22030721
+ER  -
+TY  - EJOU
+AU  - Pang, Alexis
+AU  - Chang, Melissa W.
+AU  - Chen, Yang
+TI  - Evaluation of Random Forests (RF) for Regional and Local-Scale Wheat Yield Prediction in Southeast Australia
+T2  - Sensors
+
+PY  - 2022
+VL  - 22
+IS  - 3
+SN  - 1424-8220
+
+AB  - Wheat accounts for more than 50% of Australia&rsquo;s total grain production. The capability to generate accurate in-season yield predictions is important across all components of the agricultural value chain. The literature on wheat yield prediction has motivated the need for more novel works evaluating machine learning techniques such as random forests (RF) at multiple scales. This research applied a Random Forest Regression (RFR) technique to build regional and local-scale yield prediction models at the pixel level for three southeast Australian wheat-growing paddocks, each located in Victoria (VIC), New South Wales (NSW) and South Australia (SA) using 2018 yield maps from data supplied by collaborating farmers. Time-series Normalized Difference Vegetation Index (NDVI) data derived from Planet&rsquo;s high spatio-temporal resolution imagery, meteorological variables and yield data were used to train, test and validate the models at pixel level using Python libraries for (a) regional-scale three-paddock composite and (b) individual paddocks. The composite region-wide RF model prediction for the three paddocks performed well (R2 = 0.86, RMSE = 0.18 t ha&minus;1). RF models for individual paddocks in VIC (R2 = 0.89, RMSE = 0.15 t ha&minus;1) and NSW (R2 = 0.87, RMSE = 0.07 t ha&minus;1) performed well, but moderate performance was seen for SA (R2 = 0.45, RMSE = 0.25 t ha&minus;1). Generally, high values were underpredicted and low values overpredicted. This study demonstrated the feasibility of applying RF modeling on satellite imagery and yielded &lsquo;big data&rsquo; for regional as well as local-scale yield prediction.
+KW  - wheat
+KW  - yield prediction
+KW  - random forests
+KW  - satellite imagery
+KW  - Normalized Difference Vegetation Index (NDVI)
+DO  - 10.3390/s22030717
+ER  -
+TY  - EJOU
+AU  - Çetin, Ender
+AU  - Cano, Alicia
+AU  - Deransy, Robin
+AU  - Tres, Sergi
+AU  - Barrado, Cristina
+TI  - Implementing Mitigations for Improving Societal Acceptance of Urban Air Mobility
+T2  - Drones
+
+PY  - 2022
+VL  - 6
+IS  - 2
+SN  - 2504-446X
+
+AB  - The continuous development of technical innovations provides the opportunity to create new economic markets and a wealth of new services. However, these innovations sometimes raise concerns, notably in terms of societal, safety, and environmental impacts. This is the case for services related to the operation of unmanned aerial vehicles (UAV), which are emerging rapidly. Unmanned aerial vehicles, also called drones, date back to the first third of the twentieth century in aviation industry, when they were mostly used for military purposes. Nowadays, drones of various types and sizes are used for many purposes, such as precision agriculture, search and rescue missions, aerial photography, shipping and delivery, etc. Starting to operate in areas with low population density, drones are now looking for business in urban and suburban areas, in what is called urban air mobility (UAM). However, this rapid growth of the drone industry creates psychological fear of the unknown in some parts of society. Reducing this fear will play an important role in public acceptance of drone operations in urban areas. This paper presents the main concerns of society with regard to drone operations, as already captured in some public surveys, and proposes a list of mitigation measures to reduce these concerns. The proposed list is then analyzed, and its applicability to individual, urban, very large demonstration flights is explained, using the feedback from the CORUS-XUAM project. CORUS-XUAM will organize a set of very large drone flight demonstrations across seven European countries to investigate how to safely integrate drone operations into airspace with the support of the U-space.
+KW  - drones
+KW  - unmanned aerial vehicles (UAV)
+KW  - social acceptance
+KW  - urban air mobility (UAM)
+KW  - CORUS-XUAM
+DO  - 10.3390/drones6020028
+ER  -
+TY  - EJOU
+AU  - Di Gennaro, Salvatore F.
+AU  - Toscano, Piero
+AU  - Gatti, Matteo
+AU  - Poni, Stefano
+AU  - Berton, Andrea
+AU  - Matese, Alessandro
+TI  - Spectral Comparison of UAV-Based Hyper and Multispectral Cameras for Precision Viticulture
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 3
+SN  - 2072-4292
+
+AB  - Analysis of the spectral response of vegetation using optical sensors for non-destructive remote monitoring represents a key element for crop monitoring. Considering the wide presence on the market of unmanned aerial vehicle (UAVs) based commercial solutions, the need emerges for clear information on the performance of these products to guide the end-user in their choice and utilization for precision agriculture applications. This work aims to compare two UAV based commercial products, represented by DJI P4M and SENOP HSC-2 for the acquisition of multispectral and hyperspectral images, respectively, in vineyards. The accuracy of both cameras was evaluated on 6 different targets commonly found in vineyards, represented by bare soil, bare-stony soil, stony soil, soil with dry grass, partially grass covered soil and canopy. Given the importance of the radiometric calibration, four methods for multispectral images correction were evaluated, taking in account the irradiance sensor equipped on the camera (M1&ndash;M2) and the use of an empirical line model (ELM) based on reference reflectance panels (M3&ndash;M4). In addition, different DJI P4M exposure setups were evaluated. The performance of the cameras was evaluated by means of the calculation of three widely used vegetation indices (VIs), as percentage error (PE) with respect to ground truth spectroradiometer measurements. The results highlighted the importance of reference panels for the radiometric calibration of multispectral images (M1&ndash;M2 average PE = 21.8&ndash;100.0%; M3&ndash;M4 average PE = 11.9&ndash;29.5%). Generally, the hyperspectral camera provided the best accuracy with a PE ranging between 1.0% and 13.6%. Both cameras showed higher performance on the pure canopy pixel target, compared to mixed targets. However, this issue can be easily solved by applying widespread segmentation techniques for the row extraction. This work provides insights to assist end-users in the UAV spectral monitoring to obtain reliable information for the analysis of spatio-temporal variability within vineyards.
+KW  - vegetation indices
+KW  - precision agriculture
+KW  - remote sensing
+KW  - spectral signature
+KW  - imaging sensor
+KW  - radiometric calibration
+DO  - 10.3390/rs14030449
+ER  -
+TY  - EJOU
+AU  - Girardin, Patricia
+AU  - Valeria, Osvaldo
+AU  - Girard, François
+TI  - Measuring Spatial and Temporal Gravelled Forest Road Degradation in the Boreal Forest
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 3
+SN  - 2072-4292
+
+AB  - Degradation of forest roads in Canada has strong negative effects on access to forestlands, together with economic (e.g., increased maintenance costs), environmental (e.g., erosion of materials and subsequent habitat contamination), and social (e.g., use risks) impacts. Maintaining sustainable and safe access to forestland requires a better understanding and knowledge of forest road degradation over time and space. Our study aimed to identify relevant spatiotemporal variables regarding the state of eastern Canadian forest road networks by (1) building predictive models of gravel forest road degradation and assessing effects of the slope, time, loss of the road surface, and road width (field approach), and (2) evaluating the potential of topography, roughness and vegetation indices obtained from Airborne Laser Scanning (ALS) data and Sentinel-2 optical images to estimate degradation rates (remote sensing approach). The field approach (n = 207 sample plots) confirmed that only four variables were efficient to estimate degradation rates (pseudo-R2 = 0.43 with &plusmn;8% error). Simulations that were conducted showed that after about five years without maintenance, the rate of degradation on a road, regardless of its width, increased exponentially, exacerbated by a high slope gradient and loss of road surface. The narrowest roads tended to degrade more rapidly over time. The remote sensing approach performed quite well (pseudo-R2 = 0.34 with &plusmn;9% error) in terms of predicting road degradation, giving us the valuable tools to spatialise the state of gravel forest road degradation in eastern Canadian forest. This study provided new knowledge and tools that are critical for maintaining and sustaining access to Canada&rsquo;s boreal forest territory in both the short- and the long-term.
+KW  - access
+KW  - airborne LiDAR
+KW  - management
+KW  - roughness
+KW  - Sentinel-2
+KW  - spatial indices
+KW  - topography
+DO  - 10.3390/rs14030457
+ER  -
+TY  - EJOU
+AU  - Fan, Yunsheng
+AU  - Guo, Hongrun
+AU  - Han, Xinjie
+AU  - Chen, Xinyu
+TI  - Research and Verification of Trajectory Tracking Control of a Quadrotor Carrying a Load
+T2  - Applied Sciences
+
+PY  - 2022
+VL  - 12
+IS  - 3
+SN  - 2076-3417
+
+AB  - This paper assumes that considering the unknown and time-varying nature of different strong and weak wind field disturbances and considering the nonlinear, under-driven, strongly coupled quadrotor carrying, a load is disturbed by the complex and variable wind field and unmodeled parts when flying in the real external environment, which will reduce the control effect of the nonlinear controller and make the vehicle fail to affect the flight effect. In order to ensure that the quadrotor carrying a load can carry supplies in the harsh environment for stable trajectory tracking, a neural network adaptive control algorithm is introduced in the article. The neural network algorithm has the role of online dynamic approximation, the compensation of arbitrary external disturbance and the compensation of external disturbance. Its structure is simple and low computation. In the article, the Lyapunov method is used to design the adaptive weight and estimate the weight of the online neural network, and the stability of the system is proved. Finally, the comparison of three algorithms verified by simulation proves that the above interference problem can be solved effectively by the proposed algorithm.
+KW  - quadrotor
+KW  - load
+KW  - neural network
+KW  - integral backstepping
+KW  - trajectory tracking
+DO  - 10.3390/app12031036
+ER  -
+TY  - EJOU
+AU  - Chen, Guang
+AU  - Shang, Yi
+TI  - Transformer for Tree Counting in Aerial Images
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 3
+SN  - 2072-4292
+
+AB  - The number of trees and their spatial distribution are key information for forest management. In recent years, deep learning-based approaches have been proposed and shown promising results in lowering the expensive labor cost of a forest inventory. In this paper, we propose a new efficient deep learning model called density transformer or DENT for automatic tree counting from aerial images. The architecture of DENT contains a multi-receptive field convolutional neural network to extract visual feature representation from local patches and their wide context, a transformer encoder to transfer contextual information across correlated positions, a density map generator to generate spatial distribution map of trees, and a fast tree counter to estimate the number of trees in each input image. We compare DENT with a variety of state-of-art methods, including one-stage and two-stage, anchor-based and anchor-free deep neural detectors, and different types of fully convolutional regressors for density estimation. The methods are evaluated on a new large dataset we built and an existing cross-site dataset. DENT achieves top accuracy on both datasets, significantly outperforming most of the other methods. We have released our new dataset, called Yosemite Tree Dataset, containing a 10 km2 rectangular study area with around 100k trees annotated, as a benchmark for public access.
+KW  - tree counting
+KW  - Yosemite
+KW  - transformer
+KW  - neural network
+KW  - deep learning
+DO  - 10.3390/rs14030476
+ER  -
+TY  - EJOU
+AU  - Aslan, Muhammet F.
+AU  - Durdu, Akif
+AU  - Sabanci, Kadir
+AU  - Ropelewska, Ewa
+AU  - Gültekin, Seyfettin S.
+TI  - A Comprehensive Survey of the Recent Studies with UAV for Precision Agriculture in Open Fields and Greenhouses
+T2  - Applied Sciences
+
+PY  - 2022
+VL  - 12
+IS  - 3
+SN  - 2076-3417
+
+AB  - The increasing world population makes it necessary to fight challenges such as climate change and to realize production efficiently and quickly. However, the minimum cost, maximum income, environmental pollution protection and the ability to save water and energy are all factors that should be taken into account in this process. The use of information and communication technologies (ICTs) in agriculture to meet all of these criteria serves the purpose of precision agriculture. As unmanned aerial vehicles (UAVs) can easily obtain real-time data, they have a great potential to address and optimize solutions to the problems faced by agriculture. Despite some limitations, such as the battery, load, weather conditions, etc., UAVs will be used frequently in agriculture in the future because of the valuable data that they obtain and their efficient applications. According to the known literature, UAVs have been carrying out tasks such as spraying, monitoring, yield estimation, weed detection, etc. In recent years, articles related to agricultural UAVs have been presented in journals with high impact factors. Most precision agriculture applications with UAVs occur in outdoor environments where GPS access is available, which provides more reliable control of the UAV in both manual and autonomous flights. On the other hand, there are almost no UAV-based applications in greenhouses where all-season crop production is available. This paper emphasizes this deficiency and provides a comprehensive review of the use of UAVs for agricultural tasks and highlights the importance of simultaneous localization and mapping (SLAM) for a UAV solution in the greenhouse.
+KW  - indoor and outdoor environments
+KW  - greenhouse
+KW  - precision agriculture
+KW  - SLAM
+KW  - UAV
+DO  - 10.3390/app12031047
+ER  -
+TY  - EJOU
+AU  - Xu, Biaoyi
+AU  - Liang, Dong
+AU  - Li, Ling
+AU  - Quan, Rong
+AU  - Zhang, Mingguang
+TI  - An Effectively Finite-Tailed Updating for Multiple Object Tracking in Crowd Scenes
+T2  - Applied Sciences
+
+PY  - 2022
+VL  - 12
+IS  - 3
+SN  - 2076-3417
+
+AB  - Multiple Object Tracking (MOT) focuses on tracking all the objects in a video. Most MOT solutions follow a tracking-by-detection or a joint detection tracking paradigm to generate the object trajectories by exploiting the correlations between the detected objects in consecutive frames. However, according to our observations, considering only the correlations between the objects in the current frame and the objects in the previous frame will lead to an exponential information decay over time, thus resulting in a misidentification of the object, especially in scenes with dense crowds and occlusions. To address this problem, we propose an effectively finite-tailed updating (FTU) strategy to generate the appearance template of the object in the current frame by exploiting its local temporal context in videos. To be specific, we model the appearance template for the object in the current frame on the appearance templates of the objects in multiple earlier frames and dynamically combine them to obtain a more effective representation. Extensive experiments have been conducted, and the experimental results show that our tracker outperforms the state-of-the-art methods on MOT Challenge Benchmark. We have achieved 73.7% and 73.0% IDF1, and 46.1% and 45.0% MT on the MOT16 and MOT17 datasets, which are 0.9% and 0.7% IDFI higher, and 1.4% and 1.8% MT higher than FairMOT repsectively.
+KW  - multiple object tracking
+KW  - Re-ID
+KW  - update mechanism
+KW  - crowd scenes
+DO  - 10.3390/app12031061
+ER  -
+TY  - EJOU
+AU  - Seydi, Seyd T.
+AU  - Amani, Meisam
+AU  - Ghorbanian, Arsalan
+TI  - A Dual Attention Convolutional Neural Network for Crop Classification Using Time-Series Sentinel-2 Imagery
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 3
+SN  - 2072-4292
+
+AB  - Accurate and timely mapping of crop types and having reliable information about the cultivation pattern/area play a key role in various applications, including food security and sustainable agriculture management. Remote sensing (RS) has extensively been employed for crop type classification. However, accurate mapping of crop types and extents is still a challenge, especially using traditional machine learning methods. Therefore, in this study, a novel framework based on a deep convolutional neural network (CNN) and a dual attention module (DAM) and using Sentinel-2 time-series datasets was proposed to classify crops. A new DAM was implemented to extract informative deep features by taking advantage of both spectral and spatial characteristics of Sentinel-2 datasets. The spectral and spatial attention modules (AMs) were respectively applied to investigate the behavior of crops during the growing season and their neighborhood properties (e.g., textural characteristics and spatial relation to surrounding crops). The proposed network contained two streams: (1) convolution blocks for deep feature extraction and (2) several DAMs, which were employed after each convolution block. The first stream included three multi-scale residual convolution blocks, where the spectral attention blocks were mainly applied to extract deep spectral features. The second stream was built using four multi-scale convolution blocks with a spatial AM. In this study, over 200,000 samples from six different crop types (i.e., alfalfa, broad bean, wheat, barley, canola, and garden) and three non-crop classes (i.e., built-up, barren, and water) were collected to train and validate the proposed framework. The results demonstrated that the proposed method achieved high overall accuracy and a Kappa coefficient of 98.54% and 0.981, respectively. It also outperformed other state-of-the-art classification methods, including RF, XGBOOST, R-CNN, 2D-CNN, 3D-CNN, and CBAM, indicating its high potential to discriminate different crop types.
+KW  - crop mapping
+KW  - deep learning
+KW  - convolutional neural networks (CNN)
+KW  - attention modules (AM)
+KW  - dual attention CNN
+KW  - Sentinel-2
+KW  - multi-temporal
+DO  - 10.3390/rs14030498
+ER  -
+TY  - EJOU
+AU  - Brewer, Kiara
+AU  - Clulow, Alistair
+AU  - Sibanda, Mbulisi
+AU  - Gokool, Shaeden
+AU  - Naiken, Vivek
+AU  - Mabhaudhi, Tafadzwanashe
+TI  - Predicting the Chlorophyll Content of Maize over Phenotyping as a Proxy for Crop Health in Smallholder Farming Systems
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 3
+SN  - 2072-4292
+
+AB  - Smallholder farmers depend on healthy and productive crop yields to sustain their socio-economic status and ensure livelihood security. Advances in South African precision agriculture in the form of unmanned aerial vehicles (UAVs) provide spatially explicit near-real-time information that can be used to assess crop dynamics and inform smallholder farmers. The use of UAVs with remote-sensing techniques allows for the acquisition of high spatial resolution data at various spatio-temporal planes, which is particularly useful at the scale of fields and farms. Specifically, crop chlorophyll content is assessed as it is one of the best known and reliable indicators of crop health, due to its biophysical pigment and biochemical processes that indicate plant productivity. In this regard, the study evaluated the utility of multispectral UAV imagery using the random forest machine learning algorithm to estimate the chlorophyll content of maize through the various growth stages. The results showed that the near-infrared and red-edge wavelength bands and vegetation indices derived from these wavelengths were essential for estimating chlorophyll content during the phenotyping of maize. Furthermore, the random forest model optimally estimated the chlorophyll content of maize over the various phenological stages. Particularly, maize chlorophyll was best predicted during the early reproductive, late vegetative, and early vegetative growth stages to RMSE accuracies of 40.4 &micro;mol/m&minus;2, 39 &micro;mol/m&minus;2, and 61.6 &micro;mol/m&minus;2, respectively. The least accurate chlorophyll content results were predicted during the mid-reproductive and late reproductive growth stages to RMSE accuracies of 66.6 &micro;mol/m&minus;2 and 69.6 &micro;mol/m&minus;2, respectively, as a consequence of a hailstorm. A resultant chlorophyll variation map of the maize growth stages captured the spatial heterogeneity of chlorophyll within the maize field. Therefore, the study&rsquo;s findings demonstrate that the use of remotely sensed UAV imagery with a robust machine algorithm is a critical tool to support the decision-making and management in smallholder farms.
+KW  - chlorophyll
+KW  - drones
+KW  - machine learning
+KW  - precision agriculture
+KW  - random forest
+KW  - smallholder farming systems
+KW  - UAV applications
+KW  - unmanned aerial vehicle
+DO  - 10.3390/rs14030518
+ER  -
+TY  - EJOU
+AU  - Peng, Baochai
+AU  - Ren, Dong
+AU  - Zheng, Cheng
+AU  - Lu, Anxiang
+TI  - TRDet: Two-Stage Rotated Detection of Rural Buildings in Remote Sensing Images
+T2  - Remote Sensing
+
+PY  - 2022
+VL  - 14
+IS  - 3
+SN  - 2072-4292
+
+AB  - Fast and accurate acquisition of the outline of rural buildings on remote sensing images is an efficient method to monitor illegal rural buildings. The traditional object detection method produces useless background information when detecting rural buildings; the semantic segmentation method cannot accurately segment the contours between buildings; the instance segmentation method cannot obtain regular building contours. The rotated object detection methods can effectively solve the problem that the traditional artificial intelligence method cannot accurately extract the outline of buildings. However, the rotated object detection methods are easy to lose location information of small objects in advanced feature maps and are sensitive to noise. To resolve these problems, this paper proposes a two-stage rotated object detection network for rural buildings (TRDet) by using a deep feature fusion network (DFF-Net) and a pixel attention module (PAM). Specifically, TRDet first fuses low-level location and high-level semantic information through the DFF-Net and then reduces the interference of noise information to the network through the PAM. The experimental results show that the mean average precession (mAP), precision, recall rate, and F1 score of the proposed TRDet are 83.57%, 91.11%, 86.5%, and 88.74%, respectively, which outperform the R2CNN model by 15%, 15.54%, 4.01%, and 9.87%. The results demonstrate that the TRDet can achieve better detection in small rural buildings and dense rural buildings.
+KW  - rotated object detection
+KW  - rural buildings
+KW  - feature fusion
+KW  - pixel attention
+DO  - 10.3390/rs14030522
+ER  -
+TY  - EJOU
+AU  - Dai, Huatong
+AU  - Chen, Pengzhan
+AU  - Yang, Hui
+TI  - Metalearning-Based Fault-Tolerant Control for Skid Steering Vehicles under Actuator Fault Conditions
+T2  - Sensors
+
+PY  - 2022
+VL  - 22
+IS  - 3
+SN  - 1424-8220
+
+AB  - Using reinforcement learning (RL) for torque distribution of skid steering vehicles has attracted increasing attention recently. Various RL-based torque distribution methods have been proposed to deal with this classical vehicle control problem, achieving a better performance than traditional control methods. However, most RL-based methods focus only on improving the performance of skid steering vehicles, while actuator faults that may lead to unsafe conditions or catastrophic events are frequently omitted in existing control schemes. This study proposes a meta-RL-based fault-tolerant control (FTC) method to improve the tracking performance of vehicles in the case of actuator faults. Based on meta deep deterministic policy gradient (meta-DDPG), the proposed FTC method has a representative gradient-based metalearning algorithm workflow, which includes an offline stage and an online stage. In the offline stage, an experience replay buffer with various actuator faults is constructed to provide data for training the metatraining model; then, the metatrained model is used to develop an online meta-RL update method to quickly adapt its control policy to actuator fault conditions. Simulations of four scenarios demonstrate that the proposed FTC method can achieve a high performance and adapt to actuator fault conditions stably.
+KW  - fault-tolerant control
+KW  - skid steering vehicle
+KW  - reinforcement learning (RL)
+KW  - metalearning
+KW  - torque distribution
+DO  - 10.3390/s22030845
+ER  -

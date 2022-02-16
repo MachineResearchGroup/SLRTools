@@ -1,0 +1,682 @@
+TY  - EJOU
+AU  - Feng, Shuai
+AU  - Cao, Yingli
+AU  - Xu, Tongyu
+AU  - Yu, Fenghua
+AU  - Zhao, Dongxue
+AU  - Zhang, Guosheng
+TI  - Rice Leaf Blast Classification Method Based on Fused Features and One-Dimensional Deep Convolutional Neural Network
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 16
+SN  - 2072-4292
+
+AB  - Rice leaf blast, which is seriously affecting the yield and quality of rice around the world, is a fungal disease that easily develops under high temperature and humidity conditions. Therefore, the use of accurate and non-destructive diagnostic methods is important for rice production management. Hyperspectral imaging technology is a type of crop disease identification method with great potential. However, a large amount of redundant information mixed in hyperspectral data makes it more difficult to establish an efficient disease classification model. At the same time, the difficulty and small scale of agricultural hyperspectral imaging data acquisition has resulted in unrepresentative features being acquired. Therefore, the focus of this study was to determine the best classification features and classification models for the five disease classes of leaf blast in order to improve the accuracy of grading the disease. First, the hyperspectral imaging data were pre-processed in order to extract rice leaf samples of five disease classes, and the number of samples was increased by data augmentation methods. Secondly, spectral feature wavelengths, vegetation indices and texture features were obtained based on the amplified sample data. Thirdly, seven one-dimensional deep convolutional neural networks (DCNN) models were constructed based on spectral feature wavelengths, vegetation indices, texture features and their fusion features. Finally, the model in this paper was compared and analyzed with the Inception V3, ZF-Net, TextCNN and bidirectional gated recurrent unit (BiGRU); support vector machine (SVM); and extreme learning machine (ELM) models in order to determine the best classification features and classification models for different disease classes of leaf blast. The results showed that the classification model constructed using fused features was significantly better than the model constructed with a single feature in terms of accuracy in grading the degree of leaf blast disease. The best performance was achieved with the combination of the successive projections algorithm (SPA) selected feature wavelengths and texture features (TFs). The modeling results also show that the DCNN model provides better classification capability for disease classification than the Inception V3, ZF-Net, TextCNN, BiGRU, SVM and ELM classification models. The SPA + TFs-DCNN achieved the best classification accuracy with an overall accuracy (OA) and Kappa of 98.58% and 98.22%, respectively. In terms of the classification of the specific different disease classes, the F1-scores for diseases of classes 0, 1 and 2 were all 100%, while the F1-scores for diseases of classes 4 and 5 were 96.48% and 96.68%, respectively. This study provides a new method for the identification and classification of rice leaf blast and a research basis for assessing the extent of the disease in the field.
+KW  - rice leaf blast
+KW  - hyperspectral imaging data
+KW  - deep convolutional neural networks
+KW  - fused features
+DO  - 10.3390/rs13163207
+ER  -
+TY  - EJOU
+AU  - Song, Zhenyu
+AU  - Yan, Xuemei
+AU  - Zhao, Lvxing
+AU  - Fan, Luyi
+AU  - Tang, Cheng
+AU  - Ji, Junkai
+TI  - Adaptive Self-Scaling Brain-Storm Optimization via a Chaotic Search Mechanism
+T2  - Algorithms
+
+PY  - 2021
+VL  - 14
+IS  - 8
+SN  - 1999-4893
+
+AB  - Brain-storm optimization (BSO), which is a population-based optimization algorithm, exhibits a poor search performance, premature convergence, and a high probability of falling into local optima. To address these problems, we developed the adaptive mechanism-based BSO (ABSO) algorithm based on the chaotic local search in this study. The adjustment of the search space using the local search method based on an adaptive self-scaling mechanism balances the global search and local development performance of the ABSO algorithm, effectively preventing the algorithm from falling into local optima and improving its convergence accuracy. To verify the stability and effectiveness of the proposed ABSO algorithm, the performance was tested using 29 benchmark test functions, and the mean and standard deviation were compared with those of five other optimization algorithms. The results showed that ABSO outperforms the other algorithms in terms of stability and convergence accuracy. In addition, the performance of ABSO was further verified through a nonparametric statistical test.
+KW  - brain-storm optimization
+KW  - chaotic local search
+KW  - adaptive mechanism
+DO  - 10.3390/a14080239
+ER  -
+TY  - EJOU
+AU  - Lazare, Silit
+AU  - Cohen, Yafit
+AU  - Goldshtein, Eitan
+AU  - Yermiyahu, Uri
+AU  - Ben-Gal, Alon
+AU  - Dag, Arnon
+TI  - Rootstock-Dependent Response of Hass Avocado to Salt Stress
+T2  - Plants
+
+PY  - 2021
+VL  - 10
+IS  - 8
+SN  - 2223-7747
+
+AB  - Salt stress is a major limiting factor in avocado (Persea americana) cultivation, exacerbated by global trends towards scarcity of high-quality water for irrigation. Israeli avocado orchards have been irrigated with relatively high-salinity recycled municipal wastewater for over three decades, over which time rootstocks were selected for salt-tolerance. This study’s objective was to evaluate the physiological salt response of avocado as a function of the rootstock. We irrigated fruit-bearing ‘Hass’ trees grafted on 20 different local and introduced rootstocks with water high in salts (electrical conductivity of 1.4–1.5 dS/m). The selected rootstocks represent a wide range of genetic backgrounds, propagation methods, and horticultural characteristics. We investigated tree physiology and development during two years of salt exposure by measuring Cl and Na leaf concentrations, leaf osmolality, visible damages, trunk circumference, LAI, CO2 assimilation, stomatal conductance, spectral reflectance, stem water potential, trichomes density, and yield. We found a significant effect of the rootstocks on stress indicators, vegetative and reproductive development, leaf morphogenesis and photosynthesis rates. The most salt-sensitive rootstocks were VC 840, Dusa, and VC 802, while the least sensitive were VC 159, VC 140, and VC 152. We conclude that the rootstock strongly influences avocado tree response to salinity exposure in terms of physiology, anatomy, and development.
+KW  - crop trees
+KW  - NaCl
+KW  - remote sensing
+KW  - salt susceptibility
+KW  - trichomes
+DO  - 10.3390/plants10081672
+ER  -
+TY  - EJOU
+AU  - Munawar, Hafiz S.
+AU  - Hammad, Ahmed W. A.
+AU  - Haddad, Assed
+AU  - Soares, Carlos A.
+AU  - Waller, S. T.
+TI  - Image-Based Crack Detection Methods: A Review
+T2  - Infrastructures
+
+PY  - 2021
+VL  - 6
+IS  - 8
+SN  - 2412-3811
+
+AB  - Annually, millions of dollars are spent to carry out defect detection in key infrastructure including roads, bridges, and buildings. The aftermath of natural disasters like floods and earthquakes leads to severe damage to the urban infrastructure. Maintenance operations that follow for the damaged infrastructure often involve a visual inspection and assessment of their state to ensure their functional and physical integrity. Such damage may appear in the form of minor or major cracks, which gradually spread, leading to ultimate collapse or destruction of the structure. Crack detection is a very laborious task if performed via manual visual inspection. Many infrastructure elements need to be checked regularly and it is therefore not feasible as it will require significant human resources. This may also result in cases where cracks go undetected. A need, therefore, exists for performing automatic defect detection in infrastructure to ensure its effectiveness and reliability. Using image processing techniques, the captured or scanned images of the infrastructure parts can be analyzed to identify any possible defects. Apart from image processing, machine learning methods are being increasingly applied to ensure better performance outcomes and robustness in crack detection. This paper provides a review of image-based crack detection techniques which implement image processing and/or machine learning. A total of 30 research articles have been collected for the review which is published in top tier journals and conferences in the past decade. A comprehensive analysis and comparison of these methods are performed to highlight the most promising automated approaches for crack detection.
+KW  - crack detection
+KW  - machine learning
+KW  - artificial intelligence
+KW  - image processing
+DO  - 10.3390/infrastructures6080115
+ER  -
+TY  - EJOU
+AU  - Cao, Jingwei
+AU  - Song, Chuanxue
+AU  - Song, Shixin
+AU  - Xiao, Feng
+AU  - Zhang, Xu
+AU  - Liu, Zhiyang
+AU  - Ang, Marcelo H.
+TI  - Robust Object Tracking Algorithm for Autonomous Vehicles in Complex Scenes
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 16
+SN  - 2072-4292
+
+AB  - Object tracking is an essential aspect of environmental perception technology for autonomous vehicles. The existing object tracking algorithms can only be applied well to simple scenes. When the scenes become complex, the algorithms have poor tracking performance and insufficient robustness, and the problems of tracking drift and object loss are prone to occur. Therefore, a robust object tracking algorithm for autonomous vehicles in complex scenes is proposed. Firstly, we study the Siam-FC network and related algorithms, and analyze the problems that need to be addressed in object tracking. Secondly, the construction of a double-template Siamese network model based on multi-feature fusion is described, as is the use of the improved MobileNet V2 as the feature extraction backbone network, and the attention mechanism and template online update mechanism are introduced. Finally, relevant experiments were carried out based on public datasets and actual driving videos, with the aim of fully testing the tracking performance of the proposed algorithm on different objects in a variety of complex scenes. The results showed that, compared with other algorithms, the proposed algorithm had high tracking accuracy and speed, demonstrated stronger robustness and anti-interference abilities, and could still accurately track the object in real time without the introduction of complex structures. This algorithm can be effectively applied in intelligent vehicle driving assistance, and it will help to promote the further development and improvement of computer vision technology in the field of environmental perception.
+KW  - environmental perception
+KW  - autonomous vehicles
+KW  - deep learning
+KW  - Siamese network
+KW  - object tracking
+DO  - 10.3390/rs13163234
+ER  -
+TY  - EJOU
+AU  - Bhatia, Jyoti
+AU  - Dayal, Aveen
+AU  - Jha, Ajit
+AU  - Vishvakarma, Santosh K.
+AU  - Joshi, Soumya
+AU  - Srinivas, M. B.
+AU  - Yalavarthy, Phaneendra K.
+AU  - Kumar, Abhinav
+AU  - Lalitha, V.
+AU  - Koorapati, Sagar
+AU  - Cenkeramaddi, Linga R.
+TI  - Classification of Targets Using Statistical Features from Range FFT of mmWave FMCW Radars
+T2  - Electronics
+
+PY  - 2021
+VL  - 10
+IS  - 16
+SN  - 2079-9292
+
+AB  - Radars with mmWave frequency modulated continuous wave (FMCW) technology accurately estimate the range and velocity of targets in their field of view (FoV). The targeted angle of arrival (AoA) estimation can be improved by increasing receiving antennas or by using multiple-input multiple-output (MIMO). However, obtaining target features such as target type remains challenging. In this paper, we present a novel target classification method based on machine learning and features extracted from a range fast Fourier transform (FFT) profile by using mmWave FMCW radars operating in the frequency range of 77–81 GHz. The measurements are carried out in a variety of realistic situations, including pedestrian, automotive, and unmanned aerial vehicle (UAV) (also known as drone). Peak, width, area, variance, and range are collected from range FFT profile peaks and fed into a machine learning model. In order to evaluate the performance, various light weight classification machine learning models such as logistic regression, Naive Bayes, support vector machine (SVM), and lightweight gradient boosting machine (GBM) are used. We demonstrate our findings by using outdoor measurements and achieve a classification accuracy of 95.6% by using LightGBM. The proposed method will be extremely useful in a wide range of applications, including cost-effective and dependable ground station traffic management and control systems for autonomous operations, and advanced driver-assistance systems (ADAS). The presented classification technique extends the potential of mmWave FMCW radar beyond the detection of range, velocity, and AoA to classification. mmWave FMCW radars will be more robust in computer vision, visual perception, and fully autonomous ground control and traffic management cyber-physical systems as a result of the added new feature.
+KW  - mmWave radar
+KW  - FMCW radar
+KW  - autonomous systems
+KW  - machine learning
+KW  - ground station radar
+KW  - targets classification
+KW  - range FFT features
+DO  - 10.3390/electronics10161965
+ER  -
+TY  - EJOU
+AU  - Zhang, Guangzong
+AU  - Wu, Mengquan
+AU  - Wei, Juan
+AU  - He, Yufang
+AU  - Niu, Lifeng
+AU  - Li, Hanyu
+AU  - Xu, Guochang
+TI  - Adaptive Threshold Model in Google Earth Engine: A Case Study of Ulva prolifera Extraction in the South Yellow Sea, China
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 16
+SN  - 2072-4292
+
+AB  - An outbreak of Ulva prolifera poses a massive threat to coastal ecology in the Southern Yellow Sea, China (SYS). It is a necessity to extract its area and monitor its development accurately. At present, Ulva prolifera monitoring by remote sensing imagery is mostly based on a fixed threshold or artificial visual interpretation for threshold selection, which has large errors. In this paper, an adaptive threshold model based on Google Earth Engine (GEE) is proposed and applied to extract U. prolifera in the SYS. The model first applies the Floating Algae Index (FAI) or Normalized Difference Vegetation Index (NDVI) algorithm on the preprocessed remote sensing images and then uses the Canny Edge Filter and Otsu threshold segmentation algorithm to extract the threshold automatically. The model is applied to Landsat8/OLI and Sentinel-2/MSI images, and the confusion matrix and cross-sensor comparison are used to evaluate the accuracy and applicability of the model. The verification results show that the model extraction of U. prolifera based on the FAI algorithm has higher accuracy (R2 = 0.99, RMSE = 5.64) and better robustness. However, when the average cloud cover is more than 70% in the image (based on the statistical results of multi-year cloud cover information), the model based on the NDVI algorithm has better applicability and can extract the algae distributed at the edge of the cloud. When the model uses the FAI algorithm, it is named FAI-COM (model based on FAI, the Canny Edge Filter, and Otsu thresholding). And when the model uses the NDVI algorithm, it is named NDVI-COM (model based on NDVI, the Canny Edge Filter, and Otsu thresholding). Therefore, the final extraction results are generated by supplementing NDVI-COM results on the basis of FAI-COM extraction results in this paper. The F1-score of U. prolifera extracted results is above 0.85. The spatiotemporal distribution of U. prolifera in the South Yellow Sea from 2016 to 2020 is obtained through the model calculation. Overall, the coverage area of U. prolifera shows a decreasing trend over the five years. It is found that the delay in recovery time of Porphyra yezoensis culture facilities in the Northern Jiangsu Shoal and the manual salvage and cleaning-up of U. prolifera in May are among the reasons for the smaller interannual scale of algae in 2017 and 2018.
+KW  - Southern Yellow Sea
+KW  - Ulva prolifera
+KW  - Otsu thresholding
+KW  - Canny Edge Filter
+KW  - floating algae index
+KW  - normalized difference vegetation index
+KW  - Google Earth Engine
+DO  - 10.3390/rs13163240
+ER  -
+TY  - EJOU
+AU  - Hassanzadeh, Amirhossein
+AU  - Zhang, Fei
+AU  - van Aardt, Jan
+AU  - Murphy, Sean P.
+AU  - Pethybridge, Sarah J.
+TI  - Broadacre Crop Yield Estimation Using Imaging Spectroscopy from Unmanned Aerial Systems (UAS): A Field-Based Case Study with Snap Bean
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 16
+SN  - 2072-4292
+
+AB  - Accurate, precise, and timely estimation of crop yield is key to a grower’s ability to proactively manage crop growth and predict harvest logistics. Such yield predictions typically are based on multi-parametric models and in-situ sampling. Here we investigate the extension of a greenhouse study, to low-altitude unmanned aerial systems (UAS). Our principal objective was to investigate snap bean crop (Phaseolus vulgaris) yield using imaging spectroscopy (hyperspectral imaging) in the visible to near-infrared (VNIR; 400–1000 nm) region via UAS. We aimed to solve the problem of crop yield modelling by identifying spectral features explaining yield and evaluating the best time period for accurate yield prediction, early in time. We introduced a Python library, named Jostar, for spectral feature selection. Embedded in Jostar, we proposed a new ranking method for selected features that reaches an agreement between multiple optimization models. Moreover, we implemented a well-known denoising algorithm for the spectral data used in this study. This study benefited from two years of remotely sensed data, captured at multiple instances over the summers of 2019 and 2020, with 24 plots and 18 plots, respectively. Two harvest stage models, early and late harvest, were assessed at two different locations in upstate New York, USA. Six varieties of snap bean were quantified using two components of yield, pod weight and seed length. We used two different vegetation detection algorithms. the Red-Edge Normalized Difference Vegetation Index (RENDVI) and Spectral Angle Mapper (SAM), to subset the fields into vegetation vs. non-vegetation pixels. Partial least squares regression (PLSR) was used as the regression model. Among nine different optimization models embedded in Jostar, we selected the Genetic Algorithm (GA), Ant Colony Optimization (ACO), Simulated Annealing (SA), and Particle Swarm Optimization (PSO) and their resulting joint ranking. The findings show that pod weight can be explained with a high coefficient of determination (R2 = 0.78–0.93) and low root-mean-square error (RMSE = 940–1369 kg/ha) for two years of data. Seed length yield assessment resulted in higher accuracies (R2 = 0.83–0.98) and lower errors (RMSE = 4.245–6.018 mm). Among optimization models used, ACO and SA outperformed others and the SAM vegetation detection approach showed improved results when compared to the RENDVI approach when dense canopies were being examined. Wavelengths at 450, 500, 520, 650, 700, and 760 nm, were identified in almost all data sets and harvest stage models used. The period between 44–55 days after planting (DAP) the optimal time period for yield assessment. Future work should involve transferring the learned concepts to a multispectral system, for eventual operational use; further attention should also be paid to seed length as a ground truth data collection technique, since this yield indicator is far more rapid and straightforward.
+KW  - feature selection
+KW  - hyperspectral imaging
+KW  - machine learning
+KW  - snap bean
+KW  - unmanned aerial vehicle
+KW  - yield modelling
+DO  - 10.3390/rs13163241
+ER  -
+TY  - EJOU
+AU  - Ansart, Antoine
+AU  - Juang, Jyh-Ching
+AU  - Ramachandran, Karthi G.
+TI  - Robust Formation Maintenance Methods under General Topology Pursuit of Multi-Agents Systems
+T2  - Electronics
+
+PY  - 2021
+VL  - 10
+IS  - 16
+SN  - 2079-9292
+
+AB  - In this article, methods of formation maintenance for a group of autonomous agents under ageneral topology scheme are discussed. Unlike rendezvous or geometric formation, general topology pursuit allows the group of agents to autonomously form trochoid patterns, which are useful in civilian and military applications. However, this type of topology is established by designing a marginally stable system that may be sensitive to parameter variations. To account for this drawback of stability, linear fixed-gains are turned into a dynamical version in this paper. By implementing a disturbance observer controller, systems are shown to maintain their formation despite the disturbances or uncertainties. Comparison in the effectiveness of the presented method with model reference adaptive control and integral sliding mode control under the uncertainties of the gains is also conducted. The capabilities of controllers are demonstrated and supported through simulations.
+KW  - control theory
+KW  - cyclic pursuit
+KW  - disturbance observer control
+KW  - formation control
+KW  - marginal system
+KW  - model reference adaptive control
+KW  - multi-agent systems
+DO  - 10.3390/electronics10161970
+ER  -
+TY  - EJOU
+AU  - Li, Guan-Sin
+AU  - Wu, Dong-Hong
+AU  - Su, Yuan-Chih
+AU  - Kuo, Bo-Jein
+AU  - Yang, Ming-Der
+AU  - Lai, Ming-Hsin
+AU  - Lu, Hsiu-Ying
+AU  - Yang, Chin-Ying
+TI  - Prediction of Plant Nutrition State of Rice under Water-Saving Cultivation and Panicle Fertilization Application Decision Making
+T2  - Agronomy
+
+PY  - 2021
+VL  - 11
+IS  - 8
+SN  - 2073-4395
+
+AB  - Rice is a staple food crop in Asia. The rice farming industry has been influenced by global urbanization, rapid industrialization, and climate change. A combination of precise agricultural and smart water management systems to investigate the nutrition state in rice is important. Results indicated that plant nitrogen and chlorophyll content at the maximum tillering stage were significantly influenced by the interaction between water and fertilizer. The normalized difference vegetation index (NDVI) and normalized difference red edge (NDRE), obtained from the multispectral images captured by a UAV, exhibited the highest positive correlations (0.83 and 0.82) with plant nitrogen content at the maximum tillering stage. The leave-one-out cross-validation method was used for validation, and a final plant nitrogen content prediction model was obtained. A regression function constructed using a nitrogen nutrition index and the difference in field cumulative nitrogen had favorable variation explanatory power, and its adjusted coefficient of determination was 0.91. We provided a flow chart showing how the nutrition state of rice can be predicted with the vegetation indices obtained from UAV image analysis. Differences in field cumulative nitrogen can be further used to diagnose the demand of nitrogen topdressing during the panicle initiation stage. Thus, farmers can be provided with precise panicle fertilization strategies for rice fields.
+KW  - rice
+KW  - water-saving cultivation
+KW  - UAV remote sensing
+KW  - vegetation index
+KW  - nitrogen fertilizer
+DO  - 10.3390/agronomy11081626
+ER  -
+TY  - EJOU
+AU  - Schäfer, Matthias
+AU  - Strohmeier, Martin
+AU  - Leonardi, Mauro
+AU  - Lenders, Vincent
+TI  - LocaRDS: A Localization Reference Data Set
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 16
+SN  - 1424-8220
+
+AB  - The use of wireless signals for the purposes of localization enables a host of applications relating to the determination and verification of the positions of network participants ranging from radar to satellite navigation. Consequently, this has been a longstanding interest of theoretical and practical research in mobile networks and many solutions have been proposed in the scientific literature. However, it is hard to assess the performance of these in the real world and, more importantly, to compare their advantages and disadvantages in a controlled scientific manner. With this work, we attempt to improve the current state of art methodology in localization research and to place it on a solid scientific grounding for future investigations. Concretely, we developed LocaRDS, an open reference data set of real-world crowdsourced flight data featuring more than 222 million measurements from over 50 million transmissions recorded by 323 sensors. We demonstrate how we can verify the quality of LocaRDS measurements so that it can be used to test, analyze and directly compare different localization methods. Finally, we provide an example implementation for the aircraft localization problem and a discussion of possible metrics for use with LocaRDS.
+KW  - localization
+KW  - positioning
+KW  - self-positioning
+KW  - data set
+KW  - TDoA
+KW  - aircraft localization
+DO  - 10.3390/s21165516
+ER  -
+TY  - EJOU
+AU  - Shen, Shengyu
+AU  - Chen, Jiasheng
+AU  - Zhang, Shaoyi
+AU  - Cheng, Dongbing
+AU  - Wang, Zhigang
+AU  - Zhang, Tong
+TI  - Deep Fusion of DOM and DSM Features for Benggang Discovery
+T2  - ISPRS International Journal of Geo-Information
+
+PY  - 2021
+VL  - 10
+IS  - 8
+SN  - 2220-9964
+
+AB  - Benggang is a typical erosional landform in southern and southeastern China. Since benggang poses significant risks to local ecological environments and economic infrastructure, it is vital to accurately detect benggang-eroded areas. Relying only on remote sensing imagery for benggang detection cannot produce satisfactory results. In this study, we propose integrating high-resolution Digital Orthophoto Map (DOM) and Digital Surface Model (DSM) data for efficient and automatic benggang discovery. The fusion of complementary rich information hidden in both DOM and DSM data is realized by a two-stream convolutional neural network (CNN), which integrates aggregated terrain and activation image features that are both extracted by supervised deep learning. We aggregate local low-level geomorphic features via a supervised diffusion-convolutional embedding branch for expressive representations of benggang terrain variations. Activation image features are obtained from an image-oriented convolutional neural network branch. The two sources of information (DOM and DSM) are fused via a gated neural network, which learns the most discriminative features for the detection of benggang. The evaluation of a challenging benggang dataset demonstrates that our method exceeds several baselines, even with limited training examples. The results show that the fusion of DOM and DSM data is beneficial for benggang detection via supervised convolutional and deep fusion networks.
+KW  - benggang
+KW  - deep learning
+KW  - fusion
+KW  - CNN
+KW  - DOM
+KW  - DSM
+DO  - 10.3390/ijgi10080556
+ER  -
+TY  - EJOU
+AU  - Tina, Giuseppe M.
+AU  - Ventura, Cristina
+AU  - Ferlito, Sergio
+AU  - De Vito, Saverio
+TI  - A State-of-Art-Review on Machine-Learning Based Methods for PV
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 16
+SN  - 2076-3417
+
+AB  - In the current era, Artificial Intelligence (AI) is becoming increasingly pervasive with applications in several applicative fields effectively changing our daily life. In this scenario, machine learning (ML), a subset of AI techniques, provides machines with the ability to programmatically learn from data to model a system while adapting to new situations as they learn more by data they are ingesting (on-line training). During the last several years, many papers have been published concerning ML applications in the field of solar systems. This paper presents the state of the art ML models applied in solar energy’s forecasting field i.e., for solar irradiance and power production forecasting (both point and interval or probabilistic forecasting), electricity price forecasting and energy demand forecasting. Other applications of ML into the photovoltaic (PV) field taken into account are the modelling of PV modules, PV design parameter extraction, tracking the maximum power point (MPP), PV systems efficiency optimization, PV/Thermal (PV/T) and Concentrating PV (CPV) system design parameters’ optimization and efficiency improvement, anomaly detection and energy management of PV’s storage systems. While many review papers already exist in this regard, they are usually focused only on one specific topic, while in this paper are gathered all the most relevant applications of ML for solar systems in many different fields. The paper gives an overview of the most recent and promising applications of machine learning used in the field of photovoltaic systems.
+KW  - machine learning
+KW  - solar energy
+KW  - forecast
+KW  - diagnostic
+KW  - electricity markets
+DO  - 10.3390/app11167550
+ER  -
+TY  - EJOU
+AU  - Parra, Lorena
+AU  - Mostaza-Colado, David
+AU  - Yousfi, Salima
+AU  - Marin, Jose F.
+AU  - Mauri, Pedro V.
+AU  - Lloret, Jaime
+TI  - Drone RGB Images as a Reliable Information Source to Determine Legumes Establishment Success
+T2  - Drones
+
+PY  - 2021
+VL  - 5
+IS  - 3
+SN  - 2504-446X
+
+AB  - The use of drones in agriculture is becoming a valuable tool for crop monitoring. There are some critical moments for crop success; the establishment is one of those. In this paper, we present an initial approximation of a methodology that uses RGB images gathered from drones to evaluate the establishment success in legumes based on matrixes operations. Our aim is to provide a method that can be implemented in low-cost nodes with relatively low computational capacity. An index (B1/B2) is used for estimating the percentage of green biomass to evaluate the establishment success. In the study, we include three zones with different establishment success (high, regular, and low) and two species (chickpea and lentils). We evaluate data usability after applying aggregation techniques, which reduces the picture’s size to improve long-term storage. We test cell sizes from 1 to 10 pixels. This technique is tested with images gathered in production fields with intercropping at 4, 8, and 12 m relative height to find the optimal aggregation for each flying height. Our results indicate that images captured at 4 m with a cell size of 5, at 8 m with a cell size of 3, and 12 m without aggregation can be used to determine the establishment success. Comparing the storage requirements, the combination that minimises the data size while maintaining its usability is the image at 8 m with a cell size of 3. Finally, we show the use of generated information with an artificial neural network to classify the data. The dataset was split into a training dataset and a verification dataset. The classification of the verification dataset offered 83% of the cases as well classified. The proposed tool can be used in the future to compare the establishment success of different legume varieties or species.
+KW  - chickpea
+KW  - lentil
+KW  - vegetation index
+KW  - artificial neural network
+KW  - aggregation
+DO  - 10.3390/drones5030079
+ER  -
+TY  - EJOU
+AU  - Hurst, Stance
+AU  - Johnson, Eileen
+AU  - Cunningham, Doug
+AU  - Fernandez-Cespedes, Glenn
+TI  - Aerial Photogrammetry in the American West: Documenting the Construction of Cattle Water Tanks by Texas Cowboys
+T2  - Heritage
+
+PY  - 2021
+VL  - 4
+IS  - 3
+SN  - 2571-9408
+
+AB  - Aerial photogrammetry is increasingly being used to discover, document, and interpret the cultural heritage of landscapes. Information on the constructed cultural heritage left behind by the first cattle ranchers in the American West is being lost as the land is transformed and modified, and stewardship of the land changes across generations. An unmanned aerial vehicle (UAV) has been used in this research to record and interpret two surface water cattle tanks constructed by Texas cowboys in the mid-1880s. Similar size rocks have been used and placed in a similar pattern across the walls of both tanks. This similarity suggests both tanks were constructed at the same time. This research also demonstrates that UAV photogrammetry can be used to rapidly record and analyze the constructed cultural heritage of American West cowboys.
+KW  - Southern High Plains
+KW  - unmanned aerial vehicle
+KW  - photogrammetry
+KW  - cattle water tanks
+KW  - cowboys
+KW  - historical ranches
+KW  - American West
+DO  - 10.3390/heritage4030107
+ER  -
+TY  - EJOU
+AU  - Soubry, Irini
+AU  - Doan, Thuy
+AU  - Chu, Thuan
+AU  - Guo, Xulin
+TI  - A Systematic Review on the Integration of Remote Sensing and GIS to Forest and Grassland Ecosystem Health Attributes, Indicators, and Measures
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 16
+SN  - 2072-4292
+
+AB  - It is important to protect forest and grassland ecosystems because they are ecologically rich and provide numerous ecosystem services. Upscaling monitoring from local to global scale is imperative in reaching this goal. The SDG Agenda does not include indicators that directly quantify ecosystem health. Remote sensing and Geographic Information Systems (GIS) can bridge the gap for large-scale ecosystem health assessment. We systematically reviewed field-based and remote-based measures of ecosystem health for forests and grasslands, identified the most important ones and provided an overview on remote sensing and GIS-based measures. We included 163 English language studies within terrestrial non-tropical biomes and used a pre-defined classification system to extract ecological stressors and attributes, collected corresponding indicators, measures, and proxy values. We found that the main ecological attributes of each ecosystem contribute differently in the literature, and that almost half of the examined studies used remote sensing to estimate indicators. The major stressor for forests was “climate change”, followed by “insect infestation”; for grasslands it was “grazing”, followed by “climate change”. “Biotic interactions, composition, and structure” was the most important ecological attribute for both ecosystems. “Fire disturbance” was the second most important for forests, while for grasslands it was “soil chemistry and structure”. Less than a fifth of studies used vegetation indices; NDVI was the most common. There are monitoring inconsistencies from the broad range of indicators and measures. Therefore, we recommend a standardized field, GIS, and remote sensing-based approach to monitor ecosystem health and integrity and facilitate land managers and policy-makers.
+KW  - ecosystem health assessment
+KW  - grassland
+KW  - forest
+KW  - remote sensing
+KW  - GIS
+KW  - ecological integrity
+KW  - ecosystem attributes
+KW  - ecosystem indicators
+KW  - ecosystem stressors
+DO  - 10.3390/rs13163262
+ER  -
+TY  - EJOU
+AU  - Liu, Zhijie
+AU  - Guo, Pengju
+AU  - Liu, Heng
+AU  - Fan, Pan
+AU  - Zeng, Pengzong
+AU  - Liu, Xiangyang
+AU  - Feng, Ce
+AU  - Wang, Wang
+AU  - Yang, Fuzeng
+TI  - Gradient Boosting Estimation of the Leaf Area Index of Apple Orchards in UAV Remote Sensing
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 16
+SN  - 2072-4292
+
+AB  - The leaf area index (LAI) is a key parameter for describing the canopy structure of apple trees. This index is also employed in evaluating the amount of pesticide sprayed per unit volume of apple trees. Hence, numerous manual and automatic methods have been explored for LAI estimation. In this work, the leaf area indices for different types of apple trees are obtained in terms of multispectral remote-sensing data collected with an unmanned aerial vehicle (UAV), along with simultaneous measurements of apple orchards. The proposed approach was tested on apple trees of the “Fuji”, “Golden Delicious”, and “Ruixue” types, which were planted in the Apple Experimental Station of the Northwest Agriculture and Forestry University in Baishui County, Shaanxi Province, China. Five vegetation indices of strong correlation with the apple leaf area index were selected and used to train models of support vector regression (SVR) and gradient-boosting decision trees (GBDT) for predicting the leaf area index of apple trees. The best model was selected based on the metrics of the coefficient of determination (R2) and the root-mean-square error (RMSE). The experimental results showed that the gradient-boosting decision tree model achieved the best performance with an R2 of 0.846, an RMSE of 0.356, and a spatial efficiency (SPAEF) of 0.57. This demonstrates the feasibility of our approach for fast and accurate remote-sensing-based estimation of the leaf area index of apple trees.
+KW  - leaf area index
+KW  - gradient-boosting decision trees
+KW  - UAV remote sensing
+KW  - apple orchards
+KW  - vegetation index
+DO  - 10.3390/rs13163263
+ER  -
+TY  - EJOU
+AU  - Pal, Shantanu
+AU  - Mukhopadhyay, Subhas
+AU  - Suryadevara, Nagender
+TI  - Development and Progress in Sensors and Technologies for Human Emotion Recognition
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 16
+SN  - 1424-8220
+
+AB  - With the advancement of human-computer interaction, robotics, and especially humanoid robots, there is an increasing trend for human-to-human communications over online platforms (e.g., zoom). This has become more significant in recent years due to the Covid-19 pandemic situation. The increased use of online platforms for communication signifies the need to build efficient and more interactive human emotion recognition systems. In a human emotion recognition system, the physiological signals of human beings are collected, analyzed, and processed with the help of dedicated learning techniques and algorithms. With the proliferation of emerging technologies, e.g., the Internet of Things (IoT), future Internet, and artificial intelligence, there is a high demand for building scalable, robust, efficient, and trustworthy human recognition systems. In this paper, we present the development and progress in sensors and technologies to detect human emotions. We review the state-of-the-art sensors used for human emotion recognition and different types of activity monitoring. We present the design challenges and provide practical references of such human emotion recognition systems in the real world. Finally, we discuss the current trends in applications and explore the future research directions to address issues, e.g., scalability, security, trust, privacy, transparency, and decentralization.
+KW  - sensors
+KW  - human emotion
+KW  - motion analysis
+KW  - wireless communications
+KW  - Internet of Things
+KW  - wearable sensors
+KW  - physiological parameters monitoring
+DO  - 10.3390/s21165554
+ER  -
+TY  - EJOU
+AU  - Ivošević, Bojana
+AU  - Lugonja, Predrag
+AU  - Brdar, Sanja
+AU  - Radulović, Mirjana
+AU  - Vujić, Ante
+AU  - Valente, João
+TI  - UAV-Based Land Cover Classification for Hoverfly (Diptera: Syrphidae) Habitat Condition Assessment: A Case Study on Mt. Stara Planina (Serbia)
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 16
+SN  - 2072-4292
+
+AB  - Habitat degradation, mostly caused by human impact, is one of the key drivers of biodiversity loss. This is a global problem, causing a decline in the number of pollinators, such as hoverflies. In the process of digitalizing ecological studies in Serbia, remote-sensing-based land cover classification has become a key component for both current and future research. Object-based land cover classification, using machine learning algorithms of very high resolution (VHR) imagery acquired by an unmanned aerial vehicle (UAV) was carried out in three different study sites on Mt. Stara Planina, Eastern Serbia. UAV land cover classified maps with seven land cover classes (trees, shrubs, meadows, road, water, agricultural land, and forest patches) were studied. Moreover, three different classification algorithms—support vector machine (SVM), random forest (RF), and k-NN (k-nearest neighbors)—were compared. This study shows that the random forest classifier performs better with respect to the other classifiers in all three study sites, with overall accuracy values ranging from 0.87 to 0.96. The overall results are robust to changes in labeling ground truth subsets. The obtained UAV land cover classified maps were compared with the Map of the Natural Vegetation of Europe (EPNV) and used to quantify habitat degradation and assess hoverfly species richness. It was concluded that the percentage of habitat degradation is primarily caused by anthropogenic pressure, thus affecting the richness of hoverfly species in the study sites. In order to enable research reproducibility, the datasets used in this study are made available in a public repository.
+KW  - unmanned aerial vehicle
+KW  - object-based image analysis
+KW  - Orfeo ToolBox
+KW  - QGIS
+KW  - random forest
+KW  - hoverfly
+KW  - Map of the Natural Vegetation of Europe
+DO  - 10.3390/rs13163272
+ER  -
+TY  - EJOU
+AU  - Ulhaq, Anwaar
+AU  - Adams, Peter
+AU  - Cox, Tarnya E.
+AU  - Khan, Asim
+AU  - Low, Tom
+AU  - Paul, Manoranjan
+TI  - Automated Detection of Animals in Low-Resolution Airborne Thermal Imagery
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 16
+SN  - 2072-4292
+
+AB  - Detecting animals to estimate abundance can be difficult, particularly when the habitat is dense or the target animals are fossorial. The recent surge in the use of thermal imagers in ecology and their use in animal detections can increase the accuracy of population estimates and improve the subsequent implementation of management programs. However, the use of thermal imagers results in many hours of captured flight videos which require manual review for confirmation of species detection and identification. Therefore, the perceived cost and efficiency trade-off often restricts the use of these systems. Additionally, for many off-the-shelf systems, the exported imagery can be quite low resolution (&lt;9 Hz), increasing the difficulty of using automated detections algorithms to streamline the review process. This paper presents an animal species detection system that utilises the cost-effectiveness of these lower resolution thermal imagers while harnessing the power of transfer learning and an enhanced small object detection algorithm. We have proposed a distant object detection algorithm named Distant-YOLO (D-YOLO) that utilises YOLO (You Only Look Once) and improves its training and structure for the automated detection of target objects in thermal imagery. We trained our system on thermal imaging data of rabbits, their active warrens, feral pigs, and kangaroos collected by thermal imaging researchers in New South Wales and Western Australia. This work will enhance the visual analysis of animal species while performing well on low, medium and high-resolution thermal imagery.
+KW  - invasive species
+KW  - thermal imaging
+KW  - habitat identification
+KW  - deep learning
+KW  - drone
+DO  - 10.3390/rs13163276
+ER  -
+TY  - EJOU
+AU  - Xue, Zhihan
+AU  - Gonsalves, Tad
+TI  - Vision Based Drone Obstacle Avoidance by Deep Reinforcement Learning
+T2  - AI
+
+PY  - 2021
+VL  - 2
+IS  - 3
+SN  - 2673-2688
+
+AB  - Research on autonomous obstacle avoidance of drones has recently received widespread attention from researchers. Among them, an increasing number of researchers are using machine learning to train drones. These studies typically adopt supervised learning or reinforcement learning to train the networks. Supervised learning has a disadvantage in that it takes a significant amount of time to build the datasets, because it is difficult to cover the complex and changeable drone flight environment in a single dataset. Reinforcement learning can overcome this problem by using drones to learn data in the environment. However, the current research results based on reinforcement learning are mainly focused on discrete action spaces. In this way, the movement of drones lacks precision and has somewhat unnatural flying behavior. This study aims to use the soft-actor-critic algorithm to train a drone to perform autonomous obstacle avoidance in continuous action space using only the image data. The algorithm is trained and tested in a simulation environment built by Airsim. The results show that our algorithm enables the UAV to avoid obstacles in the training environment only by inputting the depth map. Moreover, it also has a higher obstacle avoidance rate in the reconfigured environment without retraining.
+KW  - drone
+KW  - SAC
+KW  - Airsim
+KW  - deep reinforcement learning
+KW  - VAE
+DO  - 10.3390/ai2030023
+ER  -
+TY  - EJOU
+AU  - Martins, Leandro do C.
+AU  - Tordecilla, Rafael D.
+AU  - Castaneda, Juliana
+AU  - Juan, Angel A.
+AU  - Faulin, Javier
+TI  - Electric Vehicle Routing, Arc Routing, and Team Orienteering Problems in Sustainable Transportation
+T2  - Energies
+
+PY  - 2021
+VL  - 14
+IS  - 16
+SN  - 1996-1073
+
+AB  - The increasing use of electric vehicles in road and air transportation, especially in last-mile delivery and city mobility, raises new operational challenges due to the limited capacity of electric batteries. These limitations impose additional driving range constraints when optimizing the distribution and mobility plans. During the last years, several researchers from the Computer Science, Artificial Intelligence, and Operations Research communities have been developing optimization, simulation, and machine learning approaches that aim at generating efficient and sustainable routing plans for hybrid fleets, including both electric and internal combustion engine vehicles. After contextualizing the relevance of electric vehicles in promoting sustainable transportation practices, this paper reviews the existing work in the field of electric vehicle routing problems. In particular, we focus on articles related to the well-known vehicle routing, arc routing, and team orienteering problems. The review is followed by numerical examples that illustrate the gains that can be obtained by employing optimization methods in the aforementioned field. Finally, several research opportunities are highlighted.
+KW  - electric batteries
+KW  - vehicle routing problem
+KW  - arc routing problem
+KW  - team orienteering problem
+DO  - 10.3390/en14165131
+ER  -
+TY  - EJOU
+AU  - Junaid, Muhammad
+AU  - Shaikh, Asadullah
+AU  - Hassan, Mahmood U.
+AU  - Alghamdi, Abdullah
+AU  - Rajab, Khairan
+AU  - Al Reshan, Mana S.
+AU  - Alkinani, Monagi
+TI  - Smart Agriculture Cloud Using AI Based Techniques
+T2  - Energies
+
+PY  - 2021
+VL  - 14
+IS  - 16
+SN  - 1996-1073
+
+AB  - This research proposes a generic smart cloud-based system in order to accommodate multiple scenarios where agriculture farms using Internet of Things (IoTs) need to be monitored remotely. The real-time and stored data are analyzed by specialists and farmers. The cloud acts as a central digital data store where information is collected from diverse sources in huge volumes and variety, such as audio, video, image, text, and digital maps. Artificial Intelligence (AI) based machine learning models such as Support Vector Machine (SVM), which is one of many classification types, are used to accurately classify the data. The classified data are assigned to the virtual machines where these data are processed and finally available to the end-users via underlying datacenters. This processed form of digital information is then used by the farmers to improve their farming skills and to update them as pre-disaster recovery for smart agri-food. Furthermore, it will provide general and specific information about international markets relating to their crops. This proposed system discovers the feasibility of the developed digital agri-farm using IoT-based cloud and provides solutions to problems. Overall, the approach works well and achieved performance efficiency in terms of execution time by 14%, throughput time by 5%, overhead time by 9%, and energy efficiency by 13.2% in the presence of competing smart farming baselines.
+KW  - smart farming
+KW  - AI-based agri-food
+KW  - energy efficiency
+KW  - digital transformation
+KW  - environment
+KW  - cloud based IoTs
+DO  - 10.3390/en14165129
+ER  -
+TY  - EJOU
+AU  - Bai, Ling
+AU  - Li, Yinguo
+AU  - Cen, Ming
+AU  - Hu, Fangchao
+TI  - 3D Instance Segmentation and Object Detection Framework Based on the Fusion of Lidar Remote Sensing and Optical Image Sensing
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 16
+SN  - 2072-4292
+
+AB  - Since single sensor and high-density point cloud data processing have certain direct processing limitations in urban traffic scenarios, this paper proposes a 3D instance segmentation and object detection framework for urban transportation scenes based on the fusion of Lidar remote sensing technology and optical image sensing technology. Firstly, multi-source and multi-mode data pre-fusion and alignment of Lidar and camera sensor data are effectively carried out, and then a unique and innovative network of stereo regional proposal selective search-driven DAGNN is constructed. Finally, using the multi-dimensional information interaction, three-dimensional point clouds with multi-features and unique concave-convex geometric characteristics are instance over-segmented and clustered by the hypervoxel storage in the remarkable octree and growing voxels. Finally, the positioning and semantic information of significant 3D object detection in this paper are visualized by multi-dimensional mapping of the boundary box. The experimental results validate the effectiveness of the proposed framework with excellent feedback for small objects, object stacking, and object occlusion. It can be a remediable or alternative plan to a single sensor and provide an essential theoretical and application basis for remote sensing, autonomous driving, environment modeling, autonomous navigation, and path planning under the V2X intelligent network space– ground integration in the future.
+KW  - urban transportation
+KW  - lidar and camera sensors fusion
+KW  - 3D object detection
+KW  - stereo regional proposal network
+KW  - octree-based hypervoxels
+DO  - 10.3390/rs13163288
+ER  -
+TY  - EJOU
+AU  - Zhu, Zixiong
+AU  - Xie, Nianhao
+AU  - Zong, Kang
+AU  - Chen, Lei
+TI  - Building a Connected Communication Network for UAV Clusters Using DE-MADDPG
+T2  - Symmetry
+
+PY  - 2021
+VL  - 13
+IS  - 8
+SN  - 2073-8994
+
+AB  - Clusters of unmanned aerial vehicles (UAVs) are often used to perform complex tasks. In such clusters, the reliability of the communication network connecting the UAVs is an essential factor in their collective efficiency. Due to the complex wireless environment, however, communication malfunctions within the cluster are likely during the flight of UAVs. In such cases, it is important to control the cluster and rebuild the connected network. The asymmetry of the cluster topology also increases the complexity of the control mechanisms. The traditional control methods based on cluster consistency often rely on the motion information of the neighboring UAVs. The motion information, however, may become unavailable because of the interrupted communications. UAV control algorithms based on deep reinforcement learning have achieved outstanding results in many fields. Here, we propose a cluster control method based on the Decomposed Multi-Agent Deep Deterministic Policy Gradient (DE-MADDPG) to rebuild a communication network for UAV clusters. The DE-MADDPG improves the framework of the traditional multi-agent deep deterministic policy gradient (MADDPG) algorithm by decomposing the reward function. We further introduce the reward reshaping function to facilitate the convergence of the algorithm in sparse reward environments. To address the instability of the state-space in the reinforcement learning framework, we also propose the notion of the virtual leader–follower model. Extensive simulations show that the success rate of the DE-MADDPG is higher than that of the MADDPG algorithm, confirming the effectiveness of the proposed method.
+KW  - DE-MADDPG
+KW  - UAV cluster
+KW  - connected communication network
+KW  - reward reshaping
+DO  - 10.3390/sym13081537
+ER  -
+TY  - EJOU
+AU  - Jabba, Daladier
+AU  - Acevedo, Pedro
+TI  - ViTool-BC: Visualization Tool Based on Cooja Simulator for WSN
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 16
+SN  - 2076-3417
+
+AB  - Evaluation and monitoring of wireless sensor networks (WSN) and the parameters defining their operations and design, such as energy consumption, latency, and stability, is a complex task due to interaction with real devices. For greater control of these variables, the use of simulators arises as an alternative. Cooja is a WSN simulator/emulator which handles the devices’ controllers and multiple communication protocol implementations, such as RPL (RPL is one of the most used protocol in IoT). However, Cooja does not consider either the implementation of an energy model (it has infinite energy consumption) nor the visual behavior of the topology construction, although these aspects are crucial for effective network analysis and decision taking. This paper presents the design and the implementation of ViTool-BC, a software built on top of Cooja, which allows the creation of different energy estimation models and also to visualize in real time the behavior of WSN topology construction. In addition, ViTool-BC offers a heat map of energy consumption traces. Therefore, this tool helps researchers to monitor in real time the topology construction, node disconnection, and battery depletion, aspects to be considered in the analysis of the available routing protocols in Cooja.
+KW  - wireless sensor networks
+KW  - energy consumption
+KW  - Cooja simulator
+DO  - 10.3390/app11167665
+ER  -
+TY  - EJOU
+AU  - Anderson, Connor J.
+AU  - Heins, Daniel
+AU  - Pelletier, Keith C.
+AU  - Bohnen, Julia L.
+AU  - Knight, Joseph F.
+TI  - Mapping Invasive Phragmites australis Using Unoccupied Aircraft System Imagery, Canopy Height Models, and Synthetic Aperture Radar
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 16
+SN  - 2072-4292
+
+AB  - Invasive plant species are an increasing worldwide threat both ecologically and financially. Knowing the location of these invasive plant infestations is the first step in their control. Surveying for invasive Phragmites australis is particularly challenging due to limited accessibility in wetland environments. Unoccupied aircraft systems (UAS) are a popular choice for invasive species management due to their ability to survey challenging environments and their high spatial and temporal resolution. This study tested the utility of three-band (i.e., red, green, and blue; RGB) UAS imagery for mapping Phragmites in the St. Louis River Estuary in Minnesota, U.S.A. and Saginaw Bay in Michigan, U.S.A. Iterative object-based image analysis techniques were used to identify two classes, Phragmites and Not Phragmites. Additionally, the effectiveness of canopy height models (CHMs) created from two data types, UAS imagery and commercial satellite stereo retrievals, and the RADARSAT-2 horizontal-horizontal (HH) polarization were tested for Phragmites identification. The highest overall classification accuracy of 90% was achieved when pairing the UAS imagery with a UAS-derived CHM. Producer’s accuracy for the Phragmites class ranged from 3 to 76%, and the user’s accuracies were above 90%. The Not Phragmites class had user’s and producer’s accuracies above 88%. Inclusion of the RADARSAT-2 HH polarization caused a slight reduction in classification accuracy. Commercial satellite stereo retrievals increased commission errors due to decreased spatial resolution and vertical accuracy. The lowest classification accuracy was seen when using only the RGB UAS imagery. UAS are promising for Phragmites identification, but the imagery should be used in conjunction with a CHM.
+KW  - Phragmites australis
+KW  - UAS
+KW  - invasive species
+KW  - object-based classification
+KW  - OBIA
+DO  - 10.3390/rs13163303
+ER  -
+TY  - EJOU
+AU  - Huang, Jie
+AU  - Tian, Guoqing
+AU  - Zhang, Jiancheng
+AU  - Chen, Yutao
+TI  - On Unmanned Aerial Vehicles Light Show Systems: Algorithms, Software and Hardware
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 16
+SN  - 2076-3417
+
+AB  - Unmanned aerial vehicle (UAV) light shows (UAV-LS) have a wow factor due to their advantages in terms of environment friendliness and controllability compared to traditional fireworks. In this paper, a UAV-LS system is developed including a collision-free formation transformation trajectory planning algorithm, a software package that facilitates animation design and real-time monitoring and control, and hardware design and realization. In particular, a dynamic task assignment algorithm based on graph theory is proposed to reduce the impact of UAV collision avoidance on task assignment and the frequency of task assignment in the formation transformation. In addition, the software package consists of an animation interface for formation drawing and 3D animation simulation, which helps the monitoring and control of UAVs through a real-time monitoring application. The developed UAV-LS system hardware consists of subsystems of decision-making, real-time kinematic (RTK) global positioning system (GPS), wireless communication, and UAV platforms. Outdoor experiments using six quadrotors are performed and details of implementations of high-accuracy positioning, communication, and computation are presented. Results show that the developed UAV-LS system can successfully complete a light show and the proposed task assignment algorithm performs better than traditional static ones.
+KW  - unmanned aerial vehicle
+KW  - light show
+KW  - formation transformation
+KW  - task assignment
+KW  - trajectory planning
+DO  - 10.3390/app11167687
+ER  -
+TY  - EJOU
+AU  - Migas-Mazur, Robert
+AU  - Kycko, Marlena
+AU  - Zwijacz-Kozica, Tomasz
+AU  - Zagajewski, Bogdan
+TI  - Assessment of Sentinel-2 Images, Support Vector Machines and Change Detection Algorithms for Bark Beetle Outbreaks Mapping in the Tatra Mountains
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 16
+SN  - 2072-4292
+
+AB  - Cambiophagous insects, fires and windthrow cause significant forest disturbances, generating ecological changes and economical losses. The bark beetle (Ips typographus L.), inhabiting coniferous forests and eliminating weakened trees, plays a key role in posing a threat to tree stands, which are dominated by Norway spruce (Picea abies) and covers a large part of mountain areas, as well as the lowlands of Northern, Central and Eastern Europe. Due to the dynamics of the phenomena taking place, the EU recommends constant monitoring of forests in terms of large-area disturbances and factors affecting tree stands’ susceptibility to destruction. The right tools for this are multispectral satellite images, which regularly and free of charge provide up-to-date information on changes in the environment. The aim of this study was to develop a method of identifying disturbances of spruce stands, including the identification of bark beetle outbreaks. Sentinel 2 images from 2015–2018 were used for this purpose; the reference data were high-resolution aerial images, satellite WorldView 2, as well as field verification data. Support Vector Machines (SVM) distinguished six classes: deciduous forests, coniferous forests, grasslands, rocks, snags (dieback of standing trees) and cuts/windthrow. Remote sensing vegetation indices, Multivariate Alteration Detection (MAD), Multivariate Alteration Detection/Maximum Autocorrelation Factor (MAD/MAF), iteratively re-weighted Multivariate Alteration Detection (iMAD) and trained SVM signatures from another year, stacked band rasters allowed us to identify: (1) no changes; (2) dieback of standing trees; (3) logging or falling down of trees. The overall accuracy of the SVM classification oscillated between 97–99%; it was observed that in 2015–2018, as a result of the windthrow and bark beetle outbreaks and the consequences of those natural disturbances (e.g., sanitary cuts), approximately 62.5 km2 of coniferous stands (29%) died in the studied area of the Tatra Mountains.
+KW  - Sentinel-2
+KW  - forest mapping
+KW  - remote sensing indices
+KW  - Multivariate Alteration Detection (MAD)
+KW  - Maximum Autocorrelation Factor (MAF)
+KW  - iteratively re-weighted Multivariate Alteration Detection (iMAD)
+KW  - biological invasions
+KW  - Ips typhographus
+DO  - 10.3390/rs13163314
+ER  -
+TY  - EJOU
+AU  - Maraveas, Chrysanthos
+AU  - Loukatos, Dimitrios
+AU  - Bartzanas, Thomas
+AU  - Arvanitis, Konstantinos G.
+TI  - Applications of Artificial Intelligence in Fire Safety of Agricultural Structures
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 16
+SN  - 2076-3417
+
+AB  - Artificial intelligence applications in fire safety of agricultural structures have practical economic and technological benefits on commercial agriculture. The FAO estimates that wildfires result in at least USD 1 billion in agriculture-related losses due to the destruction of livestock pasture, destruction of agricultural buildings, premature death of farm animals, and general disruption of agricultural activities. Even though artificial neural networks (ANNs), genetic algorithms (GAs), probabilistic neural networks (PNNs), and adaptive neurofuzzy inference systems (ANFISs), among others, have proven useful in fire prevention, their application is limited in real farm environments. Most farms rely on traditional/non-technology-based methods of fire prevention. The case for AI in agricultural fire prevention is grounded on the accuracy and reliability of computer simulations in smoke movement analysis, risk assessment, and postfire analysis. In addition, such technologies can be coupled with next-generation fire-retardant materials such as intumescent coatings with a polymer binder, blowing agent, carbon donor, and acid donor. Future prospects for AI in agriculture transcend basic fire safety to encompass Society 5.0, energy systems in smart cities, UAV monitoring, Agriculture 4.0, and decentralized energy. However, critical challenges must be overcome, including the health and safety aspects, cost, and reliability. In brief, AI offers unlimited potential in the prevention of fire hazards in farms, but the existing body of knowledge is inadequate.
+KW  - artificial intelligence
+KW  - agricultural structures
+KW  - fire safety
+KW  - neurofuzzy inference system
+KW  - fire-retardant materials
+DO  - 10.3390/app11167716
+ER  -

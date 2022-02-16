@@ -1,0 +1,679 @@
+TY  - EJOU
+AU  - Lee, EunSu
+AU  - Mokashi, Amit J.
+AU  - Moon, Sang Y.
+AU  - Kim, GeunSub
+TI  - The Maturity of Automatic Identification Systems (AIS) and Its Implications for Innovation
+T2  - Journal of Marine Science and Engineering
+
+PY  - 2019
+VL  - 7
+IS  - 9
+SN  - 2077-1312
+
+AB  - The member states of International Maritime Organization (IMO) have been leading in and enforcing the use of automatic identification systems (AIS) in the analysis of ship-to-ship collisions, vessel monitoring, and maritime traffic management offshore. This study will help non-federal stakeholders understand the AIS data and contribute to future research by assessing difficulties and improving access to data and applications. This study introduces the basics of AIS materials, shared channels, and currently developed applications, and discusses areas where they can be incorporated in the future. The literature revealed that using AIS data will be beneficial to the public as well as to business and public agencies.
+KW  - automatic identification systems
+KW  - AIS
+KW  - maritime study
+KW  - maritime transportation
+KW  - data science
+DO  - 10.3390/jmse7090287
+ER  -
+TY  - EJOU
+AU  - Khoufi, Ines
+AU  - Laouiti, Anis
+AU  - Adjih, Cedric
+TI  - A Survey of Recent Extended Variants of the Traveling Salesman and Vehicle Routing Problems for Unmanned Aerial Vehicles
+T2  - Drones
+
+PY  - 2019
+VL  - 3
+IS  - 3
+SN  - 2504-446X
+
+AB  - The use of Unmanned Aerial Vehicles (UAVs) is rapidly growing in popularity. Initially introduced for military purposes, over the past few years, UAVs and related technologies have successfully transitioned to a whole new range of civilian applications such as delivery, logistics, surveillance, entertainment, and so forth. They have opened new possibilities such as allowing operation in otherwise difficult or hazardous areas, for instance. For all applications, one foremost concern is the selection of the paths and trajectories of UAVs, and at the same time, UAVs control comes with many challenges, as they have limited energy, limited load capacity and are vulnerable to difficult weather conditions. Generally, efficiently operating a drone can be mathematically formalized as a path optimization problem under some constraints. This shares some commonalities with similar problems that have been extensively studied in the context of urban vehicles and it is only natural that the recent literature has extended the latter to fit aerial vehicle constraints. The knowledge of such problems, their formulation, the resolution methods proposed—through the variants induced specifically by UAVs features—are of interest for practitioners for any UAV application. Hence, in this study, we propose a review of existing literature devoted to such UAV path optimization problems, focusing specifically on the sub-class of problems that consider the mobility on a macroscopic scale. These are related to the two existing general classic ones—the Traveling Salesman Problem and the Vehicle Routing Problem. We analyze the recent literature that adapted the problems to the UAV context, provide an extensive classification and taxonomy of their problems and their formulation and also give a synthetic overview of the resolution techniques, performance metrics and obtained numerical results.
+KW  - UAVs
+KW  - optimization problems
+KW  - TSP
+KW  - VRP
+DO  - 10.3390/drones3030066
+ER  -
+TY  - EJOU
+AU  - Maharjan, Sajana
+AU  - Qamer, Faisal M.
+AU  - Matin, Mir
+AU  - Joshi, Govinda
+AU  - Bhuchar, Sanjeev
+TI  - Integrating Modelling and Expert Knowledge for Evaluating Current and Future Scenario of Large Cardamom Crop in Eastern Nepal
+T2  - Agronomy
+
+PY  - 2019
+VL  - 9
+IS  - 9
+SN  - 2073-4395
+
+AB  - Large Cardamom (Amomum subulatum Roxb.) is one of the most valuable cash crop of the Himalayan mountain region including Nepal, India, and Bhutan. Nepal is the world&rsquo;s largest producer of the crop while the Taplejung district contributes a 30%&ndash;40% share in Nepal&rsquo;s total production. Large cardamom is an herbaceous perennial crop usually grown under the shade of the Uttis tree in very specialized bioclimatic conditions. In recent years, a decline in cardamom production has been observed which is being attributed to climate-related indicators. To understand the current dynamics of this under-canopy herbaceous crop distribution and its future potential under climate change, a combination of modelling, remote sensing, and expert knowledge is applied for the assessment. The results suggest that currently, Uttis tree cover is 10,735 ha in the district, while 50% (5198 ha) of this cover has a large cardamom crop underneath. When existing cultivation is compared with modelled suitable areas, it is observed that the cultivatable area has not yet reached its full potential. In a future climate scenario, the current habitat will be negatively affected, where mid elevations will remain stable while lower and higher elevation will become infeasible for the crop. Future changes are closely related to temperature and precipitation which are steadily changing in Nepal over time.
+KW  - large cardamom
+KW  - remote sensing
+KW  - species modelling
+KW  - habitat assessment
+KW  - climate change
+DO  - 10.3390/agronomy9090481
+ER  -
+TY  - EJOU
+AU  - Yang, Qinchen
+AU  - Liu, Man
+AU  - Zhang, Zhitao
+AU  - Yang, Shuqin
+AU  - Ning, Jifeng
+AU  - Han, Wenting
+TI  - Mapping Plastic Mulched Farmland for High Resolution Images of Unmanned Aerial Vehicle Using Deep Semantic Segmentation
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 17
+SN  - 2072-4292
+
+AB  - With increasing consumption, plastic mulch benefits agriculture by promoting crop quality and yield, but the environmental and soil pollution is becoming increasingly serious. Therefore, research on the monitoring of plastic mulched farmland (PMF) has received increasing attention. Plastic mulched farmland in unmanned aerial vehicle (UAV) remote images due to the high resolution, shows a prominent spatial pattern, which brings difficulties to the task of monitoring PMF. In this paper, through a comparison between two deep semantic segmentation methods, SegNet and fully convolutional networks (FCN), and a traditional classification method, Support Vector Machine (SVM), we propose an end-to-end deep-learning method aimed at accurately recognizing PMF for UAV remote sensing images from Hetao Irrigation District, Inner Mongolia, China. After experiments with single-band, three-band and six-band image data, we found that deep semantic segmentation models built via single-band data which only use the texture pattern of PMF can identify it well; for example, SegNet reaching the highest accuracy of 88.68% in a 900 nm band. Furthermore, with three visual bands and six-band data (3 visible bands and 3 near-infrared bands), deep semantic segmentation models combining the texture and spectral features further improve the accuracy of PMF identification, whereas six-band data obtains an optimal performance for FCN and SegNet. In addition, deep semantic segmentation methods, FCN and SegNet, due to their strong feature extraction capability and direct pixel classification, clearly outperform the traditional SVM method in precision and speed. Among three classification methods, SegNet model built on three-band and six-band data obtains the optimal average accuracy of 89.62% and 90.6%, respectively. Therefore, the proposed deep semantic segmentation model, when tested against the traditional classification method, provides a promising path for mapping PMF in UAV remote sensing images.
+KW  - plastic mulched farmland
+KW  - fully convolutional networks
+KW  - unmanned aerial vehicle remote sensing image
+KW  - deep semantic segmentation
+DO  - 10.3390/rs11172008
+ER  -
+TY  - EJOU
+AU  - Groh, Till
+AU  - Blöthe, Jan H.
+TI  - Rock Glacier Kinematics in the Kaunertal, Ötztal Alps, Austria
+T2  - Geosciences
+
+PY  - 2019
+VL  - 9
+IS  - 9
+SN  - 2076-3263
+
+AB  - The quantification of rock glacier kinematics on a regional basis has gained increasing importance in recent years. Here, we applied an image tracking approach on high-resolution aerial imagery to infer surface kinematics of 129 mapped rock glaciers in the Kaunertal, Austrian Alps. We find significant surface movement for 30 features with mean velocities falling between 0.11 and 0.29 m yr&minus;1 and a maximum of 1.7 m yr&minus;1. Local analysis and comparison to earlier studies reveals significant increases in rock glacier velocities in the study area. From the rock glacier inventory and high-resolution digital topography, we computed a series of morphometric parameters to analyze potential controls on rock glacier creep and to predict rock glacier activity using random forests and logistic regression models. The results point towards a stronger dependence of velocities on parameters describing general inclination, potentially acting as proxies for internal rock glacier properties, while activity states seem to be regulated mainly by rock glacier dimensions and topoclimate. Using a parameter subset, we successfully separated active from inactive rock glaciers with accuracies of up to 77.5%, indicating a promising approach to predict rock glacier activity solely relying on parameters that can be derived from regionally available data sets.
+KW  - rock glaciers
+KW  - surface kinematics
+KW  - feature tracking
+KW  - morphometry
+KW  - logistic regression
+KW  - random forests
+KW  - Austrian Alps
+DO  - 10.3390/geosciences9090373
+ER  -
+TY  - EJOU
+AU  - Geraeds, Marlein
+AU  - van Emmerik, Tim
+AU  - de Vries, Robin
+AU  - bin Ab Razak, Mohd S.
+TI  - Riverine Plastic Litter Monitoring Using Unmanned Aerial Vehicles (UAVs)
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 17
+SN  - 2072-4292
+
+AB  - Plastic debris has become an abundant pollutant in marine, coastal and riverine environments, posing a large threat to aquatic life. Effective measures to mitigate and prevent marine plastic pollution require a thorough understanding of its origin and eventual fate. Several models have estimated that land-based sources are the main source of marine plastic pollution, although field data to substantiate these estimates remain limited. Current methodologies to measure riverine plastic transport require the availability of infrastructure and accessible riverbanks, but, to obtain measurements on a higher spatial and temporal scale, new monitoring methods are required. This paper presents a new methodology for quantifying riverine plastic debris using Unmanned Aerial Vehicles (UAVs), including a first application on Klang River, Malaysia. Additional plastic measurements were done in parallel with the UAV-based approach to make comparisons between the two methods. The spatiotemporal distribution of the plastics obtained with both methods show similar patterns and variations. With this, we show that UAV-based monitoring methods are a promising alternative for currently available approaches for monitoring riverine plastic transport, especially in remote and inaccessible areas.
+KW  - unmanned aerial vehicles
+KW  - hydrology
+KW  - marine plastic
+KW  - plastic litter
+KW  - rivers
+DO  - 10.3390/rs11172045
+ER  -
+TY  - EJOU
+AU  - Ghorbanzadeh, Omid
+AU  - Meena, Sansar R.
+AU  - Blaschke, Thomas
+AU  - Aryal, Jagannath
+TI  - UAV-Based Slope Failure Detection Using Deep-Learning Convolutional Neural Networks
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 17
+SN  - 2072-4292
+
+AB  - Slope failures occur when parts of a slope collapse abruptly under the influence of gravity, often triggered by a rainfall event or earthquake. The resulting slope failures often cause problems in mountainous or hilly regions, and the detection of slope failure is therefore an important topic for research. Most of the methods currently used for mapping and modelling slope failures rely on classification algorithms or feature extraction, but the spatial complexity of slope failures, the uncertainties inherent in expert knowledge, and problems in transferability, all combine to inhibit slope failure detection. In an attempt to overcome some of these problems we have analyzed the potential of deep learning convolutional neural networks (CNNs) for slope failure detection, in an area along a road section in the northern Himalayas, India. We used optical data from unmanned aerial vehicles (UAVs) over two separate study areas. Different CNN designs were used to produce eight different slope failure distribution maps, which were then compared with manually extracted slope failure polygons using different accuracy assessment metrics such as the precision, F-score, and mean intersection-over-union (mIOU). A slope failure inventory data set was produced for each of the study areas using a frequency-area distribution (FAD). The CNN approach that was found to perform best (precision accuracy assessment of almost 90% precision, F-score 85%, mIOU 74%) was one that used a window size of 64 &times; 64 pixels for the sample patches, and included slope data as an additional input layer. The additional information from the slope data helped to discriminate between slope failure areas and roads, which had similar spectral characteristics in the optical imagery. We concluded that the effectiveness of CNNs for slope failure detection was strongly dependent on their design (i.e., the window size selected for the sample patch, the data used, and the training strategies), but that CNNs are currently only designed by trial and error. While CNNs can be powerful tools, such trial and error strategies make it difficult to explain why a particular pooling or layer numbering works better than any other.
+KW  - landslide
+KW  - unmanned aerial vehicle (UAV)
+KW  - deep learning
+KW  - frequency area distribution (FAD)
+KW  - mean intersection-over-union (mIOU)
+KW  - sample patches selection
+DO  - 10.3390/rs11172046
+ER  -
+TY  - EJOU
+AU  - Li, Kexin
+AU  - Wang, Jun
+AU  - Qi, Dawei
+TI  - An Intelligent Warning Method for Diagnosing Underwater Structural Damage
+T2  - Algorithms
+
+PY  - 2019
+VL  - 12
+IS  - 9
+SN  - 1999-4893
+
+AB  - A number of intelligent warning techniques have been implemented for detecting underwater infrastructure diagnosis to partially replace human-conducted on-site inspections. However, the extensively varying real-world situation (e.g., the adverse environmental conditions, the limited sample space, and the complex defect types) can lead to challenges to the wide adoption of intelligent warning techniques. To overcome these challenges, this paper proposed an intelligent algorithm combing gray level co-occurrence matrix (GLCM) with self-organization map (SOM) for accurate diagnosis of the underwater structural damage. In order to optimize the generative criterion for GLCM construction, a triangle algorithm was proposed based on orthogonal experiments. The constructed GLCM were utilized to evaluate the texture features of the regions of interest (ROI) of micro-injury images of underwater structures and extracted damage image texture characteristic parameters. The digital feature screening (DFS) method was used to obtain the most relevant features as the input for the SOM network. According to the unique topology information of the SOM network, the classification result, recognition efficiency, parameters, such as the network layer number, hidden layer node, and learning step, were optimized. The robustness and adaptability of the proposed approach were tested on underwater structure images through the DFS method. The results showed that the proposed method revealed quite better performances and can diagnose structure damage in underwater realistic situations.
+KW  - structural health monitoring
+KW  - digital image processing
+KW  - damage
+KW  - gray level co-occurrence matrix
+KW  - self-organization map
+DO  - 10.3390/a12090183
+ER  -
+TY  - EJOU
+AU  - Revill, Andrew
+AU  - Florence, Anna
+AU  - MacArthur, Alasdair
+AU  - Hoad, Stephen P.
+AU  - Rees, Robert M.
+AU  - Williams, Mathew
+TI  - The Value of Sentinel-2 Spectral Bands for the Assessment of Winter Wheat Growth and Development
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 17
+SN  - 2072-4292
+
+AB  - Leaf Area Index (LAI) and chlorophyll content are strongly related to plant development and productivity. Spatial and temporal estimates of these variables are essential for efficient and precise crop management. The availability of open-access data from the European Space Agency’s (ESA) Sentinel-2 satellite—delivering global coverage with an average 5-day revisit frequency at a spatial resolution of up to 10 metres—could provide estimates of these variables at unprecedented (i.e., sub-field) resolution. Using synthetic data, past research has demonstrated the potential of Sentinel-2 for estimating crop variables. Nonetheless, research involving a robust analysis of the Sentinel-2 bands for supporting agricultural applications is limited. We evaluated the potential of Sentinel-2 data for retrieving winter wheat LAI, leaf chlorophyll content (LCC) and canopy chlorophyll content (CCC). In coordination with destructive and non-destructive ground measurements, we acquired multispectral data from an Unmanned Aerial Vehicle (UAV)-mounted sensor measuring key Sentinel-2 spectral bands (443 to 865 nm). We applied Gaussian processes regression (GPR) machine learning to determine the most informative Sentinel-2 bands for retrieving each of the variables. We further evaluated the GPR model performance when propagating observation uncertainty. When applying the best-performing GPR models without propagating uncertainty, the retrievals had a high agreement with ground measurements—the mean R2 and normalised root-mean-square error (NRMSE) were 0.89 and 8.8%, respectively. When propagating uncertainty, the mean R2 and NRMSE were 0.82 and 11.9%, respectively. When accounting for measurement uncertainty in the estimation of LAI and CCC, the number of most informative Sentinel-2 bands was reduced from four to only two—the red-edge (705 nm) and near-infrared (865 nm) bands. This research demonstrates the value of the Sentinel-2 spectral characteristics for retrieving critical variables that can support more sustainable crop management practices.
+KW  - Sentinel-2 spectral analysis
+KW  - Gaussian processes regression
+KW  - machine learning
+KW  - red-edge band
+KW  - winter wheat assessment
+KW  - vegetation parameter retrieval
+DO  - 10.3390/rs11172050
+ER  -
+TY  - EJOU
+AU  - Shafi, Uferah
+AU  - Mumtaz, Rafia
+AU  - García-Nieto, José
+AU  - Hassan, Syed A.
+AU  - Zaidi, Syed A.
+AU  - Iqbal, Naveed
+TI  - Precision Agriculture Techniques and Practices: From Considerations to Applications
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 17
+SN  - 1424-8220
+
+AB  - Internet of Things (IoT)-based automation of agricultural events can change the agriculture sector from being static and manual to dynamic and smart, leading to enhanced production with reduced human efforts. Precision Agriculture (PA) along with Wireless Sensor Network (WSN) are the main drivers of automation in the agriculture domain. PA uses specific sensors and software to ensure that the crops receive exactly what they need to optimize productivity and sustainability. PA includes retrieving real data about the conditions of soil, crops and weather from the sensors deployed in the fields. High-resolution images of crops are obtained from satellite or air-borne platforms (manned or unmanned), which are further processed to extract information used to provide future decisions. In this paper, a review of near and remote sensor networks in the agriculture domain is presented along with several considerations and challenges. This survey includes wireless communication technologies, sensors, and wireless nodes used to assess the environmental behaviour, the platforms used to obtain spectral images of crops, the common vegetation indices used to analyse spectral images and applications of WSN in agriculture. As a proof of concept, we present a case study showing how WSN-based PA system can be implemented. We propose an IoT-based smart solution for crop health monitoring, which is comprised of two modules. The first module is a wireless sensor network-based system to monitor real-time crop health status. The second module uses a low altitude remote sensing platform to obtain multi-spectral imagery, which is further processed to classify healthy and unhealthy crops. We also highlight the results obtained using a case study and list the challenges and future directions based on our work.
+KW  - smart agriculture
+KW  - precision agriculture
+KW  - vegetation index
+KW  - Internet of Things
+DO  - 10.3390/s19173796
+ER  -
+TY  - EJOU
+AU  - Tilly, Nora
+AU  - Bareth, Georg
+TI  - Estimating Nitrogen from Structural Crop Traits at Field Scale—A Novel Approach Versus Spectral Vegetation Indices
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 17
+SN  - 2072-4292
+
+AB  - A sufficient nitrogen (N) supply is mandatory for healthy crop growth, but negative consequences of N losses into the environment are known. Hence, deeply understanding and monitoring crop growth for an optimized N management is advisable. In this context, remote sensing facilitates the capturing of crop traits. While several studies on estimating biomass from spectral and structural data can be found, N is so far only estimated from spectral features. It is well known that N is negatively related to dry biomass, which, in turn, can be estimated from crop height. Based on this indirect link, the present study aims at estimating N concentration at field scale in a two-step model: first, using crop height to estimate biomass, and second, using the modeled biomass to estimate N concentration. For comparison, N concentration was estimated from spectral data. The data was captured on a spring barley field experiment in two growing seasons. Crop surface height was measured with a terrestrial laser scanner, seven vegetation indices were calculated from field spectrometer measurements, and dry biomass and N concentration were destructively sampled. In the validation, better results were obtained with the models based on structural data (R2 &lt; 0.85) than on spectral data (R2 &lt; 0.70). A brief look at the N concentration of different plant organs showed stronger dependencies on structural data (R2: 0.40&ndash;0.81) than on spectral data (R2: 0.18&ndash;0.68). Overall, this first study shows the potential of crop-specific across‑season two-step models based on structural data for estimating crop N concentration at field scale. The validity of the models for in-season estimations requires further research.
+KW  - terrestrial laser scanning
+KW  - spectrometer
+KW  - plant height
+KW  - vegetation indices
+KW  - biomass
+KW  - nitrogen concentration
+KW  - precision agriculture
+DO  - 10.3390/rs11172066
+ER  -
+TY  - EJOU
+AU  - Zhou, Jing
+AU  - Yungbluth, Dennis
+AU  - Vong, Chin N.
+AU  - Scaboo, Andrew
+AU  - Zhou, Jianfeng
+TI  - Estimation of the Maturity Date of Soybean Breeding Lines Using UAV-Based Multispectral Imagery
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 18
+SN  - 2072-4292
+
+AB  - Physiological maturity date is a critical parameter for the selection of breeding lines in soybean breeding programs. The conventional method to estimate the maturity dates of breeding lines uses visual ratings based on pod senescence by experts, which is subjective by human estimation, labor-intensive and time-consuming. Unmanned aerial vehicle (UAV)-based phenotyping systems provide a high-throughput and powerful tool of capturing crop traits using remote sensing, image processing and machine learning technologies. The goal of this study was to investigate the potential of predicting maturity dates of soybean breeding lines using UAV-based multispectral imagery. Maturity dates of 326 soybean breeding lines were taken using visual ratings from the beginning maturity stage (R7) to full maturity stage (R8), and the aerial multispectral images were taken during this period on 27 August, 14 September and 27 September, 2018. One hundred and thirty features were extracted from the five-band multispectral images. The maturity dates of the soybean lines were predicted and evaluated using partial least square regression (PLSR) models with 10-fold cross-validation. Twenty image features with importance to the estimation were selected and their changing rates between each two of the data collection days were calculated. The best prediction (R2 = 0.81, RMSE = 1.4 days) was made by the PLSR model using image features taken on 14 September and their changing rates between 14 September and 27 September with five components, leading to the conclusion that the UAV-based multispectral imagery is promising and practical in estimating maturity dates of soybean breeding lines.
+KW  - machine learning
+KW  - maturity date
+KW  - multispectral image
+KW  - soybean breeding
+KW  - UAV-based phenotyping
+DO  - 10.3390/rs11182075
+ER  -
+TY  - EJOU
+AU  - Marshall, Michael
+AU  - Crommelinck, Sophie
+AU  - Kohli, Divyani
+AU  - Perger, Christoph
+AU  - Yang, Michael Y.
+AU  - Ghosh, Aniruddha
+AU  - Fritz, Steffen
+AU  - Bie, Kees D.
+AU  - Nelson, Andy
+TI  - Crowd-Driven and Automated Mapping of Field Boundaries in Highly Fragmented Agricultural Landscapes of Ethiopia with Very High Spatial Resolution Imagery
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 18
+SN  - 2072-4292
+
+AB  - Mapping the extent and location of field boundaries is critical to food security analysis but remains problematic in the Global South where such information is needed the most. The difficulty is due primarily to fragmentation in the landscape, small farm sizes, and irregular farm boundaries. Very high-resolution satellite imagery affords an opportunity to delineate such fields, but the challenge remains of determining such boundaries in a systematic and accurate way. In this paper, we compare a new crowd-driven manual digitization tool (Crop Land Extent) with two semi-automated methods (contour detection and multi-resolution segmentation) to determine farm boundaries from WorldView imagery in highly fragmented agricultural landscapes of Ethiopia. More than 7000 one square-kilometer image tiles were used for the analysis. The three methods were assessed using quantitative completeness and spatial correctness. Contour detection tended to under-segment when compared to manual digitization, resulting in better performance for larger (approaching 1 ha) sized fields. Multi-resolution segmentation on the other hand, tended to over-segment, resulting in better performance for small fields. Neither semi-automated method in their current realizations however are suitable for field boundary mapping in highly fragmented landscapes. Crowd-driven manual digitization is promising, but requires more oversight, quality control, and training than the current workflow could allow.
+KW  - agriculture
+KW  - cropland
+KW  - food security
+KW  - image segmentation
+KW  - object detection
+KW  - crowdsourcing
+KW  - remote sensing
+KW  - WorldView
+DO  - 10.3390/rs11182082
+ER  -
+TY  - EJOU
+AU  - Hu, Bo
+AU  - Li, Jiaxi
+AU  - Yang, Jie
+AU  - Bai, Haitao
+AU  - Li, Shuang
+AU  - Sun, Youchang
+AU  - Yang, Xiaoyu
+TI  - Reinforcement Learning Approach to Design Practical Adaptive Control for a Small-Scale Intelligent Vehicle
+T2  - Symmetry
+
+PY  - 2019
+VL  - 11
+IS  - 9
+SN  - 2073-8994
+
+AB  - Reinforcement learning (RL) based techniques have been employed for the tracking and adaptive cruise control of a small-scale vehicle with the aim to transfer the obtained knowledge to a full-scale intelligent vehicle in the near future. Unlike most other control techniques, the purpose of this study is to seek a practical method that enables the vehicle, in the real environment and in real time, to learn the control behavior on its own while adapting to the changing circumstances. In this context, it is necessary to design an algorithm that symmetrically considers both time efficiency and accuracy. Meanwhile, in order to realize adaptive cruise control specifically, a set of symmetrical control actions consisting of steering angle and vehicle speed needs to be optimized simultaneously. In this paper, firstly, the experimental setup of the small-scale intelligent vehicle is introduced. Subsequently, three model-free RL algorithm are conducted to develop and finally form the strategy to keep the vehicle within its lanes at constant and top velocity. Furthermore, a model-based RL strategy is compared that incorporates learning from real experience and planning from simulated experience. Finally, a Q-learning based adaptive cruise control strategy is intermixed to the existing tracking control architecture to allow the vehicle slow-down in the curve and accelerate on straightaways. The experimental results show that the Q-learning and Sarsa (&lambda;) algorithms can achieve a better tracking behavior than the conventional Sarsa, and Q-learning outperform Sarsa (&lambda;) in terms of computational complexity. The Dyna-Q method performs similarly with the Sarsa (&lambda;) algorithms, but with a significant reduction of computational time. Compared with a fine-tuned proportion integration differentiation (PID) controller, the good-balanced Q-learning is seen to perform better and it can also be easily applied to control problems with over one control actions.
+KW  - reinforcement learning
+KW  - adaptive control
+KW  - small-scale intelligent vehicle
+KW  - Q-learning
+DO  - 10.3390/sym11091139
+ER  -
+TY  - EJOU
+AU  - Díez-González, Javier
+AU  - Álvarez, Rubén
+AU  - González-Bárcena, David
+AU  - Sánchez-González, Lidia
+AU  - Castejón-Limas, Manuel
+AU  - Perez, Hilde
+TI  - Genetic Algorithm Approach to the 3D Node Localization in TDOA Systems
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 18
+SN  - 1424-8220
+
+AB  - Positioning asynchronous architectures based on time measurements are reaching growing importance in Local Positioning Systems (LPS). These architectures have special relevance in precision applications and indoor/outdoor navigation of automatic vehicles such as Automatic Ground Vehicles (AGVs) and Unmanned Aerial Vehicles (UAVs). The positioning error of these systems is conditioned by the algorithms used in the position calculation, the quality of the time measurements, and the sensor deployment of the signal receivers. Once the algorithms have been defined and the method to compute the time measurements has been selected, the only design criteria of the LPS is the distribution of the sensors in the three-dimensional space. This problem has proved to be NP-hard, and therefore a heuristic solution to the problem is recommended. In this paper, a genetic algorithm with the flexibility to be adapted to different scenarios and ground modelings is proposed. This algorithm is used to determine the best node localization in order to reduce the Cram&eacute;r-Rao Lower Bound (CRLB) with a heteroscedastic noise consideration in each sensor of an Asynchronous Time Difference of Arrival (A-TDOA) architecture. The methodology proposed allows for the optimization of the 3D sensor deployment of a passive A-TDOA architecture, including ground modeling flexibility and heteroscedastic noise consideration with sequential iterations, and reducing the spatial discretization to achieve better results. Results show that optimization with 15% of elitism and a Tournament 3 selection strategy offers the best maximization for the algorithm.
+KW  - genetic algorithm
+KW  - LPS
+KW  - Asynchronous
+KW  - TDOA
+KW  - CRLB
+KW  - sensor networks
+KW  - passive localization
+DO  - 10.3390/s19183880
+ER  -
+TY  - EJOU
+AU  - Fan, Shurui
+AU  - Li, Zirui
+AU  - Xia, Kewen
+AU  - Hao, Dongxia
+TI  - Quantitative and Qualitative Analysis of Multicomponent Gas Using Sensor Array
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 18
+SN  - 1424-8220
+
+AB  - The gas sensor array has long been a major tool for measuring gas due to its high sensitivity, quick response, and low power consumption. This goal, however, faces a difficult challenge because of the cross-sensitivity of the gas sensor. This paper presents a novel gas mixture analysis method for gas sensor array applications. The features extracted from the raw data utilizing principal component analysis (PCA) were used to complete random forest (RF) modeling, which enabled qualitative identification. Support vector regression (SVR), optimized by the particle swarm optimization (PSO) algorithm, was used to select hyperparameters C and &gamma; to establish the optimal regression model for the purpose of quantitative analysis. Utilizing the dataset, we evaluated the effectiveness of our approach. Compared with logistic regression (LR) and support vector machine (SVM), the average recognition rate of PCA combined with RF was the highest (97%). The fitting effect of SVR optimized by PSO for gas concentration was better than that of SVR and solved the problem of hyperparameters selection.
+KW  - gas sensor array
+KW  - cross-sensitivity
+KW  - PCA
+KW  - random forest
+KW  - particle swarm optimization
+DO  - 10.3390/s19183917
+ER  -
+TY  - EJOU
+AU  - Li, Qiaosi
+AU  - Wong, Frankie K.
+AU  - Fung, Tung
+TI  - Classification of Mangrove Species Using Combined WordView-3 and LiDAR Data in Mai Po Nature Reserve, Hong Kong
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 18
+SN  - 2072-4292
+
+AB  - Mangroves have significant social, economic, environmental, and ecological values but they are under threat due to human activities. An accurate map of mangrove species distribution is required to effectively conserve mangrove ecosystem. This study evaluates the synergy of WorldView-3 (WV-3) spectral bands and high return density LiDAR-derived elevation metrics for classifying seven species in mangrove habitat in Mai Po Nature Reserve in Hong Kong, China. A recursive feature elimination algorithm was carried out to identify important spectral bands and LiDAR (Airborne Light Detection and Ranging) metrics whilst appropriate spatial resolution for pixel-based classification was investigated for discriminating different mangrove species. Two classifiers, support vector machine (SVM) and random forest (RF) were compared. The results indicated that the combination of 2 m resolution WV-3 and LiDAR data yielded the best overall accuracy of 0.88 by SVM classifier comparing with WV-3 (0.72) and LiDAR (0.79). Important features were identified as green (510&ndash;581 nm), red edge (705&ndash;745 nm), red (630&ndash;690 nm), yellow (585&ndash;625 nm), NIR (770&ndash;895 nm) bands of WV-3, and LiDAR metrics relevant to canopy height (e.g., canopy height model), canopy shape (e.g., canopy relief ratio), and the variation of height (e.g., variation and standard deviation of height). LiDAR features contributed more information than spectral features. The significance of this study is that a mangrove species distribution map with satisfactory accuracy can be acquired by the proposed classification scheme. Meanwhile, with LiDAR data, vertical stratification of mangrove forests in Mai Po was firstly mapped, which is significant to bio-parameter estimation and ecosystem service evaluation in future studies.
+KW  - airborne LiDAR
+KW  - feature selection
+KW  - mangrove species classification
+KW  - random forest
+KW  - support vector machine
+KW  - WorldView-3
+DO  - 10.3390/rs11182114
+ER  -
+TY  - EJOU
+AU  - Hillman, Samuel
+AU  - Wallace, Luke
+AU  - Reinke, Karin
+AU  - Hally, Bryan
+AU  - Jones, Simon
+AU  - Saldias, Daisy S.
+TI  - A Method for Validating the Structural Completeness of Understory Vegetation Models Captured with 3D Remote Sensing
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 18
+SN  - 2072-4292
+
+AB  - Characteristics describing below canopy vegetation are important for a range of forest ecosystem applications including wildlife habitat, fuel hazard and fire behaviour modelling, understanding forest recovery after disturbance and competition dynamics. Such applications all rely on accurate measures of vegetation structure. Inherent in this is the assumption or ability to demonstrate measurement accuracy. 3D point clouds are being increasingly used to describe vegetated environments, however limited research has been conducted to validate the information content of terrestrial point clouds of understory vegetation. This paper describes the design and use of a field frame to co-register point intercept measurements with point cloud data to act as a validation source. Validation results show high correlation of point matching in forests with understory vegetation elements with large mass and/or surface area, typically consisting of broad leaves, twigs and bark 0.02 m diameter or greater in size (SfM, MCC 0.51&ndash;0.66; TLS, MCC 0.37&ndash;0.47). In contrast, complex environments with understory vegetation elements with low mass and low surface area showed lower correlations between validation measurements and point clouds (SfM, MCC 0.40 and 0.42; TLS, MCC 0.25 and 0.16). The results of this study demonstrate that the validation frame provides a suitable method for comparing the relative performance of different point cloud generation processes.
+KW  - structure from motion
+KW  - terrestrial laser scanning
+KW  - validation
+KW  - 3D remote sensing
+KW  - vegetation structure
+KW  - biomass
+KW  - forest measurement
+DO  - 10.3390/rs11182118
+ER  -
+TY  - EJOU
+AU  - Liu, Xiaolei
+AU  - Liu, Liansheng
+AU  - Wang, Lulu
+AU  - Guo, Qing
+AU  - Peng, Xiyuan
+TI  - Performance Sensing Data Prediction for an Aircraft Auxiliary Power Unit Using the Optimized Extreme Learning Machine
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 18
+SN  - 1424-8220
+
+AB  - The aircraft auxiliary power unit (APU) is responsible for environmental control in the cabin and the main engines starting the aircraft. The prediction of its performance sensing data is significant for condition-based maintenance. As a complex system, its performance sensing data have a typically nonlinear feature. In order to monitor this process, a model with strong nonlinear fitting ability needs to be formulated. A neural network has advantages of solving a nonlinear problem. Compared with the traditional back propagation neural network algorithm, an extreme learning machine (ELM) has features of a faster learning speed and better generalization performance. To enhance the training of the neural network with a back propagation algorithm, an ELM is employed to predict the performance sensing data of the APU in this study. However, the randomly generated weights and thresholds of the ELM often may result in unstable prediction results. To address this problem, a restricted Boltzmann machine (RBM) is utilized to optimize the ELM. In this way, a stable performance parameter prediction model of the APU can be obtained and better performance parameter prediction results can be achieved. The proposed method is evaluated by the real APU sensing data of China Southern Airlines Company Limited Shenyang Maintenance Base. Experimental results show that the optimized ELM with an RBM is more stable and can obtain more accurate prediction results.
+KW  - auxiliary power unit
+KW  - improved neural network
+KW  - stable prediction
+KW  - performance sensing data prediction
+DO  - 10.3390/s19183935
+ER  -
+TY  - EJOU
+AU  - Abdi, Omid
+TI  - Climate-Triggered Insect Defoliators and Forest Fires Using Multitemporal Landsat and TerraClimate Data in NE Iran: An Application of GEOBIA TreeNet and Panel Data Analysis
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 18
+SN  - 1424-8220
+
+AB  - Despite increasing the number of studies for mapping remote sensing insect-induced forest infestations, applying novel approaches for mapping and identifying its triggers are still developing. This study was accomplished to test the performance of Geographic Object-Based Image Analysis (GEOBIA) TreeNet for discerning insect-infested forests induced by defoliators from healthy forests using Landsat 8 OLI and ancillary data in the broadleaved mixed Hyrcanian forests. Moreover, it has studied mutual associations between the intensity of forest defoliation and the severity of forest fires under TerraClimate-derived climate hazards by analyzing panel data models within the TreeNet-derived insect-infested forest objects. The TreeNet optimal performance was obtained after building 333 trees with a sensitivity of 93.7% for detecting insect-infested objects with the contribution of the top 22 influential variables from 95 input object features. Accordingly, top image-derived features were the mean of the second principal component (PC2), the mean of the red channel derived from the gray-level co-occurrence matrix (GLCM), and the mean values of the normalized difference water index (NDWI) and the global environment monitoring index (GEMI). However, tree species type has been considered as the second rank for discriminating forest-infested objects from non-forest-infested objects. The panel data models using random effects indicated that the intensity of maximum temperatures of the current and previous years, the drought and soil-moisture deficiency of the current year, and the severity of forest fires of the previous year could significantly trigger the insect outbreaks. However, maximum temperatures were the only significant triggers of forest fires. This research proposes testing the combination of object features of Landsat 8 OLI with other data for monitoring near-real-time defoliation and pathogens in forests.
+KW  - GEOBIA
+KW  - TreeNet
+KW  - insect infestation
+KW  - defoliators
+KW  - Landsat 8 OLI
+KW  - TerraClimate
+KW  - climate hazards
+KW  - drought
+KW  - forest fires
+KW  - panel data
+DO  - 10.3390/s19183965
+ER  -
+TY  - EJOU
+AU  - Wang, Jie
+AU  - Simeonova, Sandra
+AU  - Shahbazi, Mozhdeh
+TI  - Orientation- and Scale-Invariant Multi-Vehicle Detection and Tracking from Unmanned Aerial Videos
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 18
+SN  - 2072-4292
+
+AB  - Along with the advancement of light-weight sensing and processing technologies, unmanned aerial vehicles (UAVs) have recently become popular platforms for intelligent traffic monitoring and control. UAV-mounted cameras can capture traffic-flow videos from various perspectives providing a comprehensive insight into road conditions. To analyze the traffic flow from remotely captured videos, a reliable and accurate vehicle detection-and-tracking approach is required. In this paper, we propose a deep-learning framework for vehicle detection and tracking from UAV videos for monitoring traffic flow in complex road structures. This approach is designed to be invariant to significant orientation and scale variations in the videos. The detection procedure is performed by fine-tuning a state-of-the-art object detector, You Only Look Once (YOLOv3), using several custom-labeled traffic datasets. Vehicle tracking is conducted following a tracking-by-detection paradigm, where deep appearance features are used for vehicle re-identification, and Kalman filtering is used for motion estimation. The proposed methodology is tested on a variety of real videos collected by UAVs under various conditions, e.g., in late afternoons with long vehicle shadows, in dawn with vehicles lights being on, over roundabouts and interchange roads where vehicle directions change considerably, and from various viewpoints where vehicles&rsquo; appearance undergo substantial perspective distortions. The proposed tracking-by-detection approach performs efficiently at 11 frames per second on color videos of 2720p resolution. Experiments demonstrated that high detection accuracy could be achieved with an average F1-score of 92.1%. Besides, the tracking technique performs accurately, with an average multiple-object tracking accuracy (MOTA) of 81.3%. The proposed approach also addressed the shortcomings of the state-of-the-art in multi-object tracking regarding frequent identity switching, resulting in a total of only one identity switch over every 305 tracked vehicles.
+KW  - traffic monitoring
+KW  - vehicle detection
+KW  - multi-vehicle tracking
+KW  - vehicle re-identification
+KW  - unmanned aerial vehicles
+KW  - deep convolutional neural network.
+DO  - 10.3390/rs11182155
+ER  -
+TY  - EJOU
+AU  - Wang, Dezhi
+AU  - Wan, Bo
+AU  - Qiu, Penghua
+AU  - Zuo, Zejun
+AU  - Wang, Run
+AU  - Wu, Xincai
+TI  - Mapping Height and Aboveground Biomass of Mangrove Forests on Hainan Island Using UAV-LiDAR Sampling
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 18
+SN  - 2072-4292
+
+AB  - Hainan Island is the second-largest island in China and has the most species-diverse mangrove forests in the country. To date, the height and aboveground ground biomass (AGB) of the mangrove forests on Hainan Island are unknown, partly as a result of the challenges faced during extensive field sampling in mangrove habitats (intertidal mudflats inundated by periodic seawater). Therefore, this study used a low-cost UAV-LiDAR (light detection and ranging sensor mounted on an unmanned aerial vehicle) system as a sampling tool and Sentinel-2 imagery as auxiliary data to estimate and map the mangrove height and AGB on Hainan Island. Hainan Island has 3697.02 hectares of mangrove forests with an average patch area of approximately 1 ha. The results show that the mangroves on whole Hainan Island have an average height of 6.99 m, a total AGB of 474,199.31 Mg and an AGB density of 128.27 Mg ha&minus;1. The AGB hot spots are located in Qinglan Harbor and the south of Dongzhai Harbor. The proposed height model LiDAR-S2 performed well with an R2 of 0.67 and an RMSE (root mean square error) of 1.90 m; the proposed AGB model G~LiDAR~S2 performed better (an R2 of 0.62 and an RMSE of 50.36 Mg ha&minus;1) than the traditional AGB model G~S2 that directly related ground plots and Sentinel-2 data. The results also indicate that the LiDAR metrics describing the canopy&rsquo;s thickness and its top and bottom characteristics are the most important variables for mangrove AGB estimation. For the Sentinel-2 indices, the red-edge and shortwave infrared features, especially the red-edge 1 and shortwave infrared Band 11 features, play the most important roles in estimating mangrove AGB and height. In conclusion, this paper presents the first mangrove height and AGB maps of Hainan Island and demonstrates the feasibility of using UAV-LiDAR as a sampling tool for mangrove forests.
+KW  - mangroves
+KW  - Hainan island
+KW  - aboveground biomass
+KW  - UAV-LiDAR sampling
+KW  - Sentinel-2
+KW  - random forest
+KW  - feature importance
+DO  - 10.3390/rs11182156
+ER  -
+TY  - EJOU
+AU  - Mpfumali, Phathutshedzo
+AU  - Sigauke, Caston
+AU  - Bere, Alphonce
+AU  - Mulaudzi, Sophie
+TI  - Day Ahead Hourly Global Horizontal Irradiance Forecasting—Application to South African Data
+T2  - Energies
+
+PY  - 2019
+VL  - 12
+IS  - 18
+SN  - 1996-1073
+
+AB  - Due to its variability, solar power generation poses challenges to grid energy management. In order to ensure an economic operation of a national grid, including its stability, it is important to have accurate forecasts of solar power. The current paper discusses probabilistic forecasting of twenty-four hours ahead of global horizontal irradiance (GHI) using data from the Tellerie radiometric station in South Africa for the period August 2009 to April 2010. Variables are selected using a least absolute shrinkage and selection operator (Lasso) via hierarchical interactions and the parameters of the developed models are estimated using the Barrodale and Roberts&rsquo;s algorithm. Two forecast combination methods are used in this study. The first is a convex forecast combination algorithm where the average loss suffered by the models is based on the pinball loss function. A second forecast combination method, which is quantile regression averaging (QRA), is also used. The best set of forecasts is selected based on the prediction interval coverage probability (PICP), prediction interval normalised average width (PINAW) and prediction interval normalised average deviation (PINAD). The results demonstrate that QRA gives more robust prediction intervals than the other models. A comparative analysis is done with two machine learning methods&mdash;stochastic gradient boosting and support vector regression&mdash;which are used as benchmark models. Empirical results show that the QRA model yields the most accurate forecasts compared to the machine learning methods based on the probabilistic error measures. Results on combining prediction interval limits show that the PMis the best prediction limits combination method as it gives a hit rate of 0.955 which is very close to the target of 0.95. This modelling approach is expected to help in optimising the integration of solar power in the national grid.
+KW  - forecast combination
+KW  - lasso via hierarchical interaction
+KW  - partially linear additive models
+KW  - probabilistic solar irradiance forecasting
+DO  - 10.3390/en12183569
+ER  -
+TY  - EJOU
+AU  - Zou, Xiaodan
+AU  - Liang, Anjie
+AU  - Wu, Bizhi
+AU  - Su, Jun
+AU  - Zheng, Renhua
+AU  - Li, Jian
+TI  - UAV-Based High-Throughput Approach for Fast Growing Cunninghamia lanceolata (Lamb.) Cultivar Screening by Machine Learning
+T2  - Forests
+
+PY  - 2019
+VL  - 10
+IS  - 9
+SN  - 1999-4907
+
+AB  - Obtaining accurate measurements of tree height and diameter at breast height (DBH) in forests to evaluate the growth rate of cultivars is still a significant challenge, even when using light detection and ranging (LiDAR) and three-dimensional (3-D) modeling. As an alternative, we provide a novel high-throughput strategy for predicting the biomass of forests in the field by vegetation indices. This study proposes an integrated pipeline methodology to measure the biomass of different tree cultivars in plantation forests with high crown density, which combines unmanned aerial vehicles (UAVs), hyperspectral image sensors, and data processing algorithms using machine learning. Using a planation of Cunninghamia lanceolate, which is commonly known as Chinese fir, in Fujian, China, images were collected while using a hyperspectral camera. Vegetation indices and modeling were processed in Python using decision trees, random forests, support vector machine, and eXtreme Gradient Boosting (XGBoost) third-party libraries. The tree height and DBH of 2880 samples were manually measured and clustered into three groups&mdash;&ldquo;Fast&rdquo;, &ldquo;median&rdquo;, and &ldquo;normal&rdquo; growth groups&mdash;and 19 vegetation indices from 12,000 pixels were abstracted as the input of features for the modeling. After modeling and cross-validation, the classifier that was generated by random forests had the best prediction accuracy when compared to other algorithms (75%). This framework can be applied to other tree species to make management and business decisions.
+KW  - Cunninghamia lanceolate
+KW  - UAVs
+KW  - hyperspectral camera
+KW  - machine learning
+KW  - random forests
+KW  - XGBoost
+DO  - 10.3390/f10090815
+ER  -
+TY  - EJOU
+AU  - Mei, Wenjuan
+AU  - Liu, Zhen
+AU  - Su, Yuanzhang
+AU  - Du, Li
+AU  - Huang, Jianguo
+TI  - Evolved-Cooperative Correntropy-Based Extreme Learning Machine for Robust Prediction
+T2  - Entropy
+
+PY  - 2019
+VL  - 21
+IS  - 9
+SN  - 1099-4300
+
+AB  - In recent years, the correntropy instead of the mean squared error has been widely taken as a powerful tool for enhancing the robustness against noise and outliers by forming the local similarity measurements. However, most correntropy-based models either have too simple descriptions of the correntropy or require too many parameters to adjust in advance, which is likely to cause poor performance since the correntropy fails to reflect the probability distributions of the signals. Therefore, in this paper, a novel correntropy-based extreme learning machine (ELM) called ECC-ELM has been proposed to provide a more robust training strategy based on the newly developed multi-kernel correntropy with the parameters that are generated using cooperative evolution. To achieve an accurate description of the correntropy, the method adopts a cooperative evolution which optimizes the bandwidths by switching delayed particle swarm optimization (SDPSO) and generates the corresponding influence coefficients that minimizes the minimum integrated error (MIE) to adaptively provide the best solution. The simulated experiments and real-world applications show that cooperative evolution can achieve the optimal solution which provides an accurate description on the probability distribution of the current error in the model. Therefore, the multi-kernel correntropy that is built with the optimal solution results in more robustness against the noise and outliers when training the model, which increases the accuracy of the predictions compared with other methods.
+KW  - correntropy
+KW  - information theory extreme learning machine
+KW  - evolved cooperation
+DO  - 10.3390/e21090912
+ER  -
+TY  - EJOU
+AU  - Zhang, Xinxiang
+AU  - Zeinali, Yasha
+AU  - Story, Brett A.
+AU  - Rajan, Dinesh
+TI  - Measurement of Three-Dimensional Structural Displacement Using a Hybrid Inertial Vision-Based System
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 19
+SN  - 1424-8220
+
+AB  - Accurate three-dimensional displacement measurements of bridges and other structures have received significant attention in recent years. The main challenges of such measurements include the cost and the need for a scalable array of instrumentation. This paper presents a novel Hybrid Inertial Vision-Based Displacement Measurement (HIVBDM) system that can measure three-dimensional structural displacements by using a monocular charge-coupled device (CCD) camera, a stationary calibration target, and an attached tilt sensor. The HIVBDM system does not require the camera to be stationary during the measurements, while the camera movements, i.e., rotations and translations, during the measurement process are compensated by using a stationary calibration target in the field of view (FOV) of the camera. An attached tilt sensor is further used to refine the camera movement compensation, and better infers the global three-dimensional structural displacements. This HIVBDM system is evaluated on both short-term and long-term synthetic static structural displacements, which are conducted in an indoor simulated experimental environment. In the experiments, at a 9.75 m operating distance between the monitoring camera and the structure that is being monitored, the proposed HIVBDM system achieves an average of 1.440 mm Root Mean Square Error (RMSE) on the in-plane structural translations and an average of 2.904 mm RMSE on the out-of-plane structural translations.
+KW  - three-dimensional
+KW  - static structural displacement measurement
+KW  - structural health monitoring
+KW  - out-of-plane
+KW  - vision-based
+KW  - camera calibration
+KW  - camera movement compensation
+KW  - motion sensor
+DO  - 10.3390/s19194083
+ER  -
+TY  - EJOU
+AU  - Salameh, Edward
+AU  - Frappart, Frédéric
+AU  - Almar, Rafael
+AU  - Baptista, Paulo
+AU  - Heygster, Georg
+AU  - Lubac, Bertrand
+AU  - Raucoules, Daniel
+AU  - Almeida, Luis P.
+AU  - Bergsma, Erwin W. J.
+AU  - Capo, Sylvain
+AU  - De Michele, Marcello
+AU  - Idier, Deborah
+AU  - Li, Zhen
+AU  - Marieu, Vincent
+AU  - Poupardin, Adrien
+AU  - Silva, Paulo A.
+AU  - Turki, Imen
+AU  - Laignel, Benoit
+TI  - Monitoring Beach Topography and Nearshore Bathymetry Using Spaceborne Remote Sensing: A Review
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 19
+SN  - 2072-4292
+
+AB  - With high anthropogenic pressure and the effects of climate change (e.g., sea level rise) on coastal regions, there is a greater need for accurate and up-to-date information about the topography of these systems. Reliable topography and bathymetry information are fundamental parameters for modelling the morpho-hydrodynamics of coastal areas, for flood forecasting, and for coastal management. Traditional methods such as ground, ship-borne, and airborne surveys suffer from limited spatial coverage and temporal sampling due to logistical constraints and high costs which limit their ability to provide the needed information. The recent advancements of spaceborne remote sensing techniques, along with their ability to acquire data over large spatial areas and to provide high frequency temporal monitoring, has made them very attractive for topography and bathymetry mapping. In this review, we present an overview of the current state of spaceborne-based remote sensing techniques used to estimate the topography and bathymetry of beaches, intertidal, and nearshore areas. We also provide some insights about the potential of these techniques when using data provided by new and future satellite missions.
+KW  - spaceborne remote sensing
+KW  - satellite
+KW  - beaches
+KW  - intertidal
+KW  - nearshore
+KW  - shallow waters
+KW  - topography
+KW  - bathymetry
+KW  - digital elevation model (DEM)
+DO  - 10.3390/rs11192212
+ER  -
+TY  - EJOU
+AU  - Petliak, Helen
+AU  - Cerovski-Darriau, Corina
+AU  - Zaliva, Vadim
+AU  - Stock, Jonathan
+TI  - Where’s the Rock: Using Convolutional Neural Networks to Improve Land Cover Classification
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 19
+SN  - 2072-4292
+
+AB  - While machine learning techniques have been increasingly applied to land cover classification problems, these techniques have not focused on separating exposed bare rock from soil covered areas. Therefore, we built a convolutional neural network (CNN) to differentiate exposed bare rock (rock) from soil cover (other). We made a training dataset by mapping exposed rock at eight test sites across the Sierra Nevada Mountains (California, USA) using USDA’s 0.6 m National Aerial Inventory Program (NAIP) orthoimagery. These areas were then used to train and test the CNN. The resulting machine learning approach classifies bare rock in NAIP orthoimagery with a 0.95     F 1     score. Comparatively, the classical OBIA approach gives only a 0.84     F 1     score. This is an improvement over existing land cover maps, which underestimate rock by almost 90%. The resulting CNN approach is likely scalable but dependent on high-quality imagery and high-performance algorithms using representative training sets informed by expert mapping. As image quality and quantity continue to increase globally, machine learning models that incorporate high-quality training data informed by geologic, topographic, or other topical maps may be applied to more effectively identify exposed rock in large image collections.
+KW  - remote sensing
+KW  - environment
+KW  - geology
+KW  - land cover
+KW  - land use
+KW  - classification
+DO  - 10.3390/rs11192211
+ER  -
+TY  - EJOU
+AU  - Abouheaf, Mohammed
+AU  - Gueaieb, Wail
+AU  - Spinello, Davide
+TI  - Online Multi-Objective Model-Independent Adaptive Tracking Mechanism for Dynamical Systems
+T2  - Robotics
+
+PY  - 2019
+VL  - 8
+IS  - 4
+SN  - 2218-6581
+
+AB  - The optimal tracking problem is addressed in the robotics literature by using a variety of robust and adaptive control approaches. However, these schemes are associated with implementation limitations such as applicability in uncertain dynamical environments with complete or partial model-based control structures, complexity and integrity in discrete-time environments, and scalability in complex coupled dynamical systems. An online adaptive learning mechanism is developed to tackle the above limitations and provide a generalized solution platform for a class of tracking control problems. This scheme minimizes the tracking errors and optimizes the overall dynamical behavior using simultaneous linear feedback control strategies. Reinforcement learning approaches based on value iteration processes are adopted to solve the underlying Bellman optimality equations. The resulting control strategies are updated in real time in an interactive manner without requiring any information about the dynamics of the underlying systems. Means of adaptive critics are employed to approximate the optimal solving value functions and the associated control strategies in real time. The proposed adaptive tracking mechanism is illustrated in simulation to control a flexible wing aircraft under uncertain aerodynamic learning environment.
+KW  - adaptive tracking systems
+KW  - optimal control
+KW  - machine learning
+KW  - reinforcement learning
+KW  - adaptive critics
+DO  - 10.3390/robotics8040082
+ER  -
+TY  - EJOU
+AU  - Phuc, Le T.
+AU  - Jeon, HyeJun
+AU  - Truong, Nguyen T.
+AU  - Hak, Jung J.
+TI  - Applying the Haar-cascade Algorithm for Detecting Safety Equipment in Safety Management Systems for Multiple Working Environments
+T2  - Electronics
+
+PY  - 2019
+VL  - 8
+IS  - 10
+SN  - 2079-9292
+
+AB  - There are many ways to maintain the safety of workers on a working site, such as using a human supervisor, computer supervisor, and smoke&ndash;flame detecting system. In order to create a safety warning system for the working site, the machine-learning algorithm&mdash;Haar-cascade classifier&mdash;was used to build four different classes for safety equipment recognition. Then a proposed algorithm was applied to calculate a score to determine the dangerousness of the current working environment based on the safety equipment and working environment. With this data, the system decides whether it is necessary to give a warning signal. For checking the efficiency of this project, three different situations were installed with this system. Generally, with the promising outcome, this application can be used in maintaining, supervising, and controlling the safety of a worker.
+KW  - Haar–cascade algorithm
+KW  - safety equipment
+KW  - safety management system
+DO  - 10.3390/electronics8101079
+ER  -

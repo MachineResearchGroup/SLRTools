@@ -1,0 +1,633 @@
+TY  - EJOU
+AU  - Qamar, Faizan
+AU  - Siddiqui, Maraj U.
+AU  - Hindia, MHD N.
+AU  - Hassan, Rosilah
+AU  - Nguyen, Quang N.
+TI  - Issues, Challenges, and Research Trends in Spectrum Management: A Comprehensive Overview and New Vision for Designing 6G Networks
+T2  - Electronics
+
+PY  - 2020
+VL  - 9
+IS  - 9
+SN  - 2079-9292
+
+AB  - With an extensive growth in user demand for high throughput, large capacity, and low latency, the ongoing deployment of Fifth-Generation (5G) systems is continuously exposing the inherent limitations of the system, as compared with its original premises. Such limitations are encouraging researchers worldwide to focus on next-generation 6G wireless systems, which are expected to address the constraints. To meet the above demands, future radio network architecture should be effectively designed to utilize its maximum radio spectrum capacity. It must simultaneously utilize various new techniques and technologies, such as Carrier Aggregation (CA), Cognitive Radio (CR), and small cell-based Heterogeneous Networks (HetNet), high-spectrum access (mmWave), and Massive Multiple-Input-Multiple-Output (M-MIMO), to achieve the desired results. However, the concurrent operations of these techniques in current 5G cellular networks create several spectrum management issues; thus, a comprehensive overview of these emerging technologies is presented in detail in this study. Then, the problems involved in the concurrent operations of various technologies for the spectrum management of the current 5G network are highlighted. The study aims to provide a detailed review of cooperative communication among all the techniques and potential problems associated with the spectrum management that has been addressed with the possible solutions proposed by the latest researches. Future research challenges are also discussed to highlight the necessary steps that can help achieve the desired objectives for designing 6G wireless networks.
+KW  - 6G
+KW  - spectrum management
+KW  - 5G
+KW  - Carrier Aggregation (CA)
+KW  - Cognitive Radio (CR)
+KW  - small cell
+KW  - high-spectrum access
+KW  - mmWave
+KW  - M-MIMO
+DO  - 10.3390/electronics9091416
+TY  - EJOU
+AU  - Liu, Jiantao
+AU  - Feng, Quanlong
+AU  - Wang, Ying
+AU  - Batsaikhan, Bayartungalag
+AU  - Gong, Jianhua
+AU  - Li, Yi
+AU  - Liu, Chunting
+AU  - Ma, Yin
+TI  - Urban Green Plastic Cover Mapping Based on VHR Remote Sensing Images and a Deep Semi-Supervised Learning Framework
+T2  - ISPRS International Journal of Geo-Information
+
+PY  - 2020
+VL  - 9
+IS  - 9
+SN  - 2220-9964
+
+AB  - With the rapid process of both urban sprawl and urban renewal, large numbers of old buildings have been demolished in China, leading to wide spread construction sites, which could cause severe dust contamination. To alleviate the accompanied dust pollution, green plastic mulch has been widely used by local governments of China. Therefore, timely and accurate mapping of urban green plastic covered regions is of great significance to both urban environmental management and the understanding of urban growth status. However, the complex spatial patterns of the urban landscape make it challenging to accurately identify these areas of green plastic cover. To tackle this issue, we propose a deep semi-supervised learning framework for green plastic cover mapping using very high resolution (VHR) remote sensing imagery. Specifically, a multi-scale deformable convolution neural network (CNN) was exploited to learn representative and discriminative features under complex urban landscapes. Afterwards, a semi-supervised learning strategy was proposed to integrate the limited labeled data and massive unlabeled data for model co-training. Experimental results indicate that the proposed method could accurately identify green plastic-covered regions in Jinan with an overall accuracy (OA) of 91.63%. An ablation study indicated that, compared with supervised learning, the semi-supervised learning strategy in this study could increase the OA by 6.38%. Moreover, the multi-scale deformable CNN outperforms several classic CNN models in the computer vision field. The proposed method is the first attempt to map urban green plastic-covered regions based on deep learning, which could serve as a baseline and useful reference for future research.
+KW  - green plastic cover
+KW  - semi-supervised learning
+KW  - deep learning
+KW  - urban land cover mapping
+DO  - 10.3390/ijgi9090527
+TY  - EJOU
+AU  - Ren, Yongfeng
+AU  - Yu, Yongtao
+AU  - Guan, Haiyan
+TI  - DA-CapsUNet: A Dual-Attention Capsule U-Net for Road Extraction from Remote Sensing Imagery
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 18
+SN  - 2072-4292
+
+AB  - The up-to-date and information-accurate road database plays a significant role in many applications. Recently, with the improvement in image resolutions and quality, remote sensing images have provided an important data source for road extraction tasks. However, due to the topology variations, spectral diversities, and complex scenarios, it is still challenging to realize fully automated and highly accurate road extractions from remote sensing images. This paper proposes a novel dual-attention capsule U-Net (DA-CapsUNet) for road region extraction by combining the advantageous properties of capsule representations and the powerful features of attention mechanisms. By constructing a capsule U-Net architecture, the DA-CapsUNet can extract and fuse multiscale capsule features to recover a high-resolution and semantically strong feature representation. By designing the multiscale context-augmentation and two types of feature attention modules, the DA-CapsUNet can exploit multiscale contextual properties at a high-resolution perspective and generate an informative and class-specific feature encoding. Quantitative evaluations on a large dataset showed that the DA-CapsUNet provides a competitive road extraction performance with a precision of 0.9523, a recall of 0.9486, and an F-score of 0.9504, respectively. Comparative studies with eight recently developed deep learning methods also confirmed the applicability and superiority or compatibility of the DA-CapsUNet in road extraction tasks.
+KW  - road extraction
+KW  - capsule network
+KW  - capsule U-Net
+KW  - capsule attention network
+KW  - remote sensing imagery
+KW  - deep learning
+DO  - 10.3390/rs12182866
+TY  - EJOU
+AU  - Li, Jin
+AU  - Yan, Daifu
+AU  - Luan, Kuan
+AU  - Li, Zeyu
+AU  - Liang, Hong
+TI  - Deep Learning-Based Bird’s Nest Detection on Transmission Lines Using UAV Imagery
+T2  - Applied Sciences
+
+PY  - 2020
+VL  - 10
+IS  - 18
+SN  - 2076-3417
+
+AB  - In order to ensure the safety of transmission lines, the use of unmanned aerial vehicle (UAV) images for automatic object detection has important application prospects, such as the detection of birds&rsquo; nests. The traditional bird&rsquo;s nest detection methods mainly include the study of morphological characteristics of the bird&rsquo;s nest. These methods have poor applicability and low accuracy. In this work, we propose a deep learning-based birds&rsquo; nests automatic detection framework&mdash;region of interest (ROI) mining faster region-based convolutional neural networks (RCNN). First, the prior dimensions of anchors are obtained by using k-means clustering to improve the accuracy of coordinate boxes generation. Second, in order to balance the number of foreground and background samples in the training process, the focal loss function is introduced in the region proposal network (RPN) classification stage. Finally, the ROI mining module is added to solve the class imbalance problem in the classification stage, combined with the characteristics of difficult-to-classify bird&rsquo;s nest samples in the UAV images. After parameter optimization and experimental verification, the deep learning-based bird&rsquo;s nest automatic detection framework proposed in this work achieves high detection accuracy. In addition, the mean average precision (mAP) and formula 1 (F1) score of the proposed method are higher than the original faster RCNN and cascade RCNN. Our comparative analysis verifies the effectiveness of the proposed method.
+KW  - transmission line
+KW  - bird’s nest detection
+KW  - convolutional neural network
+KW  - deep learning
+DO  - 10.3390/app10186147
+TY  - EJOU
+AU  - Tran, Huu K.
+AU  - Chiou, Juing-Shian
+AU  - Dang, Viet-Hung
+TI  - New Fusion Algorithm-Reinforced Pilot Control for an Agricultural Tricopter UAV
+T2  - Mathematics
+
+PY  - 2020
+VL  - 8
+IS  - 9
+SN  - 2227-7390
+
+AB  - Currently, fuzzy proportional integral derivative (PID) controller schemes, which include simplified fuzzy reasoning decision methodologies and PID parameters, are broadly and efficaciously practiced in various fields from industrial applications, military service, to rescue operations, civilian information and also horticultural observation and agricultural surveillance. A fusion particle swarm optimization (PSO)&ndash;evolutionary programming (EP) algorithm, which is an improved version of the stochastic optimization strategy PSO, was presented for designing and optimizing controller gains in this study. The mathematical calculations of this study include the reproduction of EP with PSO. By minimizing the integral of the absolute error (IAE) criterion that is used for estimating the system response as a fitness function, the obtained integrated design of the fusion PSO&ndash;EP algorithm generated and updated the new elite parameters for proposed controller schemes. This progression was used for the complicated non-linear systems of the attitude-control pilot models of a tricopter unmanned aerial vehicle (UAV) to demonstrate an improvement on the performance in terms of rapid response, precision, reliability, and stability.
+KW  - particle swarm optimization (PSO)
+KW  - evolutionary programming (EP)
+KW  - fuzzy control
+KW  - proportional–integral–derivative controller
+KW  - integral of absolute error (IAE) criterion
+KW  - attitude control
+KW  - tricopter unmanned aerial vehicle (UAV)
+DO  - 10.3390/math8091499
+TY  - EJOU
+AU  - Hung, Sheng-Chieh
+AU  - Wu, Hui-Ching
+AU  - Tseng, Ming-Hseng
+TI  - Remote Sensing Scene Classification and Explanation Using RSSCNet and LIME
+T2  - Applied Sciences
+
+PY  - 2020
+VL  - 10
+IS  - 18
+SN  - 2076-3417
+
+AB  - Classification is needed in disaster investigation, traffic control, and land-use resource management. How to quickly and accurately classify such remote sensing imagery has become a popular research topic. However, the application of large, deep neural network models for the training of classifiers in the hope of obtaining good classification results is often very time-consuming. In this study, a new CNN (convolutional neutral networks) architecture, i.e., RSSCNet (remote sensing scene classification network), with high generalization capability was designed. Moreover, a two-stage cyclical learning rate policy and the no-freezing transfer learning method were developed to speed up model training and enhance accuracy. In addition, the manifold learning t-SNE (t-distributed stochastic neighbor embedding) algorithm was used to verify the effectiveness of the proposed model, and the LIME (local interpretable model, agnostic explanation) algorithm was applied to improve the results in cases where the model made wrong predictions. Comparing the results of three publicly available datasets in this study with those obtained in previous studies, the experimental results show that the model and method proposed in this paper can achieve better scene classification more quickly and more efficiently.
+KW  - neural network
+KW  - deep learning
+KW  - cyclical learning rate
+KW  - remote sensing
+KW  - scene classification
+DO  - 10.3390/app10186151
+TY  - EJOU
+AU  - Wei, Jiaqi
+AU  - Shao, Shuai
+AU  - Ma, Hui
+AU  - Wang, Penghui
+AU  - Zhang, Lei
+AU  - Liu, Hongwei
+TI  - High-Resolution ISAR Imaging with Modified Joint Range Spatial-Variant Autofocus and Azimuth Scaling
+T2  - Sensors
+
+PY  - 2020
+VL  - 20
+IS  - 18
+SN  - 1424-8220
+
+AB  - Well-focused and accurately scaled high-resolution inverse synthetic aperture radar (ISAR) images provide a sound basis for feature extraction and target recognition. This paper proposes a novel high-resolution ISAR imaging algorithm, namely modified joint range spatial-variant autofocus and azimuth scaling algorithm (MJAAS). After motion compensation, the shift of the equivalent rotational center (ERC) of the target destroys the linear relationship between the azimuth chirp rates (ACR) of echo signals and the range coordinates of scattering points, thereby leading to the failure of azimuth scaling. Accordingly, a new joint equivalent rotational center position and effective rotational velocity (JERCP-ERV) signal model is established, serving as the basis of MJAAS. By recourse to the Davidon-Fletcher-Powell (DFP) algorithm, MJAAS can jointly estimate the ERCP and ERV by solving a minimum entropy optimization problem, so as to simultaneously achieve accurate azimuth scaling and range spatial-variant autofocus, which further improves the image focusing performance. MJAAS is not restricted by the modes of motion errors (coherent or non-coherent) and the motion compensation methods, so it can be widely applied to real data with the advantages of strong practicality and high accuracy. Extensive experimental results based on both simulated and real data are provided to corroborate the effectiveness of the proposed algorithm.
+KW  - inverse synthetic aperture radar (ISAR)
+KW  - autofocus
+KW  - azimuth scaling
+KW  - equivalent rotational center (ERC)
+KW  - minimum entropy optimization lower case
+DO  - 10.3390/s20185047
+TY  - EJOU
+AU  - Guo, Yahui
+AU  - Wang, Hanxi
+AU  - Wu, Zhaofei
+AU  - Wang, Shuxin
+AU  - Sun, Hongyong
+AU  - Senthilnath, J.
+AU  - Wang, Jingzhe
+AU  - Robin Bryant, Christopher
+AU  - Fu, Yongshuo
+TI  - Modified Red Blue Vegetation Index for Chlorophyll Estimation and Yield Prediction of Maize from Visible Images Captured by UAV
+T2  - Sensors
+
+PY  - 2020
+VL  - 20
+IS  - 18
+SN  - 1424-8220
+
+AB  - The vegetation index (VI) has been successfully used to monitor the growth and to predict the yield of agricultural crops. In this paper, a long-term observation was conducted for the yield prediction of maize using an unmanned aerial vehicle (UAV) and estimations of chlorophyll contents using SPAD-502. A new vegetation index termed as modified red blue VI (MRBVI) was developed to monitor the growth and to predict the yields of maize by establishing relationships between MRBVI- and SPAD-502-based chlorophyll contents. The coefficients of determination (R2s) were 0.462 and 0.570 in chlorophyll contents&rsquo; estimations and yield predictions using MRBVI, and the results were relatively better than the results from the seven other commonly used VI approaches. All VIs during the different growth stages of maize were calculated and compared with the measured values of chlorophyll contents directly, and the relative error (RE) of MRBVI is the lowest at 0.355. Further, machine learning (ML) methods such as the backpropagation neural network model (BP), support vector machine (SVM), random forest (RF), and extreme learning machine (ELM) were adopted for predicting the yields of maize. All VIs calculated for each image captured during important phenological stages of maize were set as independent variables and the corresponding yields of each plot were defined as dependent variables. The ML models used the leave one out method (LOO), where the root mean square errors (RMSEs) were 2.157, 1.099, 1.146, and 1.698 (g/hundred grain weight) for BP, SVM, RF, and ELM. The mean absolute errors (MAEs) were 1.739, 0.886, 0.925, and 1.356 (g/hundred grain weight) for BP, SVM, RF, and ELM, respectively. Thus, the SVM method performed better in predicting the yields of maize than the other ML methods. Therefore, it is strongly suggested that the MRBVI calculated from images acquired at different growth stages integrated with advanced ML methods should be used for agricultural- and ecological-related chlorophyll estimation and yield predictions.
+KW  - maize
+KW  - UAV/UAS
+KW  - chlorophyll contents
+KW  - yield predictions
+KW  - machine learning
+DO  - 10.3390/s20185055
+TY  - EJOU
+AU  - Kundid Vasić, Mirela
+AU  - Papić, Vladan
+TI  - Multimodel Deep Learning for Person Detection in Aerial Images
+T2  - Electronics
+
+PY  - 2020
+VL  - 9
+IS  - 9
+SN  - 2079-9292
+
+AB  - In this paper, we propose a novel method for person detection in aerial images of nonurban terrain gathered by an Unmanned Aerial Vehicle (UAV), which plays an important role in Search And Rescue (SAR) missions. The UAV in SAR operations contributes significantly due to the ability to survey a larger geographical area from an aerial viewpoint. Because of the high altitude of recording, the object of interest (person) covers a small part of an image (around 0.1%), which makes this task quite challenging. To address this problem, a multimodel deep learning approach is proposed. The solution consists of two different convolutional neural networks in region proposal, as well as in the classification stage. Additionally, contextual information is used in the classification stage in order to improve the detection results. Experimental results tested on the HERIDAL dataset achieved precision of 68.89% and a recall of 94.65%, which is better than current state-of-the-art methods used for person detection in similar scenarios. Consequently, it may be concluded that this approach is suitable for usage as an auxiliary method in real SAR operations.
+KW  - convolutional neural networks
+KW  - aerial images
+KW  - person detection
+KW  - search and rescue
+DO  - 10.3390/electronics9091459
+TY  - EJOU
+AU  - Khan, Khalil
+AU  - Albattah, Waleed
+AU  - Khan, Rehan U.
+AU  - Qamar, Ali M.
+AU  - Nayab, Durre
+TI  - Advances and Trends in Real Time Visual Crowd Analysis
+T2  - Sensors
+
+PY  - 2020
+VL  - 20
+IS  - 18
+SN  - 1424-8220
+
+AB  - Real time crowd analysis represents an active area of research within the computer vision community in general and scene analysis in particular. Over the last 10 years, various methods for crowd management in real time scenario have received immense attention due to large scale applications in people counting, public events management, disaster management, safety monitoring an so on. Although many sophisticated algorithms have been developed to address the task; crowd management in real time conditions is still a challenging problem being completely solved, particularly in wild and unconstrained conditions. In the proposed paper, we present a detailed review of crowd analysis and management, focusing on state-of-the-art methods for both controlled and unconstrained conditions. The paper illustrates both the advantages and disadvantages of state-of-the-art methods. The methods presented comprise the seminal research works on crowd management, and monitoring and then culminating state-of-the-art methods of the newly introduced deep learning methods. Comparison of the previous methods is presented, with a detailed discussion of the direction for future research work. We believe this review article will contribute to various application domains and will also augment the knowledge of the crowd analysis within the research community.
+KW  - crowd image analysis
+KW  - crowd monitoring
+KW  - crowd management
+KW  - deep learning
+KW  - crowd detection
+DO  - 10.3390/s20185073
+TY  - EJOU
+AU  - Zheng, Ruihao
+AU  - Xiong, Chen
+AU  - Deng, Xiangbin
+AU  - Li, Qiangsheng
+AU  - Li, Yi
+TI  - Assessment of Earthquake Destructive Power to Structures Based on Machine Learning Methods
+T2  - Applied Sciences
+
+PY  - 2020
+VL  - 10
+IS  - 18
+SN  - 2076-3417
+
+AB  - This study presents a machine learning-based method for the destructive power assessment of earthquake to structures. First, the analysis procedure of the method is presented, and the backpropagation neural network (BPNN) and convolutional neural network (CNN) are used as the machine learning algorithms. Second, the optimized BPNN architecture is obtained by discussing the influence of a different number of hidden layers and nodes. Third, the CNN architecture is proposed based on several classical deep learning networks. To build the machine learning models, 50,570 time-history analysis results of a structural system subjected to different ground motions are used as training, validation, and test samples. The results of the BPNN indicate that the features extraction method based on the short-time Fourier transform (STFT) can well reflect the frequency-/time-domain characteristics of ground motions. The results of the CNN indicate that the CNN exhibits better accuracy (R2 = 0.8737) compared with that of the BPNN (R2 = 0.6784). Furthermore, the CNN model exhibits remarkable computational efficiency, the prediction of 1000 structures based on the CNN model takes 0.762 s, while 507.81 s are required for the conventional time-history analysis (THA)-based simulation. Feature visualization of different layers of the CNN reveals that the shallow to deep layers of the CNN can extract the high to low-frequency features of ground motions. The proposed method can assist in the fast prediction of engineering demand parameters of large-number structures, which facilitates the damage or loss assessments of regional structures for timely emergency response and disaster relief after earthquake.
+KW  - machine learning
+KW  - backpropagation neural network
+KW  - convolutional neural network
+KW  - seismic damage simulation
+KW  - time-history analysis
+KW  - earthquake destructive power
+DO  - 10.3390/app10186210
+TY  - EJOU
+AU  - Guo, Yahui
+AU  - Yin, Guodong
+AU  - Sun, Hongyong
+AU  - Wang, Hanxi
+AU  - Chen, Shouzhi
+AU  - Senthilnath, J.
+AU  - Wang, Jingzhe
+AU  - Fu, Yongshuo
+TI  - Scaling Effects on Chlorophyll Content Estimations with RGB Camera Mounted on a UAV Platform Using Machine-Learning Methods
+T2  - Sensors
+
+PY  - 2020
+VL  - 20
+IS  - 18
+SN  - 1424-8220
+
+AB  - Timely monitoring and precise estimation of the leaf chlorophyll contents of maize are crucial for agricultural practices. The scale effects are very important as the calculated vegetation index (VI) were crucial for the quantitative remote sensing. In this study, the scale effects were investigated by analyzing the linear relationships between VI calculated from red&ndash;green&ndash;blue (RGB) images from unmanned aerial vehicles (UAV) and ground leaf chlorophyll contents of maize measured using SPAD-502. The scale impacts were assessed by applying different flight altitudes and the highest coefficient of determination (R2) can reach 0.85. We found that the VI from images acquired from flight altitude of 50 m was better to estimate the leaf chlorophyll contents using the DJI UAV platform with this specific camera (5472 &times; 3648 pixels). Moreover, three machine-learning (ML) methods including backpropagation neural network (BP), support vector machine (SVM), and random forest (RF) were applied for the grid-based chlorophyll content estimation based on the common VI. The average values of the root mean square error (RMSE) of chlorophyll content estimations using ML methods were 3.85, 3.11, and 2.90 for BP, SVM, and RF, respectively. Similarly, the mean absolute error (MAE) were 2.947, 2.460, and 2.389, for BP, SVM, and RF, respectively. Thus, the ML methods had relative high precision in chlorophyll content estimations using VI; in particular, the RF performed better than BP and SVM. Our findings suggest that the integrated ML methods with RGB images of this camera acquired at a flight altitude of 50 m (spatial resolution 0.018 m) can be perfectly applied for estimations of leaf chlorophyll content in agriculture.
+KW  - scale effects
+KW  - maize
+KW  - UAV/UAS
+KW  - SPAD
+KW  - chlorophyll contents
+KW  - HSV
+KW  - machine learning
+DO  - 10.3390/s20185130
+TY  - EJOU
+AU  - Park, You-Jin
+AU  - Fan, Shu-Kai S.
+AU  - Hsu, Chia-Yu
+TI  - A Review on Fault Detection and Process Diagnostics in Industrial Processes
+T2  - Processes
+
+PY  - 2020
+VL  - 8
+IS  - 9
+SN  - 2227-9717
+
+AB  - The main roles of fault detection and diagnosis (FDD) for industrial processes are to make an effective indicator which can identify faulty status of a process and then to take a proper action against a future failure or unfavorable accidents. In order to enhance many process performances (e.g., quality and throughput), FDD has attracted great attention from various industrial sectors. Many traditional FDD techniques have been developed for checking the existence of a trend or pattern in the process or whether a certain process variable behaves normally or not. However, they might fail to produce several hidden characteristics of the process or fail to discover the faults in processes due to underlying process dynamics. In this paper, we present current research and developments of FDD approaches for process monitoring as well as a broad literature review of many useful FDD approaches.
+KW  - industrial process
+KW  - fault detection
+KW  - fault diagnosis
+KW  - fault prognosis
+KW  - data-driven methods
+KW  - model-based methods
+KW  - knowledge-based methods
+KW  - hybrid method
+DO  - 10.3390/pr8091123
+TY  - EJOU
+AU  - Xu, Jin
+AU  - Quackenbush, Lindi J.
+AU  - Volk, Timothy A.
+AU  - Im, Jungho
+TI  - Forest and Crop Leaf Area Index Estimation Using Remote Sensing: Research Trends and Future Directions
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 18
+SN  - 2072-4292
+
+AB  - Leaf area index (LAI) is an important vegetation leaf structure parameter in forest and agricultural ecosystems. Remote sensing techniques can provide an effective alternative to field-based observation of LAI. Differences in canopy structure result in different sensor types (active or passive), platforms (terrestrial, airborne, or satellite), and models being appropriate for the LAI estimation of forest and agricultural systems. This study reviews the application of remote sensing-based approaches across different system configurations (passive, active, and multisource sensors on different collection platforms) that are used to estimate forest and crop LAI and explores uncertainty analysis in LAI estimation. A comparison of the difference in LAI estimation for forest and agricultural applications given the different structure of these ecosystems is presented, particularly as this relates to spatial scale. The ease of use of empirical models supports these as the preferred choice for forest and crop LAI estimation. However, performance variation among different empirical models for forest and crop LAI estimation limits the broad application of specific models. The development of models that facilitate the strategic incorporation of local physiology and biochemistry parameters for specific forests and crop growth stages from various temperature zones could improve the accuracy of LAI estimation models and help develop models that can be applied more broadly. In terms of scale issues, both spectral and spatial scales impact the estimation of LAI. Exploration of the quantitative relationship between scales of data from different sensors could help forest and crop managers more appropriately and effectively apply different data sources. Uncertainty coming from various sources results in reduced accuracy in estimating LAI. While Bayesian approaches have proven effective to quantify LAI estimation uncertainty based on the uncertainty of model inputs, there is still a need to quantify uncertainty from remote sensing data source, ground measurements and related environmental factors to mitigate the impacts of model uncertainty and improve LAI estimation.
+KW  - LAI estimation
+KW  - passive
+KW  - active
+KW  - data source
+KW  - model inversion
+KW  - scale effect
+KW  - uncertainty
+DO  - 10.3390/rs12182934
+TY  - EJOU
+AU  - Rutkowski, Adam
+AU  - Kawalec, Adam
+TI  - Some of Problems of Direction Finding of Ground-Based Radars Using Monopulse Location System Installed on Unmanned Aerial Vehicle
+T2  - Sensors
+
+PY  - 2020
+VL  - 20
+IS  - 18
+SN  - 1424-8220
+
+AB  - Locating active radars in real environmental conditions is a very important and complex task. The efficiency of the direction finding (DF) of ground-based radars and other microwave emitters using unmanned aerial vehicles (UAV) is dependent on the parameters of applied devices for angle location of microwave emitters, and on the construction and modes of operation of the observed transmitting antenna systems. An additional factor having the influence on DF of the radar, when are used systems installed on the UAV, is the rotation of the antenna of a radar. The accuracy of estimation of direction of any microwave transmitter is determined by the terrain properties that surround the transmitter and the objects reflecting microwave signals. The exemplary shapes of the radar antenna patterns and the associated relationships with the probability of remotely detecting the radar and determining its bearings are described. The simulated patterns of the signals received at an emitter-locating device mounted on a UAV and the expected results of a monopulse DF based on these signals are presented. The novelty of this work is the analysis of the DF efficiency of radars in conditions where intense multi-path phenomena appear, and for various amplitudes and phases of the direct signal and multi-path signals that reach the UAV when assuming that so-called simple signals and linear frequency modulation (LFM) signals are transmitted by the radar. The primary focus is on multi-path phenomenon, which can make it difficult, but not entirely impossible, to detect activity and location of radar with a low-flying small UAV and using only monopulse techniques, that is, when only a single pulse emitted by a radar must be sufficient to DF of this radar. Direction of arrival (DOA) algorithms of signals in dense signal environment were not presented in the work, but relevant suggestions were made for the design of such algorithms.
+KW  - direction finding (DF)
+KW  - microwave emitter (ME)
+KW  - angle of arrival (AOA)
+KW  - direction of arrival (DOA)
+KW  - monopulse direction finding (MDF)
+KW  - microwave phase discriminator (MPhD)
+KW  - instantaneous frequency measurement (IFM)
+DO  - 10.3390/s20185186
+TY  - EJOU
+AU  - Sapkota, Bishwa
+AU  - Singh, Vijay
+AU  - Neely, Clark
+AU  - Rajan, Nithya
+AU  - Bagavathiannan, Muthukumar
+TI  - Detection of Italian Ryegrass in Wheat and Prediction of Competitive Interactions Using Remote-Sensing and Machine-Learning Techniques
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 18
+SN  - 2072-4292
+
+AB  - Italian ryegrass (Lolium perenne ssp. multiflorum (Lam) Husnot) is a troublesome weed species in wheat (Triticum aestivum) production in the United States, severely affecting grain yields. Spatial mapping of ryegrass infestation in wheat fields and early prediction of its impact on yield can assist management decision making. In this study, unmanned aerial systems (UAS)-based red, green and blue (RGB) imageries acquired at an early wheat growth stage in two different experimental sites were used for developing predictive models. Deep neural networks (DNNs) coupled with an extensive feature selection method were used to detect ryegrass in wheat and estimate ryegrass canopy coverage. Predictive models were developed by regressing early-season ryegrass canopy coverage (%) with end-of-season (at wheat maturity) biomass and seed yield of ryegrass, as well as biomass and grain yield reduction (%) of wheat. Italian ryegrass was detected with high accuracy (precision = 95.44 &plusmn; 4.27%, recall = 95.48 &plusmn; 5.05%, F-score = 95.56 &plusmn; 4.11%) using the best model which included four features: hue, saturation, excess green index, and visible atmospheric resistant index. End-of-season ryegrass biomass was predicted with high accuracy (R2 = 0.87), whereas the other variables had moderate to high accuracy levels (R2 values of 0.74 for ryegrass seed yield, 0.73 for wheat biomass reduction, and 0.69 for wheat grain yield reduction). The methodology demonstrated in the current study shows great potential for mapping and quantifying ryegrass infestation and predicting its competitive response in wheat, allowing for timely management decisions.
+KW  - computer vision
+KW  - deep neural networks
+KW  - precision agriculture
+KW  - site-specific management
+KW  - unmanned aerial systems
+KW  - UAVs
+KW  - weed-crop interactions
+DO  - 10.3390/rs12182977
+TY  - EJOU
+AU  - Gée, Christelle
+AU  - Denimal, Emmanuel
+TI  - RGB Image-Derived Indicators for Spatial Assessment of the Impact of Broadleaf Weeds on Wheat Biomass
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 18
+SN  - 2072-4292
+
+AB  - In precision agriculture, the development of proximal imaging systems embedded in autonomous vehicles allows to explore new weed management strategies for site-specific plant application. Accurate monitoring of weeds while controlling wheat growth requires indirect measurements of leaf area index (LAI) and above-ground dry matter biomass (BM) at early growth stages. This article explores the potential of RGB images to assess crop-weed competition in a wheat (Triticum aestivum L.) crop by generating two new indicators, the weed pressure (WP) and the local wheat biomass production (&delta;BMc). The fractional vegetation cover (FVC) of the crop and the weeds was automatically determined from the images with a SVM-RBF classifier, using bag of visual word vectors as inputs. It is based on a new vegetation index called MetaIndex, defined as a vote of six indices widely used in the literature. Beyond a simple map of weed infestation, the map of WP describes the crop-weed competition. The map of &delta;BMc, meanwhile, evaluates the local wheat above-ground biomass production and informs us about a potential stress. It is generated from the wheat FVC because it is highly correlated with LAI (r2 = 0.99) and BM (r2 = 0.93) obtained by destructive methods. By combining these two indicators, we aim at determining whether the origin of the wheat stress is due to weeds or not. This approach opens up new perspectives for the monitoring of weeds and the monitoring of their competition during crop growth with non-destructive and proximal sensing technologies in the early stages of development.
+KW  - weed pressure
+KW  - crop-weed competition
+KW  - machine learning
+KW  - vegetation index
+KW  - visible images
+KW  - SVM-RBF classification
+DO  - 10.3390/rs12182982
+TY  - EJOU
+AU  - Kim, Hyun I.
+AU  - Han, Kun Y.
+TI  - Linking Hydraulic Modeling with a Machine Learning Approach for Extreme Flood Prediction and Response
+T2  - Atmosphere
+
+PY  - 2020
+VL  - 11
+IS  - 9
+SN  - 2073-4433
+
+AB  - An emergency action plan (EAP) for reservoirs and urban areas downstream of dams can alleviate damage caused by extreme flooding. An EAP is a disaster action plan that can designate evacuation paths for vulnerable districts. Generally, calculation of dam-break discharge in accordance with dam inflow conditions, calculation of maximum water surface elevation as per hydraulic channel routing, and flood map generation using topographical data are prepared for the purposes of creating an EAP. However, rainfall and flood patterns exhibited in the context of climate change can be extremely diverse. In order to prepare an efficient flood response, techniques should be considered that are capable of generating flood maps promptly while taking dam inflow conditions into account. Therefore, this study aims to propose methodology that is capable of generating flood maps rapidly for any dam inflow conditions. The proposed methodology was performed by linking a dynamic numerical analysis model (DAMBRK) with a random forest regression technique. The previous standard method of drawing flood maps often requires a significant amount of time depending on accuracy and personnel availability; however, the technique proposed here is capable of generating a flood map within one minute. Through use of this methodology, the time taken to prepare flood maps in large-scale water-disaster situations can be reduced. Moreover, methodology for estimating flood risk via use of flood mapping has been proposed. This study would provide assistance in establishing disaster countermeasures that take various flood scenarios into account by promptly providing flood inundation information to disaster-related agencies.
+KW  - extreme flooding
+KW  - DAMBRK
+KW  - random forest
+KW  - flood prediction
+KW  - flood risk estimation
+DO  - 10.3390/atmos11090987
+TY  - EJOU
+AU  - Li, Meizhu
+AU  - Huang, Shaoguang
+AU  - De Bock, Jasper
+AU  - de Cooman, Gert
+AU  - Pižurica, Aleksandra
+TI  - A Robust Dynamic Classifier Selection Approach for Hyperspectral Images with Imprecise Label Information
+T2  - Sensors
+
+PY  - 2020
+VL  - 20
+IS  - 18
+SN  - 1424-8220
+
+AB  - Supervised hyperspectral image (HSI) classification relies on accurate label information. However, it is not always possible to collect perfectly accurate labels for training samples. This motivates the development of classifiers that are sufficiently robust to some reasonable amounts of errors in data labels. Despite the growing importance of this aspect, it has not been sufficiently studied in the literature yet. In this paper, we analyze the effect of erroneous sample labels on probability distributions of the principal components of HSIs, and provide in this way a statistical analysis of the resulting uncertainty in classifiers. Building on the theory of imprecise probabilities, we develop a novel robust dynamic classifier selection (R-DCS) model for data classification with erroneous labels. Particularly, spectral and spatial features are extracted from HSIs to construct two individual classifiers for the dynamic selection, respectively. The proposed R-DCS model is based on the robustness of the classifiers&rsquo; predictions: the extent to which a classifier can be altered without changing its prediction. We provide three possible selection strategies for the proposed model with different computational complexities and apply them on three benchmark data sets. Experimental results demonstrate that the proposed model outperforms the individual classifiers it selects from and is more robust to errors in labels compared to widely adopted approaches.
+KW  - robust classification
+KW  - dynamic classifier selection
+KW  - hyperspectral images
+KW  - noisy labels
+KW  - imprecise probabilities
+DO  - 10.3390/s20185262
+TY  - EJOU
+AU  - Liu, Bo
+AU  - Du, Shihong
+AU  - Du, Shouji
+AU  - Zhang, Xiuyuan
+TI  - Incorporating Deep Features into GEOBIA Paradigm for Remote Sensing Imagery Classification: A Patch-Based Approach
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 18
+SN  - 2072-4292
+
+AB  - The fast and accurate creation of land use/land cover maps from very-high-resolution (VHR) remote sensing imagery is crucial for urban planning and environmental monitoring. Geographic object-based image analysis methods (GEOBIA) provide an effective solution using image objects instead of individual pixels in VHR remote sensing imagery analysis. Simultaneously, convolutional neural networks (CNN) have been widely used in the image processing field because of their powerful feature extraction capabilities. This study presents a patch-based strategy for integrating deep features into GEOBIA for VHR remote sensing imagery classification. To extract deep features from irregular image objects through CNN, a patch-based approach is proposed for representing image objects and learning patch-based deep features, and a deep features aggregation method is proposed for aggregating patch-based deep features into object-based deep features. Finally, both object and deep features are integrated into a GEOBIA paradigm for classifying image objects. We explored the influences of segmentation scales and patch sizes in our method and explored the effectiveness of deep and object features in classification. Moreover, we performed 5-fold stratified cross validations 50 times to explore the uncertainty of our method. Additionally, we explored the importance of deep feature aggregation, and we evaluated our method by comparing it with three state-of-the-art methods in a Beijing dataset and Zurich dataset. The results indicate that smaller segmentation scales were more conducive to VHR remote sensing imagery classification, and it was not appropriate to select too large or too small patches as the patch size should be determined by imagery and its resolution. Moreover, we found that deep features are more effective than object features, while object features still matter for image classification, and deep feature aggregation is a critical step in our method. Finally, our method can achieve the highest overall accuracies compared with the state-of-the-art methods, and the overall accuracies are 91.21% for the Beijing dataset and 99.05% for the Zurich dataset.
+KW  - GEOBIA
+KW  - convolutional neural networks
+KW  - very-high-resolution remote sensing images
+DO  - 10.3390/rs12183007
+TY  - EJOU
+AU  - Machefer, Mélissande
+AU  - Lemarchand, François
+AU  - Bonnefond, Virginie
+AU  - Hitchins, Alasdair
+AU  - Sidiropoulos, Panagiotis
+TI  - Mask R-CNN Refitting Strategy for Plant Counting and Sizing in UAV Imagery
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 18
+SN  - 2072-4292
+
+AB  - This work introduces a method that combines remote sensing and deep learning into a framework that is tailored for accurate, reliable and efficient counting and sizing of plants in aerial images. The investigated task focuses on two low-density crops, potato and lettuce. This double objective of counting and sizing is achieved through the detection and segmentation of individual plants by fine-tuning an existing deep learning architecture called Mask R-CNN. This paper includes a thorough discussion on the optimal parametrisation to adapt the Mask R-CNN architecture to this novel task. As we examine the correlation of the Mask R-CNN performance to the annotation volume and granularity (coarse or refined) of remotely sensed images of plants, we conclude that transfer learning can be effectively used to reduce the required amount of labelled data. Indeed, a previously trained Mask R-CNN on a low-density crop can improve performances after training on new crops. Once trained for a given crop, the Mask R-CNN solution is shown to outperform a manually-tuned computer vision algorithm. Model performances are assessed using intuitive metrics such as Mean Average Precision (mAP) from Intersection over Union (IoU) of the masks for individual plant segmentation and Multiple Object Tracking Accuracy (MOTA) for detection. The presented model reaches an mAP of 0.418 for potato plants and 0.660 for lettuces for the individual plant segmentation task. In detection, we obtain a MOTA of 0.781 for potato plants and 0.918 for lettuces.
+KW  - UAV
+KW  - crop mapping
+KW  - image analysis
+KW  - precision agriculture
+KW  - deep learning
+KW  - individual plant segmentation
+KW  - plant detection
+KW  - transfer learning
+DO  - 10.3390/rs12183015
+TY  - EJOU
+AU  - Bhuiyan, Md A.
+AU  - Witharana, Chandi
+AU  - Liljedahl, Anna K.
+AU  - Jones, Benjamin M.
+AU  - Daanen, Ronald
+AU  - Epstein, Howard E.
+AU  - Kent, Kelcy
+AU  - Griffin, Claire G.
+AU  - Agnew, Amber
+TI  - Understanding the Effects of Optimal Combination of Spectral Bands on Deep Learning Model Predictions: A Case Study Based on Permafrost Tundra Landform Mapping Using High Resolution Multispectral Satellite Imagery
+T2  - Journal of Imaging
+
+PY  - 2020
+VL  - 6
+IS  - 9
+SN  - 2313-433X
+
+AB  - Deep learning (DL) convolutional neural networks (CNNs) have been rapidly adapted in very high spatial resolution (VHSR) satellite image analysis. DLCNN-based computer visions (CV) applications primarily aim for everyday object detection from standard red, green, blue (RGB) imagery, while earth science remote sensing applications focus on geo object detection and classification from multispectral (MS) imagery. MS imagery includes RGB and narrow spectral channels from near- and/or middle-infrared regions of reflectance spectra. The central objective of this exploratory study is to understand to what degree MS band statistics govern DLCNN model predictions. We scaffold our analysis on a case study that uses Arctic tundra permafrost landform features called ice-wedge polygons (IWPs) as candidate geo objects. We choose Mask RCNN as the DLCNN architecture to detect IWPs from eight-band Worldview-02 VHSR satellite imagery. A systematic experiment was designed to understand the impact on choosing the optimal three-band combination in model prediction. We tasked five cohorts of three-band combinations coupled with statistical measures to gauge the spectral variability of input MS bands. The candidate scenes produced high model detection accuracies for the F1 score, ranging between 0.89 to 0.95, for two different band combinations (coastal blue, blue, green (1,2,3) and green, yellow, red (3,4,5)). The mapping workflow discerned the IWPs by exhibiting low random and systematic error in the order of 0.17&ndash;0.19 and 0.20&ndash;0.21, respectively, for band combinations (1,2,3). Results suggest that the prediction accuracy of the Mask-RCNN model is significantly influenced by the input MS bands. Overall, our findings accentuate the importance of considering the image statistics of input MS bands and careful selection of optimal bands for DLCNN predictions when DLCNN architectures are restricted to three spectral channels.
+KW  - deep learning
+KW  - tundra
+KW  - ice-wedge polygons
+KW  - Mask R-CNN
+KW  - satellite imagery
+KW  - permafrost
+KW  - Arctic
+DO  - 10.3390/jimaging6090097
+TY  - EJOU
+AU  - Lai, Ying-Chih
+AU  - Huang, Zong-Ying
+TI  - Detection of a Moving UAV Based on Deep Learning-Based Distance Estimation
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 18
+SN  - 2072-4292
+
+AB  - Distance information of an obstacle is important for obstacle avoidance in many applications, and could be used to determine the potential risk of object collision. In this study, the detection of a moving fixed-wing unmanned aerial vehicle (UAV) with deep learning-based distance estimation to conduct a feasibility study of sense and avoid (SAA) and mid-air collision avoidance of UAVs is proposed by using a monocular camera to detect and track an incoming UAV. A quadrotor is regarded as an owned UAV, and it is able to estimate the distance of an incoming fixed-wing intruder. The adopted object detection method is based on the you only look once (YOLO) object detector. Deep neural network (DNN) and convolutional neural network (CNN) methods are applied to exam their performance in the distance estimation of moving objects. The feature extraction of fixed-wing UAVs is based on the VGG-16 model, and then its result is applied to the distance network to estimate the object distance. The proposed model is trained by using synthetic images from animation software and validated by using both synthetic and real flight videos. The results show that the proposed active vision-based scheme is able to detect and track a moving UAV with high detection accuracy and low distance errors.
+KW  - unmanned aerial vehicle (UAV)
+KW  - you only look once (YOLO)
+KW  - deep neural network (DNN)
+KW  - convolutional neural network (CNN)
+KW  - object detection
+KW  - sense and avoid (SAA)
+KW  - mid-air collision avoidance
+DO  - 10.3390/rs12183035
+TY  - EJOU
+AU  - Xiao, Yingxin
+AU  - Dong, Yingying
+AU  - Huang, Wenjiang
+AU  - Liu, Linyi
+AU  - Ma, Huiqin
+AU  - Ye, Huichun
+AU  - Wang, Kun
+TI  - Dynamic Remote Sensing Prediction for Wheat Fusarium Head Blight by Combining Host and Habitat Conditions
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 18
+SN  - 2072-4292
+
+AB  - Remote sensing technology provides a feasible option for early prediction for wheat Fusarium head blight (FHB). This study presents a methodology for the dynamic prediction of this classic meteorological crop disease. Host and habitat conditions were comprehensively considered as inputs of the FHB prediction model, and the advantages, accuracy, and generalization ability of the model were evaluated. Firstly, multi-source satellite images were used to predict growth stages and to obtain remote sensing features, then weather features around the predicted stages were extracted. Then, with changes in the inputting features, the severity of FHB was dynamically predicted on February 18, March 6, April 23, and May 9, 2017. Compared to the results obtained by the Logistic model, the prediction with the Relevance Vector Machine performed better, with the overall accuracy on these four dates as 0.71, 0.78, 0.85, and 0.93, and with the area under the receiver operating characteristic curve as 0.66, 0.67, 0.72, and 0.75. Additionally, compared with the prediction with only one factor, the integration of multiple factors was more accurate. The results showed that when the date of the remote sensing features was closer to the heading or flowering stage, the prediction was more accurate, especially in severe areas. Though the habitat conditions were suitable for FHB, the infection can be inhibited when the host&rsquo;s growth meets certain requirements.
+KW  - wheat
+KW  - fusarium head blight
+KW  - dynamic prediction
+KW  - remote sensing
+KW  - multiple factors
+DO  - 10.3390/rs12183046
+TY  - EJOU
+AU  - Opiela, Miroslav
+AU  - Galčík, František
+TI  - Grid-Based Bayesian Filtering Methods for Pedestrian Dead Reckoning Indoor Positioning Using Smartphones
+T2  - Sensors
+
+PY  - 2020
+VL  - 20
+IS  - 18
+SN  - 1424-8220
+
+AB  - Indoor positioning systems for smartphones are often based on Pedestrian Dead Reckoning, which computes the current position from the previously estimated location. Noisy sensor measurements, inaccurate step length estimations, faulty direction detections, and a demand on the real-time calculation introduce the error which is suppressed using a map model and a Bayesian filtering. The main focus of this paper is on grid-based implementations of Bayes filters as an alternative to commonly used Kalman and particle filters. Our previous work regarding grid-based filters is elaborated and enriched with convolution mask calculations. More advanced implementations, the centroid grid filter, and the advanced point-mass filter are introduced. These implementations are analyzed and compared using different configurations on the same raw sensor recordings. The evaluation is performed on three sets of experiments: a custom simple path in faculty building in Slovakia, and on datasets from IPIN competitions from a shopping mall in France, 2018 and a research institute in Italy, 2019. Evaluation results suggests that proposed methods are qualified alternatives to the particle filter. Advantages, drawbacks and proper configurations of these filters are discussed in this paper.
+KW  - indoor positioning
+KW  - smartphone
+KW  - PDR
+KW  - Bayes filter
+KW  - advanced point-mass
+KW  - grid-based filter
+DO  - 10.3390/s20185343
+TY  - EJOU
+AU  - Contreras, Ruben
+AU  - Ayala, Angel
+AU  - Cruz, Francisco
+TI  - Unmanned Aerial Vehicle Control through Domain-Based Automatic Speech Recognition
+T2  - Computers
+
+PY  - 2020
+VL  - 9
+IS  - 3
+SN  - 2073-431X
+
+AB  - Currently, unmanned aerial vehicles, such as drones, are becoming a part of our lives and extend to many areas of society, including the industrialized world. A common alternative for controlling the movements and actions of the drone is through unwired tactile interfaces, for which different remote control devices are used. However, control through such devices is not a natural, human-like communication interface, which sometimes is difficult to master for some users. In this research, we experimented with a domain-based speech recognition architecture to effectively control an unmanned aerial vehicle such as a drone. The drone control was performed in a more natural, human-like way to communicate the instructions. Moreover, we implemented an algorithm for command interpretation using both Spanish and English languages, as well as to control the movements of the drone in a simulated domestic environment. We conducted experiments involving participants giving voice commands to the drone in both languages in order to compare the effectiveness of each, considering the mother tongue of the participants in the experiment. Additionally, different levels of distortion were applied to the voice commands to test the proposed approach when it encountered noisy input signals. The results obtained showed that the unmanned aerial vehicle was capable of interpreting user voice instructions. Speech-to-action recognition improved for both languages with phoneme matching in comparison to only using the cloud-based algorithm without domain-based instructions. Using raw audio inputs, the cloud-based approach achieves 74.81% and 97.04% accuracy for English and Spanish instructions, respectively. However, with our phoneme matching approach the results are improved, yielding 93.33% accuracy for English and 100.00% accuracy for Spanish.
+KW  - drone control
+KW  - automatic speech recognition
+KW  - robot simulator
+DO  - 10.3390/computers9030075
+TY  - EJOU
+AU  - Zhao, Long
+AU  - Ishag Mahmoud, Mubarak A.
+AU  - Ren, Honge
+AU  - Zhu, Meng
+TI  - A Visual Tracker Offering More Solutions
+T2  - Sensors
+
+PY  - 2020
+VL  - 20
+IS  - 18
+SN  - 1424-8220
+
+AB  - Most trackers focus solely on robustness and accuracy. Visual tracking, however, is a long-term problem with a high time limitation. A tracker that is robust, accurate, with long-term sustainability and real-time processing, is of high research value and practical significance. In this paper, we comprehensively consider these requirements in order to propose a new, state-of-the-art tracker with an excellent performance. EfficientNet-B0 is adopted for the first time via neural architecture search technology as the backbone network for the tracking task. This improves the network feature extraction ability and significantly reduces the number of parameters required for the tracker backbone network. In addition, maximal Distance Intersection-over-Union is set as the target estimation method, enhancing network stability and increasing the offline training convergence rate. Channel and spatial dual attention mechanisms are employed in the target classification module to improve the discrimination of the trackers. Furthermore, the conjugate gradient optimization strategy increases the speed of the online learning target classification module. A two-stage search method combined with a screening module is proposed to enable the tracker to cope with sudden target movement and reappearance following a brief disappearance. Our proposed method has an obvious speed advantage compared with pure global searching and achieves an optimal performance on OTB2015, VOT2016, VOT2018-LT, UAV-123 and LaSOT while running at over 50 FPS.
+KW  - visual tracking
+KW  - neural architecture search
+KW  - dual attention mechanisms
+KW  - two-stage search
+DO  - 10.3390/s20185374
+TY  - EJOU
+AU  - Abdellatif, Mohamed
+AU  - Peel, Harriet
+AU  - Cohn, Anthony G.
+AU  - Fuentes, Raul
+TI  - Pavement Crack Detection from Hyperspectral Images Using a Novel Asphalt Crack Index
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 18
+SN  - 2072-4292
+
+AB  - Detection of road pavement cracks is important and needed at an early stage to repair the road and extend its lifetime for maintaining city roads. Cracks are hard to detect from images taken with visible spectrum cameras due to noise and ambiguity with background textures besides the lack of distinct features in cracks. Hyperspectral images are sensitive to surface material changes and their potential for road crack detection is explored here. The key observation is that road cracks reveal the interior material that is different from the worn surface material. A novel asphalt crack index is introduced here as an additional clue that is sensitive to the spectra in the range 450&ndash;550 nm. The crack index is computed and found to be strongly correlated with the appearance of fresh asphalt cracks. The new index is then used to differentiate cracks from road surfaces. Several experiments have been made, which confirmed that the proposed index is effective for crack detection. The recall-precision analysis showed an increase in the associated F1-score by an average of 21.37% compared to the VIS2 metric in the literature (a metric used to classify pavement condition from hyperspectral data).
+KW  - pavement crack detection
+KW  - pavement defect inspection
+KW  - asphalt crack index
+KW  - hyper-spectral imaging
+KW  - autonomous road inspection
+DO  - 10.3390/rs12183084
+TY  - EJOU
+AU  - Chen, Pei-Chun
+AU  - Chiang, Yen-Cheng
+AU  - Weng, Pei-Yi
+TI  - Imaging Using Unmanned Aerial Vehicles for Agriculture Land Use Classification
+T2  - Agriculture
+
+PY  - 2020
+VL  - 10
+IS  - 9
+SN  - 2077-0472
+
+AB  - An unmanned aerial vehicle (UAV) was used to capture high-resolution aerial images of crop fields. Software-based image analysis was performed to classify land uses. The purpose was to help relevant agencies use aerial imaging in managing agricultural production. This study involves five townships in the Chianan Plain of Chiayi County, Taiwan. About 100 ha of farmland in each township was selected as a sample area, and a quadcopter and a handheld fixed-wing drone were used to capture visible-light images and multispectral images. The survey was carried out from August to October 2018 and aerial photographs were captured in clear and dry weather. This study used high-resolution images captured from a UAV to classify the uses of agricultural land, and then employed information from multispectral images and elevation data from a digital surface model. The results revealed that visible-light images led to low interpretation accuracy. However, multispectral images and elevation data increased the accuracy rate to nearly 90%. Accordingly, such images and data can effectively enhance the accuracy of land use classification. The technology can reduce costs that are associated with labor and time and can facilitate the establishment of a real-time mapping database.
+KW  - unmanned aerial vehicle
+KW  - agricultural survey
+KW  - land use
+DO  - 10.3390/agriculture10090416
+TY  - EJOU
+AU  - An, Gangqiang
+AU  - Xing, Minfeng
+AU  - He, Binbin
+AU  - Liao, Chunhua
+AU  - Huang, Xiaodong
+AU  - Shang, Jiali
+AU  - Kang, Haiqi
+TI  - Using Machine Learning for Estimating Rice Chlorophyll Content from In Situ Hyperspectral Data
+T2  - Remote Sensing
+
+PY  - 2020
+VL  - 12
+IS  - 18
+SN  - 2072-4292
+
+AB  - Chlorophyll is an essential pigment for photosynthesis in crops, and leaf chlorophyll content can be used as an indicator for crop growth status and help guide nitrogen fertilizer applications. Estimating crop chlorophyll content plays an important role in precision agriculture. In this study, a variable, rate of change in reflectance between wavelengths &lsquo;a&rsquo; and &lsquo;b&rsquo; (RCRWa-b), derived from in situ hyperspectral remote sensing data combined with four advanced machine learning techniques, Gaussian process regression (GPR), random forest regression (RFR), support vector regression (SVR), and gradient boosting regression tree (GBRT), were used to estimate the chlorophyll content (measured by a portable soil&ndash;plant analysis development meter) of rice. The performances of the four machine learning models were assessed and compared using root mean square error (RMSE), mean absolute error (MAE), and coefficient of determination (R2). The results revealed that four features of RCRWa-b, RCRW551.0&ndash;565.6, RCRW739.5&ndash;743.5, RCRW684.4&ndash;687.1 and RCRW667.9&ndash;672.0, were effective in estimating the chlorophyll content of rice, and the RFR model generated the highest prediction accuracy (training set: RMSE = 1.54, MAE =1.23 and R2 = 0.95; validation set: RMSE = 2.64, MAE = 1.99 and R2 = 0.80). The GPR model was found to have the strongest generalization (training set: RMSE = 2.83, MAE = 2.16 and R2 = 0.77; validation set: RMSE = 2.97, MAE = 2.30 and R2 = 0.76). We conclude that RCRWa-b is a useful variable to estimate chlorophyll content of rice, and RFR and GPR are powerful machine learning algorithms for estimating the chlorophyll content of rice.
+KW  - hyperspectral remote sensing
+KW  - machine learning technology
+KW  - RCRWa-b
+KW  - SPAD value
+KW  - rice
+DO  - 10.3390/rs12183104

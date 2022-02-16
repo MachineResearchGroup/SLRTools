@@ -1,0 +1,689 @@
+TY  - EJOU
+AU  - Pu, Can
+AU  - Song, Runzi
+AU  - Tylecek, Radim
+AU  - Li, Nanbo
+AU  - Fisher, Robert B.
+TI  - SDF-MAN: Semi-Supervised Disparity Fusion with Multi-Scale Adversarial Networks
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 5
+SN  - 2072-4292
+
+AB  - Refining raw disparity maps from different algorithms to exploit their complementary advantages is still challenging. Uncertainty estimation and complex disparity relationships among pixels limit the accuracy and robustness of existing methods and there is no standard method for fusion of different kinds of depth data. In this paper, we introduce a new method to fuse disparity maps from different sources, while incorporating supplementary information (intensity, gradient, etc.) into a refiner network to better refine raw disparity inputs. A discriminator network classifies disparities at different receptive fields and scales. Assuming a Markov Random Field for the refined disparity map produces better estimates of the true disparity distribution. Both fully supervised and semi-supervised versions of the algorithm are proposed. The approach includes a more robust loss function to inpaint invalid disparity values and requires much less labeled data to train in the semi-supervised learning mode. The algorithm can be generalized to fuse depths from different kinds of depth sources. Experiments explored different fusion opportunities: stereo-monocular fusion, stereo-ToF fusion and stereo-stereo fusion. The experiments show the superiority of the proposed algorithm compared with the most recent algorithms on public synthetic datasets (Scene Flow, SYNTH3, our synthetic garden dataset) and real datasets (Kitti2015 dataset and Trimbot2020 Garden dataset).
+KW  - depth fusion
+KW  - disparity fusion
+KW  - stereo vision, monocular vision
+KW  - time of flight
+DO  - 10.3390/rs11050487
+ER  -
+TY  - EJOU
+AU  - Zhang, Wei
+AU  - Tang, Ping
+AU  - Zhao, Lijun
+TI  - Remote Sensing Image Scene Classification Using CNN-CapsNet
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 5
+SN  - 2072-4292
+
+AB  - Remote sensing image scene classification is one of the most challenging problems in understanding high-resolution remote sensing images. Deep learning techniques, especially the convolutional neural network (CNN), have improved the performance of remote sensing image scene classification due to the powerful perspective of feature learning and reasoning. However, several fully connected layers are always added to the end of CNN models, which is not efficient in capturing the hierarchical structure of the entities in the images and does not fully consider the spatial information that is important to classification. Fortunately, capsule network (CapsNet), which is a novel network architecture that uses a group of neurons as a capsule or vector to replace the neuron in the traditional neural network and can encode the properties and spatial information of features in an image to achieve equivariance, has become an active area in the classification field in the past two years. Motivated by this idea, this paper proposes an effective remote sensing image scene classification architecture named CNN-CapsNet to make full use of the merits of these two models: CNN and CapsNet. First, a CNN without fully connected layers is used as an initial feature maps extractor. In detail, a pretrained deep CNN model that was fully trained on the ImageNet dataset is selected as a feature extractor in this paper. Then, the initial feature maps are fed into a newly designed CapsNet to obtain the final classification result. The proposed architecture is extensively evaluated on three public challenging benchmark remote sensing image datasets: the UC Merced Land-Use dataset with 21 scene categories, AID dataset with 30 scene categories, and the NWPU-RESISC45 dataset with 45 challenging scene categories. The experimental results demonstrate that the proposed method can lead to a competitive classification performance compared with the state-of-the-art methods.
+KW  - remote sensing
+KW  - scene classification
+KW  - CNN
+KW  - capsule
+KW  - PrimaryCaps
+KW  - CapsNet
+DO  - 10.3390/rs11050494
+ER  -
+TY  - EJOU
+AU  - Ma, Fei
+AU  - Gao, Fei
+AU  - Sun, Jinping
+AU  - Zhou, Huiyu
+AU  - Hussain, Amir
+TI  - Weakly Supervised Segmentation of SAR Imagery Using Superpixel and Hierarchically Adversarial CRF
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 5
+SN  - 2072-4292
+
+AB  - Synthetic aperture radar (SAR) image segmentation aims at generating homogeneous regions from a pixel-based image and is the basis of image interpretation. However, most of the existing segmentation methods usually neglect the appearance and spatial consistency during feature extraction and also require a large number of training data. In addition, pixel-based processing cannot meet the real time requirement. We hereby present a weakly supervised algorithm to perform the task of segmentation for high-resolution SAR images. For effective segmentation, the input image is first over-segmented into a set of primitive superpixels. This algorithm combines hierarchical conditional generative adversarial nets (CGAN) and conditional random fields (CRF). The CGAN-based networks can leverage abundant unlabeled data learning parameters, reducing their reliance on the labeled samples. In order to preserve neighborhood consistency in the feature extraction stage, the hierarchical CGAN is composed of two sub-networks, which are employed to extract the information of the central superpixels and the corresponding background superpixels, respectively. Afterwards, CRF is utilized to perform label optimization using the concatenated features. Quantified experiments on an airborne SAR image dataset prove that the proposed method can effectively learn feature representations and achieve competitive accuracy to the state-of-the-art segmentation approaches. More specifically, our algorithm has a higher Cohen&rsquo;s kappa coefficient and overall accuracy. Its computation time is less than the current mainstream pixel-level semantic segmentation networks.
+KW  - synthetic aperture radar (SAR)
+KW  - segmentation
+KW  - conditional random fields (CRF)
+KW  - conditional generative adversarial nets (CGAN)
+KW  - neighborhood consistency
+DO  - 10.3390/rs11050512
+ER  -
+TY  - EJOU
+AU  - Wen, Sheng
+AU  - Zhang, Quanyong
+AU  - Yin, Xuanchun
+AU  - Lan, Yubin
+AU  - Zhang, Jiantao
+AU  - Ge, Yufeng
+TI  - Design of Plant Protection UAV Variable Spray System Based on Neural Networks
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 5
+SN  - 1424-8220
+
+AB  - Recently, unmanned aerial vehicles (UAVs) have rapidly emerged as a new technology in the fields of plant protection and pest control in China. Based on existing variable spray research, a plant protection UAV variable spray system integrating neural network based decision making is designed. Using the existing data on plant protection UAV operations, combined with artificial neural network (ANN) technology, an error back propagation (BP) neural network model between the factors affecting droplet deposition is trained. The factors affecting droplet deposition include ambient temperature, ambient humidity, wind speed, flight speed, flight altitude, propeller pitch, nozzles pitch and prescription value. Subsequently, the BP neural network model is combined with variable rate spray control for plant protection UAVs, and real-time information is collected by multi-sensor. The deposition rate is determined by the neural network model, and the flow rate of the spray system is regulated according to the predicted deposition amount. The amount of droplet deposition can meet the prescription requirement. The results show that the training variance of the ANN is 0.003, and thus, the model is stable and reliable. The outdoor tests show that the error between the predicted droplet deposition and actual droplet deposition is less than 20%. The ratio of droplet deposition to prescription value in each unit is approximately equal, and a variable spray operation under different conditions is realized.
+KW  - UAV
+KW  - BP neural network
+KW  - droplet deposition
+KW  - variable spray
+DO  - 10.3390/s19051112
+ER  -
+TY  - EJOU
+AU  - Ge, Luzhen
+AU  - Yang, Zhilun
+AU  - Sun, Zhe
+AU  - Zhang, Gan
+AU  - Zhang, Ming
+AU  - Zhang, Kaifei
+AU  - Zhang, Chunlong
+AU  - Tan, Yuzhi
+AU  - Li, Wei
+TI  - A Method for Broccoli Seedling Recognition in Natural Environment Based on Binocular Stereo Vision and Gaussian Mixture Model
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 5
+SN  - 1424-8220
+
+AB  - Illumination in the natural environment is uncontrollable, and the field background is complex and changeable which all leads to the poor quality of broccoli seedling images. The colors of weeds and broccoli seedlings are close, especially under weedy conditions. The factors above have a large influence on the stability, velocity and accuracy of broccoli seedling recognition based on traditional 2D image processing technologies. The broccoli seedlings are higher than the soil background and weeds in height due to the growth advantage of transplanted crops. A method of broccoli seedling recognition in natural environments based on Binocular Stereo Vision and a Gaussian Mixture Model is proposed in this paper. Firstly, binocular images of broccoli seedlings were obtained by an integrated, portable and low-cost binocular camera. Then left and right images were rectified, and a disparity map of the rectified images was obtained by the Semi-Global Matching (SGM) algorithm. The original 3D dense point cloud was reconstructed using the disparity map and left camera internal parameters. To reduce the operation time, a non-uniform grid sample method was used for the sparse point cloud. After that, the Gaussian Mixture Model (GMM) cluster was exploited and the broccoli seedling points were recognized from the sparse point cloud. An outlier filtering algorithm based on k-nearest neighbors (KNN) was applied to remove the discrete points along with the recognized broccoli seedling points. Finally, an ideal point cloud of broccoli seedlings can be obtained, and the broccoli seedlings recognized. The experimental results show that the Semi-Global Matching (SGM) algorithm can meet the matching requirements of broccoli images in the natural environment, and the average operation time of SGM is 138 ms. The SGM algorithm is superior to the Sum of Absolute Differences (SAD) algorithm and Sum of Squared Differences (SSD) algorithms. The recognition results of Gaussian Mixture Model (GMM) outperforms K-means and Fuzzy c-means with the average running time of 51 ms. To process a pair of images with the resolution of 640&times;480, the total running time of the proposed method is 578 ms, and the correct recognition rate is 97.98% of 247 pairs of images. The average value of sensitivity is 85.91%. The average percentage of the theoretical envelope box volume to the measured envelope box volume is 95.66%. The method can provide a low-cost, real-time and high-accuracy solution for crop recognition in natural environment.
+KW  - broccoli seedling
+KW  - binocular stereo vision
+KW  - semi-global matching
+KW  - Gaussian mixture model
+KW  - 3D point cloud
+DO  - 10.3390/s19051132
+ER  -
+TY  - EJOU
+AU  - Fu, Kun
+AU  - Dai, Wei
+AU  - Zhang, Yue
+AU  - Wang, Zhirui
+AU  - Yan, Menglong
+AU  - Sun, Xian
+TI  - MultiCAM: Multiple Class Activation Mapping for Aircraft Recognition in Remote Sensing Images
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 5
+SN  - 2072-4292
+
+AB  - Aircraft recognition in remote sensing images has long been a meaningful topic. Most related methods treat entire images as a whole and do not concentrate on the features of parts. In fact, a variety of aircraft types have small interclass variance, and the main evidence for classifying subcategories is related to some discriminative object parts. In this paper, we introduce the idea of fine-grained visual classification (FGVC) and attempt to make full use of the features from discriminative object parts. First, multiple class activation mapping (MultiCAM) is proposed to extract the discriminative parts of aircrafts of different categories. Second, we present a mask filter (MF) strategy to enhance the discriminative object parts and filter the interference of the background from original images. Third, a selective connected feature fusion method is proposed to fuse the features extracted from both networks, focusing on the original images and the results of MF, respectively. Compared with the single prediction category in class activation mapping (CAM), MultiCAM makes full use of the predictions of all categories to overcome the wrong discriminative parts produced by a wrong single prediction category. Additionally, the designed MF preserves the object scale information and helps the network to concentrate on the object itself rather than the interfering background. Experiments on a challenging dataset prove that our method can achieve state-of-the-art performance.
+KW  - aircraft recognition in remote sensing images
+KW  - fine-grained visual classification
+KW  - multiple class activation mapping
+KW  - mask filter
+KW  - selective connected feature fusion
+DO  - 10.3390/rs11050544
+ER  -
+TY  - EJOU
+AU  - Carl, Christin
+AU  - Lehmann, Jan R. K.
+AU  - Landgraf, Dirk
+AU  - Pretzsch, Hans
+TI  - Robinia pseudoacacia L. in Short Rotation Coppice: Seed and Stump Shoot Reproduction as well as UAS-based Spreading Analysis
+T2  - Forests
+
+PY  - 2019
+VL  - 10
+IS  - 3
+SN  - 1999-4907
+
+AB  - Varying reproduction strategies are an important trait that tree species need in order both to survive and to spread. Black locust is able to reproduce via seeds, stump shoots, and root suckers. However, little research has been conducted on the reproduction and spreading of black locust in short rotation coppices. This research study focused on seed germination, stump shoot resprout, and spreading by root suckering of black locust in ten short rotation coppices in Germany. Seed experiments and sample plots were analyzed for the study. Spreading was detected and measured with unmanned aerial system (UAS)-based images and classification technology&mdash;object-based image analysis (OBIA). Additionally, the classification of single UAS images was tested by applying a convolutional neural network (CNN), a deep learning model. The analyses showed that seed germination increases with increasing warm-cold variety and scarification. Moreover, it was found that the number of shoots per stump decreases as shoot age increases. Furthermore, spreading increases with greater light availability and decreasing tillage. The OBIA and CNN image analysis technologies achieved 97% and 99.5% accuracy for black locust classification in UAS images. All in all, the three reproduction strategies of black locust in short rotation coppices differ with regards to initialization, intensity, and growth performance, but all play a role in the survival and spreading of black locust.
+KW  - Robinia pseudoacacia L.
+KW  - reproduction
+KW  - spreading
+KW  - short rotation coppice
+KW  - unmanned aerial system (UAS)
+KW  - object-based image analysis (OBIA)
+KW  - convolutional neural network (CNN)
+DO  - 10.3390/f10030235
+ER  -
+TY  - EJOU
+AU  - Chudý, František
+AU  - Slámová, Martina
+AU  - Tomaštík, Julián
+AU  - Prokešová, Roberta
+AU  - Mokroš, Martin
+TI  - Identification of Micro-Scale Landforms of Landslides Using Precise Digital Elevation Models
+T2  - Geosciences
+
+PY  - 2019
+VL  - 9
+IS  - 3
+SN  - 2076-3263
+
+AB  - An active gully-related landslide system is located in a deep valley under forest canopy cover. Generally, point clouds from forested areas have a lack of data connectivity, and optical parameters of scanning cameras lead to different densities of point clouds. Data noise or systematic errors (missing data) make the automatic identification of landforms under tree canopy problematic or impossible. We processed, analyzed, and interpreted data from a large-scale landslide survey, which were acquired by the light detection and ranging (LiDAR) technology, remotely piloted aircraft system (RPAS), and close-range photogrammetry (CRP) using the &lsquo;Structure-from-Motion&rsquo; (SfM) method. LAStools is a highly efficient Geographic Information System (GIS) tool for point clouds pre-processing and creating precise digital elevation models (DEMs). The main landslide body and its landforms indicating the landslide activity were detected and delineated in DEM-derivatives. Identification of micro-scale landforms in precise DEMs at large scales allow the monitoring and the assessment of these active parts of landslides that are invisible in digital terrain models at smaller scales (obtained from aerial LiDAR or from RPAS) due to insufficient data density or the presence of many data gaps.
+KW  - landslides
+KW  - precise DEM
+KW  - semi-automatic pixel-based classification
+KW  - DEM derivatives
+KW  - costless remote sensing technologies
+DO  - 10.3390/geosciences9030117
+ER  -
+TY  - EJOU
+AU  - Samaniego, Franklin
+AU  - Sanchis, Javier
+AU  - García-Nieto, Sergio
+AU  - Simarro, Raúl
+TI  - Recursive Rewarding Modified Adaptive Cell Decomposition (RR-MACD): A Dynamic Path Planning Algorithm for UAVs
+T2  - Electronics
+
+PY  - 2019
+VL  - 8
+IS  - 3
+SN  - 2079-9292
+
+AB  - A relevant task in unmanned aerial vehicles (UAV) flight is path planning in     3 D     environments. This task must be completed using the least possible computing time. The aim of this article is to combine methodologies to optimise the task in time and offer a complete     3 D     trajectory. The flight environment will be considered as a     3 D     adaptive discrete mesh, where grids are created with minimal refinement in the search for collision-free spaces. The proposed path planning algorithm for UAV saves computational time and memory resources compared with classical techniques. With the construction of the discrete meshing, a cost response methodology is applied as a discrete deterministic finite automaton (DDFA). A set of optimal partial responses, calculated recursively, indicates the collision-free spaces in the final path for the UAV flight.
+KW  - UAV
+KW  - path planning
+KW  - adaptive discrete mesh
+KW  - octree
+DO  - 10.3390/electronics8030306
+ER  -
+TY  - EJOU
+AU  - Aymen, Flah
+AU  - Mahmoudi, Chokri
+TI  - A Novel Energy Optimization Approach for Electrical Vehicles in a Smart City
+T2  - Energies
+
+PY  - 2019
+VL  - 12
+IS  - 5
+SN  - 1996-1073
+
+AB  - Electric Vehicles (EVs) have emerged rapidly across the globe as a powerful eco-friendly initiative that if integrated well with an urban environment could be iconic for the host city&rsquo;s commitment to sustainable mobility and be a key ingredient of the smart city concept. This paper examines ways that will help us to develop a better understanding of how EVs can achieve energy use optimization and be connected with a smart city. As a whole, the present study is based on an original idea that would be useful in informing policy-makers, automotive manufacturers and transport operators of how to improve and embrace better EV technologies in the context of smart cities. The proposed approach is based on vehicles&rsquo; and buildings&rsquo; communication to share some special information related to the vehicles&rsquo; status and to the road conditions. EVs can share their own information related to their energy consumption experience on a specific path. This information can be gathered in a gigantic database and used for managing the power inside these vehicles. In this field, this paper exposes a new approach to power management inside an electric vehicle based on two-way communication between vehicles and buildings. The principle of this method is established in two sections; the first one is related to vehicles&rsquo; classification and the second one is attached to the buildings&rsquo; recommendations, according to the car position. The classification problem is resolved using the support vector classification method. The recommendation phase is resolved using the artificial intelligence principle and a neural network was employed to give the best decision. The optimal decision will be calculated inside the building, according to its position and using the old vehicle&rsquo;s data, and transferred to the coming vehicle, for optimizing its energy consumption method in the corresponding building zone. Different possibilities and situations in this approach were discussed. The proposed power management methodology was tested and validated using Simulink/Matlab tool. Results related to the battery state of charge and to the consumed energy were compared at the end of this work, to show the efficiency of this approach.
+KW  - smart city
+KW  - power management
+KW  - electric vehicle
+KW  - optimization
+KW  - classification
+KW  - state of charge
+KW  - intelligence
+DO  - 10.3390/en12050929
+ER  -
+TY  - EJOU
+AU  - Dominici, Donatella
+AU  - Zollini, Sara
+AU  - Alicandro, Maria
+AU  - Della Torre, Francesca
+AU  - Buscema, Paolo M.
+AU  - Baiocchi, Valerio
+TI  - High Resolution Satellite Images for Instantaneous Shoreline Extraction Using New Enhancement Algorithms
+T2  - Geosciences
+
+PY  - 2019
+VL  - 9
+IS  - 3
+SN  - 2076-3263
+
+AB  - Knowledge of a territory is an essential element in any future planning action and in appropriate territorial and environmental requalification action planning. The current large-scale availability of satellite data, thanks to very high resolution images, provides professional users in the environmental, urban planning, engineering, and territorial government sectors, in general, with large amounts of useful data with which to monitor the territory and cultural heritage. Italy is experiencing environmental emergencies, and coastal erosion is one of the greatest threats, not only to the Italian heritage and economy, but also to human life. The aim of this paper is to find a rapid way of identifying the instantaneous shoreline. This possibility could help government institutions such as regions, civil protection, etc., to analyze large areas of land quickly. The focus is on instantaneous shoreline extraction in Ortona (CH, Italy), without considering tides, using WorldView-2 satellite images (50-cm resolution in panchromatic and 2 m in multispectral). In particular, the main purpose of this paper is to compare commercial software and ACM filters to test their effectiveness.
+KW  - remote sensing
+KW  - satellite image
+KW  - WorldView2
+KW  - coastline detection
+KW  - enhancement
+KW  - ACM
+DO  - 10.3390/geosciences9030123
+ER  -
+TY  - EJOU
+AU  - Peng, Yu
+AU  - Fan, Min
+AU  - Bai, Lan
+AU  - Sang, Weiguo
+AU  - Feng, Jinchao
+AU  - Zhao, Zhixin
+AU  - Tao, Ziye
+TI  - Identification of the Best Hyperspectral Indices in Estimating Plant Species Richness in Sandy Grasslands
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 5
+SN  - 2072-4292
+
+AB  - Numerous spectral indices have been developed to assess plant diversity. However, since they are developed in different areas and vegetation type, it is difficult to make a comprehensive comparison among these indices. The primary objective of this study was to explore the optimum spectral indices that can predict plant species richness across different communities in sandy grassland. We use 7339 spectral indices (7217 we developed and 122 that were extracted from literature) to predict plant richness using a two-year dataset of plant species and spectra information at 270 plots. For this analysis, we employed cluster analysis, correlation analysis, and stepwise linear regression. The spectral variability within the 420&ndash;480 nm and 760&ndash;900 nm ranges, the first derivative value at the sensitive bands, and the normalized difference at narrow spectral ranges correlated well with plant species richness. Within the 7339 indices that were investigated, the first-order derivative values at 606 and 583 nm, the reflectance combinations on red bands: (R802 &minus; R465)/(R802 + R681) and (R750 &minus; R550)/(R750 + R550) showed a stable performance in both the independent calibration and validation datasets (R2 &gt; 0.27, p &lt; 0.001, RMSE &lt; 1.7). They can be regarded as the best spectral indices to estimate plant species richness in sandy grasslands. In addition to these spectral variation indices, the first derivative values or the normalized difference of the sensitive bands also reflect plant diversity. These results can help to improve the estimation of plant diversity using satellite-based airborne and hand-held hyperspectral sensors.
+KW  - Spectral Variations Hypothesis
+KW  - spectral indices
+KW  - plant richness
+KW  - grasslands
+DO  - 10.3390/rs11050588
+ER  -
+TY  - EJOU
+AU  - Liu, Han
+AU  - Dahlgren, Randy A.
+AU  - Larsen, Royce E.
+AU  - Devine, Scott M.
+AU  - Roche, Leslie M.
+AU  - O’ Geen, Anthony T.
+AU  - Wong, Andy J.Y.
+AU  - Covello, Sarah
+AU  - Jin, Yufang
+TI  - Estimating Rangeland Forage Production Using Remote Sensing Data from a Small Unmanned Aerial System (sUAS) and PlanetScope Satellite
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 5
+SN  - 2072-4292
+
+AB  - Rangelands cover ~23 million hectares and support a $3.4 billion annual cattle industry in California. Large variations in forage production from year to year and across the landscape make grazing management difficult. We here developed optimized methods to map high-resolution forage production using multispectral remote sensing imagery. We conducted monthly flights using a Small Unmanned Aerial System (sUAS) in 2017 and 2018 over a 10-ha deferred grazing rangeland. Daily maps of NDVI at 30-cm resolution were first derived by fusing monthly 30-cm sUAS imagery and more frequent 3-m PlanetScope satellite observations. We estimated aboveground net primary production as a product of absorbed photosynthetically active radiation (APAR) derived from NDVI and light use efficiency (LUE), optimized as a function of topography and climate stressors. The estimated forage production agreed well with field measurements having a R2 of 0.80 and RMSE of 542 kg/ha. Cumulative NDVI and APAR were less correlated with measured biomass (     R 2      = 0.68). Daily forage production maps captured similar seasonal and spatial patterns compared to field-based biomass measurements. Our study demonstrated the utility of aerial and satellite remote sensing technology in supporting adaptive rangeland management, especially during an era of climatic extremes, by providing spatially explicit and near-real-time forage production estimates.
+KW  - Drone
+KW  - MicaSense RedEdge
+KW  - Commercial satellite
+KW  - Light use efficiency
+KW  - Data fusion
+KW  - Rangeland
+KW  - Aboveground biomass
+KW  - Environmental stress
+DO  - 10.3390/rs11050595
+ER  -
+TY  - EJOU
+AU  - Feng, Lei
+AU  - Wu, Weikang
+AU  - Wang, Junmin
+AU  - Zhang, Chu
+AU  - Zhao, Yiying
+AU  - Zhu, Susu
+AU  - He, Yong
+TI  - Wind Field Distribution of Multi-rotor UAV and Its Influence on Spectral Information Acquisition of Rice Canopies
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 6
+SN  - 2072-4292
+
+AB  - Unmanned aerial vehicles (UAV) are widely used as remote sensing platforms to effectively monitor agricultural conditions. The wind field generated by the rotors in low-altitude operations will cause the deformation of rice crops, and may affect the acquisition of the true spectral information. In this study, a low-altitude UAV remote sensing simulation platform and a triple-direction wind field wireless sensor network system were built to explore the wind field distribution law. Combined with the multi-spectral images of the rice canopy, the influence of wind field on the spectral information acquisition was analyzed through variance and regression analysis. The results showed that the Z-direction wind field of UAV rotors dominated along three directions (X, Y, and Z). The coefficient of determination (R2) of three linear regression models for Normalized Difference Vegetation Index (NDVI), Ratio Vegetation Index (RVI), and Canopy Coverage Rate (CCR) was 0.782, 0.749, and 0.527, respectively. Therefore, the multi-rotor UAV wind field had an impact on the spectral information acquisition of rice canopy, and this influence could eventually affect the assessment of rice growth status. The models established in this study could provide a reference for the revised model of spectral indices, and offer guidance for the actual operations of low-altitude multi-rotor UAV.
+KW  - multi-rotor UAV
+KW  - wind-field distribution
+KW  - triple-direction wind field wireless sensor network
+KW  - multispectral information
+DO  - 10.3390/rs11060602
+ER  -
+TY  - EJOU
+AU  - Asadi, Khashayar
+AU  - Chen, Pengyu
+AU  - Han, Kevin
+AU  - Wu, Tianfu
+AU  - Lobaton, Edgar
+TI  - LNSNet: Lightweight Navigable Space Segmentation for Autonomous Robots on Construction Sites
+T2  - Data
+
+PY  - 2019
+VL  - 4
+IS  - 1
+SN  - 2306-5729
+
+AB  - An autonomous robot that can monitor a construction site should be able to be can contextually detect its surrounding environment by recognizing objects and making decisions based on its observation. Pixel-wise semantic segmentation in real-time is vital to building an autonomous and mobile robot. However, the learning models&rsquo; size and high memory usage associated with real-time segmentation are the main challenges for mobile robotics systems that have limited computing resources. To overcome these challenges, this paper presents an efficient semantic segmentation method named LNSNet (lightweight navigable space segmentation network) that can run on embedded platforms to determine navigable space in real-time. The core of model architecture is a new block based on separable convolution which compresses the parameters of present residual block meanwhile maintaining the accuracy and performance. LNSNet is faster, has fewer parameters and less model size, while provides similar accuracy compared to existing models. A new pixel-level annotated dataset for real-time and mobile navigable space segmentation in construction environments has been constructed for the proposed method. The results demonstrate the effectiveness and efficiency that are necessary for the future development of the autonomous robotics systems.
+KW  - efficient real-time segmentation
+KW  - embedded platform
+KW  - autonomous navigation in construction
+KW  - autonomous data collection
+DO  - 10.3390/data4010040
+ER  -
+TY  - EJOU
+AU  - Ahn, Sanghyun
+AU  - Choi, Jonghwa
+TI  - Internet of Vehicles and Cost-Effective Traffic Signal Control
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 6
+SN  - 1424-8220
+
+AB  - The Internet of Vehicles (IoV) is attracting many researchers with the emergence of autonomous or smart vehicles. Vehicles on the road are becoming smart objects equipped with lots of sensors and powerful computing and communication capabilities. In the IoV environment, the efficiency of road transportation can be enhanced with the help of cost-effective traffic signal control. Traffic signal controllers control traffic lights based on the number of vehicles waiting for the green light (in short, vehicle queue length). So far, the utilization of video cameras or sensors has been extensively studied as the intelligent means of the vehicle queue length estimation. However, it has the deficiencies like high computing overhead, high installation and maintenance cost, high susceptibility to the surrounding environment, etc. Therefore, in this paper, we propose the vehicular communication-based approach for intelligent traffic signal control in a cost-effective way with low computing overhead and high resilience to environmental obstacles. In the vehicular communication-based approach, traffic signals are efficiently controlled at no extra cost by using the pre-equipped vehicular communication capabilities of IoV. Vehicular communications allow vehicles to send messages to traffic signal controllers (i.e., vehicle-to-infrastructure (V2I) communications) so that they can estimate vehicle queue length based on the collected messages. In our previous work, we have proposed a mechanism that can accomplish the efficiency of vehicular communications without losing the accuracy of traffic signal control. This mechanism gives transmission preference to the vehicles farther away from the traffic signal controller, so that the other vehicles closer to the stop line give up transmissions. In this paper, we propose a new mechanism enhancing the previous mechanism by selecting the vehicles performing V2I communications based on the concept of road sectorization. In the mechanism, only the vehicles within specific areas, called sectors, perform V2I communications to reduce the message transmission overhead. For the performance comparison of our mechanisms, we carry out simulations by using the Veins vehicular network simulation framework and measure the message transmission overhead and the accuracy of the estimated vehicle queue length. Simulation results verify that our vehicular communication-based approach significantly reduces the message transmission overhead without losing the accuracy of the vehicle queue length estimation.
+KW  - Internet of Vehicles
+KW  - Internet of Things
+KW  - traffic signal control
+KW  - vehicle queue
+KW  - vehicular communication
+DO  - 10.3390/s19061275
+ER  -
+TY  - EJOU
+AU  - Zhang, Chengming
+AU  - Han, Yingjuan
+AU  - Li, Feng
+AU  - Gao, Shuai
+AU  - Song, Dejuan
+AU  - Zhao, Hui
+AU  - Fan, Keqi
+AU  - Zhang, Ya’nan
+TI  - A New CNN-Bayesian Model for Extracting Improved Winter Wheat Spatial Distribution from GF-2 imagery
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 6
+SN  - 2072-4292
+
+AB  - When the spatial distribution of winter wheat is extracted from high-resolution remote sensing imagery using convolutional neural networks (CNN), field edge results are usually rough, resulting in lowered overall accuracy. This study proposed a new per-pixel classification model using CNN and Bayesian models (CNN-Bayesian model) for improved extraction accuracy. In this model, a feature extractor generates a feature vector for each pixel, an encoder transforms the feature vector of each pixel into a category-code vector, and a two-level classifier uses the difference between elements of category-probability vectors as the confidence value to perform per-pixel classifications. The first level is used to determine the category of a pixel with high confidence, and the second level is an improved Bayesian model used to determine the category of low-confidence pixels. The CNN-Bayesian model was trained and tested on Gaofen 2 satellite images. Compared to existing models, our approach produced an improvement in overall accuracy, the overall accuracy of SegNet, DeepLab, VGG-Ex, and CNN-Bayesian was 0.791, 0.852, 0.892, and 0.946, respectively. Thus, this approach can produce superior results when winter wheat spatial distribution is extracted from satellite imagery.
+KW  - winter wheat
+KW  - convolutional neural network
+KW  - Visual Geometry Group Network
+KW  - Bayesian model
+KW  - per-pixel classification
+KW  - high-resolution remote sensing imager
+KW  - Gaofen 2 image
+DO  - 10.3390/rs11060619
+ER  -
+TY  - EJOU
+AU  - Hartling, Sean
+AU  - Sagan, Vasit
+AU  - Sidike, Paheding
+AU  - Maimaitijiang, Maitiniyazi
+AU  - Carron, Joshua
+TI  - Urban Tree Species Classification Using a WorldView-2/3 and LiDAR Data Fusion Approach and Deep Learning
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 6
+SN  - 1424-8220
+
+AB  - Urban areas feature complex and heterogeneous land covers which create challenging issues for tree species classification. The increased availability of high spatial resolution multispectral satellite imagery and LiDAR datasets combined with the recent evolution of deep learning within remote sensing for object detection and scene classification, provide promising opportunities to map individual tree species with greater accuracy and resolution. However, there are knowledge gaps that are related to the contribution of Worldview-3 SWIR bands, very high resolution PAN band and LiDAR data in detailed tree species mapping. Additionally, contemporary deep learning methods are hampered by lack of training samples and difficulties of preparing training data. The objective of this study was to examine the potential of a novel deep learning method, Dense Convolutional Network (DenseNet), to identify dominant individual tree species in a complex urban environment within a fused image of WorldView-2 VNIR, Worldview-3 SWIR and LiDAR datasets. DenseNet results were compared against two popular machine classifiers in remote sensing image analysis, Random Forest (RF) and Support Vector Machine (SVM). Our results demonstrated that: (1) utilizing a data fusion approach beginning with VNIR and adding SWIR, LiDAR, and panchromatic (PAN) bands increased the overall accuracy of the DenseNet classifier from 75.9% to 76.8%, 81.1% and 82.6%, respectively. (2) DenseNet significantly outperformed RF and SVM for the classification of eight dominant tree species with an overall accuracy of 82.6%, compared to 51.8% and 52% for SVM and RF classifiers, respectively. (3) DenseNet maintained superior performance over RF and SVM classifiers under restricted training sample quantities which is a major limiting factor for deep learning techniques. Overall, the study reveals that DenseNet is more effective for urban tree species classification as it outperforms the popular RF and SVM techniques when working with highly complex image scenes regardless of training sample size.
+KW  - deep learning
+KW  - dense convolutional network (DenseNet)
+KW  - convolutional neural network (CNN)
+KW  - support vector machine (SVM)
+KW  - random forest (RF)
+KW  - tree species classification
+KW  - data fusion
+DO  - 10.3390/s19061284
+ER  -
+TY  - EJOU
+AU  - Javed, Waqas
+AU  - Chen, Dong
+AU  - Farrag, Mohamed E.
+AU  - Xu, Yan
+TI  - System Configuration, Fault Detection, Location, Isolation and Restoration: A Review on LVDC Microgrid Protections
+T2  - Energies
+
+PY  - 2019
+VL  - 12
+IS  - 6
+SN  - 1996-1073
+
+AB  - Low voltage direct current (LVDC) distribution has gained the significant interest of research due to the advancements in power conversion technologies. However, the use of converters has given rise to several technical issues regarding their protections and controls of such devices under faulty conditions. Post-fault behaviour of converter-fed LVDC system involves both active converter control and passive circuit transient of similar time scale, which makes the protection for LVDC distribution significantly different and more challenging than low voltage AC. These protection and operational issues have handicapped the practical applications of DC distribution. This paper presents state-of-the-art protection schemes developed for DC Microgrids. With a close look at practical limitations such as the dependency on modelling accuracy, requirement on communications and so forth, a comprehensive evaluation is carried out on those system approaches in terms of system configurations, fault detection, location, isolation and restoration.
+KW  - DC Microgrids
+KW  - DC faults
+KW  - DC protection
+KW  - circuit breakers
+DO  - 10.3390/en12061001
+ER  -
+TY  - EJOU
+AU  - Safonova, Anastasiia
+AU  - Tabik, Siham
+AU  - Alcaraz-Segura, Domingo
+AU  - Rubtsov, Alexey
+AU  - Maglinets, Yuriy
+AU  - Herrera, Francisco
+TI  - Detection of Fir Trees (Abies sibirica) Damaged by the Bark Beetle in Unmanned Aerial Vehicle Images with Deep Learning
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 6
+SN  - 2072-4292
+
+AB  - Invasion of the Polygraphus proximus Blandford bark beetle causes catastrophic damage to forests with firs (Abies sibirica Ledeb) in Russia, especially in Central Siberia. Determining tree damage stage based on the shape, texture and colour of tree crown in unmanned aerial vehicle (UAV) images could help to assess forest health in a faster and cheaper way. However, this task is challenging since (i) fir trees at different damage stages coexist and overlap in the canopy, (ii) the distribution of fir trees in nature is irregular and hence distinguishing between different crowns is hard, even for the human eye. Motivated by the latest advances in computer vision and machine learning, this work proposes a two-stage solution: In a first stage, we built a detection strategy that finds the regions of the input UAV image that are more likely to contain a crown, in the second stage, we developed a new convolutional neural network (CNN) architecture that predicts the fir tree damage stage in each candidate region. Our experiments show that the proposed approach shows satisfactory results on UAV Red, Green, Blue (RGB) images of forest areas in the state nature reserve “Stolby” (Krasnoyarsk, Russia).
+KW  - multi-class classification
+KW  - drone
+KW  - aerial photography
+KW  - Siberian fir
+KW  - Siberia
+KW  - deep-learning
+KW  - convolutional neural networks
+KW  - forest health
+DO  - 10.3390/rs11060643
+ER  -
+TY  - EJOU
+AU  - Wei, Jie
+AU  - Hao, Yanpeng
+AU  - Fu, Yuan
+AU  - Yang, Lin
+AU  - Gan, Jiulin
+AU  - Yang, Zhongmin
+TI  - Detection of Glaze Icing Load and Temperature of Composite Insulators Using Fiber Bragg Grating
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 6
+SN  - 1424-8220
+
+AB  - Conventional methods for the online monitoring of icing conditions of composite insulators suffer from difficulties. To solve this issue, a novel method is first proposed to detect glaze icing load via embedding three optical fibers with fiber Bragg gratings (FBGs) into a 10 kV composite insulator. Specifically, FBG temperature compensation sensors were packaged in ceramic tubes to solve strain and temperature cross-sensitivity. Temperature effect experiments and simulated glaze icing load experiments were performed to verify the feasibility of the proposed method. The results show that temperature sensitivities of all FBGs are identical (i.e., 10.68 pm/&deg;C), which achieves a simultaneous measurement of temperature and strain. In addition, the proposed method can detect glaze icing load of the composite insulator above 0.5 N (i.e., 15% of icicle bridged degree) in the laboratory.
+KW  - glaze icing detection
+KW  - fiber Bragg grating (FBG)
+KW  - composite insulator with embedded FBG
+KW  - simultaneous measurement of temperature and strain
+DO  - 10.3390/s19061321
+ER  -
+TY  - EJOU
+AU  - Huang, Hong
+AU  - Li, Zhengying
+AU  - Pan, Yinsong
+TI  - Multi-Feature Manifold Discriminant Analysis for Hyperspectral Image Classification
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 6
+SN  - 2072-4292
+
+AB  - Hyperspectral image (HSI) provides both spatial structure and spectral information for classification, but many traditional methods simply concatenate spatial features and spectral features together that usually lead to the curse-of-dimensionality and unbalanced representation of different features. To address this issue, a new dimensionality reduction (DR) method, termed multi-feature manifold discriminant analysis (MFMDA), was proposed in this paper. At first, MFMDA explores local binary patterns (LBP) operator to extract textural features for encoding the spatial information in HSI. Then, under graph embedding framework, the intrinsic and penalty graphs of LBP and spectral features are constructed to explore the discriminant manifold structure in both spatial and spectral domains, respectively. After that, a new spatial-spectral DR model for multi-feature fusion is built to extract discriminant spatial-spectral combined features, and it not only preserves the similarity relationship between spectral features and LBP features but also possesses strong discriminating ability in the low-dimensional embedding space. Experiments on Indian Pines, Heihe and Pavia University (PaviaU) hyperspectral data sets demonstrate that the proposed MFMDA method performs significantly better than some state-of-the-art methods using only single feature or simply stacking spectral features and spatial features together, and the classification accuracies of it can reach 95.43%, 97.19% and 96.60%, respectively.
+KW  - hyperspectral image
+KW  - multi-feature classification
+KW  - dimensionality reduction
+KW  - graph embedding
+KW  - spatial-spectral features
+DO  - 10.3390/rs11060651
+ER  -
+TY  - EJOU
+AU  - Li, Yong
+AU  - Tong, Guofeng
+AU  - Gao, Huashuai
+AU  - Wang, Yuebin
+AU  - Zhang, Liqiang
+AU  - Chen, Huairong
+TI  - Pano-RSOD: A Dataset and Benchmark for Panoramic Road Scene Object Detection
+T2  - Electronics
+
+PY  - 2019
+VL  - 8
+IS  - 3
+SN  - 2079-9292
+
+AB  - Panoramic images have a wide range of applications in many fields with their ability to perceive all-round information. Object detection based on panoramic images has certain advantages in terms of environment perception due to the characteristics of panoramic images, e.g., lager perspective. In recent years, deep learning methods have achieved remarkable results in image classification and object detection. Their performance depends on the large amount of training data. Therefore, a good training dataset is a prerequisite for the methods to achieve better recognition results. Then, we construct a benchmark named Pano-RSOD for panoramic road scene object detection. Pano-RSOD contains vehicles, pedestrians, traffic signs and guiding arrows. The objects of Pano-RSOD are labelled by bounding boxes in the images. Different from traditional object detection datasets, Pano-RSOD contains more objects in a panoramic image, and the high-resolution images have 360-degree environmental perception, more annotations, more small objects and diverse road scenes. The state-of-the-art deep learning algorithms are trained on Pano-RSOD for object detection, which demonstrates that Pano-RSOD is a useful benchmark, and it provides a better panoramic image training dataset for object detection tasks, especially for small and deformed objects.
+KW  - panoramic image dataset
+KW  - road scene
+KW  - object detection
+KW  - deep learning
+KW  - convolutional neural network
+DO  - 10.3390/electronics8030329
+ER  -
+TY  - EJOU
+AU  - Li, Yundong
+AU  - Hu, Wei
+AU  - Dong, Han
+AU  - Zhang, Xueyan
+TI  - Building Damage Detection from Post-Event Aerial Imagery Using Single Shot Multibox Detector
+T2  - Applied Sciences
+
+PY  - 2019
+VL  - 9
+IS  - 6
+SN  - 2076-3417
+
+AB  - Using aerial cameras, satellite remote sensing or unmanned aerial vehicles (UAV) equipped with cameras can facilitate search and rescue tasks after disasters. The traditional manual interpretation of huge aerial images is inefficient and could be replaced by machine learning-based methods combined with image processing techniques. Given the development of machine learning, researchers find that convolutional neural networks can effectively extract features from images. Some target detection methods based on deep learning, such as the single-shot multibox detector (SSD) algorithm, can achieve better results than traditional methods. However, the impressive performance of machine learning-based methods results from the numerous labeled samples. Given the complexity of post-disaster scenarios, obtaining many samples in the aftermath of disasters is difficult. To address this issue, a damaged building assessment method using SSD with pretraining and data augmentation is proposed in the current study and highlights the following aspects. (1) Objects can be detected and classified into undamaged buildings, damaged buildings, and ruins. (2) A convolution auto-encoder (CAE) that consists of VGG16 is constructed and trained using unlabeled post-disaster images. As a transfer learning strategy, the weights of the SSD model are initialized using the weights of the CAE counterpart. (3) Data augmentation strategies, such as image mirroring, rotation, Gaussian blur, and Gaussian noise processing, are utilized to augment the training data set. As a case study, aerial images of Hurricane Sandy in 2012 were maximized to validate the proposed method&rsquo;s effectiveness. Experiments show that the pretraining strategy can improve of 10% in terms of overall accuracy compared with the SSD trained from scratch. These experiments also demonstrate that using data augmentation strategies can improve mAP and mF1 by 72% and 20%, respectively. Finally, the experiment is further verified by another dataset of Hurricane Irma, and it is concluded that the paper method is feasible.
+KW  - building damage assessment
+KW  - post-event
+KW  - deep learning
+KW  - SSD
+KW  - convolutional autoencoder
+DO  - 10.3390/app9061128
+ER  -
+TY  - EJOU
+AU  - Wen, Xudong
+AU  - Liu, Chunwu
+AU  - Huang, Zhiping
+AU  - Su, Shaojing
+AU  - Guo, Xiaojun
+AU  - Zuo, Zhen
+AU  - Qu, Hao
+TI  - A First-Order Differential Data Processing Method for Accuracy Improvement of Complementary Filtering in Micro-UAV Attitude Estimation
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 6
+SN  - 1424-8220
+
+AB  - There are many algorithms that can be used to fuse sensor data. The complementary filtering algorithm has low computational complexity and good real-time performance characteristics. It is very suitable for attitude estimation of small unmanned aerial vehicles (micro-UAVs) equipped with low-cost inertial measurement units (IMUs). However, its low attitude estimation accuracy severely limits its applications. Though, many methods have been proposed by researchers to improve attitude estimation accuracy of complementary filtering algorithms, there are few studies that aim to improve it from the data processing aspect. In this paper, a real-time first-order differential data processing algorithm is proposed for gyroscope data, and an adaptive adjustment strategy is designed for the parameters in the algorithm. Besides, the differential-nonlinear complementary filtering (D-NCF) algorithm is proposed by combine the first-order differential data processing algorithm with the basic nonlinear complementary filtering (NCF) algorithm. The experimental results show that the first-order differential data processing algorithm can effectively correct the gyroscope data, and the Root Mean Square Error (RMSE) of attitude estimation of the D-NCF algorithm is smaller than when the NCF algorithm is used. The RMSE of the roll angle decreases from 1.1653 to 0.5093, that of the pitch angle decreases from 2.9638 to 1.5542, and that of the yaw angle decreases from 0.9398 to 0.6827. In general, the attitude estimation accuracy of D-NCF algorithm is higher than that of the NCF algorithm.
+KW  - attitude estimation
+KW  - nonlinear complementary filtering (NCF)
+KW  - sensor fusion
+KW  - micro-UAV
+KW  - data processing
+DO  - 10.3390/s19061340
+ER  -
+TY  - EJOU
+AU  - Leung, Carson K.
+AU  - Braun, Peter
+AU  - Cuzzocrea, Alfredo
+TI  - AI-Based Sensor Information Fusion for Supporting Deep Supervised Learning
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 6
+SN  - 1424-8220
+
+AB  - In recent years, artificial intelligence (AI) and its subarea of deep learning have drawn the attention of many researchers. At the same time, advances in technologies enable the generation or collection of large amounts of valuable data (e.g., sensor data) from various sources in different applications, such as those for the Internet of Things (IoT), which in turn aims towards the development of smart cities. With the availability of sensor data from various sources, sensor information fusion is in demand for effective integration of big data. In this article, we present an AI-based sensor-information fusion system for supporting deep supervised learning of transportation data generated and collected from various types of sensors, including remote sensed imagery for the geographic information system (GIS), accelerometers, as well as sensors for the global navigation satellite system (GNSS) and global positioning system (GPS). The discovered knowledge and information returned from our system provides analysts with a clearer understanding of trajectories or mobility of citizens, which in turn helps to develop better transportation models to achieve the ultimate goal of smarter cities. Evaluation results show the effectiveness and practicality of our AI-based sensor information fusion system for supporting deep supervised learning of big transportation data.
+KW  - sensor
+KW  - information fusion
+KW  - sensor fusion
+KW  - artificial intelligence (AI)
+KW  - deep learning
+KW  - supervised learning
+KW  - data mining
+KW  - transportation
+KW  - geographic information system (GIS)
+KW  - global navigation satellite system (GNSS)
+KW  - global positioning system (GPS)
+DO  - 10.3390/s19061345
+ER  -
+TY  - EJOU
+AU  - Zabalza, Jaime
+AU  - Fei, Zixiang
+AU  - Wong, Cuebong
+AU  - Yan, Yijun
+AU  - Mineo, Carmelo
+AU  - Yang, Erfu
+AU  - Rodden, Tony
+AU  - Mehnen, Jorn
+AU  - Pham, Quang-Cuong
+AU  - Ren, Jinchang
+TI  - Smart Sensing and Adaptive Reasoning for Enabling Industrial Robots with Interactive Human-Robot Capabilities in Dynamic Environments—A Case Study
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 6
+SN  - 1424-8220
+
+AB  - Traditional industry is seeing an increasing demand for more autonomous and flexible manufacturing in unstructured settings, a shift away from the fixed, isolated workspaces where robots perform predefined actions repetitively. This work presents a case study in which a robotic manipulator, namely a KUKA KR90 R3100, is provided with smart sensing capabilities such as vision and adaptive reasoning for real-time collision avoidance and online path planning in dynamically-changing environments. A machine vision module based on low-cost cameras and color detection in the hue, saturation, value (HSV) space is developed to make the robot aware of its changing environment. Therefore, this vision allows the detection and localization of a randomly moving obstacle. Path correction to avoid collision avoidance for such obstacles with robotic manipulator is achieved by exploiting an adaptive path planning module along with a dedicated robot control module, where the three modules run simultaneously. These sensing/smart capabilities allow the smooth interactions between the robot and its dynamic environment, where the robot needs to react to dynamic changes through autonomous thinking and reasoning with the reaction times below the average human reaction time. The experimental results demonstrate that effective human-robot and robot-robot interactions can be realized through the innovative integration of emerging sensing techniques, efficient planning algorithms and systematic designs.
+KW  - adaptive reasoning
+KW  - dynamic environments
+KW  - human-robot interaction
+KW  - path planning
+KW  - robot control
+KW  - smart sensing
+DO  - 10.3390/s19061354
+ER  -
+TY  - EJOU
+AU  - Surový, Peter
+AU  - Kuželka, Karel
+TI  - Acquisition of Forest Attributes for Decision Support at the Forest Enterprise Level Using Remote-Sensing Techniques—A Review
+T2  - Forests
+
+PY  - 2019
+VL  - 10
+IS  - 3
+SN  - 1999-4907
+
+AB  - In recent decades, remote sensing techniques and the associated hardware and software have made substantial improvements. With satellite images that can obtain sub-meter spatial resolution, and new hardware, particularly unmanned aerial vehicles and systems, there are many emerging opportunities for improved data acquisition, including variable temporal and spectral resolutions. Combined with the evolution of techniques for aerial remote sensing, such as full wave laser scanners, hyperspectral scanners, and aerial radar sensors, the potential to incorporate this new data in forest management is enormous. Here we provide an overview of the current state-of-the-art remote sensing techniques for large forest areas thousands or tens of thousands of hectares. We examined modern remote sensing techniques used to obtain forest data that are directly applicable to decision making issues, and we provided a general overview of the types of data that can be obtained using remote sensing. The most easily accessible forest variable described in many works is stand or tree height, followed by other inventory variables like basal area, tree number, diameters, and volume, which are crucial in decision making process, especially for thinning and harvest planning, and timber transport optimization. Information about zonation and species composition are often described as more difficult to assess; however, this information usually is not required on annual basis. Counts of studies on forest health show an increasing trend in the last years, mostly in context of availability of new sensors as well as increased forest vulnerability caused by climate change; by virtue to modern sensors interesting methods were developed for detection of stressed or damaged trees. Unexpectedly few works focus on regeneration and seedlings evaluation; though regenerated stands should be regularly monitored in order to maintain forest cover sustainability.
+KW  - remote sensing
+KW  - forest enterprise
+KW  - forest attributes
+KW  - forest health
+KW  - satellite imagery
+KW  - aerial imagery
+KW  - aerial laser scanner
+KW  - unmanned aerial vehicles (UAV)
+DO  - 10.3390/f10030273
+ER  -
+TY  - EJOU
+AU  - Darvishzadeh, Roshanak
+AU  - Wang, Tiejun
+AU  - Skidmore, Andrew
+AU  - Vrieling, Anton
+AU  - O’Connor, Brian
+AU  - Gara, Tawanda W.
+AU  - Ens, Bruno J.
+AU  - Paganini, Marc
+TI  - Analysis of Sentinel-2 and RapidEye for Retrieval of Leaf Area Index in a Saltmarsh Using a Radiative Transfer Model
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 6
+SN  - 2072-4292
+
+AB  - The Sentinel satellite fleet of the Copernicus Programme offers new potential to map and monitor plant traits at fine spatial and temporal resolutions. Among these traits, leaf area index (LAI) is a crucial indicator of vegetation growth and an essential variable in biodiversity studies. Numerous studies have shown that the radiative transfer approach has been a successful method to retrieve LAI from remote-sensing data. However, the suitability and adaptability of this approach largely depend on the type of remote-sensing data, vegetation cover and the ecosystem studied. Saltmarshes are important wetland ecosystems threatened by sea level rise among other human- and animal-induced changes. Therefore, monitoring their vegetation status is crucial for their conservation, yet few LAI assessments exist for these ecosystems. In this study, the retrieval of LAI in a saltmarsh ecosystem is examined using Sentinel-2 and RapidEye data through inversion of the PROSAIL radiative transfer model. Field measurements of LAI and some other plant traits were obtained during two succeeding field campaigns in July 2015 and 2016 on the saltmarsh of Schiermonnikoog, a barrier island of the Netherlands. RapidEye (2015) and Sentinel-2 (2016) data were acquired concurrent to the time of the field campaigns. The broadly employed PROSAIL model was inverted using two look-up tables (LUTs) generated in the spectral band’s settings of the two sensors and in which each contained 500,000 records. Different solutions from the LUTs, as well as, different Sentinel-2 spectral subsets were considered to examine the LAI retrieval. Our results showed that generally the LAI retrieved from Sentinel-2 had higher accuracy compared to RapidEye-retrieved LAI. Utilising the mean of the first 10 best solutions from the LUTs resulted in higher R2 (0.51 and 0.59) and lower normalised root means square error (NRMSE) (0.24 and 0.16) for both RapidEye and Sentinel-2 data respectively. Among different Sentinel-2 spectral subsets, the one comprised of the four near-infrared (NIR) and shortwave infrared (SWIR) spectral bands resulted in higher estimation accuracy (R2 = 0.44, NRMSE = 0.21) in comparison to using other studied spectral subsets. The results demonstrated the feasibility of broadband multispectral sensors, particularly Sentinel-2 for retrieval of LAI in the saltmarsh ecosystem via inversion of PROSAIL. Our results highlight the importance of proper parameterisation of radiative transfer models and capacity of Sentinel-2 spectral range and resolution, with impending high-quality global observation aptitude, for retrieval of plant traits at a global scale.
+KW  - Sentinel-2
+KW  - RapidEye
+KW  - leaf area index (LAI)
+KW  - saltmarsh
+KW  - PROSAIL
+KW  - Look Up Table
+DO  - 10.3390/rs11060671
+ER  -
+TY  - EJOU
+AU  - Lim, Joongbin
+AU  - Kim, Kyoung-Min
+AU  - Jin, Ri
+TI  - Tree Species Classification Using Hyperion and Sentinel-2 Data with Machine Learning in South Korea and China
+T2  - ISPRS International Journal of Geo-Information
+
+PY  - 2019
+VL  - 8
+IS  - 3
+SN  - 2220-9964
+
+AB  - Remote sensing (RS) has been used to monitor inaccessible regions. It is considered a useful technique for deriving important environmental information from inaccessible regions, especially North Korea. In this study, we aim to develop a tree species classification model based on RS and machine learning techniques, which can be utilized for classification in North Korea. Two study sites were chosen, the Korea National Arboretum (KNA) in South Korea and Mt. Baekdu (MTB; a.k.a., Mt. Changbai in Chinese) in China, located in the border area between North Korea and China, and tree species classifications were examined in both regions. As a preliminary step in developing a classification algorithm that can be applied in North Korea, common coniferous species at both study sites, Korean pine (Pinus koraiensis) and Japanese larch (Larix kaempferi), were chosen as targets for investigation. Hyperion data have been used for tree species classification due to the abundant spectral information acquired from across more than 200 spectral bands (i.e., hyperspectral satellite data). However, it is impossible to acquire recent Hyperion data because the satellite ceased operation in 2017. Recently, Sentinel-2 satellite multispectral imagery has been used in tree species classification. Thus, it is necessary to compare these two kinds of satellite data to determine the possibility of reliably classifying species. Therefore, Hyperion and Sentinel-2 data were employed, along with machine learning techniques, such as random forests (RFs) and support vector machines (SVMs), to classify tree species. Three questions were answered, showing that: (1) RF and SVM are well established in the hyperspectral imagery for tree species classification, (2) Sentinel-2 data can be used to classify tree species with RF and SVM algorithms instead of Hyperion data, and (3) training data that were built in the KNA cannot be used for the tree classification of MTB. Random forests and SVMs showed overall accuracies of 0.60 and 0.51 and kappa values of 0.20 and 0.00, respectively. Moreover, combined training data from the KNA and MTB showed high classification accuracies in both regions; RF and SVM values exhibited accuracies of 0.99 and 0.97 and kappa values of 0.98 and 0.95, respectively.
+KW  - hyperspectral image
+KW  - random forest
+KW  - support vector machine
+KW  - texture feature
+KW  - image spectroscopy
+DO  - 10.3390/ijgi8030150
+ER  -

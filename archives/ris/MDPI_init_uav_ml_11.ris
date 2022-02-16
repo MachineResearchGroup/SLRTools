@@ -1,0 +1,657 @@
+TY  - EJOU
+AU  - Xavier, Thomaz W. F.
+AU  - Souto, Roberto N. V.
+AU  - Statella, Thiago
+AU  - Galbieri, Rafael
+AU  - Santos, Emerson S.
+AU  - S. Suli, George
+AU  - Zeilhofer, Peter
+TI  - Identification of Ramularia Leaf Blight Cotton Disease Infection Levels by Multispectral, Multiscale UAV Imagery
+T2  - Drones
+
+PY  - 2019
+VL  - 3
+IS  - 2
+SN  - 2504-446X
+
+AB  - The reduction of the production cost and negative environmental impacts by pesticide application to control cotton diseases depends on the infection patterns spatialized in the farm scale. Here, we evaluate the potential of three-band multispectral imagery from a multi-rotor unmanned airborne vehicle (UAV) platform for the detection of ramularia leaf blight from different flight heights in an experimental field. Increasing infection levels indicate the progressive degradation of the spectral vegetation signal, however, they were not sufficient to differentiate disease severity levels. At resolutions of ~5 cm (100 m) and ~15 cm (300 m) up to a ground spatial resolution of ~25 cm (500 m flight height), two-scaled infection levels can be detected for the best performing algorithm of four classifiers tested, with an overall accuracy of ~79% and a kappa index of ~0.51. Despite limited classification performance, the results show the potential interest of low-cost multispectral systems to monitor ramularia blight in cotton.
+KW  - disease severity assessment
+KW  - ground cover
+KW  - UAV
+KW  - ramularia areola
+KW  - remote sensing
+DO  - 10.3390/drones3020033
+TY  - EJOU
+AU  - Durante, Pilar
+AU  - Martín-Alcón, Santiago
+AU  - Gil-Tena, Assu
+AU  - Algeet, Nur
+AU  - Tomé, José L.
+AU  - Recuero, Laura
+AU  - Palacios-Orueta, Alicia
+AU  - Oyonarte, Cecilio
+TI  - Improving Aboveground Forest Biomass Maps: From High-Resolution to National Scale
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 7
+SN  - 2072-4292
+
+AB  - Forest aboveground biomass (AGB) estimation over large extents and high temporal resolution is crucial in managing Mediterranean forest ecosystems, which have been predicted to be very sensitive to climate change effects. Although many modeling procedures have been tested to assess forest AGB, most of them cover small areas and attain high accuracy in evaluations that are difficult to update and extrapolate without large uncertainties. In this study, focusing on the Region of Murcia in Spain (11,313 km2), we integrated forest AGB estimations, obtained from high-precision airborne laser scanning (ALS) data calibrated with plot-level ground-based measures and bio-geophysical spectral variables (eight different indices derived from MODIS computed at different temporal resolutions), as well as topographic factors as predictors. We used a quantile regression forest (QRF) to spatially predict biomass and the associated uncertainty. The fitted model produced a satisfactory performance (R2 0.71 and RMSE 9.99 t&middot;ha&minus;1) with the normalized difference vegetation index (NDVI) as the main vegetation index, in combination with topographic variables as environmental drivers. An independent validation carried out over the final predicted biomass map showed a satisfactory statistically-robust model (R2 0.70 and RMSE 10.25 t&middot;ha&minus;1), confirming its applicability at coarser resolutions.
+KW  - mediterranean forest
+KW  - climate change
+KW  - ALS
+KW  - MODIS
+KW  - quantile regression forest
+KW  - uncertainty
+DO  - 10.3390/rs11070795
+TY  - EJOU
+AU  - Shen, Xin
+AU  - Cao, Lin
+AU  - Yang, Bisheng
+AU  - Xu, Zhong
+AU  - Wang, Guibin
+TI  - Estimation of Forest Structural Attributes Using Spectral Indices and Point Clouds from UAS-Based Multispectral and RGB Imageries
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 7
+SN  - 2072-4292
+
+AB  - Forest structural attributes are key indicators for parameterization of forest growth models, which play key roles in understanding the biophysical processes and function of the forest ecosystem. In this study, UAS-based multispectral and RGB imageries were used to estimate forest structural attributes in planted subtropical forests. The point clouds were generated from multispectral and RGB imageries using the digital aerial photogrammetry (DAP) approach. Different suits of spectral and structural metrics (i.e., wide-band spectral indices and point cloud metrics) derived from multispectral and RGB imageries were compared and assessed. The selected spectral and structural metrics were used to fit partial least squares (PLS) regression models individually and in combination to estimate forest structural attributes (i.e., Lorey&rsquo;s mean height (HL) and volume(V)), and the capabilities of multispectral- and RGB-derived spectral and structural metrics in predicting forest structural attributes in various stem density forests were assessed and compared. The results indicated that the derived DAP point clouds had perfect visual effects and that most of the structural metrics extracted from the multispectral DAP point cloud were highly correlated with the metrics derived from the RGB DAP point cloud (R2 &gt; 0.75). Although the models including only spectral indices had the capability to predict forest structural attributes with relatively high accuracies (R2 = 0.56&ndash;0.69, relative Root-Mean-Square-Error (RMSE) = 10.88&ndash;21.92%), the models with spectral and structural metrics had higher accuracies (R2 = 0.82&ndash;0.93, relative RMSE = 4.60&ndash;14.17%). Moreover, the models fitted using multispectral- and RGB-derived metrics had similar accuracies (∆R2 = 0&ndash;0.02, ∆ relative RMSE = 0.18&ndash;0.44%). In addition, the combo models fitted with stratified sample plots had relatively higher accuracies than those fitted with all of the sample plots (∆R2 = 0&ndash;0.07, ∆ relative RMSE = 0.49&ndash;3.08%), and the accuracies increased with increasing stem density.
+KW  - UAS platform
+KW  - multispectral imagery
+KW  - point cloud
+KW  - forest structural attributes
+DO  - 10.3390/rs11070800
+TY  - EJOU
+AU  - Azabi, Yousef
+AU  - Savvaris, Al
+AU  - Kipouros, Timoleon
+TI  - Artificial Intelligence to Enhance Aerodynamic Shape Optimisation of the Aegis UAV
+T2  - Machine Learning and Knowledge Extraction
+
+PY  - 2019
+VL  - 1
+IS  - 2
+SN  - 2504-4990
+
+AB  - This article presents an optimisation framework that uses stochastic multi-objective optimisation, combined with an Artificial Neural Network (ANN), and describes its application to the aerodynamic design of aircraft shapes. The framework uses the Multi-Objective Particle Swarm Optimisation (MOPSO) algorithm and the obtained results confirm that the proposed technique provides highly optimal solutions in less computational time than other approaches to the same design problem. The main idea was to focus computational effort on worthwhile design solutions rather than exploring and evaluating all possible solutions in the design space. It is shown that the number of valid solutions obtained using ANN-MOPSO compared to MOPSO for 3000 evaluations grew from 529 to 1006 (90% improvement) with a penalty of only 8.3% (11 min) in computational time. It is demonstrated that including an ANN, the ANN-MOPSO with 3000 evaluations produced a larger number of valid solutions than the MOPSO with 5500 evaluations, and in 33% less computational time (64 min). This is taken as confirmation of the potential power of ANNs when applied to this type of design problem.
+KW  - machine learning
+KW  - data visualization
+KW  - Multi-Objective Particle Swarm Optimisation
+KW  - Multi-Objective Tabu Search
+KW  - nimrod/tool
+KW  - parallel coordinates
+KW  - Athena Vortex Lattice
+DO  - 10.3390/make1020033
+TY  - EJOU
+AU  - Hong, Suk-Ju
+AU  - Han, Yunhyeok
+AU  - Kim, Sang-Yeon
+AU  - Lee, Ah-Yeong
+AU  - Kim, Ghiseok
+TI  - Application of Deep-Learning Methods to Bird Detection Using Unmanned Aerial Vehicle Imagery
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 7
+SN  - 1424-8220
+
+AB  - Wild birds are monitored with the important objectives of identifying their habitats and estimating the size of their populations. Especially in the case of migratory bird, they are significantly recorded during specific periods of time to forecast any possible spread of animal disease such as avian influenza. This study led to the construction of deep-learning-based object-detection models with the aid of aerial photographs collected by an unmanned aerial vehicle (UAV). The dataset containing the aerial photographs includes diverse images of birds in various bird habitats and in the vicinity of lakes and on farmland. In addition, aerial images of bird decoys are captured to achieve various bird patterns and more accurate bird information. Bird detection models such as Faster Region-based Convolutional Neural Network (R-CNN), Region-based Fully Convolutional Network (R-FCN), Single Shot MultiBox Detector (SSD), Retinanet, and You Only Look Once (YOLO) were created and the performance of all models was estimated by comparing their computing speed and average precision. The test results show Faster R-CNN to be the most accurate and YOLO to be the fastest among the models. The combined results demonstrate that the use of deep-learning-based detection methods in combination with UAV aerial imagery is fairly suitable for bird detection in various environments.
+KW  - deep learning
+KW  - convolutional neural networks
+KW  - unmanned aerial vehicle
+KW  - bird detection
+DO  - 10.3390/s19071651
+TY  - EJOU
+AU  - Poortinga, Ate
+AU  - Tenneson, Karis
+AU  - Shapiro, Aurélie
+AU  - Nquyen, Quyen
+AU  - San Aung, Khun
+AU  - Chishtie, Farrukh
+AU  - Saah, David
+TI  - Mapping Plantations in Myanmar by Fusing Landsat-8, Sentinel-2 and Sentinel-1 Data along with Systematic Error Quantification
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 7
+SN  - 2072-4292
+
+AB  - Forests in Southeast Asia are experiencing some of the highest rates of deforestation and degradation in the world, with natural forest species being replaced by cropland and plantation monoculture. In this work, we have developed an innovative method to accurately map rubber and palm oil plantations using fusion of Landsat-8, Sentinel 1 and 2. We applied cloud and shadow masking, bidirectional reflectance distribution function (BRDF), atmospheric and topographic corrections to the optical imagery and a speckle filter and harmonics for Synthetic Aperture Radar (SAR) data. In this workflow, we created yearly composites for all sensors and combined the data into a single composite. A series of covariates were calculated from optical bands and sampled using reference data of the land cover classes including surface water, forest, urban and built-up, cropland, rubber, palm oil and mangrove. This training dataset was used to create biophysical probability layers (primitives) for each class. These primitives were then used to create land cover and probability maps in a decision tree logic and Monte-Carlo simulations. Validation showed good overall accuracy (84%) for the years 2017 and 2018. Filtering for validation points with high error estimates improved the accuracy up to 91%. We demonstrated and concluded that error quantification is an essential step in land cover classification and land cover change detection. Our overall analysis supports and presents a path for improving present assessments for sustainable supply chain analyses and associated recommendations.
+KW  - landsat
+KW  - sentinel
+KW  - SAR
+KW  - plantations
+KW  - myanmar
+KW  - rubber
+KW  - palm oil
+KW  - land cover mapping
+KW  - uncertainty
+KW  - error quantification
+KW  - Google Earth Engine
+DO  - 10.3390/rs11070831
+TY  - EJOU
+AU  - Mao, Huihui
+AU  - Meng, Jihua
+AU  - Ji, Fujiang
+AU  - Zhang, Qiankun
+AU  - Fang, Huiting
+TI  - Comparison of Machine Learning Regression Algorithms for Cotton Leaf Area Index Retrieval Using Sentinel-2 Spectral Bands
+T2  - Applied Sciences
+
+PY  - 2019
+VL  - 9
+IS  - 7
+SN  - 2076-3417
+
+AB  - Leaf area index (LAI) is a crucial crop biophysical parameter that has been widely used in a variety of fields. Five state-of-the-art machine learning regression algorithms (MLRAs), namely, artificial neural network (ANN), support vector regression (SVR), Gaussian process regression (GPR), random forest (RF) and gradient boosting regression tree (GBRT), have been used in the retrieval of cotton LAI with Sentinel-2 spectral bands. The performances of the five machine learning models are compared for better applications of MLRAs in remote sensing, since challenging problems remain in the selection of MLRAs for crop LAI retrieval, as well as the decision as to the optimal number for the training sample size and spectral bands to different MLRAs. A comprehensive evaluation was employed with respect to model accuracy, computational efficiency, sensitivity to training sample size and sensitivity to spectral bands. We conducted the comparison of five MLRAs in an agricultural area of Northwest China over three cotton seasons with the corresponding field campaigns for modeling and validation. Results show that the GBRT model outperforms the other models with respect to model accuracy in average (       R 2   &macr;      = 0.854,       R M S E  &macr;      = 0.674 and       M A E  &macr;      = 0.456). SVR achieves the best performance in computational efficiency, which means it is fast to train, and to validate that it has great potentials to deliver near-real-time operational products for crop management. As for sensitivity to training sample size, GBRT behaves as the most robust model, and provides the best model accuracy on the average among the variations of training sample size, compared with other models (       R 2   &macr;      = 0.884,       R M S E  &macr;      = 0.615 and       M A E  &macr;      = 0.452). Spectral bands sensitivity analysis with dCor (distance correlation), combined with the backward elimination approach, indicates that SVR, GPR and RF provide relatively robust performance to the spectral bands, while ANN outperforms the other models in terms of model accuracy on the average among the reduction of spectral bands (       R 2   &macr;      = 0.881,       R M S E  &macr;      = 0.625 and       M A E  &macr;      = 0.480). A comprehensive evaluation indicates that GBRT is an appealing alternative for cotton LAI retrieval, except for its computational efficiency. Despite the different performance of the ML models, all models exhibited considerable potential for cotton LAI retrieval, which could offer accurate crop parameters information timely and accurately for crop fields management and agricultural production decisions.
+KW  - leaf area index (LAI)
+KW  - machine learning
+KW  - Sentinel-2
+KW  - sensitivity analysis
+KW  - training sample size
+KW  - spectral bands
+DO  - 10.3390/app9071459
+TY  - EJOU
+AU  - Wada, Daichi
+AU  - Tamayama, Masato
+TI  - Wing Load and Angle of Attack Identification by Integrating Optical Fiber Sensing and Neural Network Approach in Wind Tunnel Test
+T2  - Applied Sciences
+
+PY  - 2019
+VL  - 9
+IS  - 7
+SN  - 2076-3417
+
+AB  - The load and angle of attack (AoA) for wing structures are critical parameters to be monitored for efficient operation of an aircraft. This study presents wing load and AoA identification techniques by integrating an optical fiber sensing technique and a neural network approach. We developed a 3.6-m semi-spanned wing model with eight flaps and bonded two optical fibers with 30 fiber Bragg gratings (FBGs) each along the main and aft spars. Using this model in a wind tunnel test, we demonstrate load and AoA identification through a neural network approach. We input the FBG data and the eight flap angles to a neural network and output estimated load distributions on the eight wing segments. Thereafter, we identify the AoA by using the estimated load distributions and the flap angles through another neural network. This multi-neural-network process requires only the FBG and flap angle data to be measured. We successfully identified the load distributions with an error range of &minus;1.5&ndash;1.4 N and a standard deviation of 0.57 N. The AoA was also successfully identified with error ranges of &minus;1.03&ndash;0.46&deg; and a standard deviation of 0.38&deg;.
+KW  - fiber Bragg grating (FBG)
+KW  - load identification
+KW  - machine learning
+KW  - neural network
+KW  - optical fiber sensor
+KW  - structural monitoring
+DO  - 10.3390/app9071461
+TY  - EJOU
+AU  - Li, You
+AU  - Zahran, Shady
+AU  - Zhuang, Yuan
+AU  - Gao, Zhouzheng
+AU  - Luo, Yiran
+AU  - He, Zhe
+AU  - Pei, Ling
+AU  - Chen, Ruizhi
+AU  - El-Sheimy, Naser
+TI  - IMU/Magnetometer/Barometer/Mass-Flow Sensor Integrated Indoor Quadrotor UAV Localization with Robust Velocity Updates
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 7
+SN  - 2072-4292
+
+AB  - Velocity updates have been proven to be important for constraining motion-sensor-based dead-reckoning (DR) solutions in indoor unmanned aerial vehicle (UAV) applications. The forward velocity from a mass flow sensor and the lateral and vertical non-holonomic constraints (NHC) can be utilized for three-dimensional (3D) velocity updates. However, it is observed that (a) the quadrotor UAV may have a vertical velocity trend when it is controlled to move horizontally; (b) the quadrotor may have a pitch angle when moving horizontally; and (c) the mass flow sensor may suffer from sensor errors, especially the scale factor error. Such phenomenons degrade the performance of velocity updates. Thus, this paper presents a multi-sensor integrated localization system that has more effective sensor interactions. Specifically, (a) the barometer data are utilized to detect height changes and thus determine the weight of vertical velocity update; (b) the pitch angle from the inertial measurement unit (IMU) and magnetometer data fusion is used to set the weight of forward velocity update; and (c) an extra mass flow sensor calibration module is introduced. Indoor flight tests have indicated the effectiveness of the proposed sensor interaction strategies in enhancing indoor quadrotor DR solutions, which can also be used for detecting outliers in external localization technologies such as ultrasonics.
+KW  - indoor localization
+KW  - quadrotor UAV
+KW  - air flow
+KW  - inertial sensor
+KW  - magnetometer
+KW  - barometer
+KW  - ultrasonic
+KW  - Kalman filter
+DO  - 10.3390/rs11070838
+TY  - EJOU
+AU  - Marques, Pedro
+AU  - Pádua, Luís
+AU  - Adão, Telmo
+AU  - Hruška, Jonáš
+AU  - Peres, Emanuel
+AU  - Sousa, António
+AU  - Sousa, Joaquim J.
+TI  - UAV-Based Automatic Detection and Monitoring of Chestnut Trees
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 7
+SN  - 2072-4292
+
+AB  - Unmanned aerial vehicles have become a popular remote sensing platform for agricultural applications, with an emphasis on crop monitoring. Although there are several methods to detect vegetation through aerial imagery, these remain dependent of manual extraction of vegetation parameters. This article presents an automatic method that allows for individual tree detection and multi-temporal analysis, which is crucial in the detection of missing and new trees and monitoring their health conditions over time. The proposed method is based on the computation of vegetation indices (VIs), while using visible (RGB) and near-infrared (NIR) domain combination bands combined with the canopy height model. An overall segmentation accuracy above 95% was reached, even when RGB-based VIs were used. The proposed method is divided in three major steps: (1) segmentation and first clustering; (2) cluster isolation; and (3) feature extraction. This approach was applied to several chestnut plantations and some parameters&mdash;such as the number of trees present in a plantation (accuracy above 97%), the canopy coverage (93% to 99% accuracy), the tree height (RMSE of 0.33 m and R2 = 0.86), and the crown diameter (RMSE of 0.44 m and R2 = 0.96)&mdash;were automatically extracted. Therefore, by enabling the substitution of time-consuming and costly field campaigns, the proposed method represents a good contribution in managing chestnut plantations in a quicker and more sustainable way.
+KW  - unmanned aerial vehicles
+KW  - remote sensing
+KW  - automatic plantation monitoring
+KW  - chestnut trees
+KW  - image processing
+KW  - photogrammetric processing
+KW  - multi-temporal analysis
+DO  - 10.3390/rs11070855
+TY  - EJOU
+AU  - Fradette, Marie-Soleil
+AU  - Leboeuf, Antoine
+AU  - Riopel, Martin
+AU  - Bégin, Jean
+TI  - Method to Reduce the Bias on Digital Terrain Model and Canopy Height Model from LiDAR Data
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 7
+SN  - 2072-4292
+
+AB  - Underestimation of LiDAR heights is widely known but has never been evaluated for several sensors and for diverse types of ecological conditions. This underestimation is mainly linked to the probability of the pulse to reach the ground and the top of vegetation. Main causes of this underestimation are pulse density, pattern of scan (sensors), scan angles, specific contract parameters (flying altitude, pulse repetition frequency) and characteristics of the territory (slopes, stand density and species composition). This study, carried out at a resolution of 1 &times; 1 m, first assessed the possibility of making an adjustment model to correct the bias of the digital terrain model (DTM), and then proposed a global adjustment model to correct the bias on the canopy height model (CHM). For this study, the bias of both DTM and CHM were calculated by subtracting two LiDAR datasets: high-density pixels with 21 pulses/m&sup2; (first return) and more (DTM or CHM reference value pixels) and low-density pixels (DTM or CHM value to correct). After preliminary analyses, it was concluded that the DTM did not need specific adjustment. In contrast, the CHM needed adjustments. Among the variables studied, three were selected for the final CHM adjustment model: the maximum height of the pixel (H2Corr); the density of first returns by m2 (D_first); and the standard deviation of nine maximum heights of the neighborhood cells (H_STD9). The modeling occurred in three steps. The first two steps enabled the determination of significant variables and the shape of the equation to be defined (linear mixed model and non-linear model). The third step made it possible to propose an empirical equation using a non-linear mixed model that can be applied to a 1 &times; 1 m CHM. The CHM underestimation correction could be used for a preliminary step to several uses of the CHM such as volume calculation, forest growth models or multi-temporal analysis.
+KW  - LiDAR
+KW  - canopy height model
+KW  - digital terrain model
+KW  - pulse density
+KW  - LiDAR metrics
+KW  - stand structure
+DO  - 10.3390/rs11070863
+TY  - EJOU
+AU  - Liu, Yao
+AU  - Shi, Jianmai
+AU  - Liu, Zhong
+AU  - Huang, Jincai
+AU  - Zhou, Tianren
+TI  - Two-Layer Routing for High-Voltage Powerline Inspection by Cooperated Ground Vehicle and Drone
+T2  - Energies
+
+PY  - 2019
+VL  - 12
+IS  - 7
+SN  - 1996-1073
+
+AB  - A novel high-voltage powerline inspection system was investigated, which consists of the cooperated ground vehicle and drone. The ground vehicle acts as a mobile platform that can launch and recycle the drone, while the drone can fly over the powerline for inspection within limited endurance. This inspection system enables the drone to inspect powerline networks in a very large area. Both vehicle&rsquo; route in the road network and drone&rsquo;s routes along the powerline network have to be optimized for improving the inspection efficiency, which generates a new Two-Layer Point-Arc Routing Problem (2L-PA-RP). Two constructive heuristics were designed based on &ldquo;Cluster First, Route Second&rdquo; and &ldquo;Route First, Split Second&rdquo;. Then, local search strategies were developed to further improve the quality of the solution. To test the performance of the proposed algorithms, different-scale practical cases were designed based on the road network and powerline network of Ji&rsquo;an, China. Sensitivity analysis on the parameters related to the drone&rsquo;s inspection speed and battery capacity was conducted. Computational results indicate that technical improvement on the inspection sensor is more important for the cooperated ground vehicle and drone system.
+KW  - high-voltage powerline inspection
+KW  - vehicle routing
+KW  - arc routing
+KW  - drone
+KW  - heuristic
+DO  - 10.3390/en12071385
+TY  - EJOU
+AU  - Yang, Bo
+AU  - Zhang, Sheng
+AU  - Tian, Yan
+AU  - Li, Bijun
+TI  - Front-Vehicle Detection in Video Images Based on Temporal and Spatial Characteristics
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 7
+SN  - 1424-8220
+
+AB  - Assisted driving and unmanned driving have been areas of focus for both industry and academia. Front-vehicle detection technology, a key component of both types of driving, has also attracted great interest from researchers. In this paper, to achieve front-vehicle detection in unmanned or assisted driving, a vision-based, efficient, and fast front-vehicle detection method based on the spatial and temporal characteristics of the front vehicle is proposed. First, a method to extract the motion vector of the front vehicle is put forward based on Oriented FAST and Rotated BRIEF (ORB) and the spatial position constraint. Then, by analyzing the differences between the motion vectors of the vehicle and those of the background, feature points of the vehicle are extracted. Finally, a feature-point clustering method based on a combination of temporal and spatial characteristics are applied to realize front-vehicle detection. The effectiveness of the proposed algorithm is verified using a large number of videos.
+KW  - motion vector
+KW  - vanishing point
+KW  - clustering
+KW  - front-vehicle detection
+DO  - 10.3390/s19071728
+TY  - EJOU
+AU  - Adriano, Bruno
+AU  - Xia, Junshi
+AU  - Baier, Gerald
+AU  - Yokoya, Naoto
+AU  - Koshimura, Shunichi
+TI  - Multi-Source Data Fusion Based on Ensemble Learning for Rapid Building Damage Mapping during the 2018 Sulawesi Earthquake and Tsunami in Palu, Indonesia
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 7
+SN  - 2072-4292
+
+AB  - This work presents a detailed analysis of building damage recognition, employing multi-source data fusion and ensemble learning algorithms for rapid damage mapping tasks. A damage classification framework is introduced and tested to categorize the building damage following the recent 2018 Sulawesi earthquake and tsunami. Three robust ensemble learning classifiers were investigated for recognizing building damage from Synthetic Aperture Radar (SAR) and optical remote sensing datasets and their derived features. The contribution of each feature dataset was also explored, considering different combinations of sensors as well as their temporal information. SAR scenes acquired by the ALOS-2 PALSAR-2 and Sentinel-1 sensors were used. The optical Sentinel-2 and PlanetScope sensors were also included in this study. A non-local filter in the preprocessing phase was used to enhance the SAR features. Our results demonstrated that the canonical correlation forests classifier performs better in comparison to the other classifiers. In the data fusion analysis, Digital Elevation Model (DEM)- and SAR-derived features contributed the most in the overall damage classification. Our proposed mapping framework successfully classifies four levels of building damage (with overall accuracy &gt;90%, average accuracy &gt;67%). The proposed framework learned the damage patterns from a limited available human-interpreted building damage annotation and expands this information to map a larger affected area. This process including pre- and post-processing phases were completed in about 3 h after acquiring all raw datasets.
+KW  - 2018 Sulawesi earthquake-tsunami
+KW  - rapid building damage mapping
+KW  - ensemble learning classifier
+DO  - 10.3390/rs11070886
+TY  - EJOU
+AU  - Du, Zhenrong
+AU  - Yang, Jianyu
+AU  - Ou, Cong
+AU  - Zhang, Tingting
+TI  - Smallholder Crop Area Mapped with a Semantic Segmentation Deep Learning Method
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 7
+SN  - 2072-4292
+
+AB  - The growing population in China has led to an increasing importance of crop area (CA) protection. A powerful tool for acquiring accurate and up-to-date CA maps is automatic mapping using information extracted from high spatial resolution remote sensing (RS) images. RS image information extraction includes feature classification, which is a long-standing research issue in the RS community. Emerging deep learning techniques, such as the deep semantic segmentation network technique, are effective methods to automatically discover relevant contextual features and get better image classification results. In this study, we exploited deep semantic segmentation networks to classify and extract CA from high-resolution RS images. WorldView-2 (WV-2) images with only Red-Green-Blue (RGB) bands were used to confirm the effectiveness of the proposed semantic classification framework for information extraction and the CA mapping task. Specifically, we used the deep learning framework TensorFlow to construct a platform for sampling, training, testing, and classifying to extract and map CA on the basis of DeepLabv3+. By leveraging per-pixel and random sample point accuracy evaluation methods, we conclude that the proposed approach can efficiently obtain acceptable accuracy (Overall Accuracy = 95%, Kappa = 0.90) of CA classification in the study area, and the approach performs better than other deep semantic segmentation networks (U-Net/PspNet/SegNet/DeepLabv2) and traditional machine learning methods, such as Maximum Likelihood (ML), Support Vector Machine (SVM), and RF (Random Forest). Furthermore, the proposed approach is highly scalable for the variety of crop types in a crop area. Overall, the proposed approach can train a precise and effective model that is capable of adequately describing the small, irregular fields of smallholder agriculture and handling the great level of details in RGB high spatial resolution images.
+KW  - agriculture
+KW  - high spatial resolution images
+KW  - semantic labeling
+DO  - 10.3390/rs11070888
+TY  - EJOU
+AU  - Jiang, Qi
+AU  - Fang, Shenghui
+AU  - Peng, Yi
+AU  - Gong, Yan
+AU  - Zhu, Renshan
+AU  - Wu, Xianting
+AU  - Ma, Yi
+AU  - Duan, Bo
+AU  - Liu, Jian
+TI  - UAV-Based Biomass Estimation for Rice-Combining Spectral, TIN-Based Structural and Meteorological Features
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 7
+SN  - 2072-4292
+
+AB  - Accurate estimation of above ground biomass (AGB) is very important for crop growth monitoring. The objective of this study was to estimate rice biomass by utilizing structural and meteorological features with widely used spectral features. Structural features were derived from the triangulated irregular network (TIN), which was directly built from structure from motion (SfM) point clouds. Growing degree days (GDD) was used as the meteorological feature. Three models were used to estimate rice AGB, including the simple linear regression (SLR) model, simple exponential regression (SER) model, and machine learning model (random forest). Compared to models that do not use structural and meteorological features (NDRE, R2 = 0.64, RMSE = 286.79 g/m2, MAE = 236.49 g/m2), models that include such features obtained better estimation accuracy (NDRE*Hcv/GDD, R2 = 0.86, RMSE = 178.37 g/m2, MAE = 127.34 g/m2). This study suggests that the estimation accuracy of rice biomass can benefit from the utilization of structural and meteorological features.
+KW  - unmanned aerial vehicle (UAV)
+KW  - above ground biomass (AGB)
+KW  - triangulated irregular network (TIN)
+KW  - growing degree days (GDD)
+DO  - 10.3390/rs11070890
+TY  - EJOU
+AU  - Tsai, Ya-Lun S.
+AU  - Dietz, Andreas
+AU  - Oppelt, Natascha
+AU  - Kuenzer, Claudia
+TI  - Wet and Dry Snow Detection Using Sentinel-1 SAR Data for Mountainous Areas with a Machine Learning Technique
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 8
+SN  - 2072-4292
+
+AB  - Traditional studies on mapping wet snow cover extent (SCE) often feature limitations, especially in vegetated and mountainous areas. The aim of this study is to propose a new total and wet SCE mapping strategy based on freely accessible spaceborne synthetic aperture radar (SAR) data. The approach is transferable on a global scale as well as for different land cover types (including densely vegetated forest and agricultural regions), and is based on the use of backscattering coefficient, interferometric SAR coherence, and polarimetric parameters. Furthermore, four topographical factors were included in the simple tuning of random forest-based land cover type-dependent classification strategy. Results showed the classification accuracy was above 0.75, with an F-measure higher than 0.70, in all five selected regions of interest located around globally distributed mountain ranges. Whilst excluding forest-type land cover classes, the accuracy and F-measure increases to 0.80 and 0.75. In cross-location model set, the accuracy can also be maintained at 0.80 with non-forest accuracy up to 0.85. It has been found that the elevation and polarimetric parameters are the most critical factors, and that the quality of land cover information would also affect the subsequent mapping reliability. In conclusion, through comprehensive validation using optical satellite and in-situ data, our land cover-dependent total SCE mapping approach has been confirmed to be robustly applicable, and the holistic SCE map for different months were eventually derived.
+KW  - synthetic aperture radar
+KW  - InSAR
+KW  - PolSAR
+KW  - backscattering
+KW  - random forest
+KW  - snow cover area
+KW  - land use land cover
+KW  - Sentinel-2
+KW  - Landsat
+DO  - 10.3390/rs11080895
+TY  - EJOU
+AU  - Das V., Jithin
+AU  - Sharma, Shubham
+AU  - Kaushik, Abhishek
+TI  - Views of Irish Farmers on Smart Farming Technologies: An Observational Study
+T2  - AgriEngineering
+
+PY  - 2019
+VL  - 1
+IS  - 2
+SN  - 2624-7402
+
+AB  - The primary objective of this research is to find the disparity for slow adoption of Smart Farming Technologies (SFT) in Ireland. The usage of Cloud Computing technology among Irish farmers would help to find out the adoption behaviour barrier and way to enhance from the present system. The research will also help us to indicate the reasons for farmers in adopting and not adopting any technology. The research followed a mixed method where both surveys and interviews were used to collect the data from Irish farmers. A total sample of 32 farmers were selected through snowball sampling with the help of social websites. This study explored the major factors in adopting new technology among Irish farmers. It also helped to find the perception of farmers and ways to improve from the present system. The result shows that Cloud Computing adoption among the young farmers is greater while it is lower among the old farmers in Ireland.
+KW  - smart farming
+KW  - smart farming technology
+KW  - cloud computing
+KW  - Irish farmers
+DO  - 10.3390/agriengineering1020013
+TY  - EJOU
+AU  - Brini, Oussama
+AU  - Deslandes, Dominic
+AU  - Nabki, Frederic
+TI  - A System-Level Methodology for the Design of Reliable Low-Power Wireless Sensor Networks
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 8
+SN  - 1424-8220
+
+AB  - Innovative Internet of Things (IoT) applications with strict performance and energy consumption requirements and where the agile collection of data is paramount are arising. Wireless sensor networks (WSNs) represent a promising solution as they can be easily deployed to sense, process, and forward data. The large number of Sensor Nodes (SNs) composing a WSN are expected to be autonomous, with a node&rsquo;s lifetime dictated by the battery&rsquo;s size. As the form factor of the SN is critical in various use cases, minimizing energy consumption while ensuring availability becomes a priority. Moreover, energy harvesting techniques are increasingly considered as a viable solution for building an entirely green SN and prolonging its lifetime. In the process of building a SN and in the absence of a clear and well-rounded methodology, the designer can easily make unfounded and suboptimal decisions about the right hardware components, their configuration, and reliable data communication techniques, such as automatic repeat request (ARQ) and forward error correction (FEC). In this paper, a methodology to design, configure, and deploy a reliable ultra-low power WSNs is proposed. A comprehensive energy model and a realistic path-loss (PL) model of the sensor node are also established. Through estimations and field measurements it is proven that, following the proposed methodology, the designer can thoroughly explore the design space and the make most favorable decisions when choosing commercial off-the-shelf (COTS) components, configuring the node, and deploying a reliable and energy-efficient WSN.
+KW  - wireless sensor network (WSN)
+KW  - design methodology
+KW  - energy model
+KW  - path-loss
+KW  - low-power
+KW  - system-level design
+KW  - link layer
+KW  - automatic repeat request (ARQ)
+KW  - forward error correction (FEC)
+DO  - 10.3390/s19081800
+TY  - EJOU
+AU  - Shah, Syed H.
+AU  - Angel, Yoseline
+AU  - Houborg, Rasmus
+AU  - Ali, Shawkat
+AU  - McCabe, Matthew F.
+TI  - A Random Forest Machine Learning Approach for the Retrieval of Leaf Chlorophyll Content in Wheat
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 8
+SN  - 2072-4292
+
+AB  - Developing rapid and non-destructive methods for chlorophyll estimation over large spatial areas is a topic of much interest, as it would provide an indirect measure of plant photosynthetic response, be useful in monitoring soil nitrogen content, and offer the capacity to assess vegetation structural and functional dynamics. Traditional methods of direct tissue analysis or the use of handheld meters, are not able to capture chlorophyll variability at anything beyond point scales, so are not particularly useful for informing decisions on plant health and status at the field scale. Examining the spectral response of plants via remote sensing has shown much promise as a means to capture variations in vegetation properties, while offering a non-destructive and scalable approach to monitoring. However, determining the optimum combination of spectra or spectral indices to inform plant response remains an active area of investigation. Here, we explore the use of a machine learning approach to enhance the estimation of leaf chlorophyll (Chlt), defined as the sum of chlorophyll a and b, from spectral reflectance data. Using an ASD FieldSpec 4 Hi-Res spectroradiometer, 2700 individual leaf hyperspectral reflectance measurements were acquired from wheat plants grown across a gradient of soil salinity and nutrient levels in a greenhouse experiment. The extractable Chlt was determined from laboratory analysis of 270 collocated samples, each composed of three leaf discs. A random forest regression algorithm was trained against these data, with input predictors based upon (1) reflectance values from 2102 bands across the 400&ndash;2500 nm spectral range; and (2) 45 established vegetation indices. As a benchmark, a standard univariate regression analysis was performed to model the relationship between measured Chlt and the selected vegetation indices. Results show that the root mean square error (RMSE) was significantly reduced when using the machine learning approach compared to standard linear regression. When exploiting the entire spectral range of individual bands as input variables, the random forest estimated Chlt with an RMSE of 5.49 &micro;g&middot;cm&minus;2 and an R2 of 0.89. Model accuracy was improved when using vegetation indices as input variables, producing an RMSE ranging from 3.62 to 3.91 &micro;g&middot;cm&minus;2, depending on the particular combination of indices selected. In further analysis, input predictors were ranked according to their importance level, and a step-wise reduction in the number of input features (from 45 down to 7) was performed. Implementing this resulted in no significant effect on the RMSE, and showed that much the same prediction accuracy could be obtained by a smaller subset of indices. Importantly, the random forest regression approach identified many important variables that were not good predictors according to their linear regression statistics. Overall, the research illustrates the promise in using established vegetation indices as input variables in a machine learning approach for the enhanced estimation of Chlt from hyperspectral data.
+KW  - chlorophyll
+KW  - wheat
+KW  - photosynthetic pigment
+KW  - linear regression
+KW  - vegetation indices
+KW  - hyperspectral
+KW  - leaf
+KW  - retrieval
+KW  - prediction
+DO  - 10.3390/rs11080920
+TY  - EJOU
+AU  - Liu, Yuan
+AU  - Sui, Xiubao
+AU  - Kuang, Xiaodong
+AU  - Liu, Chengwei
+AU  - Gu, Guohua
+AU  - Chen, Qian
+TI  - Object Tracking Based on Vector Convolutional Network and Discriminant Correlation Filters
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 8
+SN  - 1424-8220
+
+AB  - Due to the fast speed and high efficiency, discriminant correlation filter (DCF) has drawn great attention in online object tracking recently. However, with the improvement of performance, the costs are the increase in parameters and the decline of speed. In this paper, we propose a novel visual tracking algorithm, namely VDCFNet, and combine DCF with a vector convolutional network (VCNN). We replace one traditional convolutional filter with two novel vector convolutional filters in the convolutional stage of our network. This enables our model with few memories (only 59 KB) trained offline to learn the generic image features. In the online tracking stage, we propose a coarse-to-fine search strategy to solve drift problems under fast motion. Besides, we update model selectively to speed up and increase robustness. The experiments on OTB benchmarks demonstrate that our proposed VDCFNet can achieve a competitive performance while running over real-time speed.
+KW  - object tracking
+KW  - convolutional neural network
+KW  - discriminant correlation filter
+DO  - 10.3390/s19081818
+TY  - EJOU
+AU  - Zhu, Jiasong
+AU  - Chen, Siyuan
+AU  - Tu, Wei
+AU  - Sun, Ke
+TI  - Tracking and Simulating Pedestrian Movements at Intersections Using Unmanned Aerial Vehicles
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 8
+SN  - 2072-4292
+
+AB  - For a city to be livable and walkable is the ultimate goal of future cities. However, conflicts among pedestrians, vehicles, and cyclists at traffic intersections are becoming severe in high-density urban transportation areas, especially in China. Correspondingly, the transit time at intersections is becoming prolonged, and pedestrian safety is becoming endangered. Simulating pedestrian movements at complex traffic intersections is necessary to optimize the traffic organization. We propose an unmanned aerial vehicle (UAV)-based method for tracking and simulating pedestrian movements at intersections. Specifically, high-resolution videos acquired by a UAV are used to recognize and position moving targets, including pedestrians, cyclists, and vehicles, using the convolutional neural network. An improved social force-based motion model is proposed, considering the conflicts among pedestrians, cyclists, and vehicles. In addition, maximum likelihood estimation is performed to calibrate an improved social force model. UAV videos of intersections in Shenzhen are analyzed to demonstrate the performance of the presented approach. The results demonstrate that the proposed social force-based motion model can effectively simulate the movement of pedestrians and cyclists at road intersections. The presented approach provides an alternative method to track and simulate pedestrian movements, thus benefitting the organization of pedestrian flow and traffic signals controlling the intersections.
+KW  - pedestrian simulation
+KW  - social force model
+KW  - intersection
+KW  - UAV
+KW  - convolutional neural network
+KW  - deep learning
+DO  - 10.3390/rs11080925
+TY  - EJOU
+AU  - Tzitzilonis, Vasileios
+AU  - Malandrakis, Konstantinos
+AU  - Zanotti Fragonara, Luca
+AU  - Gonzalez Domingo, Jose A.
+AU  - Avdelidis, Nicolas P.
+AU  - Tsourdos, Antonios
+AU  - Forster, Kevin
+TI  - Inspection of Aircraft Wing Panels Using Unmanned Aerial Vehicles
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 8
+SN  - 1424-8220
+
+AB  - In large civil aircraft manufacturing, a time-consuming post-production process is the non-destructive inspection of wing panels. This work aims to address this challenge and improve the defects&rsquo; detection by performing automated aerial inspection using a small off-the-shelf multirotor. The UAV is equipped with a wide field-of-view camera and an ultraviolet torch for implementing non-invasive imaging inspection. In particular, the UAV is programmed to perform the complete mission and stream video, in real-time, to the ground control station where the defects&rsquo; detection algorithm is executed. The proposed platform was mathematically modelled in MATLAB/SIMULINK in order to assess the behaviour of the system using a path following method during the aircraft wing inspection. In addition, two defect detection algorithms were implemented and tested on a dataset containing images obtained during inspection at Airbus facilities. The results show that for the current dataset the proposed methods can identify all the images containing defects.
+KW  - Non-Destructive Testing
+KW  - ultraviolet light
+KW  - automated inspection
+KW  - defects detection
+KW  - UAV
+KW  - image processing
+DO  - 10.3390/s19081824
+TY  - EJOU
+AU  - Swinfield, Tom
+AU  - Lindsell, Jeremy A.
+AU  - Williams, Jonathan V.
+AU  - Harrison, Rhett D.
+AU  - Agustiono
+AU  - Habibi
+AU  - Gemita, Elva
+AU  - Schönlieb, Carola B.
+AU  - Coomes, David A.
+TI  - Accurate Measurement of Tropical Forest Canopy Heights and Aboveground Carbon Using Structure From Motion
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 8
+SN  - 2072-4292
+
+AB  - Unmanned aerial vehicles are increasingly used to monitor forests. Three-dimensional models of tropical rainforest canopies can be constructed from overlapping photos using Structure from Motion (SfM), but it is often impossible to map the ground elevation directly from such data because canopy gaps are rare in rainforests. Without knowledge of the terrain elevation, it is, thus, difficult to accurately measure the canopy height or forest properties, including the recovery stage and aboveground carbon density. Working in an Indonesian ecosystem restoration landscape, we assessed how well SfM derived the estimates of the canopy height and aboveground carbon density compared with those from an airborne laser scanning (also known as LiDAR) benchmark. SfM systematically underestimated the canopy height with a mean bias of approximately 5 m. The linear models suggested that the bias increased quadratically with the top-of-canopy height for short, even-aged, stands but linearly for tall, structurally complex canopies (&gt;10 m). The predictions based on the simple linear model were closely correlated to the field-measured heights when the approach was applied to an independent survey in a different location (    R 2     = 67% and RMSE = 1.85 m), but a negative bias of 0.89 m remained, suggesting the need to refine the model parameters with additional training data. Models that included the metrics of canopy complexity were less biased but with a reduced     R 2    . The inclusion of ground control points (GCPs) was found to be important in accurately registering SfM measurements in space, which is essential if the survey requirement is to produce small-scale restoration interventions or to track changes through time. However, at the scale of several hectares, the top-of-canopy height and above-ground carbon density estimates from SfM and LiDAR were very similar even without GCPs. The ability to produce accurate top-of-canopy height and carbon stock measurements from SfM is game changing for forest managers and restoration practitioners, providing the means to make rapid, low-cost surveys over hundreds of hectares without the need for LiDAR.
+KW  - UAV
+KW  - structure from motion
+KW  - tropical forest
+KW  - canopy height
+KW  - aboveground carbon
+KW  - biomass
+DO  - 10.3390/rs11080928
+TY  - EJOU
+AU  - Ma, Liqun
+AU  - Xia, Haoming
+AU  - Meng, Qingmin
+TI  - Spatiotemporal Variability of Asymmetric Daytime and Night-Time Warming and Its Effects on Vegetation in the Yellow River Basin from 1982 to 2015
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 8
+SN  - 1424-8220
+
+AB  - Temperatures from 1982 to 2015 have exhibited an asymmetric warming pattern between day and night throughout the Yellow River Basin. The response to this asymmetric warming can be linked to vegetation growth as quantified by the NDVI (Normalized Difference Vegetation Index). In this study, the time series trends of the maximum temperature (Tmax) and the minimum temperature (Tmin) and their spatial patterns in the growing season (April&ndash;October) of the Yellow River Basin from 1982 to 2015 were analyzed. We evaluated how vegetation NDVI had responded to daytime and night-time warming, based on NDVI and meteorological parameters (precipitation and temperature) over the period 1982&ndash;2015. We found: (1) a persistent increase in the growing season Tmax and Tmin in 1982&ndash;2015 as confirmed by using the Mann&ndash;Kendall (M&ndash;K) non-parametric test method (p &lt; 0.01), where the rate of increase of Tmin was 1.25 times that of Tmax, and thus the diurnal warming was asymmetric during 1982&ndash;2015; (2) the partial correlation between Tmax and NDVI was significantly positive only for cultivated plants, shrubs, and desert, which means daytime warming may increase arid and semi-arid vegetation&rsquo;s growth and coverage, and cultivated plants&rsquo; growth and yield. The partial correlation between Tmin and NDVI of all vegetation types except broadleaf forest is very significant (p &lt; 0.01) and, therefore, it has more impacts vegetation across the whole basin. This study demonstrates a methodogy for studying regional responses of vegetation to climate extremes under global climate change.
+KW  - Yellow River Basin
+KW  - growing season
+KW  - daytime and night-time warming
+KW  - asymmetric warming
+KW  - NDVI
+DO  - 10.3390/s19081832
+TY  - EJOU
+AU  - Raber, George T.
+AU  - Schill, Steven R.
+TI  - Reef Rover: A Low-Cost Small Autonomous Unmanned Surface Vehicle (USV) for Mapping and Monitoring Coral Reefs
+T2  - Drones
+
+PY  - 2019
+VL  - 3
+IS  - 2
+SN  - 2504-446X
+
+AB  - In the effort to design a more repeatable and consistent platform to collect data for Structure from Motion (SfM) monitoring of coral reefs and other benthic habitats, we explore the use of recent advances in open source Global Positioning System (GPS)-guided drone technology to design and test a low-cost and transportable small unmanned surface vehicle (sUSV). The vehicle operates using Ardupilot open source software and can be used by local scientists and marine managers to map and monitor marine environments in shallow areas (&lt;20 m) with commensurate visibility. The imaging system uses two Sony a6300 mirrorless cameras to collect stereo photos that can be later processed using photogrammetry software to create underwater high-resolution orthophoto mosaics and digital surface models. The propulsion system consists of two small brushless motors powered by lithium batteries that follow pre-programmed survey transects and are operated by a GPS-guided autopilot control board. Results from our project suggest the sUSV provides a repeatable, viable, and low-cost (&lt;$3000 USD) solution for acquiring images of benthic environments on a frequent basis from directly below the water surface. These images can be used to create SfM models that provide very detailed images and measurements that can be used to monitor changes in biodiversity, reef erosion/accretion, and assessing health conditions.
+KW  - coral reef
+KW  - small unmanned surface vehicle (sUSV)
+KW  - Rover
+KW  - underwater
+KW  - SfM
+KW  - monitoring
+DO  - 10.3390/drones3020038
+TY  - EJOU
+AU  - Galán-Jiménez, Jaime
+AU  - Berrocal, Javier
+AU  - Garcia-Alonso, Jose
+AU  - Azabal, Manuel J.
+TI  - A Novel Routing Scheme for Creating Opportunistic Context-Virtual Networks in IoT Scenarios
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 8
+SN  - 1424-8220
+
+AB  - The massive amount of traffic required by the emerging Internet of Things (IoT) paradigm can be supported by the imminent arrival of 5G next-generation networks. However, the limited capacity of resources in IoT nodes, e.g., battery lifetime or buffer space, opens a challenge to be taken into account when proposing new routing solutions on IoT scenarios with intermittent connectivity. In this paper, we propose the concept of Opportunistic Context-Virtual Networks (OCVNs). The novelty of this approach is to create virtual groups of nodes that share interests in common for routing purposes. Therefore, only the nodes that are interested in the content of the messages that are flowing throughout the network are used as relaying nodes, providing their own resources for the sake of the communication. By leveraging the use of store-carry-and-forward mechanisms, a novel routing algorithm is proposed and evaluated over two realistic scenarios. Experimental results reveal that our solution outperforms other well-known opportunistic routing algorithms in terms of delivery probability and overhead ratio, while resource usage of relaying nodes is significantly reduced.
+KW  - opportunistic networks
+KW  - Internet of Things
+KW  - routing algorithms
+KW  - contextual information
+DO  - 10.3390/s19081875
+TY  - EJOU
+AU  - Piermattei, Livia
+AU  - Karel, Wilfried
+AU  - Wang, Di
+AU  - Wieser, Martin
+AU  - Mokroš, Martin
+AU  - Surový, Peter
+AU  - Koreň, Milan
+AU  - Tomaštík, Julián
+AU  - Pfeifer, Norbert
+AU  - Hollaus, Markus
+TI  - Terrestrial Structure from Motion Photogrammetry for Deriving Forest Inventory Data
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 8
+SN  - 2072-4292
+
+AB  - The measurements of tree attributes required for forest monitoring and management planning, e.g., National Forest Inventories, are derived by rather time-consuming field measurements on sample plots, using calipers and measurement tapes. Therefore, forest managers and researchers are looking for alternative methods. Currently, terrestrial laser scanning (TLS) is the remote sensing method that provides the most accurate point clouds at the plot-level to derive these attributes from. However, the demand for even more efficient and effective solutions triggers further developments to lower the acquisition time, costs, and the expertise needed to acquire and process 3D point clouds, while maintaining the quality of extracted tree parameters. In this context, photogrammetry is considered a potential solution. Despite a variety of studies, much uncertainty still exists about the quality of photogrammetry-based methods for deriving plot-level forest attributes in natural forests. Therefore, the overall goal of this study is to evaluate the competitiveness of terrestrial photogrammetry based on structure from motion (SfM) and dense image matching for deriving tree positions, diameters at breast height (DBHs), and stem curves of forest plots by means of a consumer grade camera. We define an image capture method and we assess the accuracy of the photogrammetric results on four forest plots located in Austria and Slovakia, two in each country, selected to cover a wide range of conditions such as terrain slope, undergrowth vegetation, and tree density, age, and species. For each forest plot, the reference data of the forest parameters were obtained by conducting field surveys and TLS measurements almost simultaneously with the photogrammetric acquisitions. The TLS data were also used to estimate the accuracy of the photogrammetric ground height, which is a necessary product to derive DBHs and tree heights. For each plot, we automatically derived tree counts, tree positions, DBHs, and part of the stem curve from both TLS and SfM using a software developed at TU Wien (Forest Analysis and Inventory Tool, FAIT), and the results were compared. The images were oriented with errors of a few millimetres only, according to checkpoint residuals. The automatic tree detection rate for the SfM reconstruction ranges between 65% and 98%, where the missing trees have average DBHs of less than 12 cm. For each plot, the mean error of SfM and TLS DBH estimates is &minus;1.13 cm and &minus;0.77 cm with respect to the caliper measurements. The resulting stem curves show that the mean differences between SfM and TLS stem diameters is at maximum &minus;2.45 cm up to 3 m above ground, which increases to almost +4 cm for higher elevations. This study shows that with the adopted image capture method, terrestrial SfM photogrammetry, is an accurate solution to support forest inventory for estimating the number of trees and their location, the DBHs and stem curve up to 3 m above ground.
+KW  - terrestrial photogrammetry
+KW  - plot-based forest inventory
+KW  - structure from motion
+KW  - terrestrial laser scanning
+KW  - diameter at breast height
+DO  - 10.3390/rs11080950
+TY  - EJOU
+AU  - Barbedo, Jayme G.
+TI  - A Review on the Use of Unmanned Aerial Vehicles and Imaging Sensors for Monitoring and Assessing Plant Stresses
+T2  - Drones
+
+PY  - 2019
+VL  - 3
+IS  - 2
+SN  - 2504-446X
+
+AB  - Unmanned aerial vehicles (UAVs) are becoming a valuable tool to collect data in a variety of contexts. Their use in agriculture is particularly suitable, as those areas are often vast, making ground scouting difficult, and sparsely populated, which means that injury and privacy risks are not as important as in urban settings. Indeed, the use of UAVs for monitoring and assessing crops, orchards, and forests has been growing steadily during the last decade, especially for the management of stresses such as water, diseases, nutrition deficiencies, and pests. This article presents a critical overview of the main advancements on the subject, focusing on the strategies that have been used to extract the information contained in the images captured during the flights. Based on the information found in more than 100 published articles and on our own research, a discussion is provided regarding the challenges that have already been overcome and the main research gaps that still remain, together with some suggestions for future research.
+KW  - drone
+KW  - UAV
+KW  - UAS
+KW  - precision agriculture
+KW  - stress
+KW  - crop
+KW  - orchard
+DO  - 10.3390/drones3020040
+TY  - EJOU
+AU  - Paz-Kagan, Tarin
+AU  - Silver, Micha
+AU  - Panov, Natalya
+AU  - Karnieli, Arnon
+TI  - Multispectral Approach for Identifying Invasive Plant Species Based on Flowering Phenology Characteristics
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 8
+SN  - 2072-4292
+
+AB  - Invasive plant species (IPS) are the second biggest threat to biodiversity after habitat loss. Since the spatial extent of IPS is essential for managing the invaded ecosystem, the current study aims at identifying and mapping the aggressive IPS of Acacia salicina and Acacia saligna, to understand better the key factors influencing their distribution in the coastal plain of Israel. This goal was achieved by integrating airborne-derived hyperspectral imaging and multispectral earth observation for creating species distribution maps. Hyperspectral data, in conjunction with high spatial resolution species distribution maps, were used to train the multispectral images at the species level. We incorporated a series of statistical models to classify the IPS location and to recognize their distribution and density. We took advantage of the phenological flowering stages of Acacia trees, as obtained by the multispectral images, for the support vector machine classification procedure. The classification yielded an overall Kappa coefficient accuracy of 0.89. We studied the effect of various environmental and human factors on IPS density by using a random forest machine learning model, to understand the mechanisms underlying successful invasions, and to assess where IPS have a higher likelihood of occurring. This algorithm revealed that the high density of Acacia most closely related to elevation, temperature pattern, and distances from rivers, settlements, and roads. Our results demonstrate how the integration of remote-sensing data with different data sources can assist in determining IPS proliferation and provide detailed geographic information for conservation and management efforts to prevent their future spread.
+KW  - imaging spectroscopy
+KW  - phenology
+KW  - machine learning
+KW  - biodiversity conservation
+KW  - flowering detection
+DO  - 10.3390/rs11080953

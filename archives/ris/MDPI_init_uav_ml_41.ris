@@ -1,0 +1,946 @@
+TY  - EJOU
+AU  - Zhang, Jing
+AU  - Li, Jiwu
+AU  - Yang, Hongwei
+AU  - Feng, Xin
+AU  - Sun, Geng
+TI  - Complex Environment Path Planning for Unmanned Aerial Vehicles
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 15
+SN  - 1424-8220
+
+AB  - Flying safely in complex urban environments is a challenge for unmanned aerial vehicles because path planning in urban environments with many narrow passages and few dynamic flight obstacles is difficult. The path planning problem is decomposed into global path planning and local path adjustment in this paper. First, a branch-selected rapidly-exploring random tree (BS-RRT) algorithm is proposed to solve the global path planning problem in environments with narrow passages. A cyclic pruning algorithm is proposed to shorten the length of the planned path. Second, the GM(1,1) model is improved with optimized background value named RMGM(1,1) to predict the flight path of dynamic obstacles. Herein, the local path adjustment is made by analyzing the prediction results. BS-RRT demonstrated a faster convergence speed and higher stability in narrow passage environments when compared with RRT, RRT-Connect, P-RRT, 1-0 Bg-RRT, and RRT*. In addition, the path planned by BS-RRT through the use of the cyclic pruning algorithm was the shortest. The prediction error of RMGM(1,1) was compared with those of ECGM(1,1), PCGM(1,1), GM(1,1), MGM(1,1), and GDF. The trajectory predicted by RMGM(1,1) was closer to the actual trajectory. Finally, we use the two methods to realize path planning in urban environments.
+KW  - unmanned aerial vehicles
+KW  - narrow passages
+KW  - path planning
+KW  - pruning
+KW  - trajectory prediction
+DO  - 10.3390/s21155250
+TY  - EJOU
+AU  - Li, Linlin
+AU  - Xu, Shufang
+AU  - Nie, Hua
+AU  - Mao, Yingchi
+AU  - Yu, Shun
+TI  - Collaborative Target Search Algorithm for UAV Based on Chaotic Disturbance Pigeon-Inspired Optimization
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 16
+SN  - 2076-3417
+
+AB  - Unmanned aerial vehicles (UAVs) have shown their superiority in military and civilian missions. In the face of complex tasks, many UAVs are usually needed to cooperate with each other. Therefore, multi-UAV cooperative target search has attracted more and more scholars’ attention. At present, there are many bionic algorithms for solving the cooperative search problem of multi-UAVs, including particle swarm optimization algorithm (PSO) and differential evolution (DE). Pigeon-inspired optimization (PIO) is a new swarm intelligence optimization algorithm proposed in recent years. It has great advantages over other algorithms in convergence, robustness, and accuracy, and has few parameters to be adjusted. Aiming at the shortcomings of the standard pigeon colony algorithm, such as poor population diversity, slow convergence speed, and the ease of falling into local optimum, we have proposed chaotic disturbance pigeon-inspired optimization (CDPIO) algorithm. The improved tent chaotic map was used to initialize the population and increase the diversity of the population. The disturbance factor is introduced in the iterative update stage of the algorithm to generate new individuals, replace the individuals with poor performance, and carry out disturbance to increase the optimization accuracy. Benchmark functions and UAV target search model were used to test the algorithm performance. The results show that the CDPIO had faster convergence speed, better optimization precision, better robustness, and better performance than PIO.
+KW  - pigeon-inspired optimization
+KW  - tent map
+KW  - disturbance mechanism
+KW  - cooperative target search
+DO  - 10.3390/app11167358
+TY  - EJOU
+AU  - Song, Zhenyu
+AU  - Yan, Xuemei
+AU  - Zhao, Lvxing
+AU  - Fan, Luyi
+AU  - Tang, Cheng
+AU  - Ji, Junkai
+TI  - Adaptive Self-Scaling Brain-Storm Optimization via a Chaotic Search Mechanism
+T2  - Algorithms
+
+PY  - 2021
+VL  - 14
+IS  - 8
+SN  - 1999-4893
+
+AB  - Brain-storm optimization (BSO), which is a population-based optimization algorithm, exhibits a poor search performance, premature convergence, and a high probability of falling into local optima. To address these problems, we developed the adaptive mechanism-based BSO (ABSO) algorithm based on the chaotic local search in this study. The adjustment of the search space using the local search method based on an adaptive self-scaling mechanism balances the global search and local development performance of the ABSO algorithm, effectively preventing the algorithm from falling into local optima and improving its convergence accuracy. To verify the stability and effectiveness of the proposed ABSO algorithm, the performance was tested using 29 benchmark test functions, and the mean and standard deviation were compared with those of five other optimization algorithms. The results showed that ABSO outperforms the other algorithms in terms of stability and convergence accuracy. In addition, the performance of ABSO was further verified through a nonparametric statistical test.
+KW  - brain-storm optimization
+KW  - chaotic local search
+KW  - adaptive mechanism
+DO  - 10.3390/a14080239
+TY  - EJOU
+AU  - Wang, Xinheng
+AU  - Gao, Xiaojin
+AU  - Wang, Zuoxun
+AU  - Ma, Chunrui
+AU  - Song, Zengxu
+TI  - A Combined Model Based on EOBL-CSSA-LSSVM for Power Load Forecasting
+T2  - Symmetry
+
+PY  - 2021
+VL  - 13
+IS  - 9
+SN  - 2073-8994
+
+AB  - Inaccurate electricity load forecasting can lead to the power sector gaining asymmetric information in the supply and demand relationship. This asymmetric information can lead to incorrect production or generation plans for the power sector. In order to improve the accuracy of load forecasting, a combined power load forecasting model based on machine learning algorithms, swarm intelligence optimization algorithms, and data pre-processing is proposed. Firstly, the original signal is pre-processed by the VMD–singular spectrum analysis data pre-processing method. Secondly, the noise-reduced signals are predicted using the Elman prediction model optimized by the sparrow search algorithm, the ELM prediction model optimized by the chaotic adaptive whale algorithm (CAWOA-ELM), and the LSSVM prediction model optimized by the chaotic sparrow search algorithm based on elite opposition-based learning (EOBL-CSSA-LSSVM) for electricity load data, respectively. Finally, the weighting coefficients of the three prediction models are calculated using the simulated annealing algorithm and weighted to obtain the prediction results. Comparative simulation experiments show that the VMD–singular spectrum analysis method and two improved intelligent optimization algorithms proposed in this paper can effectively improve the prediction accuracy. Additionally, the combined forecasting model proposed in this paper has extremely high forecasting accuracy, which can help the power sector to develop a reasonable production plan and power generation plans.
+KW  - neural network
+KW  - sparrow search algorithm
+KW  - whale optimization algorithm
+KW  - power load forecast
+KW  - machine learning
+DO  - 10.3390/sym13091579
+TY  - EJOU
+AU  - Steup, Christoph
+AU  - Beckhaus, Jonathan
+AU  - Mostaghim, Sanaz
+TI  - A Single-Copter UWB-Ranging-Based Localization System Extendable to a Swarm of Drones
+T2  - Drones
+
+PY  - 2021
+VL  - 5
+IS  - 3
+SN  - 2504-446X
+
+AB  - This paper presents a single-copter localization system as a first step towards a scalable multihop drone swarm localization system. The drone was equipped with ultrawideband (UWB) transceiver modules, which can be used for communication, as well as distance measurement. The location of the drone was detected based on fixed anchor points using a single type of UWB transceiver. Our aim is to create a swarm localization system that enables drones to switch their role between an active swarm member and an anchor node to enhance the localization of the whole swarm. To this end, this paper presents our current baseline localization system and its performance regarding single-drone localization with fixed anchors and its integration into our current modular quadcopters, which was designed to be easily extendable to a swarm localization system. The distance between each drone and the anchors was measured periodically, and a specially tailored gradient descent algorithm was used to solve the resulting nonlinear optimization problem. Additional copter and wireless-specific adaptations were performed to enhance the robustness. The system was tested with a Vicon system as a position reference and showed a high precision of 0.2 m with an update rate of &lt;10 Hz. Additionally, the system was integrated into the FINken copters of the SwarmLab and evaluated in multiple outdoor scenarios. These scenarios showed the generic usability of the approach, even though no accurate precision measurement was possible.
+KW  - localization
+KW  - communication
+KW  - drone swarm
+DO  - 10.3390/drones5030085
+TY  - EJOU
+AU  - Kamal, Muhammad A.
+AU  - Raza, Hafiz W.
+AU  - Alam, Muhammad M.
+AU  - Su’ud, Mazliham M.
+AU  - Sajak, Aznida B.
+TI  - Resource Allocation Schemes for 5G Network: A Systematic Review
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 19
+SN  - 1424-8220
+
+AB  - Fifth-generation (5G) communication technology is intended to offer higher data rates, outstanding user exposure, lower power consumption, and extremely short latency. Such cellular networks will implement a diverse multi-layer model comprising device-to-device networks, macro-cells, and different categories of small cells to assist customers with desired quality-of-service (QoS). This multi-layer model affects several studies that confront utilizing interference management and resource allocation in 5G networks. With the growing need for cellular service and the limited resources to provide it, capably handling network traffic and operation has become a problem of resource distribution. One of the utmost serious problems is to alleviate the jamming in the network in support of having a better QoS. However, although a limited number of review papers have been written on resource distribution, no review papers have been written specifically on 5G resource allocation. Hence, this article analyzes the issue of resource allocation by classifying the various resource allocation schemes in 5G that have been reported in the literature and assessing their ability to enhance service quality. This survey bases its discussion on the metrics that are used to evaluate network performance. After consideration of the current evidence on resource allocation methods in 5G, the review hopes to empower scholars by suggesting future research areas on which to focus.
+KW  - 5G
+KW  - resource allocation
+KW  - resource distribution
+KW  - congestion
+KW  - 5G communication
+KW  - comprehensive
+KW  - review
+KW  - systematic
+DO  - 10.3390/s21196588
+TY  - EJOU
+AU  - Berghout, Tarek
+AU  - Benbouzid, Mohamed
+AU  - Bentrcia, Toufik
+AU  - Ma, Xiandong
+AU  - Djurović, Siniša
+AU  - Mouss, Leïla-Hayet
+TI  - Machine Learning-Based Condition Monitoring for PV Systems: State of the Art and Future Prospects
+T2  - Energies
+
+PY  - 2021
+VL  - 14
+IS  - 19
+SN  - 1996-1073
+
+AB  - To ensure the continuity of electric power generation for photovoltaic systems, condition monitoring frameworks are subject to major enhancements. The continuous uniform delivery of electric power depends entirely on a well-designed condition maintenance program. A just-in-time task to deal with several naturally occurring faults can be correctly undertaken via the cooperation of effective detection, diagnosis, and prognostic analyses. Therefore, the present review first outlines different failure modes to which all photovoltaic systems are subjected, in addition to the essential integrated detection methods and technologies. Then, data-driven paradigms, and their contribution to solving this prediction problem, are also explored. Accordingly, this review primarily investigates the different learning architectures used (i.e., ordinary, hybrid, and ensemble) in relation to their learning frameworks (i.e., traditional and deep learning). It also discusses the extension of machine learning to knowledge-driven approaches, including generative models such as adversarial networks and transfer learning. Finally, this review provides insights into different works to highlight various operating conditions and different numbers and types of failures, and provides links to some publicly available datasets in the field. The clear organization of the abundant information on this subject may result in rigorous guidelines for the trends adopted in the future.
+KW  - photovoltaic systems
+KW  - machine learning
+KW  - deep learning
+KW  - condition monitoring
+KW  - faults diagnosis
+KW  - fault detection
+KW  - open source datasets
+DO  - 10.3390/en14196316
+TY  - EJOU
+AU  - Muñoz, Javier
+AU  - López, Blanca
+AU  - Quevedo, Fernando
+AU  - Monje, Concepción A.
+AU  - Garrido, Santiago
+AU  - Moreno, Luis E.
+TI  - Coverage Strategy for Target Location in Marine Environments Using Fixed-Wing UAVs
+T2  - Drones
+
+PY  - 2021
+VL  - 5
+IS  - 4
+SN  - 2504-446X
+
+AB  - In this paper, we propose a coverage method for the search of lost targets or debris on the ocean surface. The OSCAR data set is used to determine the marine currents and the differential evolution genetic filter is used to optimize the sweep direction of the lawnmower coverage and get the sweep angle for the maximum probability of containment. The position of the target is determined by a particle filter, where the particles are moved by the ocean currents and the final probabilistic distribution is obtained by fitting the particle positions to a Gaussian probability distribution. The differential evolution algorithm is then used to optimize the sweep direction that covers the highest probability of containment cells before the less probable ones. The algorithm is tested with a variety of parameters of the differential evolution algorithm and compared to other popular optimization algorithms.
+KW  - coverage path planning
+KW  - UAVs
+KW  - genetic algorithms
+KW  - differential evolution
+KW  - search algorithms
+DO  - 10.3390/drones5040120
+TY  - EJOU
+AU  - Sahar, Gul
+AU  - Bakar, Kamalrulnizam A.
+AU  - Rahim, Sabit
+AU  - Khani, Naveed A.
+AU  - Bibi, Tehmina
+TI  - Recent Advancement of Data-Driven Models in Wireless Sensor Networks: A Survey
+T2  - Technologies
+
+PY  - 2021
+VL  - 9
+IS  - 4
+SN  - 2227-7080
+
+AB  - Wireless sensor networks (WSNs) are considered producers of large amounts of rich data. Four types of data-driven models that correspond with various applications are identified as WSNs: query-driven, event-driven, time-driven, and hybrid-driven. The aim of the classification of data-driven models is to get real-time applications of specific data. Many challenges occur during data collection. Therefore, the main objective of these data-driven models is to save the WSN’s energy for processing and functioning during the data collection of any application. In this survey article, the recent advancement of data-driven models and application types for WSNs is presented in detail. Each type of WSN is elaborated with the help of its routing protocols, related applications, and issues. Furthermore, each data model is described in detail according to current studies. The open issues of each data model are highlighted with their challenges in order to encourage and give directions for further recommendation.
+KW  - wireless sensor network
+KW  - application types
+KW  - data-driven models
+KW  - event-driven
+KW  - query-driven
+KW  - time-driven
+KW  - hybrid-driven
+KW  - data collection
+KW  - energy consumption
+DO  - 10.3390/technologies9040076
+TY  - EJOU
+AU  - Jia, Jianxin
+AU  - Sun, Haibin
+AU  - Jiang, Changhui
+AU  - Karila, Kirsi
+AU  - Karjalainen, Mika
+AU  - Ahokas, Eero
+AU  - Khoramshahi, Ehsan
+AU  - Hu, Peilun
+AU  - Chen, Chen
+AU  - Xue, Tianru
+AU  - Wang, Tinghuai
+AU  - Chen, Yuwei
+AU  - Hyyppä, Juha
+TI  - Review on Active and Passive Remote Sensing Techniques for Road Extraction
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 21
+SN  - 2072-4292
+
+AB  - Digital maps of road networks are a vital part of digital cities and intelligent transportation. In this paper, we provide a comprehensive review on road extraction based on various remote sensing data sources, including high-resolution images, hyperspectral images, synthetic aperture radar images, and light detection and ranging. This review is divided into three parts. Part 1 provides an overview of the existing data acquisition techniques for road extraction, including data acquisition methods, typical sensors, application status, and prospects. Part 2 underlines the main road extraction methods based on four data sources. In this section, road extraction methods based on different data sources are described and analysed in detail. Part 3 presents the combined application of multisource data for road extraction. Evidently, different data acquisition techniques have unique advantages, and the combination of multiple sources can improve the accuracy of road extraction. The main aim of this review is to provide a comprehensive reference for research on existing road extraction technologies.
+KW  - road extraction
+KW  - high-resolution image
+KW  - hyperspectral image
+KW  - synthetic aperture radar (SAR)
+KW  - light detection and ranging (LiDAR)
+DO  - 10.3390/rs13214235
+TY  - EJOU
+AU  - Vo, Anh V.
+AU  - Laefer, Debra F.
+AU  - Byrne, Jonathan
+TI  - Optimizing Urban LiDAR Flight Path Planning Using a Genetic Algorithm and a Dual Parallel Computing Framework
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 21
+SN  - 2072-4292
+
+AB  - This paper introduces a genetic algorithm (GA) and a beam tracing algorithm incorporated within a dual parallel computing framework to optimize urban aerial laser scanning (ALS) missions to maximize vertical façade data capture, as needed for many three-dimensional reconstruction and modeling workflows. The optimization employs a low-density point cloud from the site of interest as a spatial representation of the urban scene. The GA is suitable for LiDAR flight path optimization due to its capability of handling open-ended problems that have many solutions. However, GAs require evaluating a very large number of candidates. The use of an initial point cloud allows realistic modeling of the urban environment in the optimization at the cost of high data input volumes. To cope with the computational and data demands, a dual parallel computing framework was devised. The parallel computing framework consists of two layers of parallelization. In the upper layer, multiple evaluators work in parallel and in conjunction with a main multi-threading GA optimizer to perform GA operations and evaluate the flight paths. In the lower layer, to evaluate assigned flight paths, each evaluator distributes its data and computation to multiple executors, which can reside on multiple physical nodes of a distributed-memory computing cluster. In addition to parallelism, the data partitioning on the lower layer allows out-of-core computation. Namely, data partitions are efficiently transferred between disks and memory so that only relevant subsets of data are kept in the main memory. The objective of the proposed method is threefold: (1) search for flight paths that yield the highest numbers of vertical points, (2) create a means to explicitly consider the detailed spatial configuration of urban environments, and (3) assure that the proposed optimization strategy is fast and can scale to large problem sizes. Multiple experiments were conducted and demonstrated the success of the proposed method. Converged results were achieved after dozens of generations within two hours. Two flight paths identified by the GA as the most and the least optimal candidates were deployed in real flight missions. The optimal flight path captured 16% more vertical points than the least optimal one, slightly higher than the 13% predicted. Both layers of parallelization were efficient: 13.1/16 for the lower layer and 3.2/4 for the upper layer. The two complementary layers of parallelization allowed flexible and efficient use of distributed computing resources to reduce the runtime. The scalability of the proposed approach was successfully demonstrated up to a data size of 460 million points. The optimization results were realistic and aligned well with the test flight results.
+KW  - LiDAR
+KW  - point cloud
+KW  - aerial laser scanning
+KW  - aerial mapping
+KW  - flight path planning
+KW  - spatial optimization
+KW  - parallel computing
+KW  - distributed computing
+KW  - spatial algorithm
+KW  - Apache Spark
+DO  - 10.3390/rs13214437
+TY  - EJOU
+AU  - Zhang, Yuanzi
+AU  - Wang, Jing
+AU  - Li, Xiaolin
+AU  - Huang, Shiguo
+AU  - Wang, Xiuli
+TI  - Feature Selection for High-Dimensional Datasets through a Novel Artificial Bee Colony Framework
+T2  - Algorithms
+
+PY  - 2021
+VL  - 14
+IS  - 11
+SN  - 1999-4893
+
+AB  - There are generally many redundant and irrelevant features in high-dimensional datasets, which leads to the decline of classification performance and the extension of execution time. To tackle this problem, feature selection techniques are used to screen out redundant and irrelevant features. The artificial bee colony (ABC) algorithm is a popular meta-heuristic algorithm with high exploration and low exploitation capacities. To balance between both capacities of the ABC algorithm, a novel ABC framework is proposed in this paper. Specifically, the solutions are first updated by the process of employing bees to retain the original exploration ability, so that the algorithm can explore the solution space extensively. Then, the solutions are modified by the updating mechanism of an algorithm with strong exploitation ability in the onlooker bee phase. Finally, we remove the scout bee phase from the framework, which can not only reduce the exploration ability but also speed up the algorithm. In order to verify our idea, the operators of the grey wolf optimization (GWO) algorithm and whale optimization algorithm (WOA) are introduced into the framework to enhance the exploitation capability of onlooker bees, named BABCGWO and BABCWOA, respectively. It has been found that these two algorithms are superior to four state-of-the-art feature selection algorithms using 12 high-dimensional datasets, in terms of the classification error rate, size of feature subset and execution speed.
+KW  - artificial bee colony algorithm
+KW  - high dimensionality
+KW  - feature selection
+KW  - exploration–exploitation balance
+DO  - 10.3390/a14110324
+TY  - EJOU
+AU  - Divband Soorati, Mohammad
+AU  - Clark, Jediah
+AU  - Ghofrani, Javad
+AU  - Tarapore, Danesh
+AU  - Ramchurn, Sarvapali D.
+TI  - Designing a User-Centered Interaction Interface for Human–Swarm Teaming
+T2  - Drones
+
+PY  - 2021
+VL  - 5
+IS  - 4
+SN  - 2504-446X
+
+AB  - A key challenge in human–swarm interaction is to design a usable interface that allows the human operators to monitor and control a scalable swarm. In our study, we restrict the interactions to only one-to-one communications in local neighborhoods between UAV-UAV and operator-UAV. This type of proximal interactions will decrease the cognitive complexity of the human–swarm interaction to O(1). In this paper, a user study with 100 participants provides evidence that visualizing a swarm as a heat map is more effective in addressing usability and acceptance in human–swarm interaction. We designed an interactive interface based on the users’ preference and proposed a controlling mechanism that allows a human operator to control a large swarm of UAVs. We evaluated the proposed interaction interface with a complementary user study. Our testbed and results establish a benchmark to study human–swarm interaction where a scalable swarm can be managed by a single operator.
+KW  - human–swarm interaction
+KW  - situation awareness
+KW  - user-centered interface design
+DO  - 10.3390/drones5040131
+TY  - EJOU
+AU  - Ntakolia, Charis
+AU  - Lyridis, Dimitrios V.
+TI  - A Swarm Intelligence Graph-Based Pathfinding Algorithm Based on Fuzzy Logic (SIGPAF): A Case Study on Unmanned Surface Vehicle Multi-Objective Path Planning
+T2  - Journal of Marine Science and Engineering
+
+PY  - 2021
+VL  - 9
+IS  - 11
+SN  - 2077-1312
+
+AB  - Advances in robotic motion and computer vision have contributed to the increased use of automated and unmanned vehicles in complex and dynamic environments for various applications. Unmanned surface vehicles (USVs) have attracted a lot of attention from scientists to consolidate the wide use of USVs in maritime transportation. However, most of the traditional path planning approaches include single-objective approaches that mainly find the shortest path. Dynamic and complex environments impose the need for multi-objective path planning where an optimal path should be found to satisfy contradicting objective terms. To this end, a swarm intelligence graph-based pathfinding algorithm (SIGPA) has been proposed in the recent literature. This study aims to enhance the performance of SIGPA algorithm by integrating fuzzy logic in order to cope with the multiple objectives and generate quality solutions. A comparative evaluation is conducted among SIGPA and the two most popular fuzzy inference systems, Mamdani (SIGPAF-M) and Takagi–Sugeno–Kang (SIGPAF-TSK). The results showed that depending on the needs of the application, each methodology can contribute respectively. SIGPA remains a reliable approach for real-time applications due to low computational effort; SIGPAF-M generates better paths; and SIGPAF-TSK reaches a better trade-off among solution quality and computation time.
+KW  - path planning
+KW  - metaheuristic algorithms
+KW  - unmanned surface vehicles
+KW  - maritime transportation
+KW  - optimization
+KW  - fuzzy logic
+DO  - 10.3390/jmse9111243
+TY  - EJOU
+AU  - Hu, Aihua
+AU  - Deng, Zhongliang
+AU  - Yang, Hui
+AU  - Zhang, Yao
+AU  - Gao, Yuhui
+AU  - Zhao, Di
+TI  - An Optimal Geometry Configuration Algorithm of Hybrid Semi-Passive Location System Based on Mayfly Optimization Algorithm
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 22
+SN  - 1424-8220
+
+AB  - In view of the demand of location awareness in a special complex environment, for an unmanned aerial vehicle (UAV) airborne multi base-station semi-passive positioning system, the hybrid positioning solutions and optimized site layout in the positioning system can effectively improve the positioning accuracy for a specific region. In this paper, the geometric dilution of precision (GDOP) formula of a time difference of arrival (TDOA) and angles of arrival (AOA) hybrid location algorithm is deduced. Mayfly optimization algorithm (MOA) which is a new swarm intelligence optimization algorithm is introduced, and a method to find the optimal station of the UAV airborne multiple base station’s semi-passive positioning system using MOA is proposed. The simulation and analysis of the optimization of the different number of base stations, compared with other station layout methods, such as particle swarm optimization (PSO), genetic algorithm (GA), and artificial bee colony (ABC) algorithm. MOA is less likely to fall into local optimum, and the error of regional target positioning is reduced. By simulating the deployment of four base stations and five base stations in various situations, MOA can achieve a better deployment effect. The dynamic station configuration capability of the multi-station semi-passive positioning system has been improved with the UAV.
+KW  - optimal geometry configuration
+KW  - semi-passive location
+KW  - GDOP
+KW  - MOA
+KW  - TDOA&AOA
+KW  - UAV
+DO  - 10.3390/s21227484
+TY  - EJOU
+AU  - Zheng, Aoyu
+AU  - Li, Bingjie
+AU  - Zheng, Mingfa
+AU  - Zhong, Haitao
+TI  - Multi-Objective UAV Trajectory Planning in Uncertain Environment
+T2  - Symmetry
+
+PY  - 2021
+VL  - 13
+IS  - 11
+SN  - 2073-8994
+
+AB  - UAV trajectory planning is one of the research focuses in artificial intelligence and UAV technology. The asymmetric information, however, will lead to the uncertainty of the UAV trajectory planning; the probability theory as the most commonly used method to solve the trajectory planning problem in uncertain environment will lead to unrealistic conclusions under the condition of lacking samples, while the uncertainty theory based on uncertain measures is an efficient method to solve such problems. Firstly, the uncertainties in trajectory planning are sufficiently considered in this paper; the fuel consumption, concealment and threat degree with uncertain variables are taken as the objective functions; the constraints are analyzed according to the maneuverability; and the uncertain multi-objective trajectory planning (UMOTP) model is established. After that, this paper takes both the long-term benefits and its stability into account, and then, the expected-value and standard-deviation efficient trajectory model is established. What is more, this paper solves the Pareto front of the trajectory planning, satisfying various preferences, which avoids the defects of the trajectory obtained by traditional model only applicable to a certain specific situation. In order to obtain a better solution set, this paper proposes an improved backbones particle swarm optimization algorithm based on PSO and NSGA-II, which overcomes the shortcomings of the traditional algorithm such as premature convergence and poor robustness, and the efficiency of the algorithm is tested. Finally, the algorithm is applied to the UMOTP problem; then, the optimal trajectory set is obtained, and the effectiveness and reliability of the model is verified.
+KW  - uncertainty theory
+KW  - asymmetry
+KW  - multi-objective
+KW  - trajectory planning
+KW  - particle swarm optimization
+DO  - 10.3390/sym13112160
+TY  - EJOU
+AU  - Khan, Abdullah A.
+AU  - Shaikh, Zaffar A.
+AU  - Laghari, Asif A.
+AU  - Bourouis, Sami
+AU  - Wagan, Asif A.
+AU  - Ali, Ghulam A.
+TI  - Blockchain-Aware Distributed Dynamic Monitoring: A Smart Contract for Fog-Based Drone Management in Land Surface Changes
+T2  - Atmosphere
+
+PY  - 2021
+VL  - 12
+IS  - 11
+SN  - 2073-4433
+
+AB  - In this paper, we propose a secure blockchain-aware framework for distributed data management and monitoring. Indeed, images-based data are captured through drones and transmitted to the fog nodes. The main objective here is to enable process and schedule, to investigate individual captured entity (records) and to analyze changes in the blockchain storage with a secure hash-encrypted (SH-256) consortium peer-to-peer (P2P) network. The proposed blockchain mechanism is also investigated for analyzing the fog-cloud-based stored information, which is referred to as smart contracts. These contracts are designed and deployed to automate the overall distributed monitoring system. They include the registration of UAVs (drones), the day-to-day dynamic captured drone-based images, and the update transactions in the immutable storage for future investigations. The simulation results show the merit of our framework. Indeed, through extensive experiments, the developed system provides good performances regarding monitoring and management tasks.
+KW  - blockchain
+KW  - smart contract
+KW  - fog-cloud computing
+KW  - drone management
+KW  - urban land surface changes
+KW  - remote sensing
+DO  - 10.3390/atmos12111525
+TY  - EJOU
+AU  - Aletti, Giacomo
+AU  - Benfenati, Alessandro
+AU  - Naldi, Giovanni
+TI  - Graph, Spectra, Control and Epidemics: An Example with a SEIR Model
+T2  - Mathematics
+
+PY  - 2021
+VL  - 9
+IS  - 22
+SN  - 2227-7390
+
+AB  - Networks and graphs offer a suitable and powerful framework for studying the spread of infection in human and animal populations. In the case of a heterogeneous population, the social contact network has a pivotal role in the analysis of directly transmitted infectious diseases. The literature presents several works where network-based models encompass realistic features (such as contacts networks or host&ndash;pathogen biological data), but analytical results are nonetheless scarce. As a significant example, in this paper, we develop a multi-group version of the epidemiological SEIR population-based model. Each group can represent a social subpopulation with the same habits or a group of geographically localized people. We consider also heterogeneity in the weighting of contacts between two groups. As a simple application, we propose a simple control algorithm in which we optimize the connection weights in order to minimize the combination between an economic cost and a social cost. Some numerical simulations are also provided.
+KW  - epidemic spread
+KW  - multi-group models
+KW  - network based model
+KW  - control of spread dynamics
+DO  - 10.3390/math9222987
+TY  - EJOU
+AU  - Iqbal, Kamran
+AU  - Munawar, Hafiz S.
+AU  - Inam, Hina
+AU  - Qayyum, Siddra
+TI  - Promoting Customer Loyalty and Satisfaction in Financial Institutions through Technology Integration: The Roles of Service Quality, Awareness, and Perceptions
+T2  - Sustainability
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2071-1050
+
+AB  - This study examines the effects of quality of service, product awareness, and perceptions among customers of Islamic financial institutions (IFIs) on customer loyalty through technology integration using customer satisfaction as a mediator. A well-structured, comprehensive questionnaire was developed and data were collected from 203 respondents who were customers of six IFIs in Pakistan and had at least 2 years of experience in dealing confiorm this is correct with these IFIs. A total of 171 accurate responses were received from the respondents. Ten hypotheses were developed and statistically verified using regression and correlation analytical techniques. The results reveal that the quality of customer services and awareness of IFIs had a direct and positive relationship with customer loyalty, which in turn was mediated by customer satisfaction. Perceptions about IFIs had a direct positive relation with customer satisfaction. However, the relation of perceptions and quality of service with customer loyalty and satisfaction in financial institutions through technology integration was found to be insignificant, even in the presence of customer satisfaction as a mediator.
+KW  - quality of service
+KW  - customer perceptions
+KW  - customer satisfaction
+KW  - Islamic financial institutions (IFIs)
+KW  - IFIs’ performance
+DO  - 10.3390/su132312951
+TY  - EJOU
+AU  - Li, Yan
+AU  - Zhao, Mengyu
+AU  - Zhang, Huazhi
+AU  - Yang, Fuling
+AU  - Wang, Suyu
+TI  - An Interactive Self-Learning Game and Evolutionary Approach Based on Non-Cooperative Equilibrium
+T2  - Electronics
+
+PY  - 2021
+VL  - 10
+IS  - 23
+SN  - 2079-9292
+
+AB  - Most current studies on multi-agent evolution based on deep learning take a cooperative equilibrium strategy, while interactive self-learning is not always considered. An interactive self-learning game and evolution method based on non-cooperative equilibrium (ISGE-NCE) is proposed to take the benefits of both game theory and interactive learning for multi-agent confrontation evolution. A generative adversarial network (GAN) is designed combining with multi-agent interactive self-learning, and the non-cooperative equilibrium strategy is well adopted within the framework of interactive self-learning, aiming for high evolution efficiency and interest. For assessment, three typical multi-agent confrontation experiments are designed and conducted. The results show that, first, in terms of training speed, the ISGE-NCE produces a training convergence rate of at least 46.3% higher than that of the method without considering interactive self-learning. Second, the evolution rate of the interference and detection agents reaches 60% and 80%, respectively, after training by using our method. In the three different experiment scenarios, compared with the DDPG, our ISGE-NCE method improves the multi-agent evolution effectiveness by 43.4%, 50%, and 20%, respectively, with low training costs. The performances demonstrate the significant superiority of our ISGE-NCE method in swarm intelligence.
+KW  - non-cooperative equilibrium
+KW  - interactive self-learning
+KW  - generative adversarial
+KW  - game evolution
+KW  - multi-agent confrontation
+DO  - 10.3390/electronics10232977
+TY  - EJOU
+AU  - Zhao, Dongqing
+AU  - Wang, Dongmin
+AU  - Xiang, Minzhi
+AU  - Li, Jinfei
+AU  - Yang, Chaoyong
+AU  - Zhang, Letian
+AU  - Li, Linyang
+TI  - A Distance Increment Smoothing Method and Its Application on the Detection of NLOS in the Cooperative Positioning
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 23
+SN  - 1424-8220
+
+AB  - The wide use of cooperative missions using multiple unmanned platforms has made relative distance information an essential factor for cooperative positioning and formation control. Reducing the range error effectively in real time has become the main technical challenge. We present a new method to deal with ranging errors based on the distance increment (DI). The DI calculated by dead reckoning is used to smooth the DI obtained by the cooperative positioning, and the smoothed DI is then used to detect and estimate the non-line-of-sight (NLOS) error as well as to smooth the observed values containing random noise in the filtering process. Simulation and experimental results show that the relative accuracy of NLOS estimation is 8.17%, with the maximum random error reduced by 40.27%. The algorithm weakens the influence of NLOS and random errors on the measurement distance, thus improving the relative distance precision and enhancing the stability and reliability of cooperative positioning.
+KW  - cooperative positioning
+KW  - non-line-of-sight error
+KW  - distance increment
+KW  - distance smoothing
+DO  - 10.3390/s21238028
+TY  - EJOU
+AU  - Ouyang, Zhihong
+AU  - Xue, Lei
+AU  - Ding, Feng
+AU  - Li, Da
+TI  - PSOTSC: A Global-Oriented Trajectory Segmentation and Compression Algorithm Based on Swarm Intelligence
+T2  - ISPRS International Journal of Geo-Information
+
+PY  - 2021
+VL  - 10
+IS  - 12
+SN  - 2220-9964
+
+AB  - Linear approximate segmentation and data compression of moving target spatio-temporal trajectory can reduce data storage pressure and improve the efficiency of target motion pattern mining. High quality segmentation and compression need to accurately select and store as few points as possible that can reflect the characteristics of the original trajectory, while the existing methods still have room for improvement in segmentation accuracy, reduction of compression rate and simplification of algorithm parameter setting. A trajectory segmentation and compression algorithm based on particle swarm optimization is proposed. First, the trajectory segmentation problem is transformed into a global intelligent optimization problem of segmented feature points, which makes the selection of segmented points more accurate; then, a particle update strategy combining neighborhood adjustment and random jump is established to improve the efficiency of segmentation and compression. Through experiments on a real data set and a maneuvering target simulation trajectory set, the results show that compared with the existing typical methods, this method has advantages in segmentation accuracy and compression rate.
+KW  - trajectory segmentation
+KW  - trajectory compression
+KW  - particle swarm optimization
+KW  - feature point selection
+KW  - update strategy
+DO  - 10.3390/ijgi10120817
+TY  - EJOU
+AU  - Zhang, Qi
+AU  - Wei, Yaoxing
+AU  - Li, Xiao
+TI  - Quadrotor Attitude Control by Fractional-Order Fuzzy Particle Swarm Optimization-Based Active Disturbance Rejection Control
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 24
+SN  - 2076-3417
+
+AB  - In this paper, Active Disturbance Rejection Control (ADRC) is utilized in the attitude control of a quadrotor aircraft to address the problem of attitude destabilization in flight control caused by parameter uncertainties and external disturbances. Considering the difficulty of optimizing the parameter of ADRC, a fractional-order fuzzy particle swarm optimization (FOFPSO) algorithm is proposed to optimize the parameters of ADRC for quadrotor aircraft. Simultaneously, the simulation experiment is designed, which compares with the optimized performance of traditional particle swarm optimization (PSO), fuzzy article swarm optimization (FPSO) and adaptive genetic algorithm-particle swarm optimization (AGA-PSO). In addition, the turbulent wind field model is established to verify the disturbance rejection performance of the controller. Finally, the designed controller is deployed to the actual hardware platform by using the model-based design method. The results show that the controller has a small overshoot and stronger disturbance rejection ability after the parameters are optimized by the proposed algorithm.
+KW  - quadrotor aircraft
+KW  - attitude control
+KW  - ADRC
+KW  - parameter optimization
+KW  - fractional-order fuzzy particle swarm optimization
+DO  - 10.3390/app112411583
+TY  - EJOU
+AU  - Sir Elkhatem, Aisha
+AU  - Engin, Seref N.
+AU  - Pasha, Amjad A.
+AU  - Rahman, Mustafa M.
+AU  - Pillai, Subramania N.
+TI  - Robust Control for Non-Minimum Phase Systems with Actuator Faults: Application to Aircraft Longitudinal Flight Control
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 24
+SN  - 2076-3417
+
+AB  - This study is concerned with developing a robust tracking control system that merges the optimal control theory with fractional-order-based control and the heuristic optimization algorithms into a single framework for the non-minimum phase pitch angle dynamics of Boeing 747 aircraft. The main control objective is to deal with the non-minimum phase nature of the aircraft pitching-up action, which is used to increase the altitude. The fractional-order integral controller (FIC) is implemented in the control loop as a pre-compensator to compensate for the non-minimum phase effect. Then, the linear quadratic regulator (LQR) is introduced as an optimal feedback controller to this augmented model ensuring the minimum phase to create an efficient, robust, and stable closed-loop control system. The control problem is formulated in a single objective optimization framework and solved for an optimal feedback gain together with pre-compensator parameters according to an error index and heuristic optimization constraints. The fractional-order integral pre-compensator is replaced by a fractional-order derivative pre-compensator in the proposed structure for comparison in terms of handling the non-minimum phase limitations, the magnitude of gain, phase-margin, and time-response specifications. To further verify the effectiveness of the proposed approach, the LQR-FIC controller is compared with the pole placement controller as a full-state feedback controller that has been successfully applied to control aircraft dynamics in terms of time and frequency domains. The performance, robustness, and internal stability characteristics of the proposed control strategy are validated by simulation studies carried out for flight conditions of fault-free, 50%, and 80% losses of actuator effectiveness.
+KW  - actuator fault-tolerant
+KW  - aircraft dynamics
+KW  - heuristic optimization
+KW  - fractional-order control
+KW  - non-minimum phase
+KW  - optimal control
+DO  - 10.3390/app112411705
+TY  - EJOU
+AU  - Damaševičius, Robertas
+AU  - Maskeliūnas, Rytis
+TI  - Agent State Flipping Based Hybridization of Heuristic Optimization Algorithms: A Case of Bat Algorithm and Krill Herd Hybrid Algorithm
+T2  - Algorithms
+
+PY  - 2021
+VL  - 14
+IS  - 12
+SN  - 1999-4893
+
+AB  - This paper describes a unique meta-heuristic technique for hybridizing bio-inspired heuristic algorithms. The technique is based on altering the state of agents using a logistic probability function that is dependent on an agent&rsquo;s fitness rank. An evaluation using two bio-inspired algorithms (bat algorithm (BA) and krill herd (KH)) and 12 optimization problems (cross-in-tray, rotated hyper-ellipsoid (RHE), sphere, sum of squares, sum of different powers, McCormick, Zakharov, Rosenbrock, De Jong No. 5, Easom, Branin, and Styblinski&ndash;Tang) is presented. Furthermore, an experimental evaluation of the proposed scheme using the industrial three-bar truss design problem is presented. The experimental results demonstrate that the hybrid scheme outperformed the baseline algorithms (mean rank for the hybrid BA-KH algorithm is 1.279 vs. 1.958 for KH and 2.763 for BA).
+KW  - hyper-heuristic
+KW  - meta-heuristic
+KW  - bio-inspired algorithms
+KW  - heuristic optimization
+DO  - 10.3390/a14120358
+TY  - EJOU
+AU  - Duran, Guilherme C.
+AU  - Sato, André K.
+AU  - Ueda, Edson K.
+AU  - Takimoto, Rogério Y.
+AU  - Bahabadi, Hossein G.
+AU  - Barari, Ahmad
+AU  - Martins, Thiago C.
+AU  - Tsuzuki, Marcos S. G.
+TI  - Using Feedback Strategies in Simulated Annealing with Crystallization Heuristic and Applications
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 24
+SN  - 2076-3417
+
+AB  - This paper represents how typical advanced engineering design can be structured using a set of parameters and objective functions corresponding to the nature of the problem. The set of parameters can be in different types, including integer, real, cyclic, combinatorial, interval, etc. Similarly, the objective function can be presented in various types including integer (discrete), float, and interval. The simulated annealing with crystallization heuristic can deal with all these combinations of parameters and objective functions when the crystallization heuristic presents a sensibility for real parameters. Herein, simulated annealing with the crystallization heuristic is enhanced by combining Bates and Gaussian distributions and by incorporating feedback strategies to emphasize exploration or refinement, or a combination of the two. The problems that are studied include solving an electrical impedance tomography problem with float parameters and a partially evaluated objective function represented by an interval requiring the solution of 32 sparse linear systems defined by the finite element method, as well as an airplane design problem with several parameters and constraints used to reduce the explored domain. The combination of the proposed feedback strategies and simulated annealing with the crystallization heuristic is compared with existing simulated annealing algorithms and their benchmark results are shown. The enhanced simulated annealing approach proposed herein showed better results for the majority of the studied cases.
+KW  - simulated annealing
+KW  - crystallization heuristic
+KW  - electrical impedance tomography
+KW  - airplane design
+DO  - 10.3390/app112411814
+TY  - EJOU
+AU  - Zhang, Junrong
+AU  - Tang, Huiming
+AU  - Tannant, Dwayne D.
+AU  - Lin, Chengyuan
+AU  - Xia, Ding
+AU  - Wang, Yankun
+AU  - Wang, Qianyun
+TI  - A Novel Model for Landslide Displacement Prediction Based on EDR Selection and Multi-Swarm Intelligence Optimization Algorithm
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 24
+SN  - 1424-8220
+
+AB  - With the widespread application of machine learning methods, the continuous improvement of forecast accuracy has become an important task, which is especially crucial for landslide displacement predictions. This study aimed to propose a novel prediction model to improve accuracy in landslide prediction, based on the combination of multiple new algorithms. The proposed new method includes three parts: data preparation, multi-swarm intelligence (MSI) optimization, and displacement prediction. In the data preparation, the complete ensemble empirical mode decomposition (CEEMD) is adopted to separate the trend and periodic displacements from the observed cumulative landslide displacement. The frequency component and residual component of reconstructed inducing factors that related to landslide movements are also extracted by the CEEMD and t-test, and then picked out with edit distance on real sequence (EDR) as input variables for the support vector regression (SVR) model. MSI optimization algorithms are used to optimize the SVR model in the MSI optimization; thus, six predictions models can be obtained that can be used in the displacement prediction part. Finally, the trend and periodic displacements are predicted by six optimized SVR models, respectively. The trend displacement and periodic displacement with the highest prediction accuracy are added and regarded as the final prediction result. The case study of the Shiliushubao landslide shows that the prediction results match the observed data well with an improvement in the aspect of average relative error, which indicates that the proposed model can predict landslide displacements with high precision, even when the displacements are characterized by stepped curves that under the influence of multiple time-varying factors.
+KW  - landslide displacement prediction
+KW  - complete ensemble empirical mode decomposition (CEEMD)
+KW  - edit distance for real sequence (EDR)
+KW  - multi-swarm intelligence (MSI)
+KW  - support vector regression (SVR)
+DO  - 10.3390/s21248352
+TY  - EJOU
+AU  - Santana Robles, Francisca
+AU  - Hernández-Gress, Eva S.
+AU  - Hernández-Gress, Neil
+AU  - Granillo Macias, Rafael
+TI  - Metaheuristics in the Humanitarian Supply Chain
+T2  - Algorithms
+
+PY  - 2021
+VL  - 14
+IS  - 12
+SN  - 1999-4893
+
+AB  - Everyday there are more disasters that require Humanitarian Supply Chain (HSC) attention; generally these problems are difficult to solve in reasonable computational time and metaheuristics (MHs) are the indicated solution algorithms. To our knowledge, there has not been a review article on MHs applied to HSC. In this work, 78 articles were extracted from 2016 publications using systematic literature review methodology and were analyzed to answer two research questions: (1) How are the HSC problems that have been solved from Metaheuristics classified? (2) What is the gap found to accomplish future research in Metaheuristics in HSC? After classifying them into deterministic (52.56%) and non-deterministic (47.44%) problems; post-disaster (51.28%), pre-disaster (14.10%) and integrated (34.62%); facility location (41.03%), distribution (71.79%), inventory (11.54%) and mass evacuation (10.26%); single (46.15%) and multiple objective functions (53.85%), single (76.92%) and multiple (23.07%) period; and the type of Metaheuristic: Metaphor (71.79%) with genetic algorithms and particle swarm optimization as the most used; and non-metaphor based (28.20%), in which search algorithms are mostly used; it is concluded that, to consider the uncertainty of the real context, future research should be done in non-deterministic and multi-period problems that integrate pre- and post-disaster stages, that increasingly include problems such as inventory and mass evacuation and in which new multi-objective MHs are tested.
+KW  - disasters
+KW  - humanitarian supply chain
+KW  - metaheuristics
+DO  - 10.3390/a14120364
+TY  - EJOU
+AU  - Mu, Weiwei
+AU  - Li, Guang
+AU  - Ma, Yulin
+AU  - Wang, Rendong
+AU  - Li, Yanbo
+AU  - Li, Zhixiong
+TI  - Beacon-Based Hybrid Routing Protocol for Large-Scale Unmanned Vehicle Ad Hoc Network
+T2  - Electronics
+
+PY  - 2021
+VL  - 10
+IS  - 24
+SN  - 2079-9292
+
+AB  - In this paper, we designed a beacon-based hybrid routing protocol to adapt to the new forms of intelligent warfare, accelerate the application of unmanned vehicles in the military field, and solve the problems such as high maintenance cost, path failure, and repeated routing pathfinding in large-scale unmanned vehicle network communications for new battlefields. This protocol used the periodic broadcast pulses initiated by the beacon nodes to provide synchronization and routing to the network and established a spanning tree through which the nodes communicated with each other. An NS3 platform was used to build a dynamic simulation environment of service data to evaluate the network performance. The results showed that when it was used in a range of 5 ~ 35 communication links, the beacon-based routing protocol&rsquo;s PDR was approximately 10% higher than that of AODV routing protocol. At 5 ~ 50 communication links, the result was approximately 20% higher than the DSDV routing protocol. The routing load was not related to the number of nodes and communication link data and the protocol had better performance than traditional AODV and DSDV routing protocol, which reduced the cost of the routing protocol and effectively improved the stability and reliability of the network. The protocol we designed is more suitable for the scenarios of large-scale unmanned vehicle network communication in the future AI battlefield.
+KW  - communication technology
+KW  - beacon
+KW  - large-scale
+KW  - unmanned vehicle
+KW  - ad hoc network
+KW  - hybrid routing protocol
+DO  - 10.3390/electronics10243129
+TY  - EJOU
+AU  - Lu, Yingtong
+AU  - Ma, Yaofei
+AU  - Wang, Jiangyun
+TI  - Multi-Population Parallel Wolf Pack Algorithm for Task Assignment of UAV Swarm
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 24
+SN  - 2076-3417
+
+AB  - The effectiveness of the Wolf Pack Algorithm (WPA) in high-dimensional discrete optimization problems has been verified in previous studies; however, it usually takes too long to obtain the best solution. This paper proposes the Multi-Population Parallel Wolf Pack Algorithm (MPPWPA), in which the size of the wolf population is reduced by dividing the population into multiple sub-populations that optimize independently at the same time. Using the approximate average division method, the population is divided into multiple equal mass sub-populations whose better individuals constitute an elite sub-population. Through the elite-mass population distribution, those better individuals are optimized twice by the elite sub-population and mass sub-populations, which can accelerate the convergence. In order to maintain the population diversity, population pretreatment is proposed. The sub-populations migrate according to a constant migration probability and the migration of sub-populations are equivalent to the re-division of the confluent population. Finally, the proposed algorithm is carried out in a synchronous parallel system. Through the simulation experiments on the task assignment of the UAV swarm in three scenarios whose dimensions of solution space are 8, 30 and 150, the MPPWPA is verified as being effective in improving the optimization performance.
+KW  - Wolf Pack Algorithm (WPA)
+KW  - multi-population optimization algorithms
+KW  - Multi-Population Parallel Wolf Pack Algorithm (MPPWPA)
+KW  - approximate average division method
+KW  - elite-mass population distribution
+KW  - population pretreatment
+KW  - synchronous parallel system
+KW  - task assignment of UAV swarm
+DO  - 10.3390/app112411996
+TY  - EJOU
+AU  - Mora-Soto, Manuel E.
+AU  - Maldonado-Romo, Javier
+AU  - Rodríguez-Molina, Alejandro
+AU  - Aldape-Pérez, Mario
+TI  - Building a Realistic Virtual Simulator for Unmanned Aerial Vehicle Teleoperation
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 24
+SN  - 2076-3417
+
+AB  - Unmanned Aerial Vehicles (UAVs) support humans in performing an increasingly varied number of tasks. UAVs need to be remotely operated by a human pilot in many cases. Therefore, pilots require repetitive training to master the UAV movements. Nevertheless, training with an actual UAV involves high costs and risks. Fortunately, simulators are alternatives to face these difficulties. However, existing simulators lack realism, do not present flight information intuitively, and sometimes do not allow natural interaction with the human operator. This work addresses these issues through a framework for building realistic virtual simulators for the human operation of UAVs. First, the UAV is modeled in detail to perform a dynamic simulation in this framework. Then, the information of the above simulation is utilized to manipulate the elements in a virtual 3D operation environment developed in Unity 3D. Therefore, the interaction with the human operator is introduced with a proposed teleoperation algorithm and an input device. Finally, a meta-heuristic optimization procedure provides realism to the simulation. In this procedure, the flight information obtained from an actual UAV is used to optimize the parameters of the teleoperation algorithm. The quadrotor is adopted as the study case to show the proposal&rsquo;s effectiveness.
+KW  - virtual reality
+KW  - teleoperation
+KW  - simulator
+KW  - unmanned aerial vehicles
+KW  - meta-heuristics
+DO  - 10.3390/app112412018
+TY  - EJOU
+AU  - Ritter, Noah
+AU  - Straub, Jeremy
+TI  - Implementation of Hardware-Based Expert Systems and Comparison of Their Performance to Software-Based Expert Systems
+T2  - Machines
+
+PY  - 2021
+VL  - 9
+IS  - 12
+SN  - 2075-1702
+
+AB  - Expert systems are a form of highly understandable artificial intelligence that allow humans to trace the decision-making processes that are used. While they are typically software implemented and use an iterative algorithm for rule-fact network processing, this is not the only possible implementation approach. This paper implements and evaluates the use of hardware-based expert systems. It shows that they work accurately and can be developed to parallel software implementations. It also compares the processing speed of software and hardware-based expert systems, showing that hardware-based systems typically operate two orders of magnitude faster than the software ones. The potential applications that hardware-based expert systems can be used for and the capabilities that they can provide are discussed.
+KW  - expert systems
+KW  - electronic
+KW  - performance
+KW  - efficacy
+KW  - rule-fact network
+DO  - 10.3390/machines9120361
+TY  - EJOU
+AU  - Wang, Guijuan
+AU  - Wang, Xinheng
+AU  - Wang, Zuoxun
+AU  - Ma, Chunrui
+AU  - Song, Zengxu
+TI  - A VMD&ndash;CISSA&ndash;LSSVM Based Electricity Load Forecasting Model
+T2  - Mathematics
+
+PY  - 2022
+VL  - 10
+IS  - 1
+SN  - 2227-7390
+
+AB  - Accurate power load forecasting has an important impact on power systems. In order to improve the load forecasting accuracy, a new load forecasting model, VMD&ndash;CISSA&ndash;LSSVM, is proposed. The model combines the variational modal decomposition (VMD) data preprocessing method, the sparrow search algorithm (SSA) and the least squares support vector machine (LSSVM) model. A multi-strategy improved chaotic sparrow search algorithm (CISSA) is proposed to address the shortcomings of the SSA algorithm, which is prone to local optima and a slow convergence. The initial population is generated using an improved tent chaotic mapping to enhance the quality of the initial individuals and population diversity. Second, a random following strategy is used to optimize the position update process of the followers in the sparrow search algorithm, balancing the local exploitation performance and global search capability of the algorithm. Finally, the Levy flight strategy is used to expand the search range and local search capability. The results of the benchmark test function show that the CISSA algorithm has a better search accuracy and convergence performance. The volatility of the original load sequence is reduced by using VMD. The optimal parameters of the LSSVM are optimized by the CISSA. The simulation test results demonstrate that the VMD&ndash;CISSA&ndash;LSSVM model has the highest prediction accuracy and stabler prediction results.
+KW  - load forecasting
+KW  - chaotic mapping
+KW  - sparrow search algorithm
+KW  - machine learning
+DO  - 10.3390/math10010028
+TY  - EJOU
+AU  - Tholen, Christoph
+AU  - El-Mihoub, Tarek A.
+AU  - Nolle, Lars
+AU  - Zielinski, Oliver
+TI  - Artificial Intelligence Search Strategies for Autonomous Underwater Vehicles Applied for Submarine Groundwater Discharge Site Investigation
+T2  - Journal of Marine Science and Engineering
+
+PY  - 2022
+VL  - 10
+IS  - 1
+SN  - 2077-1312
+
+AB  - In this study, a set of different search strategies for locating submarine groundwater discharge (SGD) are investigated. This set includes pre-defined path planning (PPP), adapted random walk (RW), particle swarm optimisation (PSO), inertia Levy-flight (ILF), self-organising-migration-algorithm (SOMA), and bumblebee search algorithm (BB). The influences of self-localisation and communication errors and limited travel distance of the autonomous underwater vehicles (AUVs) on the performance of the proposed algorithms are investigated. This study shows that the proposed search strategies could not outperform the classic search heuristic based on full coverage path planning if all AUVs followed the same search strategy. In this study, the influence of self-localisation and communication errors was investigated. The simulations showed that, based on the median error of the search runs, the performance of SOMA was in the same order of magnitude regardless the strength of the localisation error. Furthermore, it was shown that the performance of BB was highly affected by increasing localisation errors. From the simulations, it was revealed that all the algorithms, except for PSO and SOMA, were unaffected by disturbed communications. Here, the best performance was shown by PPP, followed by BB, SOMA, ILF, PSO, and RW. Furthermore, the influence of the limited travel distances of the AUVs on the search performance was evaluated. It was shown that all the algorithms, except for PSO, were affected by the shorter maximum travel distances of the AUVs. The performance of PPP increased with increasing maximum travel distances. However, for maximum travel distances &gt; 1800 m the median error appeared constant. The effect of shorter travel distances on SOMA was smaller than on PPP. For maximum travel distances &lt; 1200 m, SOMA outperformed all other strategies. In addition, it can be observed that only BB showed better performances for shorter travel distances than for longer ones. On the other hand, with different search strategies for each AUV, the search performance of the whole swarm can be improved by incorporating population-based search strategies such as PSO and SOMA within the PPP scheme. The best performance was achieved for the combination of two AUVs following PPP, while the third AUV utilised PSO. The best fitness of this combination was 15.9. This fitness was 26.4% better than the performance of PPP, which was 20.4 on average. In addition, a novel mechanism for dynamically selecting a search strategy for an AUV is proposed. This mechanism is based on fuzzy logic. This dynamic approach is able to perform at least as well as PPP and SOMA for different travel distances of AUVs. However, due to the better adaptation to the current situation, the overall performance, calculated based on the fitness achieved for different maximum travel distances, the proposed dynamic search strategy selection performed 32.8% better than PPP and 34.0% better than SOMA.
+KW  - autonomous underwater vehicles
+KW  - behaviour-based planning
+KW  - AUV search
+KW  - artificial intelligence
+KW  - submarine groundwater discharge
+KW  - simulation
+KW  - fuzzy logic
+DO  - 10.3390/jmse10010007
+TY  - EJOU
+AU  - Xia, Zhiyu
+AU  - Xu, Zhengyi
+AU  - Li, Dan
+AU  - Wei, Jianming
+TI  - A Novel Method for Source Tracking of Chemical Gas Leakage: Outlier Mutation Optimization Algorithm
+T2  - Sensors
+
+PY  - 2022
+VL  - 22
+IS  - 1
+SN  - 1424-8220
+
+AB  - Chemical industrial parks, which act as critical infrastructures in many cities, need to be responsive to chemical gas leakage accidents. Once a chemical gas leakage accident occurs, risks of poisoning, fire, and explosion will follow. In order to meet the primary emergency response demands in chemical gas leakage accidents, source tracking technology of chemical gas leakage has been proposed and evolved. This paper proposes a novel method, Outlier Mutation Optimization (OMO) algorithm, aimed to quickly and accurately track the source of chemical gas leakage. The OMO algorithm introduces a random walk exploration mode and, based on Swarm Intelligence (SI), increases the probability of individual mutation. Compared with other optimization algorithms, the OMO algorithm has the advantages of a wider exploration range and more convergence modes. In the algorithm test session, a series of chemical gas leakage accident application examples with random parameters are first assumed based on the Gaussian plume model; next, the qualitative experiments and analysis of the OMO algorithm are conducted, based on the application example. The test results show that the OMO algorithm with default parameters has superior comprehensive performance, including the extremely high average calculation accuracy: the optimal value, which represents the error between the final objective function value obtained by the optimization algorithm and the ideal value, reaches 2.464e-15 when the number of sensors is 16; 2.356e-13 when the number of sensors is 9; and 5.694e-23 when the number of sensors is 4. There is a satisfactory calculation time: 12.743 s/50 times when the number of sensors is 16; 10.304 s/50 times when the number of sensors is 9; and 8.644 s/50 times when the number of sensors is 4. The analysis of the OMO algorithm&rsquo;s characteristic parameters proves the flexibility and robustness of this method. In addition, compared with other algorithms, the OMO algorithm can obtain an excellent leakage source tracing result in the application examples of 16, 9 and 4 sensors, and the accuracy exceeds the direct search algorithm, evolutionary algorithm, and other swarm intelligence algorithms.
+KW  - Outlier Mutation Optimization algorithm
+KW  - Gaussian plume model
+KW  - random walk
+KW  - emergency response
+KW  - leakage tracking
+DO  - 10.3390/s22010071
+TY  - EJOU
+AU  - Mesquita, Ricardo
+AU  - Gaspar, Pedro D.
+TI  - A Novel Path Planning Optimization Algorithm Based on Particle Swarm Optimization for UAVs for Bird Monitoring and Repelling
+T2  - Processes
+
+PY  - 2022
+VL  - 10
+IS  - 1
+SN  - 2227-9717
+
+AB  - Bird damage to fruit crops causes significant monetary losses to farmers annually. The application of traditional bird repelling methods such as bird cannons and tree netting become inefficient in the long run, requiring high maintenance and reducing mobility. Due to their versatility, Unmanned Aerial Vehicles (UAVs) can be beneficial to solve this problem. However, due to their low battery capacity that equals low flight duration, it is necessary to evolve path planning optimization. A novel path planning optimization algorithm of UAVs based on Particle Swarm Optimization (PSO) is presented in this paper. This path planning optimization algorithm aims to manage the drone&rsquo;s distance and flight time, applying optimization and randomness techniques to overcome the disadvantages of the traditional systems. The proposed algorithm&rsquo;s performance was tested in three study cases: two of them in simulation to test the variation of each parameter and one in the field to test the influence on battery management and height influence. All cases were tested in the three possible situations: same incidence rate, different rates, and different rates with no bird damage to fruit crops. The field tests were also essential to understand the algorithm&rsquo;s behavior of the path planning algorithm in the UAV, showing that there is less efficiency with fewer points of interest, but this does not correlate with the flight time. In addition, there is no association between the maximum horizontal speed and the flight time, which means that the function to calculate the total distance for path planning needs to be adjusted. Thus, the proposed algorithm presents promising results with an outstanding reduced average error in the total distance for the path planning obtained and low execution time, being suited for this and other applications.
+KW  - bird damage to fruit crops
+KW  - unmanned aerial vehicles
+KW  - path planning
+KW  - meta-heuristic
+KW  - path planning optimization algorithm
+DO  - 10.3390/pr10010062
+TY  - EJOU
+AU  - Basan, Elena
+AU  - Basan, Alexandr
+AU  - Nekrasov, Alexey
+AU  - Fidge, Colin
+AU  - Sushkin, Nikita
+AU  - Peskova, Olga
+TI  - GPS-Spoofing Attack Detection Technology for UAVs Based on Kullback&ndash;Leibler Divergence
+T2  - Drones
+
+PY  - 2022
+VL  - 6
+IS  - 1
+SN  - 2504-446X
+
+AB  - Here, we developed a method for detecting cyber security attacks aimed at spoofing the Global Positioning System (GPS) signal of an Unmanned Aerial Vehicle (UAV). Most methods for detecting UAV anomalies indicative of an attack use machine learning or other such methods that compare normal behavior with abnormal behavior. Such approaches require large amounts of data and significant &ldquo;training&rdquo; time to prepare and implement the system. Instead, we consider a new approach based on other mathematical methods for detecting UAV anomalies without the need to first collect a large amount of data and describe normal behavior patterns. Doing so can simplify the process of creating an anomaly detection system, which can further facilitate easier implementation of intrusion detection systems in UAVs. This article presents issues related to ensuring the information security of UAVs. Development of the GPS spoofing detection method for UAVs is then described, based on a preliminary study that made it possible to form a mathematical apparatus for solving the problem. We then explain the necessary analysis of parameters and methods of data normalization, and the analysis of the Kullback&mdash;Leibler divergence measure needed to detect anomalies in UAV systems.
+KW  - UAV
+KW  - GPS
+KW  - vulnerabilities
+KW  - anomalies
+KW  - spoofing
+KW  - Kullback–Leibler divergence
+KW  - cyber attacks
+DO  - 10.3390/drones6010008
+TY  - EJOU
+AU  - Rani, Pooja
+AU  - Kavita
+AU  - Verma, Sahil
+AU  - Kaur, Navneet
+AU  - Wozniak, Marcin
+AU  - Shafi, Jana
+AU  - Ijaz, Muhammad F.
+TI  - Robust and Secure Data Transmission Using Artificial Intelligence Techniques in Ad-Hoc Networks
+T2  - Sensors
+
+PY  - 2022
+VL  - 22
+IS  - 1
+SN  - 1424-8220
+
+AB  - The paper presents a new security aspect for a Mobile Ad-Hoc Network (MANET)-based IoT model using the concept of artificial intelligence. The Black Hole Attack (BHA) is considered one of the most affecting threats in the MANET in which the attacker node drops the entire data traffic and hence degrades the network performance. Therefore, it necessitates the designing of an algorithm that can protect the network from the BHA node. This article introduces Ad-hoc On-Demand Distance Vector (AODV), a new updated routing protocol that combines the advantages of the Artificial Bee Colony (ABC), Artificial Neural Network (ANN), and Support Vector Machine (SVM) techniques. The combination of the SVM with ANN is the novelty of the proposed model that helps to identify the attackers within the discovered route using the AODV routing mechanism. Here, the model is trained using ANN but the selection of training data is performed using the ABC fitness function followed by SVM. The role of ABC is to provide a better route for data transmission between the source and the destination node. The optimized route, suggested by ABC, is then passed to the SVM model along with the node&rsquo;s properties. Based on those properties ANN decides whether the node is a normal or an attacker node. The simulation analysis performed in MATLAB shows that the proposed work exhibits an improvement in terms of Packet Delivery Ratio (PDR), throughput, and delay. To validate the system efficiency, a comparative analysis is performed against the existing approaches such as Decision Tree and Random Forest that indicate that the utilization of the SVM with ANN is a beneficial step regarding the detection of BHA attackers in the MANET-based IoT networks.
+KW  - MANET
+KW  - AODV
+KW  - Black Hole Attack (BHA)
+KW  - Artificial Bee Colony algorithm
+KW  - artificial neural network
+DO  - 10.3390/s22010251
+TY  - EJOU
+AU  - Tanveer, Jawad
+AU  - Haider, Amir
+AU  - Ali, Rashid
+AU  - Kim, Ajung
+TI  - Machine Learning for Physical Layer in 5G and beyond Wireless Networks: A Survey
+T2  - Electronics
+
+PY  - 2022
+VL  - 11
+IS  - 1
+SN  - 2079-9292
+
+AB  - Fifth-generation (5G) technology will play a vital role in future wireless networks. The breakthrough 5G technology will unleash a massive Internet of Everything (IoE), where billions of connected devices, people, and processes will be simultaneously served. The services provided by 5G include several use cases enabled by the enhanced mobile broadband, massive machine-type communications, and ultra-reliable low-latency communication. Fifth-generation networks potentially merge multiple networks on a single platform, providing a landscape for seamless connectivity, particularly for high-mobility devices. With their enhanced speed, 5G networks are prone to various research challenges. In this context, we provide a comprehensive survey on 5G technologies that emphasize machine learning-based solutions to cope with existing and future challenges. First, we discuss 5G network architecture and outline the key performance indicators compared to the previous and upcoming network generations. Second, we discuss next-generation wireless networks and their characteristics, applications, and use cases for fast connectivity to billions of devices. Then, we confer physical layer services, functions, and issues that decrease the signal quality. We also present studies on 5G network technologies, 5G propelling trends, and architectures that help to achieve the goals of 5G. Moreover, we discuss signaling techniques for 5G massive multiple-input and multiple-output and beam-forming techniques to enhance data rates with efficient spectrum sharing. Further, we review security and privacy concerns in 5G and standard bodies&rsquo; actionable recommendations for policy makers. Finally, we also discuss emerging challenges and future directions.
+KW  - 5G
+KW  - B5G
+KW  - wireless networks
+KW  - machine learning
+KW  - MIMO
+KW  - physical layer
+KW  - IoT
+DO  - 10.3390/electronics11010121
+TY  - EJOU
+AU  - Xu, Bo
+AU  - Jiao, Mingyu
+AU  - Zhang, Xianku
+AU  - Zhang, Dalong
+TI  - Path Tracking of an Underwater Snake Robot and Locomotion Efficiency Optimization Based on Improved Pigeon-Inspired Algorithm
+T2  - Journal of Marine Science and Engineering
+
+PY  - 2022
+VL  - 10
+IS  - 1
+SN  - 2077-1312
+
+AB  - This paper considers the tracking control of curved paths for an underwater snake robot, and investigates the methods used to improve energy efficiency. Combined with the path-planning method based on PCSI (parametric cubic-spline interpolation), an improved LOS (light of sight) method is proposed to design the controller and guide the robot to move along the desired path. The evaluation of the energy efficiency of robot locomotion is discussed. In particular, a pigeon-inspired optimization algorithm improved by quantum rules (QPIO) is proposed for dynamically selecting the gait parameters that maximize energy efficiency. Simulation results show that the proposed controller enables the robot to accurately follow the curved path and that the QPIO algorithm is effective in improving robot energy efficiency.
+KW  - underwater snake robot
+KW  - path tracking
+KW  - energy efficiency
+KW  - improved pigeon-inspired optimization
+DO  - 10.3390/jmse10010047
+TY  - EJOU
+AU  - Albagory, Yasser
+AU  - Alraddady, Fahad
+TI  - An Efficient Adaptive and Steep-Convergent Sidelobes Simultaneous Reduction Algorithm for Massive Linear Arrays
+T2  - Electronics
+
+PY  - 2022
+VL  - 11
+IS  - 2
+SN  - 2079-9292
+
+AB  - Antenna arrays have become an essential part of most wireless communications systems. In this paper, the unwanted sidelobes in the symmetric linear array power pattern are reduced efficiently by utilizing a faster simultaneous sidelobes processing algorithm, which generates nulling sub-beams that are adapted to control and maintain steep convergence toward lower sidelobe levels. The proposed algorithm is performed using adaptive damping and heuristic factors which result in learning curve perturbations during the first few loops of the reduction process and is followed by a very steep convergence profile towards deep sidelobe levels. The numerical results show that, using the proposed adaptive sidelobes simultaneous reduction algorithm, a maximum sidelobe level of &minus;50 dB can be achieved after only 10 iteration loops (especially for very large antenna arrays formed by 256 elements, wherein the processing time is reduced to approximately 25% of that required by the conventional fixed damping factor case). On the other hand, the generated array weights can be applied to practical linear antenna arrays under mutual coupling effects, which have shown very similar results to the radiation pattern of the isotropic antenna elements with very deep sidelobe levels and the same beamwidth.
+KW  - wireless networks
+KW  - symmetric linear antenna arrays
+KW  - sidelobe level reduction
+KW  - adaptive techniques
+DO  - 10.3390/electronics11020170
+TY  - EJOU
+AU  - Zhou, Yongkun
+AU  - Song, Dan
+AU  - Ding, Bowen
+AU  - Rao, Bin
+AU  - Su, Man
+AU  - Wang, Wei
+TI  - Distributed Cooperative Jamming with Neighborhood Selection Strategy for Unmanned Aerial Vehicle Swarms
+T2  - Electronics
+
+PY  - 2022
+VL  - 11
+IS  - 2
+SN  - 2079-9292
+
+AB  - In system science, a swarm possesses certain characteristics which the isolated parts and the sum do not have. In order to explore emergence mechanism of a large&ndash;scale electromagnetic agents (EAs), a neighborhood selection (NS) strategy&ndash;based electromagnetic agent cellular automata (EA&ndash;CA) model is proposed in this paper. The model describes the process of agent state transition, in which a neighbor with the smallest state difference in each sector area is selected for state transition. Meanwhile, the evolution rules of the traditional CA are improved, and performance of different evolution strategies are compared. An application scenario in which the emergence of multi&ndash;jammers suppresses the radar radiation source is designed to demonstrate the effect of the EA&ndash;CA model. Experimental results show that the convergence speed of NS strategy is better than those of the traditional CA evolution rules, and the system achieves effective jamming with the target after emergence. It verifies the effectiveness and prospects of the proposed model in the application of electronic countermeasures (ECM).
+KW  - unmanned aerial vehicle (UAV)
+KW  - electromagnetic agent cellular automata (EA–CA) model
+KW  - neighborhood selection (NS)
+KW  - electronic countermeasures (ECM)
+DO  - 10.3390/electronics11020184
+TY  - EJOU
+AU  - Li, Fei
+AU  - Guo, Wentai
+AU  - Deng, Xiaotong
+AU  - Wang, Jiamei
+AU  - Ge, Liangquan
+AU  - Guan, Xiaotong
+TI  - A Hybrid Shuffled Frog Leaping Algorithm and Its Performance Assessment in Multi-Dimensional Symmetric Function
+T2  - Symmetry
+
+PY  - 2022
+VL  - 14
+IS  - 1
+SN  - 2073-8994
+
+AB  - Ensemble learning of swarm intelligence evolutionary algorithm of artificial neural network (ANN) is one of the core research directions in the field of artificial intelligence (AI). As a representative member of swarm intelligence evolutionary algorithm, shuffled frog leaping algorithm (SFLA) has the advantages of simple structure, easy implementation, short operation time, and strong global optimization ability. However, SFLA is susceptible to fall into local optimas in the face of complex and multi-dimensional symmetric function optimization, which leads to the decline of convergence accuracy. This paper proposes an improved shuffled frog leaping algorithm of threshold oscillation based on simulated annealing (SA-TO-SFLA). In this algorithm, the threshold oscillation strategy and simulated annealing strategy are introduced into the SFLA, which makes the local search behavior more diversified and the ability to escape from the local optimas stronger. By using multi-dimensional symmetric function such as drop-wave function, Schaffer function N.2, Rastrigin function, and Griewank function, two groups (i: SFLA, SA-SFLA, TO-SFLA, and SA-TO-SFLA; ii: SFLA, ISFLA, MSFLA, DSFLA, and SA-TO-SFLA) of comparative experiments are designed to analyze the convergence accuracy and convergence time. The results show that the threshold oscillation strategy has strong robustness. Moreover, compared with SFLA, the convergence accuracy of SA-TO-SFLA algorithm is significantly improved, and the median of convergence time is greatly reduced as a whole. The convergence accuracy of SFLA algorithm on these four test functions are 90%, 100%, 78%, and 92.5%, respectively, and the median of convergence time is 63.67 s, 59.71 s, 12.93 s, and 8.74 s, respectively; The convergence accuracy of SA-TO-SFLA algorithm on these four test functions is 99%, 100%, 100%, and 97.5%, respectively, and the median of convergence time is 48.64 s, 32.07 s, 24.06 s, and 3.04 s, respectively.
+KW  - artificial neural network (ANN)
+KW  - swarm intelligence evolutionary algorithm
+KW  - shuffled frog leaping algorithm (SFLA)
+KW  - multi-dimensional symmetric function
+DO  - 10.3390/sym14010131
+TY  - EJOU
+AU  - Woo, Ji-Won
+AU  - Choi, Yoo-Seung
+AU  - An, Jun-Young
+AU  - Kim, Chang-Joo
+TI  - An Approach to Air-to-Surface Mission Planner on 3D Environments for an Unmanned Combat Aerial Vehicle
+T2  - Drones
+
+PY  - 2022
+VL  - 6
+IS  - 1
+SN  - 2504-446X
+
+AB  - Recently, interest in mission autonomy related to Unmanned Combat Aerial Vehicles(UCAVs) for performing highly dangerous Air-to-Surface Missions(ASMs) has been increasing. Regarding autonomous mission planners, studies currently being conducted in this field have been mainly focused on creating a path from a macroscopic 2D environment to a dense target area or proposing a route for intercepting a target. For further improvement, this paper treats a mission planning algorithm on an ASM which can plan the path to the target dense area in consideration of threats spread in a 3D terrain environment while planning the shortest path to intercept multiple targets. To do so, ASMs are considered three sequential mission elements: ingress, intercept, and egress. The ingress and egress elements require a terrain flight path to penetrate deep into the enemy territory. Thus, the proposed terrain flight path planner generates a nap-of-the-earth path to avoid detection by enemy radar while avoiding enemy air defense threats. In the intercept element, the shortest intercept path planner based on the Dubins path concept combined with nonlinear programming is developed to minimize exposure time for survivability. Finally, the integrated ASM planner is applied to several mission scenarios and validated by simulations using a rotorcraft model.
+KW  - air-to-surface mission
+KW  - mission autonomy
+KW  - path planning
+KW  - unmanned combat aerial vehicle
+KW  - trajectory tracking
+DO  - 10.3390/drones6010020
+TY  - EJOU
+AU  - Li, Xiaohui
+AU  - Huang, Hailong
+AU  - Savkin, Andrey V.
+AU  - Zhang, Jian
+TI  - Robotic Herding of Farm Animals Using a Network of Barking Aerial Drones
+T2  - Drones
+
+PY  - 2022
+VL  - 6
+IS  - 2
+SN  - 2504-446X
+
+AB  - This paper proposes a novel robotic animal herding system based on a network of autonomous barking drones. The objective of such a system is to replace traditional herding methods (e.g., dogs) so that a large number (e.g., thousands) of farm animals such as sheep can be quickly collected from a sparse status and then driven to a designated location (e.g., a sheepfold). In this paper, we particularly focus on the motion control of the barking drones. To this end, a computationally efficient sliding mode based control algorithm is developed, which navigates the drones to track the moving boundary of the animals&rsquo; footprint and enables the drones to avoid collisions with others. Extensive computer simulations, where the dynamics of the animals follow Reynolds&rsquo; rules, show the effectiveness of the proposed approach.
+KW  - autonomous drones
+KW  - unmanned aerial vehicles (UAVs)
+KW  - robotic herding
+KW  - shepherding
+KW  - precision farming
+KW  - motion control
+KW  - swarm guidance
+DO  - 10.3390/drones6020029

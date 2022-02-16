@@ -1,0 +1,644 @@
+TY  - EJOU
+AU  - Kakhani, Nafiseh
+AU  - Mokhtarzade, Mehdi
+AU  - Valadan Zoej, Mohammad J.
+TI  - Deep Learning Spatial-Spectral Classification of Remote Sensing Images by Applying Morphology-Based Differential Extinction Profile (DEP)
+T2  - Electronics
+
+PY  - 2021
+VL  - 10
+IS  - 23
+SN  - 2079-9292
+
+AB  - Since the technology of remote sensing has been improved recently, the spatial resolution of satellite images is getting finer. This enables us to precisely analyze the small complex objects in a scene through remote sensing images. Thus, the need to develop new, efficient algorithms like spatial-spectral classification methods is growing. One of the most successful approaches is based on extinction profile (EP), which can extract contextual information from remote sensing data. Moreover, deep learning classifiers have drawn attention in the remote sensing community in the past few years. Recent progress has shown the effectiveness of deep learning at solving different problems, particularly segmentation tasks. This paper proposes a novel approach based on a new concept, which is differential extinction profile (DEP). DEP makes it possible to have an input feature vector with both spectral and spatial information. The input vector is then fed into a proposed straightforward deep-learning-based classifier to produce a thematic map. The approach is carried out on two different urban datasets from Pleiades and World-View 2 satellites. In order to prove the capabilities of the suggested approach, we compare the final results to the results of other classification strategies with different input vectors and various types of common classifiers, such as support vector machine (SVM) and random forests (RF). It can be concluded that the proposed approach is significantly improved in terms of three kinds of criteria, which are overall accuracy, Kappa coefficient, and total disagreement.
+KW  - extinction profile (EP)
+KW  - deep learning
+KW  - segmentation
+KW  - spatial-spectral classification
+KW  - remote sensing image
+DO  - 10.3390/electronics10232893
+TY  - EJOU
+AU  - Gawehn, Matthijs
+AU  - de Vries, Sierd
+AU  - Aarninkhof, Stefan
+TI  - A Self-Adaptive Method for Mapping Coastal Bathymetry On-The-Fly from Wave Field Video
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2072-4292
+
+AB  - Mapping coastal bathymetry from remote sensing becomes increasingly more attractive for the coastal community. It is facilitated by a rising availability of drone and satellite data, advances in data science, and an open-source mindset. Coastal bathymetry, but also wave directions, celerity and near-surface currents can simultaneously be derived from aerial video of a wave field. However, the required video processing is usually extensive, requires skilled supervision, and is tailored to a fieldsite. This study proposes a video-processing algorithm that resolves these issues. It automatically adapts to the video data and continuously returns mapping updates and thereby aims to make wave-based remote sensing more inclusive to the coastal community. The code architecture for the first time includes the dynamic mode decomposition (DMD) to reduce the data complexity of wavefield video. The DMD is paired with loss-functions to handle spectral noise and a novel spectral storage system and Kalman filter to achieve fast converging measurements. The algorithm is showcased for fieldsites in the USA, the UK, the Netherlands, and Australia. The performance with respect to mapping bathymetry was validated using ground truth data. It was demonstrated that merely 32 s of video footage is needed for a first mapping update with average depth errors of 0.9&ndash;2.6 m. These further reduced to 0.5&ndash;1.4 m as the videos continued and more mapping updates were returned. Simultaneously, coherent maps for wave direction and celerity were achieved as well as maps of local near-surface currents. The algorithm is capable of mapping the coastal parameters on-the-fly and thereby offers analysis of video feeds, such as from drones or operational camera installations. Hence, the innovative application of analysis techniques like the DMD enables both accurate and unprecedentedly fast coastal reconnaissance. The source code and data of this article are openly available.
+KW  - remote sensing
+KW  - coastal zone
+KW  - bathymetry
+KW  - depth inversion
+KW  - waves
+KW  - dynamic mode decomposition
+KW  - on-the-fly
+DO  - 10.3390/rs13234742
+TY  - EJOU
+AU  - Appeltans, Simon
+AU  - Apolo-Apolo, Orly E.
+AU  - Rodríguez-Vázquez, Jaime N.
+AU  - Pérez-Ruiz, Manuel
+AU  - Pieters, Jan
+AU  - Mouazen, Abdul M.
+TI  - The Automation of Hyperspectral Training Library Construction: A Case Study for Wheat and Potato Crops
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2072-4292
+
+AB  - The potential of hyperspectral measurements for early disease detection has been investigated by many experts over the last 5 years. One of the difficulties is obtaining enough data for training and building a hyperspectral training library. When the goal is to detect disease at a previsible stage, before the pathogen has manifested either its first symptoms or in the area surrounding the existing symptoms, it is impossible to objectively delineate the regions of interest containing the previsible pathogen growth from the areas without the pathogen growth. To overcome this, we propose an image labelling and segmentation algorithm that is able to (a) more objectively label the visible symptoms for the construction of a training library and (b) extend this labelling to the pre-visible symptoms. This algorithm is used to create hyperspectral training libraries for late blight disease (Phytophthora infestans) in potatoes and two types of leaf rust (Puccinia triticina and Puccinia striiformis) in wheat. The model training accuracies were compared between the automatic labelling algorithm and the classic visual delineation of regions of interest using a logistic regression machine learning approach. The modelling accuracies of the automatically labelled datasets were higher than those of the manually labelled ones for both potatoes and wheat, at 98.80% for P. infestans in potato, 97.69% for P. striiformis in soft wheat, and 96.66% for P. triticina in durum wheat.
+KW  - hyperspectral
+KW  - wheat
+KW  - potato
+KW  - machine learning
+KW  - labelling
+DO  - 10.3390/rs13234735
+TY  - EJOU
+AU  - Hashim, Izrahayu C.
+AU  - Shariff, Abdul R.
+AU  - Bejo, Siti K.
+AU  - Muharam, Farrah M.
+AU  - Ahmad, Khairulmazmi
+TI  - Classification of Non-Infected and Infected with Basal Stem Rot Disease Using Thermal Images and Imbalanced Data Approach
+T2  - Agronomy
+
+PY  - 2021
+VL  - 11
+IS  - 12
+SN  - 2073-4395
+
+AB  - Basal stem rot (BSR) disease occurs due to the most aggressive and threatening fungal attack of the oil palm plant known as Ganoderma boninense (G. boninense). BSR is a disease that has a significant impact on oil palm crops in Malaysia and Indonesia. Currently, the only sustainable strategy available is to extend the life of oil palm trees, as there is no effective treatment for BSR disease. This study used thermal imagery to identify the thermal features to classify non-infected and BSR-infected trees. The aims of this study were to (1) identify the potential temperature features and (2) examine the performance of machine learning (ML) classifiers (na&iuml;ve Bayes (NB), multilayer perceptron (MLP), and random forest (RF) to classify oil palm trees that are non-infected and BSR-infected. The sample size consisted of 55 uninfected trees and 37 infected trees. We used the imbalance data approaches such as random undersampling (RUS), random oversampling (ROS) and synthetic minority oversampling (SMOTE) in these classifications due to the different sample sizes. The study found that the Tmax feature is the most beneficial temperature characteristic for classifying non-infected or infected BSR trees. Meanwhile, the ROS approach improves the curve region (AUC) and PRC results compared to a single approach. The result showed that the temperature feature Tmax and combination feature TmaxTmin had a higher correct classification for the G. boninense non-infected and infected oil palm trees for the ROS-RF and had a robust success rate, classifying correctly 87.10% for non-infected and 100% for infected by G. boninense. In terms of model performance using the most significant variables, Tmax, the ROS-RF model had an excellent receiver operating characteristics (ROC) curve region (AUC) of 0.921, and the precision&ndash;recall curve (PRC) region gave a value of 0.902. Therefore, it can be concluded that the ROS-RF, using the Tmax, can be used to predict BSR disease with relatively high accuracy.
+KW  - Ganoderma boninense
+KW  - basal stem rot (BSR)
+KW  - temperature
+KW  - machine learning
+KW  - classifier
+KW  - imbalance approach
+KW  - SMOTE
+KW  - classification
+DO  - 10.3390/agronomy11122373
+TY  - EJOU
+AU  - Chen, Jianchang
+AU  - Chen, Yiming
+AU  - Liu, Zhengjun
+TI  - Classification of Typical Tree Species in Laser Point Cloud Based on Deep Learning
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2072-4292
+
+AB  - We propose the Point Cloud Tree Species Classification Network (PCTSCN) to overcome challenges in classifying tree species from laser data with deep learning methods. The network is mainly composed of two parts: a sampling component in the early stage and a feature extraction component in the later stage. We used geometric sampling to extract regions with local features from the tree contours since these tend to be species-specific. Then we used an improved Farthest Point Sampling method to extract the features from a global perspective. We input the intensity of the tree point cloud as a dimensional feature and spatial information into the neural network and mapped it to higher dimensions for feature extraction. We used the data obtained by Terrestrial Laser Scanning (TLS) and Unmanned Aerial Vehicle Laser Scanning (UAVLS) to conduct tree species classification experiments of white birch and larch. The experimental results showed that in both the TLS and UAVLS datasets, the input tree point cloud density and the highest feature dimensionality of the mapping had an impact on the classification accuracy of the tree species. When the single tree sample obtained by TLS consisted of 1024 points and the highest dimension of the network mapping was 512, the classification accuracy of the trained model reached 96%. For the individual tree samples obtained by UAVLS, which consisted of 2048 points and had the highest dimension of the network mapping of 1024, the classification accuracy of the trained model reached 92%. TLS data tree species classification accuracy of PCTSCN was improved by 2&ndash;9% compared with other models using the same point density, amount of data and highest feature dimension. The classification accuracy of tree species obtained by UAVLS was up to 8% higher. We propose PCTSCN to provide a new strategy for the intelligent classification of forest tree species.
+KW  - deep learning
+KW  - point cloud
+KW  - forestry
+KW  - tree species classification
+DO  - 10.3390/rs13234750
+TY  - EJOU
+AU  - Wang, Jionghua
+AU  - Luo, Haowen
+AU  - Li, Wenyu
+AU  - Huang, Bo
+TI  - Building Function Mapping Using Multisource Geospatial Big Data: A Case Study in Shenzhen, China
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2072-4292
+
+AB  - Building function labelling plays an important role in understanding human activities inside buildings. This study develops a method of function label classification using integrated features derived from remote sensing and crowdsensing data with an extreme gradient boosting tree (XGBoost). The classification framework is verified based on a dataset from Shenzhen, China. An extended label system for six building types (residential, commercial, office, industrial, public facilities, and others) was applied, and various social functions were considered. The overall classification accuracies were 88.15% (kappa index = 0.72) and 85.56% (kappa index = 0.69). The importance of features was evaluated using the occurrence frequency of features at decision nodes. In the six-category classification system, the basic building attributes (22.99%) and POIs (46.74%) contributed most to the classification process; moreover, the building footprint (7.40%) and distance to roads (11.76%) also made notable contributions. The result shows that it is feasible to extract building environments from POI labels and building footprint geometry with a dimensional reduction model using an autoencoder. Additionally, crowdsensing data (e.g., POI and distance to roads) will become increasingly important as classification tasks become more complicated and the importance of basic building attributes declines.
+KW  - building classification
+KW  - decision tree
+KW  - XGBoost
+KW  - autoencoder
+DO  - 10.3390/rs13234751
+TY  - EJOU
+AU  - Wang, Zhenhua
+AU  - Zhang, Xinyue
+AU  - Li, Jing
+AU  - Luan, Kuifeng
+TI  - A YOLO-Based Target Detection Model for Offshore Unmanned Aerial Vehicle Data
+T2  - Sustainability
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2071-1050
+
+AB  - Target detection in offshore unmanned aerial vehicle data is still a challenge due to the complex characteristics of targets, such as multi-sizes, alterable orientation, and complex backgrounds. Herein, a YOLO-based detection model (YOLO-D) was proposed for target detection in offshore unmanned aerial vehicle data. Based on the YOLOv3 network, the residual module was improved by establishing dense connections and adding a dual-attention mechanism (CBAM) to enhance the use of features and global information. Then, the loss function of the YOLO-D model was added to the weight coefficients to increase detection accuracy for small-size targets. Finally, the feature pyramid network (FPN) was replaced by the secondary recursive feature pyramid network to reduce the impacts of a complicated environment. Taking the car, boat, and deposit near the coastline as the targets, the proposed YOLO-D model was compared against other models, including the faster R-CNN, SSD, YOLOv3, and YOLOv5, to evaluate its detection performance. The results showed that the evaluation metrics of the YOLO-D model, including precision (Pr), recall (Re), average precision (AP), and the mean of average precision (mAP), had the highest values. The mAP of the YOLO-D model increased by 37.95%, 39.44%, 28.46%, and 5.08% compared to the faster R-CNN, SSD, YOLOv3, and YOLOv5, respectively. The AP of the car, boat, and deposit reached 96.24%, 93.70%, and 96.79% respectively. Moreover, the YOLO-D model had a higher detection accuracy than other models, especially in the detection of small-size targets. Collectively, the proposed YOLO-D model is a suitable model for target detection in offshore unmanned aerial vehicle data.
+KW  - offshore monitoring
+KW  - target detection
+KW  - deep learning
+KW  - YOLO
+KW  - unmanned aerial vehicle
+DO  - 10.3390/su132312980
+TY  - EJOU
+AU  - Sekrecka, Aleksandra
+TI  - Application of the XBoost Regressor for an A Priori Prediction of UAV Image Quality
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2072-4292
+
+AB  - In general, the quality of imagery from Unmanned Aerial Vehicles (UAVs) is evaluated after the flight, and then a decision is made on the further value and use of the acquired data. In this paper, an a priori (preflight) image quality prediction methodology is proposed to estimate the preflight image quality and to avoid unfavourable flights, which is extremely important from a time and cost management point of view. The XBoost Regressor model and cross-validation were used for machine learning of the model and image quality prediction. The model was learned on a rich database of real-world images acquired from UAVs under conditions varying in both sensor type, UAV type, exposure parameters, weather, topography, and land cover. Radiometric quality indices (SNR, Entropy, PIQE, NIQE, BRISQUE, and NRPBM) were calculated for each image to train and test the model and to assess the accuracy of image quality prediction. Different variants of preflight parameter knowledge were considered in the study. The proposed methodology offers the possibility of predicting image quality with high accuracy. The correlation coefficient between the actual and predicted image quality, depending on the number of parameters known a priori, ranged from 0.90 to 0.96. The methodology was designed for data acquired from a UAV. Similar prediction accuracy is expected for other low-altitude or close-range photogrammetric data.
+KW  - unmanned aerial vehicle
+KW  - image quality
+KW  - XBoost Regressor
+KW  - machine learning
+KW  - prediction
+DO  - 10.3390/rs13234757
+TY  - EJOU
+AU  - Singh, Simran
+AU  - Kumbhar, Abhaykumar
+AU  - Güvenç, İsmail
+AU  - Sichitiu, Mihail L.
+TI  - Intelligent Interference Management in UAV-Based HetNets
+T2  - Telecom
+
+PY  - 2021
+VL  - 2
+IS  - 4
+SN  - 2673-4001
+
+AB  - Unmanned aerial vehicles (UAVs) can play a key role in meeting certain demands of cellular networks. UAVs can be used not only as user equipment (UE) in cellular networks but also as mobile base stations (BSs) wherein they can either augment conventional BSs by adapting their position to serve the changing traffic and connectivity demands or temporarily replace BSs that are damaged due to natural disasters. The flexibility of UAVs allows them to provide coverage to UEs in hot-spots, at cell-edges, in coverage holes, or regions with scarce cellular infrastructure. In this work, we study how UAV locations and other cellular parameters may be optimized in such scenarios to maximize the spectral efficiency (SE) of the network. We compare the performance of machine learning (ML) techniques with conventional optimization approaches. We found that, on an average, a double deep Q learning approach can achieve 93.46% of the optimal median SE and 95.83% of the optimal mean SE. A simple greedy approach, which tunes the parameters of each BS and UAV independently, performed very well in all the cases that we tested. These computationally efficient approaches can be utilized to enhance the network performance in existing cellular networks.
+KW  - artificial intelligence
+KW  - double deep Q learning
+KW  - FeICIC
+KW  - HetNets
+KW  - LTE-advanced
+KW  - UAV
+DO  - 10.3390/telecom2040027
+TY  - EJOU
+AU  - Kim, Junwoo
+AU  - Kim, Hwisong
+AU  - Jeon, Hyungyun
+AU  - Jeong, Seung-Hwan
+AU  - Song, Juyoung
+AU  - Vadivel, Suresh K.
+AU  - Kim, Duk-jin
+TI  - Synergistic Use of Geospatial Data for Water Body Extraction from Sentinel-1 Images for Operational Flood Monitoring across Southeast Asia Using Deep Neural Networks
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2072-4292
+
+AB  - Deep learning is a promising method for image classification, including satellite images acquired by various sensors. However, the synergistic use of geospatial data for water body extraction from Sentinel-1 data using deep learning and the applicability of existing deep learning models have not been thoroughly tested for operational flood monitoring. Here, we present a novel water body extraction model based on a deep neural network that exploits Sentinel-1 data and flood-related geospatial datasets. For the model, the U-Net was customised and optimised to utilise Sentinel-1 data and other flood-related geospatial data, including digital elevation model (DEM), Slope, Aspect, Profile Curvature (PC), Topographic Wetness Index (TWI), Terrain Ruggedness Index (TRI), and Buffer for the Southeast Asia region. Testing and validation of the water body extraction model was applied to three Sentinel-1 images for Vietnam, Myanmar, and Bangladesh. By segmenting 384 Sentinel-1 images, model performance and segmentation accuracy for all of the 128 cases that the combination of stacked layers had determined were evaluated following the types of combined input layers. Of the 128 cases, 31 cases showed improvement in Overall Accuracy (OA), and 19 cases showed improvement in both averaged intersection over union (IOU) and F1 score for the three Sentinel-1 images segmented for water body extraction. The averaged OA, IOU, and F1 scores of the &lsquo;Sentinel-1 VV&rsquo; band are 95.77, 80.35, and 88.85, respectively, whereas those of &lsquo;band combination VV, Slope, PC, and TRI&rsquo; are 96.73, 85.42, and 92.08, showing improvement by exploiting geospatial data. Such improvement was further verified with water body extraction results for the Chindwin river basin, and quantitative analysis of &lsquo;band combination VV, Slope, PC, and TRI&rsquo; showed an improvement of the F1 score by 7.68 percent compared to the segmentation output of the &lsquo;Sentinel-1 VV&rsquo; band. Through this research, it was demonstrated that the accuracy of deep learning-based water body extraction from Sentinel-1 images can be improved up to 7.68 percent by employing geospatial data. To the best of our knowledge, this is the first work of research that demonstrates the synergistic use of geospatial data in deep learning-based water body extraction over wide areas. It is anticipated that the results of this research could be a valuable reference when deep neural networks are applied for satellite image segmentation for operational flood monitoring and when geospatial layers are employed to improve the accuracy of deep learning-based image segmentation.
+KW  - deep learning
+KW  - U-Net
+KW  - semantic segmentation
+KW  - water body extraction
+KW  - Sentinel-1
+KW  - geospatial data
+DO  - 10.3390/rs13234759
+TY  - EJOU
+AU  - Pina, Rafael
+AU  - Tibebu, Haileleol
+AU  - Hook, Joosep
+AU  - De Silva, Varuna
+AU  - Kondoz, Ahmet
+TI  - Overcoming Challenges of Applying Reinforcement Learning for Intelligent Vehicle Control
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 23
+SN  - 1424-8220
+
+AB  - Reinforcement learning (RL) is a booming area in artificial intelligence. The applications of RL are endless nowadays, ranging from fields such as medicine or finance to manufacturing or the gaming industry. Although multiple works argue that RL can be key to a great part of intelligent vehicle control related problems, there are many practical problems that need to be addressed, such as safety related problems that can result from non-optimal training in RL. For instance, for an RL agent to be effective it should first cover all the situations during training that it may face later. This is often difficult when applied to the real-world. In this work we investigate the impact of RL applied to the context of intelligent vehicle control. We analyse the implications of RL in path planning tasks and we discuss two possible approaches to overcome the gap between the theorical developments of RL and its practical applications. Specifically, firstly this paper discusses the role of Curriculum Learning (CL) to structure the learning process of intelligent vehicle control in a gradual way. The results show how CL can play an important role in training agents in such context. Secondly, we discuss a method of transferring RL policies from simulation to reality in order to make the agent experience situations in simulation, so it knows how to react to them in reality. For that, we use Arduino Y&uacute;n controlled robots as our platforms. The results enhance the effectiveness of the presented approach and show how RL policies can be transferred from simulation to reality even when the platforms are resource limited.
+KW  - vehicle control
+KW  - reinforcement learning
+KW  - curriculum learning
+KW  - sim-to-real world
+KW  - intelligent mobility
+DO  - 10.3390/s21237829
+TY  - EJOU
+AU  - Elmeseiry, Nourhan
+AU  - Alshaer, Nancy
+AU  - Ismail, Tawfik
+TI  - A Detailed Survey and Future Directions of Unmanned Aerial Vehicles (UAVs) with Potential Applications
+T2  - Aerospace
+
+PY  - 2021
+VL  - 8
+IS  - 12
+SN  - 2226-4310
+
+AB  - Recently, unmanned aerial vehicles (UAVs), also known as drones, have gained widespread interest in civilian and military applications, which has led to the development of novel UAVs that can perform various operations. UAVs are aircraft that can fly without the need of a human pilot onboard, meaning they can fly either autonomously or be remotely piloted. They can be equipped with multiple sensors, including cameras, inertial measurement units (IMUs), LiDAR, and GPS, to collect and transmit data in real time. Due to the demand for UAVs in various applications such as precision agriculture, search and rescue, wireless communications, and surveillance, several types of UAVs have been invented with different specifications for their size, weight, range and endurance, engine type, and configuration. Because of this variety, the design process and analysis are based on the type of UAV, with the availability of several control techniques that could be used to improve the flight of the UAV in order to avoid obstacles and potential collisions, as well as find the shortest path to save the battery life with the support of optimization techniques. However, UAVs face several challenges in order to fly smoothly, including collision avoidance, battery life, and intruders. This review paper presents UAVs&rsquo; classification, control applications, and future directions in industry and research interest. For the design process, fabrication, and analysis, various control approaches are discussed in detail. Furthermore, the challenges for UAVs, including battery charging, collision avoidance, and security, are also presented and discussed.
+KW  - UAV
+KW  - drone
+KW  - review
+KW  - control
+KW  - design
+KW  - applications
+KW  - future research trends
+DO  - 10.3390/aerospace8120363
+TY  - EJOU
+AU  - Amândio, Margarida
+AU  - Parente, Manuel
+AU  - Neves, José
+AU  - Fonseca, Paulo
+TI  - Integration of Smart Pavement Data with Decision Support Systems: A Systematic Review
+T2  - Buildings
+
+PY  - 2021
+VL  - 11
+IS  - 12
+SN  - 2075-5309
+
+AB  - Nowadays, pavement management systems (PMS) are mainly based on monitoring processes that have been established for a long time, and strongly depend on acquired experience. However, with the emergence of smart technologies, such as internet of things and artificial intelligence, PMS could be improved by applying these new smart technologies to their decision support systems, not just by updating their data collection methodologies, but also their data analysis tools. The application of these smart technologies to the field of pavement monitoring and condition evaluation will undoubtedly contribute to more efficient, less costly, safer, and environmentally friendly methodologies. Thus, the main drive of the present work is to provide insight for the development of future decision support systems for smart pavement management by conducting a systematic literature review of the developed works that apply smart technologies to this field. The conclusions drawn from the analysis allowed for the identification of a series of future direction recommendations for researchers. In fact, future PMS should tend to be capable of collecting and analyzing data at different levels, both externally at the surface or inside the pavement, as well as to detect and predict all types of functional and structural flaws and defects.
+KW  - smart pavement
+KW  - decision support systems
+KW  - pavement management systems
+KW  - smartphone
+KW  - unmanned aerial vehicle (UAV)
+KW  - self-powered sensors
+KW  - image processing
+KW  - artificial intelligence
+DO  - 10.3390/buildings11120579
+TY  - EJOU
+AU  - Lewicka, Oktawia
+AU  - Specht, Mariusz
+AU  - Stateczny, Andrzej
+AU  - Specht, Cezary
+AU  - Brčić, David
+AU  - Jugović, Alen
+AU  - Widźgowski, Szymon
+AU  - Wiśniewska, Marta
+TI  - Analysis of GNSS, Hydroacoustic and Optoelectronic Data Integration Methods Used in Hydrography
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 23
+SN  - 1424-8220
+
+AB  - The integration of geospatial data in hydrography, performed using different measurement systems, involves combining several study results to provide a comprehensive analysis. Each of the hydroacoustic and optoelectronic systems is characterised by a different spatial reference system and the method for technical implementation of the measurement. Therefore, the integration of hydrographic data requires that problems in selected fields of electronics, geodesy and physics (acoustics and optics) be solved. The aim of this review is to present selected fusion methods applying the data derived from Global Navigation Satellite System (GNSS), Real Time Kinematic (RTK) measurements, hydrographic surveys, a photogrammetric pass using unmanned vehicles and Terrestrial Laser Scanning (TLS) and compare their accuracy. An additional goal is the evalution of data integration methods according to the International Hydrographic Organization (IHO) S-44 standard. The publication is supplemented by implementation examples of the integration of geospatial data in the Geographic Information System (GIS). The methods described indicate the lack of a uniform methodology for data fusion due to differences in both the spatial reference systems and the techniques used. However, the integration of hydroacoustic and optoelectronic data allows for high accuracy geospatial data to be obtained. This is confirmed by the methods cited, in which the accuracy of integrated geospatial data was in the order of several centimetres.
+KW  - data integration
+KW  - Global Navigation Satellite System (GNSS)
+KW  - hydroacoustic methods
+KW  - optoelectronic methods
+KW  - hydrographic surveys
+DO  - 10.3390/s21237831
+TY  - EJOU
+AU  - Fang, Lifa
+AU  - Wu, Yanqiang
+AU  - Li, Yuhua
+AU  - Guo, Hongen
+AU  - Zhang, Hua
+AU  - Wang, Xiaoyu
+AU  - Xi, Rui
+AU  - Hou, Jialin
+TI  - Using Channel and Network Layer Pruning Based on Deep Learning for Real-Time Detection of Ginger Images
+T2  - Agriculture
+
+PY  - 2021
+VL  - 11
+IS  - 12
+SN  - 2077-0472
+
+AB  - Consistent ginger shoot orientation helps to ensure consistent ginger emergence and meet shading requirements. YOLO v3 is used to recognize ginger images in response to the current ginger seeder&rsquo;s difficulty in meeting the above agronomic problems. However, it is not suitable for direct application on edge computing devices due to its high computational cost. To make the network more compact and to address the problems of low detection accuracy and long inference time, this study proposes an improved YOLO v3 model, in which some redundant channels and network layers are pruned to achieve real-time determination of ginger shoots and seeds. The test results showed that the pruned model reduced its model size by 87.2% and improved the detection speed by 85%. Meanwhile, its mean average precision (mAP) reached 98.0% for ginger shoots and seeds, only 0.1% lower than the model before pruning. Moreover, after deploying the model to the Jetson Nano, the test results showed that its mAP was 97.94%, the recognition accuracy could reach 96.7%, and detection speed could reach 20 frames&middot;s&minus;1. The results showed that the proposed method was feasible for real-time and accurate detection of ginger images, providing a solid foundation for automatic and accurate ginger seeding.
+KW  - deep learning
+KW  - object detection
+KW  - network pruning
+KW  - ginger shoots
+KW  - ginger seeds
+DO  - 10.3390/agriculture11121190
+TY  - EJOU
+AU  - Filatov, Anton
+AU  - Zaslavskiy, Mark
+AU  - Krinkin, Kirill
+TI  - Multi-Drone 3D Building Reconstruction Method
+T2  - Mathematics
+
+PY  - 2021
+VL  - 9
+IS  - 23
+SN  - 2227-7390
+
+AB  - In the recent decade, the rapid development of drone technologies has made many spatial problems easier to solve, including the problem of 3D reconstruction of large objects. A review of existing solutions has shown that most of the works lack the autonomy of drones because of nonscalable mapping techniques. This paper presents a method for centralized multi-drone 3D reconstruction, which allows performing a data capturing process autonomously and requires drones equipped only with an RGB camera. The essence of the method is a multiagent approach&mdash;the control center performs the workload distribution evenly and independently for all drones, allowing simultaneous flights without a high risk of collision. The center continuously receives RGB data from drones and performs each drone localization (using visual odometry estimations) and rough online mapping of the environment (using image descriptors for estimating the distance to the building). The method relies on a set of several user-defined parameters, which allows the tuning of the method for different task-specific requirements such as the number of drones, 3D model detalization, data capturing time, and energy consumption. By numerical experiments, it is shown that method parameters can be estimated by performing a set of computations requiring characteristics of drones and the building that are simple to obtain. Method performance was evaluated by an experiment with virtual building and emulated drone sensors. Experimental evaluation showed that the precision of the chosen algorithms for online localization and mapping is enough to perform simultaneous flights and the amount of captured RGB data is enough for further reconstruction.
+KW  - drone
+KW  - multi-drone
+KW  - structure from motion
+KW  - photogrammetry
+DO  - 10.3390/math9233033
+TY  - EJOU
+AU  - Park, Sung-Sik
+AU  - Tran, Van-Than
+AU  - Lee, Dong-Eun
+TI  - Application of Various YOLO Models for Computer Vision-Based Real-Time Pothole Detection
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 23
+SN  - 2076-3417
+
+AB  - Pothole repair is one of the paramount tasks in road maintenance. Effective road surface monitoring is an ongoing challenge to the management agency. The current pothole detection, which is conducted image processing with a manual operation, is labour-intensive and time-consuming. Computer vision offers a mean to automate its visual inspection process using digital imaging, hence, identifying potholes from a series of images. The goal of this study is to apply different YOLO models for pothole detection. Three state-of-the-art object detection frameworks (i.e., YOLOv4, YOLOv4-tiny, and YOLOv5s) are experimented to measure their performance involved in real-time responsiveness and detection accuracy using the image set. The image set is identified by running the deep convolutional neural network (CNN) on several deep learning pothole detectors. After collecting a set of 665 images in 720 &times; 720 pixels resolution that captures various types of potholes on different road surface conditions, the set is divided into training, testing, and validation subsets. A mean average precision at 50% Intersection-over-Union threshold (mAP_0.5) is used to measure the performance of models. The study result shows that the mAP_0.5 of YOLOv4, YOLOv4-tiny, and YOLOv5s are 77.7%, 78.7%, and 74.8%, respectively. It confirms that the YOLOv4-tiny is the best fit model for pothole detection.
+KW  - computer vision
+KW  - real-time
+KW  - pothole detection
+KW  - deep learning
+KW  - YOLO
+DO  - 10.3390/app112311229
+TY  - EJOU
+AU  - Ojogbane, Sani S.
+AU  - Mansor, Shattri
+AU  - Kalantar, Bahareh
+AU  - Khuzaimah, Zailani B.
+AU  - Shafri, Helmi Z.
+AU  - Ueda, Naonori
+TI  - Automated Building Detection from Airborne LiDAR and Very High-Resolution Aerial Imagery with Deep Neural Network
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2072-4292
+
+AB  - The detection of buildings in the city is essential in several geospatial domains and for decision-making regarding intelligence for city planning, tax collection, project management, revenue generation, and smart cities, among other areas. In the past, the classical approach used for building detection was by using the imagery and it entailed human&ndash;computer interaction, which was a daunting proposition. To tackle this task, a novel network based on an end-to-end deep learning framework is proposed to detect and classify buildings features. The proposed CNN has three parallel stream channels: the first is the high-resolution aerial imagery, while the second stream is the digital surface model (DSM). The third was fixed on extracting deep features using the fusion of channel one and channel two, respectively. Furthermore, the channel has eight group convolution blocks of 2D convolution with three max-pooling layers. The proposed model&rsquo;s efficiency and dependability were tested on three different categories of complex urban building structures in the study area. Then, morphological operations were applied to the extracted building footprints to increase the uniformity of the building boundaries and produce improved building perimeters. Thus, our approach bridges a significant gap in detecting building objects in diverse environments; the overall accuracy (OA) and kappa coefficient of the proposed method are greater than 80% and 0.605, respectively. The findings support the proposed framework and methodologies&rsquo; efficacy and effectiveness at extracting buildings from complex environments.
+KW  - building classification
+KW  - extraction
+KW  - convolution neural networks (CNN)
+KW  - LiDAR
+KW  - high-resolution aerial imagery
+DO  - 10.3390/rs13234803
+TY  - EJOU
+AU  - Sott, Michele K.
+AU  - Nascimento, Leandro D.
+AU  - Foguesatto, Cristian R.
+AU  - Furstenau, Leonardo B.
+AU  - Faccin, Kadígia
+AU  - Zawislak, Paulo A.
+AU  - Mellado, Bruce
+AU  - Kong, Jude D.
+AU  - Bragazzi, Nicola L.
+TI  - A Bibliometric Network Analysis of Recent Publications on Digital Agriculture to Depict Strategic Themes and Evolution Structure
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 23
+SN  - 1424-8220
+
+AB  - The agriculture sector is one of the backbones of many countries&rsquo; economies. Its processes have been changing to enable technology adoption to increase productivity, quality, and sustainable development. In this research, we present a scientific mapping of the adoption of precision techniques and breakthrough technologies in agriculture, so-called Digital Agriculture. To do this, we used 4694 documents from the Web of Science database to perform a Bibliometric Performance and Network Analysis of the literature using SciMAT software with the support of the PICOC protocol. Our findings presented 22 strategic themes related to Digital Agriculture, such as Internet of Things (IoT), Unmanned Aerial Vehicles (UAV) and Climate-smart Agriculture (CSA), among others. The thematic network structure of the nine most important clusters (motor themes) was presented and an in-depth discussion was performed. The thematic evolution map provides a broad perspective of how the field has evolved over time from 1994 to 2020. In addition, our results discuss the main challenges and opportunities for research and practice in the field of study. Our findings provide a comprehensive overview of the main themes related to Digital Agriculture. These results show the main subjects analyzed on this topic and provide a basis for insights for future research.
+KW  - precision agriculture
+KW  - agriculture 4.0
+KW  - digital agriculture
+KW  - smart farming
+KW  - industry 4.0
+KW  - sustainability
+KW  - innovation
+KW  - bibliometrics
+KW  - science mapping
+DO  - 10.3390/s21237889
+TY  - EJOU
+AU  - Abideen, Ahmed Z.
+AU  - Sundram, Veera P.
+AU  - Pyeman, Jaafar
+AU  - Othman, Abdul K.
+AU  - Sorooshian, Shahryar
+TI  - Digital Twin Integrated Reinforced Learning in Supply Chain and Logistics
+T2  - Logistics
+
+PY  - 2021
+VL  - 5
+IS  - 4
+SN  - 2305-6290
+
+AB  - Background: As the Internet of Things (IoT) has become more prevalent in recent years, digital twins have attracted a lot of attention. A digital twin is a virtual representation that replicates a physical object or process over a period of time. These tools directly assist in reducing the manufacturing and supply chain lead time to produce a lean, flexible, and smart production and supply chain setting. Recently, reinforced machine learning has been introduced in production and logistics systems to build prescriptive decision support platforms to create a combination of lean, smart, and agile production setup. Therefore, there is a need to cumulatively arrange and systematize the past research done in this area to get a better understanding of the current trend and future research directions from the perspective of Industry 4.0. Methods: Strict keyword selection, search strategy, and exclusion criteria were applied in the Scopus database (2010 to 2021) to systematize the literature. Results: The findings are snowballed as a systematic review and later the final data set has been conducted to understand the intensity and relevance of research work done in different subsections related to the context of the research agenda proposed. Conclusion: A framework for data-driven digital twin generation and reinforced learning has been proposed at the end of the paper along with a research paradigm.
+KW  - digital twin
+KW  - data-driven technology
+KW  - lean manufacturing
+KW  - supply chain 4.0
+KW  - reinforced learning
+KW  - simulation modelling
+KW  - prescriptive analysis
+KW  - systematic review
+DO  - 10.3390/logistics5040084
+TY  - EJOU
+AU  - Lo, Li-Yu
+AU  - Yiu, Chi H.
+AU  - Tang, Yu
+AU  - Yang, An-Shik
+AU  - Li, Boyang
+AU  - Wen, Chih-Yung
+TI  - Dynamic Object Tracking on Autonomous UAV System for Surveillance Applications
+T2  - Sensors
+
+PY  - 2021
+VL  - 21
+IS  - 23
+SN  - 1424-8220
+
+AB  - The ever-burgeoning growth of autonomous unmanned aerial vehicles (UAVs) has demonstrated a promising platform for utilization in real-world applications. In particular, a UAV equipped with a vision system could be leveraged for surveillance applications. This paper proposes a learning-based UAV system for achieving autonomous surveillance, in which the UAV can be of assistance in autonomously detecting, tracking, and following a target object without human intervention. Specifically, we adopted the YOLOv4-Tiny algorithm for semantic object detection and then consolidated it with a 3D object pose estimation method and Kalman filter to enhance the perception performance. In addition, UAV path planning for a surveillance maneuver is integrated to complete the fully autonomous system. The perception module is assessed on a quadrotor UAV, while the whole system is validated through flight experiments. The experiment results verified the robustness, effectiveness, and reliability of the autonomous object tracking UAV system in performing surveillance tasks. The source code is released to the research community for future reference.
+KW  - UAV
+KW  - object detection
+KW  - object tracking
+KW  - deep learning
+KW  - Kalman Filter
+KW  - autonomous surveillance
+DO  - 10.3390/s21237888
+TY  - EJOU
+AU  - Gopi, Sudheesh P.
+AU  - Magarini, Maurizio
+TI  - Reinforcement Learning Aided UAV Base Station Location Optimization for Rate Maximization
+T2  - Electronics
+
+PY  - 2021
+VL  - 10
+IS  - 23
+SN  - 2079-9292
+
+AB  - The application of unmanned aerial vehicles (UAV) as base station (BS) is gaining popularity. In this paper, we consider maximization of the overall data rate by intelligent deployment of UAV BS in the downlink of a cellular system. We investigate a reinforcement learning (RL)-aided approach to optimize the position of flying BSs mounted on board UAVs to support a macro BS (MBS). We propose an algorithm to avoid collision between multiple UAVs undergoing exploratory movements and to restrict UAV BSs movement within a predefined area. Q-learning technique is used to optimize UAV BS position, where the reward is equal to sum of user equipment (UE) data rates. We consider a framework where the UAV BSs carry out exploratory movements in the beginning and exploitary movements in later stages to maximize the overall data rate. Our results show that a cellular system with three UAV BSs and one MBS serving 72 UE reaches 69.2% of the best possible data rate, which is identified by brute force search. Finally, the RL algorithm is compared with a K-means algorithm to study the need of accurate UE locations. Our results show that the RL algorithm outperforms the K-means clustering algorithm when the measure of imperfection is higher. The proposed algorithm can be made use of by a practical MBS&ndash;UAV BSs&ndash;UEs system to provide protection to UAV BSs while maximizing data rate.
+KW  - UAV BS
+KW  - reinforcement learning
+KW  - K-means clustering
+DO  - 10.3390/electronics10232953
+TY  - EJOU
+AU  - Georgopoulos, Nikos
+AU  - Gitas, Ioannis Z.
+AU  - Stefanidou, Alexandra
+AU  - Korhonen, Lauri
+AU  - Stavrakoudis, Dimitris
+TI  - Estimation of Individual Tree Stem Biomass in an Uneven-Aged Structured Coniferous Forest Using Multispectral LiDAR Data
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2072-4292
+
+AB  - Stem biomass is a fundamental component of the global carbon cycle that is essential for forest productivity estimation. Over the last few decades, Light Detection and Ranging (LiDAR) has proven to be a useful tool for accurate carbon stock and biomass estimation in various biomes. The aim of this study was to investigate the potential of multispectral LiDAR data for the reliable estimation of single-tree total and barkless stem biomass (TSB and BSB) in an uneven-aged structured forest with complex topography. Destructive and non-destructive field measurements were collected for a total of 67 dominant and co-dominant Abies borisii-regis trees located in a mountainous area in Greece. Subsequently, two allometric equations were constructed to enrich the reference data with non-destructively sampled trees. Five different regression algorithms were tested for single-tree BSB and TSB estimation using height (height percentiles and bicentiles, max and average height) and intensity (skewness, standard deviation and average intensity) LiDAR-derived metrics: Generalized Linear Models (GLMs), Gaussian Process (GP), Random Forest (RF), Support Vector Regression (SVR) and Extreme Gradient Boosting (XGBoost). The results showcased that the RF algorithm provided the best overall predictive performance in both BSB (i.e., RMSE = 175.76 kg and R2 = 0.78) and TSB (i.e., RMSE = 211.16 kg and R2 = 0.65) cases. Our work demonstrates that BSB can be estimated with moderate to high accuracy using all the tested algorithms, contrary to the TSB, where only three algorithms (RF, SVR and GP) can adequately provide accurate TSB predictions due to bark irregularities along the stems. Overall, the multispectral LiDAR data provide accurate stem biomass estimates, the general applicability of which should be further tested in different biomes and ecosystems.
+KW  - stem biomass
+KW  - multispectral LiDAR
+KW  - remote sensing
+KW  - regression analysis
+DO  - 10.3390/rs13234827
+TY  - EJOU
+AU  - Schratz, Patrick
+AU  - Muenchow, Jannes
+AU  - Iturritxa, Eugenia
+AU  - Cortés, José
+AU  - Bischl, Bernd
+AU  - Brenning, Alexander
+TI  - Monitoring Forest Health Using Hyperspectral Imagery: Does Feature Selection Improve the Performance of Machine-Learning Techniques?
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2072-4292
+
+AB  - This study analyzed highly correlated, feature-rich datasets from hyperspectral remote sensing data using multiple statistical and machine-learning methods. The effect of filter-based feature selection methods on predictive performance was compared. In addition, the effect of multiple expert-based and data-driven feature sets, derived from the reflectance data, was investigated. Defoliation of trees (%), derived from in situ measurements from fall 2016, was modeled as a function of reflectance. Variable importance was assessed using permutation-based feature importance. Overall, the support vector machine (SVM) outperformed other algorithms, such as random forest (RF), extreme gradient boosting (XGBoost), and lasso (L1) and ridge (L2) regressions by at least three percentage points. The combination of certain feature sets showed small increases in predictive performance, while no substantial differences between individual feature sets were observed. For some combinations of learners and feature sets, filter methods achieved better predictive performances than using no feature selection. Ensemble filters did not have a substantial impact on performance. The most important features were located around the red edge. Additional features in the near-infrared region (800&ndash;1000 nm) were also essential to achieve the overall best performances. Filter methods have the potential to be helpful in high-dimensional situations and are able to improve the interpretation of feature effects in fitted models, which is an essential constraint in environmental modeling studies. Nevertheless, more training data and replication in similar benchmarking studies are needed to be able to generalize the results.
+KW  - hyperspectral imagery
+KW  - forest health monitoring
+KW  - machine learning
+KW  - feature selection
+KW  - model comparison
+DO  - 10.3390/rs13234832
+TY  - EJOU
+AU  - Zheng, Lianming
+AU  - Lin, Rui
+AU  - Wang, Xuemei
+AU  - Chen, Weihua
+TI  - The Development and Application of Machine Learning in Atmospheric Environment Studies
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2072-4292
+
+AB  - Machine learning (ML) plays an important role in atmospheric environment prediction, having been widely applied in atmospheric science with significant progress in algorithms and hardware. In this paper, we present a brief overview of the development of ML models as well as their application to atmospheric environment studies. ML model performance is then compared based on the main air pollutants (i.e., PM2.5, O3, and NO2) and model type. Moreover, we identify the key driving variables for ML models in predicting particulate matter (PM) pollutants by quantitative statistics. Additionally, a case study for wet nitrogen deposition estimation is carried out based on ML models. Finally, the prospects of ML for atmospheric prediction are discussed.
+KW  - machine learning
+KW  - deep learning
+KW  - atmospheric environment
+KW  - nitrate wet deposition
+KW  - convolutional neural network
+DO  - 10.3390/rs13234839
+TY  - EJOU
+AU  - Shin, Jisun
+AU  - Lee, Jong-Seok
+AU  - Jang, Lee-Hyun
+AU  - Lim, Jinwook
+AU  - Khim, Boo-Keun
+AU  - Jo, Young-Heon
+TI  - Sargassum Detection Using Machine Learning Models: A Case Study with the First 6 Months of GOCI-II Imagery
+T2  - Remote Sensing
+
+PY  - 2021
+VL  - 13
+IS  - 23
+SN  - 2072-4292
+
+AB  - A record-breaking agglomeration of Sargassum was packed along the northern Jeju coast in Korea in 2021, and laborers suffered from removing them from the beach. If remote sensing can be used to detect the locations at which Sargassum accumulated in a timely and accurate manner, we could remove them before their arrival and reduce the damage caused by Sargassum. This study aims to detect Sargassum distribution on the coast of Jeju Island using the Geostationary KOMPSAT 2B (GK2B) Geostationary Ocean Color Imager-II (GOCI-II) imagery that was launched in February 2020, with measurements available since October 2020. For this, we used GOCI-II imagery during the first 6 months and machine learning models including Fine Tree, a Fine Gaussian support vector machine (SVM), and Gentle adaptive boosting (GentleBoost). We trained the models with the GOCI-II Rayleigh-corrected reflectance (RhoC) image and a ground truth map extracted from high-resolution images as input and output, respectively. Qualitative and quantitative assessments were carried out using the three machine learning models and traditional methods such as Sargassum indexes. We found that GentleBoost showed a lower false positive (6.2%) and a high F-measure level (0.82), and a more appropriate Sargassum distribution compared to other methods. The application of the machine learning model to GOCI-II images in various atmospheric conditions is therefore considered successful for mapping Sargassum extent quickly, enabling reduction of laborers&rsquo; efforts to remove them.
+KW  - Sargassum horneri
+KW  - GOCI-II
+KW  - Jeju Island
+KW  - machine learning
+KW  - Sargassum indexes
+DO  - 10.3390/rs13234844
+TY  - EJOU
+AU  - Li, Yan
+AU  - Zhao, Mengyu
+AU  - Zhang, Huazhi
+AU  - Yang, Fuling
+AU  - Wang, Suyu
+TI  - An Interactive Self-Learning Game and Evolutionary Approach Based on Non-Cooperative Equilibrium
+T2  - Electronics
+
+PY  - 2021
+VL  - 10
+IS  - 23
+SN  - 2079-9292
+
+AB  - Most current studies on multi-agent evolution based on deep learning take a cooperative equilibrium strategy, while interactive self-learning is not always considered. An interactive self-learning game and evolution method based on non-cooperative equilibrium (ISGE-NCE) is proposed to take the benefits of both game theory and interactive learning for multi-agent confrontation evolution. A generative adversarial network (GAN) is designed combining with multi-agent interactive self-learning, and the non-cooperative equilibrium strategy is well adopted within the framework of interactive self-learning, aiming for high evolution efficiency and interest. For assessment, three typical multi-agent confrontation experiments are designed and conducted. The results show that, first, in terms of training speed, the ISGE-NCE produces a training convergence rate of at least 46.3% higher than that of the method without considering interactive self-learning. Second, the evolution rate of the interference and detection agents reaches 60% and 80%, respectively, after training by using our method. In the three different experiment scenarios, compared with the DDPG, our ISGE-NCE method improves the multi-agent evolution effectiveness by 43.4%, 50%, and 20%, respectively, with low training costs. The performances demonstrate the significant superiority of our ISGE-NCE method in swarm intelligence.
+KW  - non-cooperative equilibrium
+KW  - interactive self-learning
+KW  - generative adversarial
+KW  - game evolution
+KW  - multi-agent confrontation
+DO  - 10.3390/electronics10232977
+TY  - EJOU
+AU  - Saad, Felipe
+AU  - Biswas, Sumalika
+AU  - Huang, Qiongyu
+AU  - Corte, Ana P.
+AU  - Coraiola, Márcio
+AU  - Macey, Sarah
+AU  - Carlucci, Marcos B.
+AU  - Leimgruber, Peter
+TI  - Detectability of the Critically Endangered Araucaria angustifolia Tree Using Worldview-2 Images, Google Earth Engine and UAV-LiDAR
+T2  - Land
+
+PY  - 2021
+VL  - 10
+IS  - 12
+SN  - 2073-445X
+
+AB  - The Brazilian Atlantic Forest is a global biodiversity hotspot and has been extensively mapped using satellite remote sensing. However, past mapping focused on overall forest cover without consideration of keystone plant resources such as Araucaria angustifolia.&nbsp;A. angustifolia is a critically endangered coniferous tree that is essential for supporting overall biodiversity in the Atlantic Forest. A. angustifolia&rsquo;s distribution has declined dramatically because of overexploitation and land-use changes. Accurate detection and rapid assessments of the distribution and abundance of this species are urgently needed. We compared two approaches for mapping Araucaria angustifolia across two scales (stand vs. individual tree) at three study sites in Brazil. The first approach used Worldview-2 images and Random Forest in Google Earth Engine to detect A. angustifolia at the stand level, with an accuracy of &gt;90% across all three study sites. The second approach relied on object identification using UAV-LiDAR and successfully mapped individual trees (producer&rsquo;s/user&rsquo;s accuracy = 94%/64%) at one study site. Both approaches can be employed in tandem to map remaining stands and to determine the exact location of A. angustifolia trees. Each approach has its own strengths and weaknesses, and we discuss their adoptability by managers to inform conservation of A. angustifolia.
+KW  - Atlantic Forest
+KW  - Araucaria angustifolia
+KW  - Parana pine
+KW  - Google Earth Engine
+KW  - UAV-LiDAR
+KW  - Worldview-2
+KW  - conservation
+KW  - Brazil
+KW  - multi-scale assessment
+DO  - 10.3390/land10121316
+TY  - EJOU
+AU  - Grzelczak, Maciej
+AU  - Duch, Piotr
+TI  - Deep Reinforcement Learning Algorithms for Path Planning Domain in Grid-like Environment
+T2  - Applied Sciences
+
+PY  - 2021
+VL  - 11
+IS  - 23
+SN  - 2076-3417
+
+AB  - Recently, more and more solutions have utilised artificial intelligence approaches in order to enhance or optimise processes to achieve greater sustainability. One of the most pressing issues is the emissions caused by cars; in this paper, the problem of optimising the route of delivery cars is tackled. In this paper, the applicability of the deep reinforcement learning algorithms with regards to the aforementioned problem is tested on a simulation game designed and implemented to pose various challenges such as constant change of delivery locations. The algorithms chosen for this task are Advantage Actor-Critic (A2C) with and without Proximal Policy Optimisation (PPO). These novel and advanced reinforcement learning algorithms have yet not been utilised in similar scenarios. The differences in performance and learning process of those are visualised and discussed. It is demonstrated that both of those algorithms present a slow but steady learning curve, which is an expected effect of reinforcement learning algorithms, leading to a conclusion that the algorithms would discover an optimal policy with an adequately long learning process. Additionally, the benefits of the Proximal Policy Optimisation algorithm are proven by the enhanced learning curve with comparison to the Advantage Actor-Critic approach, as the learning process is characterised by faster growth with a significantly smaller variation. Finally, the applicability of such algorithms in the described scenarios is discussed, alongside the possible improvements and future work.
+KW  - reinforcement learning
+KW  - Advantage Actor-Critic (A2C)
+KW  - Proximal Policy Optimisation (PPO)
+KW  - deep reinforcement learning
+KW  - simulation game
+DO  - 10.3390/app112311335
+TY  - EJOU
+AU  - Dirir, Ahmed
+AU  - Ignatious, Henry
+AU  - Elsayed, Hesham
+AU  - Khan, Manzoor
+AU  - Adib, Mohammed
+AU  - Mahmoud, Anas
+AU  - Al-Gunaid, Moatasem
+TI  - An Advanced Deep Learning Approach for Multi-Object Counting in Urban Vehicular Environments
+T2  - Future Internet
+
+PY  - 2021
+VL  - 13
+IS  - 12
+SN  - 1999-5903
+
+AB  - Object counting is an active research area that gained more attention in the past few years. In smart cities, vehicle counting plays a crucial role in urban planning and management of the Intelligent Transportation Systems (ITS). Several approaches have been proposed in the literature to address this problem. However, the resulting detection accuracy is still not adequate. This paper proposes an efficient approach that uses deep learning concepts and correlation filters for multi-object counting and tracking. The performance of the proposed system is evaluated using a dataset consisting of 16 videos with different features to examine the impact of object density, image quality, angle of view, and speed of motion towards system accuracy. Performance evaluation exhibits promising results in normal traffic scenarios and adverse weather conditions. Moreover, the proposed approach outperforms the performance of two recent approaches from the literature.
+KW  - object counting
+KW  - object detection
+KW  - multi-object tracking
+KW  - deep learning
+KW  - YOLO
+KW  - correlation filters
+DO  - 10.3390/fi13120306

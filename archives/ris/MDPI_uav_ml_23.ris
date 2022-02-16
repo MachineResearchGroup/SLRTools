@@ -1,0 +1,333 @@
+TY  - EJOU
+AU  - Xuan-Mung, Nguyen
+AU  - Hong, Sung K.
+TI  - Robust Backstepping Trajectory Tracking Control of a Quadrotor with Input Saturation via Extended State Observer
+T2  - Applied Sciences
+
+PY  - 2019
+VL  - 9
+IS  - 23
+SN  - 2076-3417
+
+AB  - Quadrotor unmanned aerial vehicles have become increasingly popular in several applications, and the improvement of their control performance has been documented in several studies. Nevertheless, the design of a high-performance tracking controller for aerial vehicles that reliably functions in the simultaneous presence of model uncertainties, external disturbances, and control input saturation still remains a challenge. In this paper, we present a robust backstepping trajectory tracking control of a quadrotor with input saturation. The controller design accounts for both parameterized uncertainties and external disturbances, whereas a new auxiliary system is proposed to cope with control input saturation. Taking into account that only the position and attitude of the quadrotor are measurable, we devise an extended state observer to supply the estimations of unmeasured states, model uncertainties, and external disturbances. We strictly prove the stability of the closed-loop system by using the Lyapunov theory and demonstrate the effectiveness of the proposed algorithm through numerical simulations.
+KW  - robust control
+KW  - trajectory tracking control
+KW  - backstepping
+KW  - quadrotor
+KW  - extended state observer
+KW  - input saturation.
+DO  - 10.3390/app9235184
+ER  -
+TY  - EJOU
+AU  - Wang, Yantian
+AU  - Li, Haifeng
+AU  - Jia, Peng
+AU  - Zhang, Guo
+AU  - Wang, Taoyang
+AU  - Hao, Xiaoyun
+TI  - Multi-Scale DenseNets-Based Aircraft Detection from Remote Sensing Images
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 23
+SN  - 1424-8220
+
+AB  - Deep learning-based aircraft detection methods have been increasingly implemented in recent years. However, due to the multi-resolution imaging modes, aircrafts in different images show very wide diversity on size, view and other visual features, which brings great challenges to detection. Although standard deep convolution neural networks (DCNN) can extract rich semantic features, they destroy the bottom-level location information. The features of small targets may also be submerged by redundant top-level features, resulting in poor detection. To address these problems, we proposed a compact multi-scale dense convolutional neural network (MS-DenseNet) for aircraft detection in remote sensing images. Herein, DenseNet was utilized for feature extraction, which enhances the propagation and reuse of the bottom-level high-resolution features. Subsequently, we combined feature pyramid network (FPN) with DenseNet to form a MS-DenseNet for learning multi-scale features, especially features of small objects. Finally, by compressing some of the unnecessary convolution layers of each dense block, we designed three new compact architectures: MS-DenseNet-41, MS-DenseNet-65, and MS-DenseNet-77. Comparative experiments showed that the compact MS-DenseNet-65 obtained a noticeable improvement in detecting small aircrafts and achieved state-of-the-art performance with a recall of 94% and an F1-score of 92.7% and cost less computational time. Furthermore, the experimental results on robustness of UCAS-AOD and RSOD datasets also indicate the good transferability of our method.
+KW  - remote sensing images
+KW  - aircraft detection
+KW  - compact multi-scale dense convolutional neural network
+KW  - multi-scale training
+DO  - 10.3390/s19235270
+ER  -
+TY  - EJOU
+AU  - Zhang, Heng
+AU  - Wu, Jiayu
+AU  - Liu, Yanli
+AU  - Yu, Jia
+TI  - VaryBlock: A Novel Approach for Object Detection in Remote Sensed Images
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 23
+SN  - 1424-8220
+
+AB  - In recent years, the research on optical remote sensing images has received greater and greater attention. Object detection, as one of the most challenging tasks in the area of remote sensing, has been remarkably promoted by convolutional neural network (CNN)-based methods like You Only Look Once (YOLO) and Faster R-CNN. However, due to the complexity of backgrounds and the distinctive object distribution, directly applying these general object detection methods to the remote sensing object detection usually renders poor performance. To tackle this problem, a highly efficient and robust framework based on YOLO is proposed. We devise and integrate VaryBlock to the architecture which effectively offsets some of the information loss caused by downsampling. In addition, some techniques are utilized to facilitate the performance and to avoid overfitting. Experimental results show that our proposed method can enormously improve the mean average precision by a large margin on the NWPU VHR-10 dataset.
+KW  - remote sensing
+KW  - object detection
+KW  - YOLO
+KW  - VaryBlock
+DO  - 10.3390/s19235284
+ER  -
+TY  - EJOU
+AU  - Moreno-Armendáriz, Marco A.
+AU  - Calvo, Hiram
+AU  - Duchanoy, Carlos A.
+AU  - López-Juárez, Anayantzin P.
+AU  - Vargas-Monroy, Israel A.
+AU  - Suarez-Castañon, Miguel S.
+TI  - Deep Green Diagnostics: Urban Green Space Analysis Using Deep Learning and Drone Images
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 23
+SN  - 1424-8220
+
+AB  - Nowadays, more than half of the world’s population lives in urban areas, and this number continues increasing. Consequently, there are more and more scientific publications that analyze health problems of people associated with living in these highly urbanized locations. In particular, some of the recent work has focused on relating people’s health to the quality and quantity of urban green areas. In this context, and considering the huge amount of land area in large cities that must be supervised, our work seeks to develop a deep learning-based solution capable of determining the level of health of the land and to assess whether it is contaminated. The main purpose is to provide health institutions with software capable of creating updated maps that indicate where these phenomena are presented, as this information could be very useful to guide public health goals in large cities. Our software is released as open source code, and the data used for the experiments presented in this paper are also freely available.
+KW  - deep learning (for social good)
+KW  - remote sensing
+KW  - biomass analysis
+DO  - 10.3390/s19235287
+ER  -
+TY  - EJOU
+AU  - Wang, Le
+AU  - Wu, Qing
+AU  - Liu, Jialun
+AU  - Li, Shijie
+AU  - Negenborn, Rudy R.
+TI  - State-of-the-Art Research on Motion Control of Maritime Autonomous Surface Ships
+T2  - Journal of Marine Science and Engineering
+
+PY  - 2019
+VL  - 7
+IS  - 12
+SN  - 2077-1312
+
+AB  - At present, with the development of waterborne transport vehicles, research on ship faces a new round of challenges in terms of intelligence and autonomy. The concept of maritime autonomous surface ships (MASS) has been put forward by the International Maritime Organization in 2017, in which MASS become the new focus of the waterborne transportation industry. This paper elaborates on the state-of-the-art research on motion control of MASS. Firstly, the characteristics and current research status of unmanned surface vessels in MASS and conventional ships are summarized, and the system composition of MASS is analyzed. In order to better realize the self-adaptability of the MASS motion control, the theory and algorithm of ship motion control-related systems are emphatically analyzed under the condition of classifying ship motion control. Especially, the application of intelligent algorithms in the ship control field is summarized and analyzed. Finally, this paper summarizes the challenges faced by MASS in the model establishment, motion control algorithms, and real ship experiments, and proposes the composition of MASS motion control system based on variable autonomous control strategy. Future researches on the accuracy and diversity of developments and applications to MASS motion control are suggested.
+KW  - maritime autonomous surface ships (MASS)
+KW  - unmanned surface vehicles (USV)
+KW  - motion control
+KW  - intelligent algorithms
+KW  - autonomous control strategy
+DO  - 10.3390/jmse7120438
+ER  -
+TY  - EJOU
+AU  - Ci, Tianyu
+AU  - Liu, Zhen
+AU  - Wang, Ying
+TI  - Assessment of the Degree of Building Damage Caused by Disaster Using Convolutional Neural Networks in Combination with Ordinal Regression
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 23
+SN  - 2072-4292
+
+AB  - We propose a new convolutional neural networks method in combination with ordinal regression aiming at assessing the degree of building damage caused by earthquakes with aerial imagery. The ordinal regression model and a deep learning algorithm are incorporated to make full use of the information to improve the accuracy of the assessment. A new loss function was introduced in this paper to combine convolutional neural networks and ordinal regression. Assessing the level of damage to buildings can be considered as equivalent to predicting the ordered labels of buildings to be assessed. In the existing research, the problem has usually been simplified as a problem of pure classification to be further studied and discussed, which ignores the ordinal relationship between different levels of damage, resulting in a waste of information. Data accumulated throughout history are used to build network models for assessing the level of damage, and models for assessing levels of damage to buildings based on deep learning are described in detail, including model construction, implementation methods, and the selection of hyperparameters, and verification is conducted by experiments. When categorizing the damage to buildings into four types, we apply the method proposed in this paper to aerial images acquired from the 2014 Ludian earthquake and achieve an overall accuracy of 77.39%; when categorizing damage to buildings into two types, the overall accuracy of the model is 93.95%, exceeding such values in similar types of theories and methods.
+KW  - earthquake
+KW  - rapid mapping
+KW  - damage assessment
+KW  - deep learning
+KW  - convolutional neural networks
+KW  - ordinal regression
+KW  - aerial image
+DO  - 10.3390/rs11232858
+ER  -
+TY  - EJOU
+AU  - Kayad, Ahmed
+AU  - Sozzi, Marco
+AU  - Gatto, Simone
+AU  - Marinello, Francesco
+AU  - Pirotti, Francesco
+TI  - Monitoring Within-Field Variability of Corn Yield using Sentinel-2 and Machine Learning Techniques
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 23
+SN  - 2072-4292
+
+AB  - Monitoring and prediction of within-field crop variability can support farmers to make the right decisions in different situations. The current advances in remote sensing and the availability of high resolution, high frequency, and free Sentinel-2 images improve the implementation of Precision Agriculture (PA) for a wider range of farmers. This study investigated the possibility of using vegetation indices (VIs) derived from Sentinel-2 images and machine learning techniques to assess corn (Zea mays) grain yield spatial variability within the field scale. A 22-ha study field in North Italy was monitored between 2016 and 2018; corn yield was measured and recorded by a grain yield monitor mounted on the harvester machine recording more than 20,000 georeferenced yield observation points from the study field for each season. VIs from a total of 34 Sentinel-2 images at different crop ages were analyzed for correlation with the measured yield observations. Multiple regression and two different machine learning approaches were also tested to model corn grain yield. The three main results were the following: (i) the Green Normalized Difference Vegetation Index (GNDVI) provided the highest R2 value of 0.48 for monitoring within-field variability of corn grain yield; (ii) the most suitable period for corn yield monitoring was a crop age between 105 and 135 days from the planting date (R4&ndash;R6); (iii) Random Forests was the most accurate machine learning approach for predicting within-field variability of corn yield, with an R2 value of almost 0.6 over an independent validation set of half of the total observations. Based on the results, within-field variability of corn yield for previous seasons could be investigated from archived Sentinel-2 data with GNDVI at crop stage (R4&ndash;R6).
+KW  - Sentinel-2
+KW  - precision agriculture
+KW  - machine learning
+KW  - vegetation indices
+KW  - corn yield
+KW  - within-field variability
+KW  - digital farming
+DO  - 10.3390/rs11232873
+ER  -
+TY  - EJOU
+AU  - Nagy, Balázs
+AU  - Botzheim, János
+AU  - Korondi, Péter
+TI  - Magnetic Angular Rate and Gravity Sensor Based Supervised Learning for Positioning Tasks
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 24
+SN  - 1424-8220
+
+AB  - This paper deals with sensor fusion of magnetic, angular rate and gravity sensor (MARG). The main contribution of this paper is the sensor fusion performed by supervised learning, which means parallel processing of the different kinds of measured data and estimating the position in periodic and non-periodic cases. During the learning phase, the position estimated by sensor fusion is compared with position data of a motion capture system. The main challenge is avoiding the error caused by the implicit integral calculation of MARG. There are several filter based signal processing methods for disturbance and noise estimation, which are calculated for each sensor separately. These classical methods can be used for disturbance and noise reduction and extracting hidden information from it as well. This paper examines the different types of noises and proposes a machine learning-based method for calculation of position and orientation directly from nine separate sensors. This method includes the disturbance and noise reduction in addition to sensor fusion. The proposed method was validated by experiments which provided promising results on periodic and translational motion as well.
+KW  - MARG sensor
+KW  - supervised learning
+KW  - sensor fusion
+KW  - position estimation
+DO  - 10.3390/s19245364
+ER  -
+TY  - EJOU
+AU  - Bazine, Razika
+AU  - Wu, Huayi
+AU  - Boukhechba, Kamel
+TI  - Spectral DWT Multilevel Decomposition with Spatial Filtering Enhancement Preprocessing-Based Approaches for Hyperspectral Imagery Classification
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 24
+SN  - 2072-4292
+
+AB  - In this paper, spectral&ndash;spatial preprocessing using discrete wavelet transform (DWT) multilevel decomposition and spatial filtering is proposed for improving the accuracy of hyperspectral imagery classification. Specifically, spectral DWT multilevel decomposition (SDWT) is performed on the hyperspectral image to separate the approximation coefficients from the detail coefficients. For each level of decomposition, only the detail coefficients are spatially filtered instead of being discarded, as is often adopted by the wavelet-based approaches. Thus, three different spatial filters are explored, including two-dimensional DWT (2D-DWT), adaptive Wiener filter (AWF), and two-dimensional discrete cosine transform (2D-DCT). After the enhancement of the spectral information by performing the spatial filter on the detail coefficients, DWT reconstruction is carried out on both the approximation and the filtered detail coefficients. The final preprocessed image is fed into a linear support vector machine (SVM) classifier. Evaluation results on three widely used real hyperspectral datasets show that the proposed framework using spectral DWT multilevel decomposition with 2D-DCT filter (SDWT-2DCT_SVM) exhibits a significant performance and outperforms many state-of-the-art methods in terms of classification accuracy, even under the constraint of small training sample size, and execution time.
+KW  - spectral–spatial hyperspectral classification
+KW  - DWT multilevel decomposition
+KW  - discrete cosine transform
+KW  - structural filtering
+KW  - SVM
+KW  - Wiener filter
+DO  - 10.3390/rs11242906
+ER  -
+TY  - EJOU
+AU  - Liu, Wei
+AU  - Yang, MengYuan
+AU  - Xie, Meng
+AU  - Guo, Zihui
+AU  - Li, ErZhu
+AU  - Zhang, Lianpeng
+AU  - Pei, Tao
+AU  - Wang, Dong
+TI  - Accurate Building Extraction from Fused DSM and UAV Images Using a Chain Fully Convolutional Neural Network
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 24
+SN  - 2072-4292
+
+AB  - Accurate extraction of buildings using high spatial resolution imagery is essential to a wide range of urban applications. However, it is difficult to extract semantic features from a variety of complex scenes (e.g., suburban, urban and urban village areas) because various complex man-made objects usually appear heterogeneous with large intra-class and low inter-class variations. The automatic extraction of buildings is thus extremely challenging. The fully convolutional neural networks (FCNs) developed in recent years have performed well in the extraction of urban man-made objects due to their ability to learn state-of-the-art features and to label pixels end-to-end. One of the most successful FCNs used in building extraction is U-net. However, the commonly used skip connection and feature fusion refinement modules in U-net often ignore the problem of feature selection, and the ability to extract smaller buildings and refine building boundaries needs to be improved. In this paper, we propose a trainable chain fully convolutional neural network (CFCN), which fuses high spatial resolution unmanned aerial vehicle (UAV) images and the digital surface model (DSM) for building extraction. Multilevel features are obtained from the fusion data, and an improved U-net is used for the coarse extraction of the building. To solve the problem of incomplete extraction of building boundaries, a U-net network is introduced by chain, which is used for the introduction of a coarse building boundary constraint, hole filling, and "speckle" removal. Typical areas such as suburban, urban, and urban villages were selected for building extraction experiments. The results show that the CFCN achieved recall of 98.67%, 98.62%, and 99.52% and intersection over union (IoU) of 96.23%, 96.43%, and 95.76% in suburban, urban, and urban village areas, respectively. Considering the IoU in conjunction with the CFCN and U-net resulted in improvements of 6.61%, 5.31%, and 6.45% in suburban, urban, and urban village areas, respectively. The proposed method can extract buildings with higher accuracy and with clearer and more complete boundaries.
+KW  - building extraction
+KW  - digital surface model
+KW  - unmanned aerial vehicle images
+KW  - chain full convolution neural network
+KW  - fusion
+DO  - 10.3390/rs11242912
+ER  -
+TY  - EJOU
+AU  - Su, Jingxin
+AU  - Miyazaki, Ryuji
+AU  - Tamaki, Toru
+AU  - Kaneda, Kazufumi
+TI  - High-Resolution Representation for Mobile Mapping Data in Curved Regular Grid Model
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 24
+SN  - 1424-8220
+
+AB  - As mobile mapping systems become a mature technology, there are many applications for the process of the measured data. One interesting application is the use of driving simulators that can be used to analyze the data of tire vibration or vehicle simulations. In previous research, we presented our proposed method that can create a precise three-dimensional point cloud model of road surface regions and trajectory points. Our data sets were obtained by a vehicle-mounted mobile mapping system (MMS). The collected data were converted into point cloud data and color images. In this paper, we utilize the previous results as input data and present a solution that can generate an elevation grid for building an OpenCRG model. The OpenCRG project was originally developed to describe road surface elevation data, and also defined an open file format. As it can be difficult to generate a regular grid from point cloud directly, the road surface is first divided into straight lines, circular arcs, and and clothoids. Secondly, a non-regular grid which contains the elevation of road surface points is created for each road surface segment. Then, a regular grid is generated by accurately interpolating the elevation values from the non-regular grid. Finally, the curved regular grid (CRG) model files are created based on the above procedures, and can be visualized by OpenCRG tools. The experimental results on real-world data show that the proposed approach provided a very-high-resolution road surface elevation model.
+KW  - road surface
+KW  - point cloud
+KW  - mobile mapping system
+KW  - bilinear interpolation
+KW  - curved regular grid
+KW  - OpenCRG
+DO  - 10.3390/s19245373
+ER  -
+TY  - EJOU
+AU  - Prado Osco, Lucas
+AU  - Marques Ramos, Ana P.
+AU  - Roberto Pereira, Danilo
+AU  - Akemi Saito Moriya, Érika
+AU  - Nobuhiro Imai, Nilton
+AU  - Takashi Matsubara, Edson
+AU  - Estrabis, Nayara
+AU  - de Souza, Maurício
+AU  - Marcato Junior, José
+AU  - Gonçalves, Wesley N.
+AU  - Li, Jonathan
+AU  - Liesenberg, Veraldo
+AU  - Eduardo Creste, José
+TI  - Predicting Canopy Nitrogen Content in Citrus-Trees Using Random Forest Algorithm Associated to Spectral Vegetation Indices from UAV-Imagery
+T2  - Remote Sensing
+
+PY  - 2019
+VL  - 11
+IS  - 24
+SN  - 2072-4292
+
+AB  - The traditional method of measuring nitrogen content in plants is a time-consuming and labor-intensive task. Spectral vegetation indices extracted from unmanned aerial vehicle (UAV) images and machine learning algorithms have been proved effective in assisting nutritional analysis in plants. Still, this analysis has not considered the combination of spectral indices and machine learning algorithms to predict nitrogen in tree-canopy structures. This paper proposes a new framework to infer the nitrogen content in citrus-tree at a canopy-level using spectral vegetation indices processed with the random forest algorithm. A total of 33 spectral indices were estimated from multispectral images acquired with a UAV-based sensor. Leaf samples were gathered from different planting-fields and the leaf nitrogen content (LNC) was measured in the laboratory, and later converted into the canopy nitrogen content (CNC). To evaluate the robustness of the proposed framework, we compared it with other machine learning algorithms. We used 33,600 citrus trees to evaluate the performance of the machine learning models. The random forest algorithm had higher performance in predicting CNC than all models tested, reaching an R2 of 0.90, MAE of 0.341 g&middot;kg&minus;1 and MSE of 0.307 g&middot;kg&minus;1. We demonstrated that our approach is able to reduce the need for chemical analysis of the leaf tissue and optimizes citrus orchard CNC monitoring.
+KW  - UAV multispectral imagery
+KW  - spectral vegetation indices
+KW  - machine learning
+KW  - plant nutrition
+DO  - 10.3390/rs11242925
+ER  -
+TY  - EJOU
+AU  - Zhou, Yu
+AU  - Wu, Chunxue
+AU  - Wu, Qunhui
+AU  - Eli, Zelda M.
+AU  - Xiong, Naixue
+AU  - Zhang, Sheng
+TI  - Design and Analysis of Refined Inspection of Field Conditions of Oilfield Pumping Wells Based on Rotorcraft UAV Technology
+T2  - Electronics
+
+PY  - 2019
+VL  - 8
+IS  - 12
+SN  - 2079-9292
+
+AB  - The traditional oil well monitoring method relies on manual acquisition and various high-precision sensors. Using the indicator diagram to judge the working condition of the well is not only difficult to establish but also consumes huge manpower and financial resources. This paper proposes the use of computer vision in the detection of working conditions in oil extraction. Combined with the advantages of an unmanned aerial vehicle (UAV), UAV aerial photography images are used to realize real-time detection of on-site working conditions by real-time tracking of the working status of the head working and other related parts of the pumping unit. Considering the real-time performance of working condition detection, this paper proposes a framework that combines You only look once version 3 (YOLOv3) and a sort algorithm to complete multi-target tracking in the form of tracking by detection. The quality of the target detection in the framework is the key factor affecting the tracking effect. The experimental results show that a good detector makes the tracking speed achieve the real-time effect and provides help for the real-time detection of the working condition, which has a strong practical application.
+KW  - computer vision
+KW  - oil well working condition
+KW  - real-time detection
+KW  - sort
+KW  - unmanned aerial vehicle (UAV)
+KW  - YOLOv3
+DO  - 10.3390/electronics8121504
+ER  -
+TY  - EJOU
+AU  - Barbedo, Jayme G.
+AU  - Koenigkan, Luciano V.
+AU  - Santos, Thiago T.
+AU  - Santos, Patrícia M.
+TI  - A Study on the Detection of Cattle in UAV Images Using Deep Learning
+T2  - Sensors
+
+PY  - 2019
+VL  - 19
+IS  - 24
+SN  - 1424-8220
+
+AB  - Unmanned aerial vehicles (UAVs) are being increasingly viewed as valuable tools to aid the management of farms. This kind of technology can be particularly useful in the context of extensive cattle farming, as production areas tend to be expansive and animals tend to be more loosely monitored. With the advent of deep learning, and convolutional neural networks (CNNs) in particular, extracting relevant information from aerial images has become more effective. Despite the technological advancements in drone, imaging and machine learning technologies, the application of UAVs for cattle monitoring is far from being thoroughly studied, with many research gaps still remaining. In this context, the objectives of this study were threefold: (1) to determine the highest possible accuracy that could be achieved in the detection of animals of the Canchim breed, which is visually similar to the Nelore breed (Bos taurus indicus); (2) to determine the ideal ground sample distance (GSD) for animal detection; (3) to determine the most accurate CNN architecture for this specific problem. The experiments involved 1853 images containing 8629 samples of animals, and 15 different CNN architectures were tested. A total of 900 models were trained (15 CNN architectures &times; 3 spacial resolutions &times; 2 datasets &times; 10-fold cross validation), allowing for a deep analysis of the several aspects that impact the detection of cattle using aerial images captured using UAVs. Results revealed that many CNN architectures are robust enough to reliably detect animals in aerial images even under far from ideal conditions, indicating the viability of using UAVs for cattle monitoring.
+KW  - unmanned aerial vehicles
+KW  - drones
+KW  - canchim breed
+KW  - nelore breed
+KW  - convolutional neural networks
+DO  - 10.3390/s19245436
+ER  -
+TY  - EJOU
+AU  - Niccolai, Alessandro
+AU  - Grimaccia, Francesco
+AU  - Leva, Sonia
+TI  - Advanced Asset Management Tools in Photovoltaic Plant Monitoring: UAV-Based Digital Mapping
+T2  - Energies
+
+PY  - 2019
+VL  - 12
+IS  - 24
+SN  - 1996-1073
+
+AB  - Photovoltaic (PV) plant monitoring and maintenance has become an often critical activity: the high efficiency requirements of the new European policy have often been in contrast with the many low-quality plants installed in several countries over the past few years. In actual industrial practices, heterogeneous information is produced, and they are often managed in a fragmented way. Several software tools have been developed for obtaining reliable and valuable information from the PV plant&rsquo;s raw data. With the aim of gathering and managing all these data in a more complex and integrated manner, an information managing system is proposed in this work&mdash;it is composed of a structured database, called the Photovoltaic Indexed Database, and a user interface, called the Digital Map, that allows for easy access and completion of the information present in the database. This information managment system and PV plant digitalization process is able to analyze and properly index the IR in the database, as well as the visual images obtained in photovoltaic plant monitoring.
+KW  - photovoltaic monitoring
+KW  - PV defect diagnosis
+KW  - Unmanned Aerial Vehicles
+KW  - image-processing
+KW  - digital map
+KW  - PV plant digitalization
+DO  - 10.3390/en12244736
+ER  -
