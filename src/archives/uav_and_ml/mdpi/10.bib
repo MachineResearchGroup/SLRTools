@@ -1,0 +1,113 @@
+
+@Article{rs9020100,
+AUTHOR = {Bejiga, Mesay Belete and Zeggada, Abdallah and Nouffidj, Abdelhamid and Melgani, Farid},
+TITLE = {A Convolutional Neural Network Approach for Assisting Avalanche Search and Rescue Operations with UAV Imagery},
+JOURNAL = {Remote Sensing},
+VOLUME = {9},
+YEAR = {2017},
+NUMBER = {2},
+ARTICLE-NUMBER = {100},
+URL = {https://www.mdpi.com/2072-4292/9/2/100},
+ISSN = {2072-4292},
+ABSTRACT = {Following an avalanche, one of the factors that affect victims’ chance of survival is the speed with which they are located and dug out. Rescue teams use techniques like trained rescue dogs and electronic transceivers to locate victims. However, the resources and time required to deploy rescue teams are major bottlenecks that decrease a victim’s chance of survival. Advances in the field of Unmanned Aerial Vehicles (UAVs) have enabled the use of flying robots equipped with sensors like optical cameras to assess the damage caused by natural or manmade disasters and locate victims in the debris. In this paper, we propose assisting avalanche search and rescue (SAR) operations with UAVs fitted with vision cameras. The sequence of images of the avalanche debris captured by the UAV is processed with a pre-trained Convolutional Neural Network (CNN) to extract discriminative features. A trained linear Support Vector Machine (SVM) is integrated at the top of the CNN to detect objects of interest. Moreover, we introduce a pre-processing method to increase the detection rate and a post-processing method based on a Hidden Markov Model to improve the prediction performance of the classifier. Experimental results conducted on two different datasets at different levels of resolution show that the detection performance increases with an increase in resolution, while the computation time increases. Additionally, they also suggest that a significant decrease in processing time can be achieved thanks to the pre-processing step.},
+DOI = {10.3390/rs9020100}
+}
+
+
+
+@Article{rs9040312,
+AUTHOR = {Ammour, Nassim and Alhichri, Haikel and Bazi, Yakoub and Benjdira, Bilel and Alajlan, Naif and Zuair, Mansour},
+TITLE = {Deep Learning Approach for Car Detection in UAV Imagery},
+JOURNAL = {Remote Sensing},
+VOLUME = {9},
+YEAR = {2017},
+NUMBER = {4},
+ARTICLE-NUMBER = {312},
+URL = {https://www.mdpi.com/2072-4292/9/4/312},
+ISSN = {2072-4292},
+ABSTRACT = {This paper presents an automatic solution to the problem of detecting and counting cars in unmanned aerial vehicle (UAV) images. This is a challenging task given the very high spatial resolution of UAV images (on the order of a few centimetres) and the extremely high level of detail, which require suitable automatic analysis methods. Our proposed method begins by segmenting the input image into small homogeneous regions, which can be used as candidate locations for car detection. Next, a window is extracted around each region, and deep learning is used to mine highly descriptive features from these windows. We use a deep convolutional neural network (CNN) system that is already pre-trained on huge auxiliary data as a feature extraction tool, combined with a linear support vector machine (SVM) classifier to classify regions into “car” and “no-car” classes. The final step is devoted to a fine-tuning procedure which performs morphological dilation to smooth the detected regions and fill any holes. In addition, small isolated regions are analysed further using a few sliding rectangular windows to locate cars more accurately and remove false positives. To evaluate our method, experiments were conducted on a challenging set of real UAV images acquired over an urban area. The experimental results have proven that the proposed method outperforms the state-of-the-art methods, both in terms of accuracy and computational time.},
+DOI = {10.3390/rs9040312}
+}
+
+
+
+@Article{s18030712,
+AUTHOR = {Zhao, Yi and Ma, Jiale and Li, Xiaohui and Zhang, Jie},
+TITLE = {Saliency Detection and Deep Learning-Based Wildfire Identification in UAV Imagery},
+JOURNAL = {Sensors},
+VOLUME = {18},
+YEAR = {2018},
+NUMBER = {3},
+ARTICLE-NUMBER = {712},
+URL = {https://www.mdpi.com/1424-8220/18/3/712},
+ISSN = {1424-8220},
+ABSTRACT = {An unmanned aerial vehicle (UAV) equipped with global positioning systems (GPS) can provide direct georeferenced imagery, mapping an area with high resolution. So far, the major difficulty in wildfire image classification is the lack of unified identification marks, the fire features of color, shape, texture (smoke, flame, or both) and background can vary significantly from one scene to another. Deep learning (e.g., DCNN for Deep Convolutional Neural Network) is very effective in high-level feature learning, however, a substantial amount of training images dataset is obligatory in optimizing its weights value and coefficients. In this work, we proposed a new saliency detection algorithm for fast location and segmentation of core fire area in aerial images. As the proposed method can effectively avoid feature loss caused by direct resizing; it is used in data augmentation and formation of a standard fire image dataset ‘UAV_Fire’. A 15-layered self-learning DCNN architecture named ‘Fire_Net’ is then presented as a self-learning fire feature exactor and classifier. We evaluated different architectures and several key parameters (drop out ratio, batch size, etc.) of the DCNN model regarding its validation accuracy. The proposed architecture outperformed previous methods by achieving an overall accuracy of 98%. Furthermore, ‘Fire_Net’ guarantied an average processing speed of 41.5 ms per image for real-time wildfire inspection. To demonstrate its practical utility, Fire_Net is tested on 40 sampled images in wildfire news reports and all of them have been accurately identified.},
+DOI = {10.3390/s18030712}
+}
+
+
+
+@Article{s18061881,
+AUTHOR = {Kim, In-Ho and Jeon, Haemin and Baek, Seung-Chan and Hong, Won-Hwa and Jung, Hyung-Jo},
+TITLE = {Application of Crack Identification Techniques for an Aging Concrete Bridge Inspection Using an Unmanned Aerial Vehicle},
+JOURNAL = {Sensors},
+VOLUME = {18},
+YEAR = {2018},
+NUMBER = {6},
+ARTICLE-NUMBER = {1881},
+URL = {https://www.mdpi.com/1424-8220/18/6/1881},
+ISSN = {1424-8220},
+ABSTRACT = {Bridge inspection using unmanned aerial vehicles (UAV) with high performance vision sensors has received considerable attention due to its safety and reliability. As bridges become obsolete, the number of bridges that need to be inspected increases, and they require much maintenance cost. Therefore, a bridge inspection method based on UAV with vision sensors is proposed as one of the promising strategies to maintain bridges. In this paper, a crack identification method by using a commercial UAV with a high resolution vision sensor is investigated in an aging concrete bridge. First, a point cloud-based background model is generated in the preliminary flight. Then, cracks on the structural surface are detected with the deep learning algorithm, and their thickness and length are calculated. In the deep learning method, region with convolutional neural networks (R-CNN)-based transfer learning is applied. As a result, a new network for the 384 collected crack images of 256 &times; 256 pixel resolution is generated from the pre-trained network. A field test is conducted to verify the proposed approach, and the experimental results proved that the UAV-based bridge inspection is effective at identifying and quantifying the cracks on the structures.},
+DOI = {10.3390/s18061881}
+}
+
+
+
+@Article{s18072244,
+AUTHOR = {De Oliveira, Diulhio Candido and Wehrmeister, Marco Aurelio},
+TITLE = {Using Deep Learning and Low-Cost RGB and Thermal Cameras to Detect Pedestrians in Aerial Images Captured by Multirotor UAV},
+JOURNAL = {Sensors},
+VOLUME = {18},
+YEAR = {2018},
+NUMBER = {7},
+ARTICLE-NUMBER = {2244},
+URL = {https://www.mdpi.com/1424-8220/18/7/2244},
+ISSN = {1424-8220},
+ABSTRACT = {The use of Unmanned Aerial Vehicles (UAV) has been increasing over the last few years in many sorts of applications due mainly to the decreasing cost of this technology. One can see the use of the UAV in several civilian applications such as surveillance and search and rescue. Automatic detection of pedestrians in aerial images is a challenging task. The computing vision system must deal with many sources of variability in the aerial images captured with the UAV, e.g., low-resolution images of pedestrians, images captured at distinct angles due to the degrees of freedom that a UAV can move, the camera platform possibly experiencing some instability while the UAV flies, among others. In this work, we created and evaluated different implementations of Pattern Recognition Systems (PRS) aiming at the automatic detection of pedestrians in aerial images captured with multirotor UAV. The main goal is to assess the feasibility and suitability of distinct PRS implementations running on top of low-cost computing platforms, e.g., single-board computers such as the Raspberry Pi or regular laptops without a GPU. For that, we used four machine learning techniques in the feature extraction and classification steps, namely Haar cascade, LBP cascade, HOG + SVM and Convolutional Neural Networks (CNN). In order to improve the system performance (especially the processing time) and also to decrease the rate of false alarms, we applied the Saliency Map (SM) and Thermal Image Processing (TIP) within the segmentation and detection steps of the PRS. The classification results show the CNN to be the best technique with 99.7% accuracy, followed by HOG + SVM with 92.3%. In situations of partial occlusion, the CNN showed 71.1% sensitivity, which can be considered a good result in comparison with the current state-of-the-art, since part of the original image data is missing. As demonstrated in the experiments, by combining TIP with CNN, the PRS can process more than two frames per second (fps), whereas the PRS that combines TIP with HOG + SVM was able to process 100 fps. It is important to mention that our experiments show that a trade-off analysis must be performed during the design of a pedestrian detection PRS. The faster implementations lead to a decrease in the PRS accuracy. For instance, by using HOG + SVM with TIP, the PRS presented the best performance results, but the obtained accuracy was 35 percentage points lower than the CNN. The obtained results indicate that the best detection technique (i.e., the CNN) requires more computational resources to decrease the PRS computation time. Therefore, this work shows and discusses the pros/cons of each technique and trade-off situations, and hence, one can use such an analysis to improve and tailor the design of a PRS to detect pedestrians in aerial images.},
+DOI = {10.3390/s18072244}
+}
+
+
+
+@Article{rs10101513,
+AUTHOR = {Duarte-Carvajalino, Julio M. and Alzate, Diego F. and Ramirez, Andrés A. and Santa-Sepulveda, Juan D. and Fajardo-Rojas, Alexandra E. and Soto-Suárez, Mauricio},
+TITLE = {Evaluating Late Blight Severity in Potato Crops Using Unmanned Aerial Vehicles and Machine Learning Algorithms},
+JOURNAL = {Remote Sensing},
+VOLUME = {10},
+YEAR = {2018},
+NUMBER = {10},
+ARTICLE-NUMBER = {1513},
+URL = {https://www.mdpi.com/2072-4292/10/10/1513},
+ISSN = {2072-4292},
+ABSTRACT = {This work presents quantitative prediction of severity of the disease caused by Phytophthora infestans in potato crops using machine learning algorithms such as multilayer perceptron, deep learning convolutional neural networks, support vector regression, and random forests. The machine learning algorithms are trained using datasets extracted from multispectral data captured at the canopy level with an unmanned aerial vehicle, carrying an inexpensive digital camera. The results indicate that deep learning convolutional neural networks, random forests and multilayer perceptron using band differences can predict the level of Phytophthora infestans affectation on potato crops with acceptable accuracy.},
+DOI = {10.3390/rs10101513}
+}
+
+
+
+@Article{rs10101636,
+AUTHOR = {Duarte, Diogo and Nex, Francesco and Kerle, Norman and Vosselman, George},
+TITLE = {Multi-Resolution Feature Fusion for Image Classification of Building Damages with Convolutional Neural Networks},
+JOURNAL = {Remote Sensing},
+VOLUME = {10},
+YEAR = {2018},
+NUMBER = {10},
+ARTICLE-NUMBER = {1636},
+URL = {https://www.mdpi.com/2072-4292/10/10/1636},
+ISSN = {2072-4292},
+ABSTRACT = {Remote sensing images have long been preferred to perform building damage assessments. The recently proposed methods to extract damaged regions from remote sensing imagery rely on convolutional neural networks (CNN). The common approach is to train a CNN independently considering each of the different resolution levels (satellite, aerial, and terrestrial) in a binary classification approach. In this regard, an ever-growing amount of multi-resolution imagery are being collected, but the current approaches use one single resolution as their input. The use of up/down-sampled images for training has been reported as beneficial for the image classification accuracy both in the computer vision and remote sensing domains. However, it is still unclear if such multi-resolution information can also be captured from images with different spatial resolutions such as imagery of the satellite and airborne (from both manned and unmanned platforms) resolutions. In this paper, three multi-resolution CNN feature fusion approaches are proposed and tested against two baseline (mono-resolution) methods to perform the image classification of building damages. Overall, the results show better accuracy and localization capabilities when fusing multi-resolution feature maps, specifically when these feature maps are merged and consider feature information from the intermediate layers of each of the resolution level networks. Nonetheless, these multi-resolution feature fusion approaches behaved differently considering each level of resolution. In the satellite and aerial (unmanned) cases, the improvements in the accuracy reached 2% while the accuracy improvements for the airborne (manned) case was marginal. The results were further confirmed by testing the approach for geographical transferability, in which the improvements between the baseline and multi-resolution experiments were overall maintained.},
+DOI = {10.3390/rs10101636}
+}
+
+
+

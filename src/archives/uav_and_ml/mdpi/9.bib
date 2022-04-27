@@ -1,0 +1,1117 @@
+
+@Article{rs9020100,
+AUTHOR = {Bejiga, Mesay Belete and Zeggada, Abdallah and Nouffidj, Abdelhamid and Melgani, Farid},
+TITLE = {A Convolutional Neural Network Approach for Assisting Avalanche Search and Rescue Operations with UAV Imagery},
+JOURNAL = {Remote Sensing},
+VOLUME = {9},
+YEAR = {2017},
+NUMBER = {2},
+ARTICLE-NUMBER = {100},
+URL = {https://www.mdpi.com/2072-4292/9/2/100},
+ISSN = {2072-4292},
+ABSTRACT = {Following an avalanche, one of the factors that affect victims’ chance of survival is the speed with which they are located and dug out. Rescue teams use techniques like trained rescue dogs and electronic transceivers to locate victims. However, the resources and time required to deploy rescue teams are major bottlenecks that decrease a victim’s chance of survival. Advances in the field of Unmanned Aerial Vehicles (UAVs) have enabled the use of flying robots equipped with sensors like optical cameras to assess the damage caused by natural or manmade disasters and locate victims in the debris. In this paper, we propose assisting avalanche search and rescue (SAR) operations with UAVs fitted with vision cameras. The sequence of images of the avalanche debris captured by the UAV is processed with a pre-trained Convolutional Neural Network (CNN) to extract discriminative features. A trained linear Support Vector Machine (SVM) is integrated at the top of the CNN to detect objects of interest. Moreover, we introduce a pre-processing method to increase the detection rate and a post-processing method based on a Hidden Markov Model to improve the prediction performance of the classifier. Experimental results conducted on two different datasets at different levels of resolution show that the detection performance increases with an increase in resolution, while the computation time increases. Additionally, they also suggest that a significant decrease in processing time can be achieved thanks to the pre-processing step.},
+DOI = {10.3390/rs9020100}
+}
+
+
+
+@Article{s18061881,
+AUTHOR = {Kim, In-Ho and Jeon, Haemin and Baek, Seung-Chan and Hong, Won-Hwa and Jung, Hyung-Jo},
+TITLE = {Application of Crack Identification Techniques for an Aging Concrete Bridge Inspection Using an Unmanned Aerial Vehicle},
+JOURNAL = {Sensors},
+VOLUME = {18},
+YEAR = {2018},
+NUMBER = {6},
+ARTICLE-NUMBER = {1881},
+URL = {https://www.mdpi.com/1424-8220/18/6/1881},
+ISSN = {1424-8220},
+ABSTRACT = {Bridge inspection using unmanned aerial vehicles (UAV) with high performance vision sensors has received considerable attention due to its safety and reliability. As bridges become obsolete, the number of bridges that need to be inspected increases, and they require much maintenance cost. Therefore, a bridge inspection method based on UAV with vision sensors is proposed as one of the promising strategies to maintain bridges. In this paper, a crack identification method by using a commercial UAV with a high resolution vision sensor is investigated in an aging concrete bridge. First, a point cloud-based background model is generated in the preliminary flight. Then, cracks on the structural surface are detected with the deep learning algorithm, and their thickness and length are calculated. In the deep learning method, region with convolutional neural networks (R-CNN)-based transfer learning is applied. As a result, a new network for the 384 collected crack images of 256 &times; 256 pixel resolution is generated from the pre-trained network. A field test is conducted to verify the proposed approach, and the experimental results proved that the UAV-based bridge inspection is effective at identifying and quantifying the cracks on the structures.},
+DOI = {10.3390/s18061881}
+}
+
+
+
+@Article{s18072244,
+AUTHOR = {De Oliveira, Diulhio Candido and Wehrmeister, Marco Aurelio},
+TITLE = {Using Deep Learning and Low-Cost RGB and Thermal Cameras to Detect Pedestrians in Aerial Images Captured by Multirotor UAV},
+JOURNAL = {Sensors},
+VOLUME = {18},
+YEAR = {2018},
+NUMBER = {7},
+ARTICLE-NUMBER = {2244},
+URL = {https://www.mdpi.com/1424-8220/18/7/2244},
+ISSN = {1424-8220},
+ABSTRACT = {The use of Unmanned Aerial Vehicles (UAV) has been increasing over the last few years in many sorts of applications due mainly to the decreasing cost of this technology. One can see the use of the UAV in several civilian applications such as surveillance and search and rescue. Automatic detection of pedestrians in aerial images is a challenging task. The computing vision system must deal with many sources of variability in the aerial images captured with the UAV, e.g., low-resolution images of pedestrians, images captured at distinct angles due to the degrees of freedom that a UAV can move, the camera platform possibly experiencing some instability while the UAV flies, among others. In this work, we created and evaluated different implementations of Pattern Recognition Systems (PRS) aiming at the automatic detection of pedestrians in aerial images captured with multirotor UAV. The main goal is to assess the feasibility and suitability of distinct PRS implementations running on top of low-cost computing platforms, e.g., single-board computers such as the Raspberry Pi or regular laptops without a GPU. For that, we used four machine learning techniques in the feature extraction and classification steps, namely Haar cascade, LBP cascade, HOG + SVM and Convolutional Neural Networks (CNN). In order to improve the system performance (especially the processing time) and also to decrease the rate of false alarms, we applied the Saliency Map (SM) and Thermal Image Processing (TIP) within the segmentation and detection steps of the PRS. The classification results show the CNN to be the best technique with 99.7% accuracy, followed by HOG + SVM with 92.3%. In situations of partial occlusion, the CNN showed 71.1% sensitivity, which can be considered a good result in comparison with the current state-of-the-art, since part of the original image data is missing. As demonstrated in the experiments, by combining TIP with CNN, the PRS can process more than two frames per second (fps), whereas the PRS that combines TIP with HOG + SVM was able to process 100 fps. It is important to mention that our experiments show that a trade-off analysis must be performed during the design of a pedestrian detection PRS. The faster implementations lead to a decrease in the PRS accuracy. For instance, by using HOG + SVM with TIP, the PRS presented the best performance results, but the obtained accuracy was 35 percentage points lower than the CNN. The obtained results indicate that the best detection technique (i.e., the CNN) requires more computational resources to decrease the PRS computation time. Therefore, this work shows and discusses the pros/cons of each technique and trade-off situations, and hence, one can use such an analysis to improve and tailor the design of a PRS to detect pedestrians in aerial images.},
+DOI = {10.3390/s18072244}
+}
+
+
+
+@Article{s18103452,
+AUTHOR = {Kim, Byunghyun and Cho, Soojin},
+TITLE = {Automated Vision-Based Detection of Cracks on Concrete Surfaces Using a Deep Learning Technique},
+JOURNAL = {Sensors},
+VOLUME = {18},
+YEAR = {2018},
+NUMBER = {10},
+ARTICLE-NUMBER = {3452},
+URL = {https://www.mdpi.com/1424-8220/18/10/3452},
+ISSN = {1424-8220},
+ABSTRACT = {At present, a number of computer vision-based crack detection techniques have been developed to efficiently inspect and manage a large number of structures. However, these techniques have not replaced visual inspection, as they have been developed under near-ideal conditions and not in an on-site environment. This article proposes an automated detection technique for crack morphology on concrete surface under an on-site environment based on convolutional neural networks (CNNs). A well-known CNN, AlexNet is trained for crack detection with images scraped from the Internet. The training set is divided into five classes involving cracks, intact surfaces, two types of similar patterns of cracks, and plants. A comparative study evaluates the successfulness of the detailed surface categorization. A probability map is developed using a softmax layer value to add robustness to sliding window detection and a parametric study was carried out to determine its threshold. The applicability of the proposed method is evaluated on images taken from the field and real-time video frames taken using an unmanned aerial vehicle. The evaluation results confirm the high adoptability of the proposed method for crack inspection in an on-site environment.},
+DOI = {10.3390/s18103452}
+}
+
+
+
+@Article{rs10111690,
+AUTHOR = {Bah, M Dian and Hafiane, Adel and Canals, Raphael},
+TITLE = {Deep Learning with Unsupervised Data Labeling for Weed Detection in Line Crops in UAV Images},
+JOURNAL = {Remote Sensing},
+VOLUME = {10},
+YEAR = {2018},
+NUMBER = {11},
+ARTICLE-NUMBER = {1690},
+URL = {https://www.mdpi.com/2072-4292/10/11/1690},
+ISSN = {2072-4292},
+ABSTRACT = {In recent years, weeds have been responsible for most agricultural yield losses. To deal with this threat, farmers resort to spraying the fields uniformly with herbicides. This method not only requires huge quantities of herbicides but impacts the environment and human health. One way to reduce the cost and environmental impact is to allocate the right doses of herbicide to the right place and at the right time (precision agriculture). Nowadays, unmanned aerial vehicles (UAVs) are becoming an interesting acquisition system for weed localization and management due to their ability to obtain images of the entire agricultural field with a very high spatial resolution and at a low cost. However, despite significant advances in UAV acquisition systems, the automatic detection of weeds remains a challenging problem because of their strong similarity to the crops. Recently, a deep learning approach has shown impressive results in different complex classification problems. However, this approach needs a certain amount of training data, and creating large agricultural datasets with pixel-level annotations by an expert is an extremely time-consuming task. In this paper, we propose a novel fully automatic learning method using convolutional neuronal networks (CNNs) with an unsupervised training dataset collection for weed detection from UAV images. The proposed method comprises three main phases. First, we automatically detect the crop rows and use them to identify the inter-row weeds. In the second phase, inter-row weeds are used to constitute the training dataset. Finally, we perform CNNs on this dataset to build a model able to detect the crop and the weeds in the images. The results obtained are comparable to those of traditional supervised training data labeling, with differences in accuracy of 1.5% in the spinach field and 6% in the bean field.},
+DOI = {10.3390/rs10111690}
+}
+
+
+
+@Article{s19071651,
+AUTHOR = {Hong, Suk-Ju and Han, Yunhyeok and Kim, Sang-Yeon and Lee, Ah-Yeong and Kim, Ghiseok},
+TITLE = {Application of Deep-Learning Methods to Bird Detection Using Unmanned Aerial Vehicle Imagery},
+JOURNAL = {Sensors},
+VOLUME = {19},
+YEAR = {2019},
+NUMBER = {7},
+ARTICLE-NUMBER = {1651},
+URL = {https://www.mdpi.com/1424-8220/19/7/1651},
+ISSN = {1424-8220},
+ABSTRACT = {Wild birds are monitored with the important objectives of identifying their habitats and estimating the size of their populations. Especially in the case of migratory bird, they are significantly recorded during specific periods of time to forecast any possible spread of animal disease such as avian influenza. This study led to the construction of deep-learning-based object-detection models with the aid of aerial photographs collected by an unmanned aerial vehicle (UAV). The dataset containing the aerial photographs includes diverse images of birds in various bird habitats and in the vicinity of lakes and on farmland. In addition, aerial images of bird decoys are captured to achieve various bird patterns and more accurate bird information. Bird detection models such as Faster Region-based Convolutional Neural Network (R-CNN), Region-based Fully Convolutional Network (R-FCN), Single Shot MultiBox Detector (SSD), Retinanet, and You Only Look Once (YOLO) were created and the performance of all models was estimated by comparing their computing speed and average precision. The test results show Faster R-CNN to be the most accurate and YOLO to be the fastest among the models. The combined results demonstrate that the use of deep-learning-based detection methods in combination with UAV aerial imagery is fairly suitable for bird detection in various environments.},
+DOI = {10.3390/s19071651}
+}
+
+
+
+@Article{rs11131554,
+AUTHOR = {Zhang, Xin and Han, Liangxiu and Dong, Yingying and Shi, Yue and Huang, Wenjiang and Han, Lianghao and González-Moreno, Pablo and Ma, Huiqin and Ye, Huichun and Sobeih, Tam},
+TITLE = {A Deep Learning-Based Approach for Automated Yellow Rust Disease Detection from High-Resolution Hyperspectral UAV Images},
+JOURNAL = {Remote Sensing},
+VOLUME = {11},
+YEAR = {2019},
+NUMBER = {13},
+ARTICLE-NUMBER = {1554},
+URL = {https://www.mdpi.com/2072-4292/11/13/1554},
+ISSN = {2072-4292},
+ABSTRACT = {Yellow rust in winter wheat is a widespread and serious fungal disease, resulting in significant yield losses globally. Effective monitoring and accurate detection of yellow rust are crucial to ensure stable and reliable wheat production and food security. The existing standard methods often rely on manual inspection of disease symptoms in a small crop area by agronomists or trained surveyors. This is costly, time consuming and prone to error due to the subjectivity of surveyors. Recent advances in unmanned aerial vehicles (UAVs) mounted with hyperspectral image sensors have the potential to address these issues with low cost and high efficiency. This work proposed a new deep convolutional neural network (DCNN) based approach for automated crop disease detection using very high spatial resolution hyperspectral images captured with UAVs. The proposed model introduced multiple Inception-Resnet layers for feature extraction and was optimized to establish the most suitable depth and width of the network. Benefiting from the ability of convolution layers to handle three-dimensional data, the model used both spatial and spectral information for yellow rust detection. The model was calibrated with hyperspectral imagery collected by UAVs in five different dates across a whole crop cycle over a well-controlled field experiment with healthy and rust infected wheat plots. Its performance was compared across sampling dates and with random forest, a representative of traditional classification methods in which only spectral information was used. It was found that the method has high performance across all the growing cycle, particularly at late stages of the disease spread. The overall accuracy of the proposed model (0.85) was higher than that of the random forest classifier (0.77). These results showed that combining both spectral and spatial information is a suitable approach to improving the accuracy of crop disease detection with high resolution UAV hyperspectral images.},
+DOI = {10.3390/rs11131554}
+}
+
+
+
+@Article{drones3030058,
+AUTHOR = {Akhloufi, Moulay A. and Arola, Sebastien and Bonnet, Alexandre},
+TITLE = {Drones Chasing Drones: Reinforcement Learning and Deep Search Area Proposal},
+JOURNAL = {Drones},
+VOLUME = {3},
+YEAR = {2019},
+NUMBER = {3},
+ARTICLE-NUMBER = {58},
+URL = {https://www.mdpi.com/2504-446X/3/3/58},
+ISSN = {2504-446X},
+ABSTRACT = {Unmanned aerial vehicles (UAVs) are very popular and increasingly used in different applications. Today, the use of multiple UAVs and UAV swarms are attracting more interest from the research community, leading to the exploration of topics such as UAV cooperation, multi-drone autonomous navigation, etc. In this work, we propose two approaches for UAV pursuit-evasion. The first approach uses deep reinforcement learning to predict the actions to apply to the follower UAV to keep track of the target UAV. The second approach uses a deep object detector and a search area proposal (SAP) to predict the position of the target UAV in the next frame for tracking purposes. The two approaches are promising and lead to a higher tracking accuracy with an intersection over union (IoU) above the selected threshold. We also show that the deep SAP-based approach improves the detection of distant objects that cover small areas in the image. The efficiency of the proposed algorithms is demonstrated in outdoor tracking scenarios using real UAVs.},
+DOI = {10.3390/drones3030058}
+}
+
+
+
+@Article{rs11141725,
+AUTHOR = {Xia, Xue and Persello, Claudio and Koeva, Mila},
+TITLE = {Deep Fully Convolutional Networks for Cadastral Boundary Detection from UAV Images},
+JOURNAL = {Remote Sensing},
+VOLUME = {11},
+YEAR = {2019},
+NUMBER = {14},
+ARTICLE-NUMBER = {1725},
+URL = {https://www.mdpi.com/2072-4292/11/14/1725},
+ISSN = {2072-4292},
+ABSTRACT = {There is a growing demand for cheap and fast cadastral mapping methods to face the challenge of 70% global unregistered land rights. As traditional on-site field surveying is time-consuming and labor intensive, imagery-based cadastral mapping has in recent years been advocated by fit-for-purpose (FFP) land administration. However, owing to the semantic gap between the high-level cadastral boundary concept and low-level visual cues in the imagery, improving the accuracy of automatic boundary delineation remains a major challenge. In this research, we use imageries acquired by Unmanned Aerial Vehicles (UAV) to explore the potential of deep Fully Convolutional Networks (FCNs) for cadastral boundary detection in urban and semi-urban areas. We test the performance of FCNs against other state-of-the-art techniques, including Multi-Resolution Segmentation (MRS) and Globalized Probability of Boundary (gPb) in two case study sites in Rwanda. Experimental results show that FCNs outperformed MRS and gPb in both study areas and achieved an average accuracy of 0.79 in precision, 0.37 in recall and 0.50 in F-score. In conclusion, FCNs are able to effectively extract cadastral boundaries, especially when a large proportion of cadastral boundaries are visible. This automated method could minimize manual digitization and reduce field work, thus facilitating the current cadastral mapping and updating practices.},
+DOI = {10.3390/rs11141725}
+}
+
+
+
+@Article{s19163542,
+AUTHOR = {Lygouras, Eleftherios and Santavas, Nicholas and Taitzoglou, Anastasios and Tarchanidis, Konstantinos and Mitropoulos, Athanasios and Gasteratos, Antonios},
+TITLE = {Unsupervised Human Detection with an Embedded Vision System on a Fully Autonomous UAV for Search and Rescue Operations},
+JOURNAL = {Sensors},
+VOLUME = {19},
+YEAR = {2019},
+NUMBER = {16},
+ARTICLE-NUMBER = {3542},
+URL = {https://www.mdpi.com/1424-8220/19/16/3542},
+ISSN = {1424-8220},
+ABSTRACT = {Unmanned aerial vehicles (UAVs) play a primary role in a plethora of technical and scientific fields owing to their wide range of applications. In particular, the provision of emergency services during the occurrence of a crisis event is a vital application domain where such aerial robots can contribute, sending out valuable assistance to both distressed humans and rescue teams. Bearing in mind that time constraints constitute a crucial parameter in search and rescue (SAR) missions, the punctual and precise detection of humans in peril is of paramount importance. The paper in hand deals with real-time human detection onboard a fully autonomous rescue UAV. Using deep learning techniques, the implemented embedded system was capable of detecting open water swimmers. This allowed the UAV to provide assistance accurately in a fully unsupervised manner, thus enhancing first responder operational capabilities. The novelty of the proposed system is the combination of global navigation satellite system (GNSS) techniques and computer vision algorithms for both precise human detection and rescue apparatus release. Details about hardware configuration as well as the system&rsquo;s performance evaluation are fully discussed.},
+DOI = {10.3390/s19163542}
+}
+
+
+
+@Article{rs11172046,
+AUTHOR = {Ghorbanzadeh, Omid and Meena, Sansar Raj and Blaschke, Thomas and Aryal, Jagannath},
+TITLE = {UAV-Based Slope Failure Detection Using Deep-Learning Convolutional Neural Networks},
+JOURNAL = {Remote Sensing},
+VOLUME = {11},
+YEAR = {2019},
+NUMBER = {17},
+ARTICLE-NUMBER = {2046},
+URL = {https://www.mdpi.com/2072-4292/11/17/2046},
+ISSN = {2072-4292},
+ABSTRACT = {Slope failures occur when parts of a slope collapse abruptly under the influence of gravity, often triggered by a rainfall event or earthquake. The resulting slope failures often cause problems in mountainous or hilly regions, and the detection of slope failure is therefore an important topic for research. Most of the methods currently used for mapping and modelling slope failures rely on classification algorithms or feature extraction, but the spatial complexity of slope failures, the uncertainties inherent in expert knowledge, and problems in transferability, all combine to inhibit slope failure detection. In an attempt to overcome some of these problems we have analyzed the potential of deep learning convolutional neural networks (CNNs) for slope failure detection, in an area along a road section in the northern Himalayas, India. We used optical data from unmanned aerial vehicles (UAVs) over two separate study areas. Different CNN designs were used to produce eight different slope failure distribution maps, which were then compared with manually extracted slope failure polygons using different accuracy assessment metrics such as the precision, F-score, and mean intersection-over-union (mIOU). A slope failure inventory data set was produced for each of the study areas using a frequency-area distribution (FAD). The CNN approach that was found to perform best (precision accuracy assessment of almost 90% precision, F-score 85%, mIOU 74%) was one that used a window size of 64 &times; 64 pixels for the sample patches, and included slope data as an additional input layer. The additional information from the slope data helped to discriminate between slope failure areas and roads, which had similar spectral characteristics in the optical imagery. We concluded that the effectiveness of CNNs for slope failure detection was strongly dependent on their design (i.e., the window size selected for the sample patch, the data used, and the training strategies), but that CNNs are currently only designed by trial and error. While CNNs can be powerful tools, such trial and error strategies make it difficult to explain why a particular pooling or layer numbering works better than any other.},
+DOI = {10.3390/rs11172046}
+}
+
+
+
+@Article{s19194332,
+AUTHOR = {Opromolla, Roberto and Inchingolo, Giuseppe and Fasano, Giancarmine},
+TITLE = {Airborne Visual Detection and Tracking of Cooperative UAVs Exploiting Deep Learning},
+JOURNAL = {Sensors},
+VOLUME = {19},
+YEAR = {2019},
+NUMBER = {19},
+ARTICLE-NUMBER = {4332},
+URL = {https://www.mdpi.com/1424-8220/19/19/4332},
+ISSN = {1424-8220},
+ABSTRACT = {The performance achievable by using Unmanned Aerial Vehicles (UAVs) for a large variety of civil and military applications, as well as the extent of applicable mission scenarios, can significantly benefit from the exploitation of formations of vehicles able to fly in a coordinated manner (swarms). In this respect, visual cameras represent a key instrument to enable coordination by giving each UAV the capability to visually monitor the other members of the formation. Hence, a related technological challenge is the development of robust solutions to detect and track cooperative targets through a sequence of frames. In this framework, this paper proposes an innovative approach to carry out this task based on deep learning. Specifically, the You Only Look Once (YOLO) object detection system is integrated within an original processing architecture in which the machine-vision algorithms are aided by navigation hints available thanks to the cooperative nature of the formation. An experimental flight test campaign, involving formations of two multirotor UAVs, is conducted to collect a database of images suitable to assess the performance of the proposed approach. Results demonstrate high-level accuracy, and robustness against challenging conditions in terms of illumination, background and target-range variability.},
+DOI = {10.3390/s19194332}
+}
+
+
+
+@Article{rs12010182,
+AUTHOR = {Meng, Lingxuan and Peng, Zhixing and Zhou, Ji and Zhang, Jirong and Lu, Zhenyu and Baumann, Andreas and Du, Yan},
+TITLE = {Real-Time Detection of Ground Objects Based on Unmanned Aerial Vehicle Remote Sensing with Deep Learning: Application in Excavator Detection for Pipeline Safety},
+JOURNAL = {Remote Sensing},
+VOLUME = {12},
+YEAR = {2020},
+NUMBER = {1},
+ARTICLE-NUMBER = {182},
+URL = {https://www.mdpi.com/2072-4292/12/1/182},
+ISSN = {2072-4292},
+ABSTRACT = {Unmanned aerial vehicle (UAV) remote sensing and deep learning provide a practical approach to object detection. However, most of the current approaches for processing UAV remote-sensing data cannot carry out object detection in real time for emergencies, such as firefighting. This study proposes a new approach for integrating UAV remote sensing and deep learning for the real-time detection of ground objects. Excavators, which usually threaten pipeline safety, are selected as the target object. A widely used deep-learning algorithm, namely You Only Look Once V3, is first used to train the excavator detection model on a workstation and then deployed on an embedded board that is carried by a UAV. The recall rate of the trained excavator detection model is 99.4%, demonstrating that the trained model has a very high accuracy. Then, the UAV for an excavator detection system (UAV-ED) is further constructed for operational application. UAV-ED is composed of a UAV Control Module, a UAV Module, and a Warning Module. A UAV experiment with different scenarios was conducted to evaluate the performance of the UAV-ED. The whole process from the UAV observation of an excavator to the Warning Module (350 km away from the testing area) receiving the detection results only lasted about 1.15 s. Thus, the UAV-ED system has good performance and would benefit the management of pipeline safety.},
+DOI = {10.3390/rs12010182}
+}
+
+
+
+@Article{s20020563,
+AUTHOR = {Lobo Torres, Daliana and Queiroz Feitosa, Raul and Nigri Happ, Patrick and Elena Cué La Rosa, Laura and Marcato Junior, José and Martins, José and Olã Bressan, Patrik and Gonçalves, Wesley Nunes and Liesenberg, Veraldo},
+TITLE = {Applying Fully Convolutional Architectures for Semantic Segmentation of a Single Tree Species in Urban Environment on High Resolution UAV Optical Imagery},
+JOURNAL = {Sensors},
+VOLUME = {20},
+YEAR = {2020},
+NUMBER = {2},
+ARTICLE-NUMBER = {563},
+URL = {https://www.mdpi.com/1424-8220/20/2/563},
+ISSN = {1424-8220},
+ABSTRACT = {This study proposes and evaluates five deep fully convolutional networks (FCNs) for the semantic segmentation of a single tree species: SegNet, U-Net, FC-DenseNet, and two DeepLabv3+ variants. The performance of the FCN designs is evaluated experimentally in terms of classification accuracy and computational load. We also verify the benefits of fully connected conditional random fields (CRFs) as a post-processing step to improve the segmentation maps. The analysis is conducted on a set of images captured by an RGB camera aboard a UAV flying over an urban area. The dataset also contains a mask that indicates the occurrence of an endangered species called Dipteryx alata Vogel, also known as cumbaru, taken as the species to be identified. The experimental analysis shows the effectiveness of each design and reports average overall accuracy ranging from 88.9% to 96.7%, an F1-score between 87.0% and 96.1%, and IoU from 77.1% to 92.5%. We also realize that CRF consistently improves the performance, but at a high computational cost.},
+DOI = {10.3390/s20020563}
+}
+
+
+
+@Article{rs12081287,
+AUTHOR = {Kentsch, Sarah and Lopez Caceres, Maximo Larry and Serrano, Daniel and Roure, Ferran and Diez, Yago},
+TITLE = {Computer Vision and Deep Learning Techniques for the Analysis of Drone-Acquired Forest Images, a Transfer Learning Study},
+JOURNAL = {Remote Sensing},
+VOLUME = {12},
+YEAR = {2020},
+NUMBER = {8},
+ARTICLE-NUMBER = {1287},
+URL = {https://www.mdpi.com/2072-4292/12/8/1287},
+ISSN = {2072-4292},
+ABSTRACT = {Unmanned Aerial Vehicles (UAV) are becoming an essential tool for evaluating the status and the changes in forest ecosystems. This is especially important in Japan due to the sheer magnitude and complexity of the forest area, made up mostly of natural mixed broadleaf deciduous forests. Additionally, Deep Learning (DL) is becoming more popular for forestry applications because it allows for the inclusion of expert human knowledge into the automatic image processing pipeline. In this paper we study and quantify issues related to the use of DL with our own UAV-acquired images in forestry applications such as: the effect of Transfer Learning (TL) and the Deep Learning architecture chosen or whether a simple patch-based framework may produce results in different practical problems. We use two different Deep Learning architectures (ResNet50 and UNet), two in-house datasets (winter and coastal forest) and focus on two separate problem formalizations (Multi-Label Patch or MLP classification and semantic segmentation). Our results show that Transfer Learning is necessary to obtain satisfactory outcome in the problem of MLP classification of deciduous vs evergreen trees in the winter orthomosaic dataset (with a 9.78% improvement from no transfer learning to transfer learning from a a general-purpose dataset). We also observe a further 2.7% improvement when Transfer Learning is performed from a dataset that is closer to our type of images. Finally, we demonstrate the applicability of the patch-based framework with the ResNet50 architecture in a different and complex example: Detection of the invasive broadleaf deciduous black locust (Robinia pseudoacacia) in an evergreen coniferous black pine (Pinus thunbergii) coastal forest typical of Japan. In this case we detect images containing the invasive species with a 75% of True Positives (TP) and 9% False Positives (FP) while the detection of native trees was 95% TP and 10% FP.},
+DOI = {10.3390/rs12081287}
+}
+
+
+
+@Article{s20143856,
+AUTHOR = {Seidaliyeva, Ulzhalgas and Akhmetov, Daryn and Ilipbayeva, Lyazzat and Matson, Eric T.},
+TITLE = {Real-Time and Accurate Drone Detection in a Video with a Static Background},
+JOURNAL = {Sensors},
+VOLUME = {20},
+YEAR = {2020},
+NUMBER = {14},
+ARTICLE-NUMBER = {3856},
+URL = {https://www.mdpi.com/1424-8220/20/14/3856},
+ISSN = {1424-8220},
+ABSTRACT = {With the increasing number of drones, the danger of their illegal use has become relevant. This has necessitated the creation of automatic drone protection systems. One of the important tasks solved by these systems is the reliable detection of drones near guarded objects. This problem can be solved using various methods. From the point of view of the price&ndash;quality ratio, the use of video cameras for a drone detection is of great interest. However, drone detection using visual information is hampered by the large similarity of drones to other objects, such as birds or airplanes. In addition, drones can reach very high speeds, so detection should be done in real time. This paper addresses the problem of real-time drone detection with high accuracy. We divided the drone detection task into two separate tasks: the detection of moving objects and the classification of the detected object into drone, bird, and background. The moving object detection is based on background subtraction, while classification is performed using a convolutional neural network (CNN). The experimental results showed that the proposed approach can achieve an accuracy comparable to existing approaches at high processing speed. We also concluded that the main limitation of our detector is the dependence of its performance on the presence of a moving background.},
+DOI = {10.3390/s20143856}
+}
+
+
+
+@Article{s20143918,
+AUTHOR = {Truong, Noi Quang and Lee, Young Won and Owais, Muhammad and Nguyen, Dat Tien and Batchuluun, Ganbayar and Pham, Tuyen Danh and Park, Kang Ryoung},
+TITLE = {SlimDeblurGAN-Based Motion Deblurring and Marker Detection for Autonomous Drone Landing},
+JOURNAL = {Sensors},
+VOLUME = {20},
+YEAR = {2020},
+NUMBER = {14},
+ARTICLE-NUMBER = {3918},
+URL = {https://www.mdpi.com/1424-8220/20/14/3918},
+ISSN = {1424-8220},
+ABSTRACT = {Deep learning-based marker detection for autonomous drone landing is widely studied, due to its superior detection performance. However, no study was reported to address non-uniform motion-blurred input images, and most of the previous handcrafted and deep learning-based methods failed to operate with these challenging inputs. To solve this problem, we propose a deep learning-based marker detection method for autonomous drone landing, by (1) introducing a two-phase framework of deblurring and object detection, by adopting a slimmed version of deblur generative adversarial network (DeblurGAN) model and a You only look once version 2 (YOLOv2) detector, respectively, and (2) considering the balance between the processing time and accuracy of the system. To this end, we propose a channel-pruning framework for slimming the DeblurGAN model called SlimDeblurGAN, without significant accuracy degradation. The experimental results on the two datasets showed that our proposed method exhibited higher performance and greater robustness than the previous methods, in both deburring and marker detection.},
+DOI = {10.3390/s20143918}
+}
+
+
+
+@Article{app10155198,
+AUTHOR = {Kong, Weiren and Zhou, Deyun and Yang, Zhen and Zhang, Kai and Zeng, Lina},
+TITLE = {Maneuver Strategy Generation of UCAV for within Visual Range Air Combat Based on Multi-Agent Reinforcement Learning and Target Position Prediction},
+JOURNAL = {Applied Sciences},
+VOLUME = {10},
+YEAR = {2020},
+NUMBER = {15},
+ARTICLE-NUMBER = {5198},
+URL = {https://www.mdpi.com/2076-3417/10/15/5198},
+ISSN = {2076-3417},
+ABSTRACT = {With the development of unmanned combat air vehicles (UCAVs) and artificial intelligence (AI), within visual range (WVR) air combat confrontations utilizing intelligent UCAVs are expected to be widely used in future air combats. As controlling highly dynamic and uncertain WVR air combats from the ground stations of the UCAV is not feasible, it is necessary to develop an algorithm that can generate highly intelligent air combat strategies in order to enable UCAV to independently complete air combat missions. In this paper, a 1-vs.-1 WVR air combat strategy generation algorithm is proposed using the multi-agent deep deterministic policy gradient (MADDPG). A 1-vs.-1 WVR air combat is modeled as a two-player zero-sum Markov game (ZSMG). A method for predicting the position of the target is introduced into the model in order to enable the UCAV to predict the target&rsquo;s actions and position. Moreover, to ensure that the UCAV is not limited by the constraints of the basic fighter maneuver (BFM) library, the action space is considered to be a continuous one. At the same time, a potential-based reward shaping method is proposed in order to improve the efficiency of the air combat strategy generation algorithm. Finally, the efficiency of the air combat strategy generation algorithm and the intelligence level of the resulting strategy is verified through simulation experiments. The results show that an air combat strategy using target position prediction is superior to the one that does not use target position prediction.},
+DOI = {10.3390/app10155198}
+}
+
+
+
+@Article{rs12152490,
+AUTHOR = {Ichim, Loretta and Popescu, Dan},
+TITLE = {Segmentation of Vegetation and Flood from Aerial Images Based on Decision Fusion of Neural Networks},
+JOURNAL = {Remote Sensing},
+VOLUME = {12},
+YEAR = {2020},
+NUMBER = {15},
+ARTICLE-NUMBER = {2490},
+URL = {https://www.mdpi.com/2072-4292/12/15/2490},
+ISSN = {2072-4292},
+ABSTRACT = {The detection and evaluation of flood damage in rural zones are of great importance for farmers, local authorities, and insurance companies. To this end, the paper proposes an efficient system based on five neural networks to assess the degree of flooding and the remaining vegetation. After a previous analysis the following neural networks were selected as primary classifiers: you only look once network (YOLO), generative adversarial network (GAN), AlexNet, LeNet, and residual network (ResNet). Their outputs were connected in a decision fusion scheme, as a new convolutional layer, considering two sets of components: (a) the weights, corresponding to the proven accuracy of the primary neural networks in the validation phase, and (b) the probabilities generated by the neural networks as primary classification results in the operational (testing) phase. Thus, a subjective behavior (individual interpretation of single neural networks) was transformed into a more objective behavior (interpretation based on fusion of information). The images, difficult to be segmented, were obtained from an unmanned aerial vehicle photogrammetry flight after a moderate flood in a rural region of Romania and make up our database. For segmentation and evaluation of the flooded zones and vegetation, the images were first decomposed in patches and, after classification the resulting marked patches were re-composed in segmented images. From the performance analysis point of view, better results were obtained with the proposed system than the neural networks taken separately and with respect to some works from the references.},
+DOI = {10.3390/rs12152490}
+}
+
+
+
+@Article{s20185240,
+AUTHOR = {Koubaa, Anis and Ammar, Adel and Alahdab, Mahmoud and Kanhouch, Anas and Azar, Ahmad Taher},
+TITLE = {DeepBrain: Experimental Evaluation of Cloud-Based Computation Offloading and Edge Computing in the Internet-of-Drones for Deep Learning Applications},
+JOURNAL = {Sensors},
+VOLUME = {20},
+YEAR = {2020},
+NUMBER = {18},
+ARTICLE-NUMBER = {5240},
+URL = {https://www.mdpi.com/1424-8220/20/18/5240},
+ISSN = {1424-8220},
+ABSTRACT = {Unmanned Aerial Vehicles (UAVs) have been very effective in collecting aerial images data for various Internet-of-Things (IoT)/smart cities applications such as search and rescue, surveillance, vehicle detection, counting, intelligent transportation systems, to name a few. However, the real-time processing of collected data on edge in the context of the Internet-of-Drones remains an open challenge because UAVs have limited energy capabilities, while computer vision techniquesconsume excessive energy and require abundant resources. This fact is even more critical when deep learning algorithms, such as convolutional neural networks (CNNs), are used for classification and detection. In this paper, we first propose a system architecture of computation offloading for Internet-connected drones. Then, we conduct a comprehensive experimental study to evaluate the performance in terms of energy, bandwidth, and delay of the cloud computation offloading approach versus the edge computing approach of deep learning applications in the context of UAVs. In particular, we investigate the tradeoff between the communication cost and the computation of the two candidate approaches experimentally. The main results demonstrate that the computation offloading approach allows us to provide much higher throughput (i.e., frames per second) as compared to the edge computing approach, despite the larger communication delays.},
+DOI = {10.3390/s20185240}
+}
+
+
+
+@Article{s20195630,
+AUTHOR = {Xie, Jingyi and Peng, Xiaodong and Wang, Haijiao and Niu, Wenlong and Zheng, Xiao},
+TITLE = {UAV Autonomous Tracking and Landing Based on Deep Reinforcement Learning Strategy},
+JOURNAL = {Sensors},
+VOLUME = {20},
+YEAR = {2020},
+NUMBER = {19},
+ARTICLE-NUMBER = {5630},
+URL = {https://www.mdpi.com/1424-8220/20/19/5630},
+ISSN = {1424-8220},
+ABSTRACT = {Unmanned aerial vehicle (UAV) autonomous tracking and landing is playing an increasingly important role in military and civil applications. In particular, machine learning has been successfully introduced to robotics-related tasks. A novel UAV autonomous tracking and landing approach based on a deep reinforcement learning strategy is presented in this paper, with the aim of dealing with the UAV motion control problem in an unpredictable and harsh environment. Instead of building a prior model and inferring the landing actions based on heuristic rules, a model-free method based on a partially observable Markov decision process (POMDP) is proposed. In the POMDP model, the UAV automatically learns the landing maneuver by an end-to-end neural network, which combines the Deep Deterministic Policy Gradients (DDPG) algorithm and heuristic rules. A Modular Open Robots Simulation Engine (MORSE)-based reinforcement learning framework is designed and validated with a continuous UAV tracking and landing task on a randomly moving platform in high sensor noise and intermittent measurements. The simulation results show that when the moving platform is moving in different trajectories, the average landing success rate of the proposed algorithm is about 10% higher than that of the Proportional-Integral-Derivative (PID) method. As an indirect result, a state-of-the-art deep reinforcement learning-based UAV control method is validated, where the UAV can learn the optimal strategy of a continuously autonomous landing and perform properly in a simulation environment.},
+DOI = {10.3390/s20195630}
+}
+
+
+
+@Article{app10217622,
+AUTHOR = {Vujasinović, Stéphane and Becker, Stefan and Breuer, Timo and Bullinger, Sebastian and Scherer-Negenborn, Norbert and Arens, Michael},
+TITLE = {Integration of the 3D Environment for UAV Onboard Visual Object Tracking},
+JOURNAL = {Applied Sciences},
+VOLUME = {10},
+YEAR = {2020},
+NUMBER = {21},
+ARTICLE-NUMBER = {7622},
+URL = {https://www.mdpi.com/2076-3417/10/21/7622},
+ISSN = {2076-3417},
+ABSTRACT = {Single visual object tracking from an unmanned aerial vehicle (UAV) poses fundamental challenges such as object occlusion, small-scale objects, background clutter, and abrupt camera motion. To tackle these difficulties, we propose to integrate the 3D structure of the observed scene into a detection-by-tracking algorithm. We introduce a pipeline that combines a model-free visual object tracker, a sparse 3D reconstruction, and a state estimator. The 3D reconstruction of the scene is computed with an image-based Structure-from-Motion (SfM) component that enables us to leverage a state estimator in the corresponding 3D scene during tracking. By representing the position of the target in 3D space rather than in image space, we stabilize the tracking during ego-motion and improve the handling of occlusions, background clutter, and small-scale objects. We evaluated our approach on prototypical image sequences, captured from a UAV with low-altitude oblique views. For this purpose, we adapted an existing dataset for visual object tracking and reconstructed the observed scene in 3D. The experimental results demonstrate that the proposed approach outperforms methods using plain visual cues as well as approaches leveraging image-space-based state estimations. We believe that our approach can be beneficial for trafficmonitoring, video surveillance, and navigation.},
+DOI = {10.3390/app10217622}
+}
+
+
+
+@Article{s20216187,
+AUTHOR = {F. Pinto, Milena and G. Melo, Aurelio and M. Honório, Leonardo and L. M. Marcato, André and G. S. Conceição, André and O. Timotheo, Amanda},
+TITLE = {Deep Learning Applied to Vegetation Identification and Removal Using Multidimensional Aerial Data},
+JOURNAL = {Sensors},
+VOLUME = {20},
+YEAR = {2020},
+NUMBER = {21},
+ARTICLE-NUMBER = {6187},
+URL = {https://www.mdpi.com/1424-8220/20/21/6187},
+ISSN = {1424-8220},
+ABSTRACT = {When performing structural inspection, the generation of three-dimensional (3D) point clouds is a common resource. Those are usually generated from photogrammetry or through laser scan techniques. However, a significant drawback for complete inspection is the presence of covering vegetation, hiding possible structural problems, and making difficult the acquisition of proper object surfaces in order to provide a reliable diagnostic. Therefore, this research&rsquo;s main contribution is developing an effective vegetation removal methodology through the use of a deep learning structure that is capable of identifying and extracting covering vegetation in 3D point clouds. The proposed approach uses pre and post-processing filtering stages that take advantage of colored point clouds, if they are available, or operate independently. The results showed high classification accuracy and good effectiveness when compared with similar methods in the literature. After this step, if color is available, then a color filter is applied, enhancing the results obtained. Besides, the results are analyzed in light of real Structure From Motion (SFM) reconstruction data, which further validates the proposed method. This research also presented a colored point cloud library of bushes built for the work used by other studies in the field.},
+DOI = {10.3390/s20216187}
+}
+
+
+
+@Article{en13246496,
+AUTHOR = {Pierdicca, Roberto and Paolanti, Marina and Felicetti, Andrea and Piccinini, Fabio and Zingaretti, Primo},
+TITLE = {Automatic Faults Detection of Photovoltaic Farms: solAIr, a Deep Learning-Based System for Thermal Images},
+JOURNAL = {Energies},
+VOLUME = {13},
+YEAR = {2020},
+NUMBER = {24},
+ARTICLE-NUMBER = {6496},
+URL = {https://www.mdpi.com/1996-1073/13/24/6496},
+ISSN = {1996-1073},
+ABSTRACT = {Renewable energy sources will represent the only alternative to limit fossil fuel usage and pollution. For this reason, photovoltaic (PV) power plants represent one of the main systems adopted to produce clean energy. Monitoring the state of health of a system is fundamental. However, these techniques are time demanding, cause stops to the energy generation, and often require laboratory instrumentation, thus being not cost-effective for frequent inspections. Moreover, PV plants are often located in inaccessible places, making any intervention dangerous. In this paper, we propose solAIr, an artificial intelligence system based on deep learning for anomaly cells detection in photovoltaic images obtained from unmanned aerial vehicles equipped with a thermal infrared sensor. The proposed anomaly cells detection system is based on the mask region-based convolutional neural network (Mask R-CNN) architecture, adopted because it simultaneously performs object detection and instance segmentation, making it useful for the automated inspection task. The proposed system is trained and evaluated on the photovoltaic thermal images dataset, a publicly available dataset collected for this work. Furthermore, the performances of three state-of-art deep neural networks, (DNNs) including UNet, FPNet and LinkNet, are compared and evaluated. Results show the effectiveness and the suitability of the proposed approach in terms of intersection over union (IoU) and the Dice coefficient.},
+DOI = {10.3390/en13246496}
+}
+
+
+
+@Article{rs12244193,
+AUTHOR = {Tilon, Sofia and Nex, Francesco and Kerle, Norman and Vosselman, George},
+TITLE = {Post-Disaster Building Damage Detection from Earth Observation Imagery Using Unsupervised and Transferable Anomaly Detecting Generative Adversarial Networks},
+JOURNAL = {Remote Sensing},
+VOLUME = {12},
+YEAR = {2020},
+NUMBER = {24},
+ARTICLE-NUMBER = {4193},
+URL = {https://www.mdpi.com/2072-4292/12/24/4193},
+ISSN = {2072-4292},
+ABSTRACT = {We present an unsupervised deep learning approach for post-disaster building damage detection that can transfer to different typologies of damage or geographical locations. Previous advances in this direction were limited by insufficient qualitative training data. We propose to use a state-of-the-art Anomaly Detecting Generative Adversarial Network (ADGAN) because it only requires pre-event imagery of buildings in their undamaged state. This approach aids the post-disaster response phase because the model can be developed in the pre-event phase and rapidly deployed in the post-event phase. We used the xBD dataset, containing pre- and post- event satellite imagery of several disaster-types, and a custom made Unmanned Aerial Vehicle (UAV) dataset, containing post-earthquake imagery. Results showed that models trained on UAV-imagery were capable of detecting earthquake-induced damage. The best performing model for European locations obtained a recall, precision and F1-score of 0.59, 0.97 and 0.74, respectively. Models trained on satellite imagery were capable of detecting damage on the condition that the training dataset was void of vegetation and shadows. In this manner, the best performing model for (wild)fire events yielded a recall, precision and F1-score of 0.78, 0.99 and 0.87, respectively. Compared to other supervised and/or multi-epoch approaches, our results are encouraging. Moreover, in addition to image classifications, we show how contextual information can be used to create detailed damage maps without the need of a dedicated multi-task deep learning framework. Finally, we formulate practical guidelines to apply this single-epoch and unsupervised method to real-world applications.},
+DOI = {10.3390/rs12244193}
+}
+
+
+
+@Article{rs13010084,
+AUTHOR = {Yamaguchi, Tomoaki and Tanaka, Yukie and Imachi, Yuto and Yamashita, Megumi and Katsura, Keisuke},
+TITLE = {Feasibility of Combining Deep Learning and RGB Images Obtained by Unmanned Aerial Vehicle for Leaf Area Index Estimation in Rice},
+JOURNAL = {Remote Sensing},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {1},
+ARTICLE-NUMBER = {84},
+URL = {https://www.mdpi.com/2072-4292/13/1/84},
+ISSN = {2072-4292},
+ABSTRACT = {Leaf area index (LAI) is a vital parameter for predicting rice yield. Unmanned aerial vehicle (UAV) surveillance with an RGB camera has been shown to have potential as a low-cost and efficient tool for monitoring crop growth. Simultaneously, deep learning (DL) algorithms have attracted attention as a promising tool for the task of image recognition. The principal aim of this research was to evaluate the feasibility of combining DL and RGB images obtained by a UAV for rice LAI estimation. In the present study, an LAI estimation model developed by DL with RGB images was compared to three other practical methods: a plant canopy analyzer (PCA); regression models based on color indices (CIs) obtained from an RGB camera; and vegetation indices (VIs) obtained from a multispectral camera. The results showed that the estimation accuracy of the model developed by DL with RGB images (R2 = 0.963 and RMSE = 0.334) was higher than those of the PCA (R2 = 0.934 and RMSE = 0.555) and the regression models based on CIs (R2 = 0.802-0.947 and RMSE = 0.401&ndash;1.13), and comparable to that of the regression models based on VIs (R2 = 0.917&ndash;0.976 and RMSE = 0.332&ndash;0.644). Therefore, our results demonstrated that the estimation model using DL with an RGB camera on a UAV could be an alternative to the methods using PCA and a multispectral camera for rice LAI estimation.},
+DOI = {10.3390/rs13010084}
+}
+
+
+
+@Article{aerospace8010018,
+AUTHOR = {Wada, Daichi and Araujo-Estrada, Sergio A. and Windsor, Shane},
+TITLE = {Unmanned Aerial Vehicle Pitch Control Using Deep Reinforcement Learning with Discrete Actions in Wind Tunnel Test},
+JOURNAL = {Aerospace},
+VOLUME = {8},
+YEAR = {2021},
+NUMBER = {1},
+ARTICLE-NUMBER = {18},
+URL = {https://www.mdpi.com/2226-4310/8/1/18},
+ISSN = {2226-4310},
+ABSTRACT = {Deep reinforcement learning is a promising method for training a nonlinear attitude controller for fixed-wing unmanned aerial vehicles. Until now, proof-of-concept studies have demonstrated successful attitude control in simulation. However, detailed experimental investigations have not yet been conducted. This study applied deep reinforcement learning for one-degree-of-freedom pitch control in wind tunnel tests with the aim of gaining practical understandings of attitude control application. Three controllers with different discrete action choices, that is, elevator angles, were designed. The controllers with larger action rates exhibited better performance in terms of following angle-of-attack commands. The root mean square errors for tracking angle-of-attack commands decreased from 3.42&deg; to 1.99&deg; as the maximum action rate increased from 10&deg;/s to 50&deg;/s. The comparison between experimental and simulation results showed that the controller with a smaller action rate experienced the friction effect, and the controllers with larger action rates experienced fluctuating behaviors in elevator maneuvers owing to delay. The investigation of the effect of friction and delay on pitch control highlighted the importance of conducting experiments to understand actual control performances, specifically when the controllers were trained with a low-fidelity model.},
+DOI = {10.3390/aerospace8010018}
+}
+
+
+
+@Article{geomatics1010004,
+AUTHOR = {Moreni, Mael and Theau, Jerome and Foucher, Samuel},
+TITLE = {Train Fast While Reducing False Positives: Improving Animal Classification Performance Using Convolutional Neural Networks},
+JOURNAL = {Geomatics},
+VOLUME = {1},
+YEAR = {2021},
+NUMBER = {1},
+PAGES = {34--49},
+URL = {https://www.mdpi.com/2673-7418/1/1/4},
+ISSN = {2673-7418},
+ABSTRACT = {The combination of unmanned aerial vehicles (UAV) with deep learning models has the capacity to replace manned aircrafts for wildlife surveys. However, the scarcity of animals in the wild often leads to highly unbalanced, large datasets for which even a good detection method can return a large amount of false detections. Our objectives in this paper were to design a training method that would reduce training time, decrease the number of false positives and alleviate the fine-tuning effort of an image classifier in a context of animal surveys. We acquired two highly unbalanced datasets of deer images with a UAV and trained a Resnet-18 classifier using hard-negative mining and a series of recent techniques. Our method achieved sub-decimal false positive rates on two test sets (1 false positive per 19,162 and 213,312 negatives respectively), while training on small but relevant fractions of the data. The resulting training times were therefore significantly shorter than they would have been using the whole datasets. This high level of efficiency was achieved with little tuning effort and using simple techniques. We believe this parsimonious approach to dealing with highly unbalanced, large datasets could be particularly useful to projects with either limited resources or extremely large datasets.},
+DOI = {10.3390/geomatics1010004}
+}
+
+
+
+@Article{s21041076,
+AUTHOR = {Yan, Peng and Jia, Tao and Bai, Chengchao},
+TITLE = {Searching and Tracking an Unknown Number of Targets: A Learning-Based Method Enhanced with Maps Merging},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {4},
+ARTICLE-NUMBER = {1076},
+URL = {https://www.mdpi.com/1424-8220/21/4/1076},
+PubMedID = {33557359},
+ISSN = {1424-8220},
+ABSTRACT = {Unmanned aerial vehicles (UAVs) have been widely used in search and rescue (SAR) missions due to their high flexibility. A key problem in SAR missions is to search and track moving targets in an area of interest. In this paper, we focus on the problem of Cooperative Multi-UAV Observation of Multiple Moving Targets (CMUOMMT). In contrast to the existing literature, we not only optimize the average observation rate of the discovered targets, but we also emphasize the fairness of the observation of the discovered targets and the continuous exploration of the undiscovered targets, under the assumption that the total number of targets is unknown. To achieve this objective, a deep reinforcement learning (DRL)-based method is proposed under the Partially Observable Markov Decision Process (POMDP) framework, where each UAV maintains four observation history maps, and maps from different UAVs within a communication range can be merged to enhance UAVs’ awareness of the environment. A deep convolutional neural network (CNN) is used to process the merged maps and generate the control commands to UAVs. The simulation results show that our policy can enable UAVs to balance between giving the discovered targets a fair observation and exploring the search region compared with other methods.},
+DOI = {10.3390/s21041076}
+}
+
+
+
+@Article{electronics10050543,
+AUTHOR = {Jung, Soyi and Yun, Won Joon and Kim, Joongheon and Kim, Jae-Hyun},
+TITLE = {Coordinated Multi-Agent Deep Reinforcement Learning for Energy-Aware UAV-Based Big-Data Platforms},
+JOURNAL = {Electronics},
+VOLUME = {10},
+YEAR = {2021},
+NUMBER = {5},
+ARTICLE-NUMBER = {543},
+URL = {https://www.mdpi.com/2079-9292/10/5/543},
+ISSN = {2079-9292},
+ABSTRACT = {This paper proposes a novel coordinated multi-agent deep reinforcement learning (MADRL) algorithm for energy sharing among multiple unmanned aerial vehicles (UAVs) in order to conduct big-data processing in a distributed manner. For realizing UAV-assisted aerial surveillance or flexible mobile cellular services, robust wireless charging mechanisms are essential for delivering energy sources from charging towers (i.e., charging infrastructure) to their associated UAVs for seamless operations of autonomous UAVs in the sky. In order to actively and intelligently manage the energy resources in charging towers, a MADRL-based coordinated energy management system is desired and proposed for energy resource sharing among charging towers. When the required energy for charging UAVs is not enough in charging towers, the energy purchase from utility company (i.e., energy source provider in local energy market) is desired, which takes high costs. Therefore, the main objective of our proposed coordinated MADRL-based energy sharing learning algorithm is minimizing energy purchase from external utility companies to minimize system-operational costs. Finally, our performance evaluation results verify that the proposed coordinated MADRL-based algorithm achieves desired performance improvements.},
+DOI = {10.3390/electronics10050543}
+}
+
+
+
+@Article{app11052163,
+AUTHOR = {Munaye, Yirga Yayeh and Juang, Rong-Terng and Lin, Hsin-Piao and Tarekegn, Getaneh Berie and Lin, Ding-Bing},
+TITLE = {Deep Reinforcement Learning Based Resource Management in UAV-Assisted IoT Networks},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {5},
+ARTICLE-NUMBER = {2163},
+URL = {https://www.mdpi.com/2076-3417/11/5/2163},
+ISSN = {2076-3417},
+ABSTRACT = {The resource management in wireless networks with massive Internet of Things (IoT) users is one of the most crucial issues for the advancement of fifth-generation networks. The main objective of this study is to optimize the usage of resources for IoT networks. Firstly, the unmanned aerial vehicle is considered to be a base station for air-to-ground communications. Secondly, according to the distribution and fluctuation of signals; the IoT devices are categorized into urban and suburban clusters. This clustering helps to manage the environment easily. Thirdly, real data collection and preprocessing tasks are carried out. Fourthly, the deep reinforcement learning approach is proposed as a main system development scheme for resource management. Fifthly, K-means and round-robin scheduling algorithms are applied for clustering and managing the users’ resource requests, respectively. Then, the TensorFlow (python) programming tool is used to test the overall capability of the proposed method. Finally, this paper evaluates the proposed approach with related works based on different scenarios. According to the experimental findings, our proposed scheme shows promising outcomes. Moreover, on the evaluation tasks, the outcomes show rapid convergence, suitable for heterogeneous IoT networks, and low complexity.},
+DOI = {10.3390/app11052163}
+}
+
+
+
+@Article{aerospace8030079,
+AUTHOR = {Swinney, Carolyn J. and Woods, John C.},
+TITLE = {Unmanned Aerial Vehicle Operating Mode Classification Using Deep Residual Learning Feature Extraction},
+JOURNAL = {Aerospace},
+VOLUME = {8},
+YEAR = {2021},
+NUMBER = {3},
+ARTICLE-NUMBER = {79},
+URL = {https://www.mdpi.com/2226-4310/8/3/79},
+ISSN = {2226-4310},
+ABSTRACT = {Unmanned Aerial Vehicles (UAVs) undoubtedly pose many security challenges. We need only look to the December 2018 Gatwick Airport incident for an example of the disruption UAVs can cause. In total, 1000 flights were grounded for 36 h over the Christmas period which was estimated to cost over 50 million pounds. In this paper, we introduce a novel approach which considers UAV detection as an imagery classification problem. We consider signal representations Power Spectral Density (PSD); Spectrogram, Histogram and raw IQ constellation as graphical images presented to a deep Convolution Neural Network (CNN) ResNet50 for feature extraction. Pre-trained on ImageNet, transfer learning is utilised to mitigate the requirement for a large signal dataset. We evaluate performance through machine learning classifier Logistic Regression. Three popular UAVs are classified in different modes; switched on; hovering; flying; flying with video; and no UAV present, creating a total of 10 classes. Our results, validated with 5-fold cross validation and an independent dataset, show PSD representation to produce over 91% accuracy for 10 classifications. Our paper treats UAV detection as an imagery classification problem by presenting signal representations as images to a ResNet50, utilising the benefits of transfer learning and outperforming previous work in the field.},
+DOI = {10.3390/aerospace8030079}
+}
+
+
+
+@Article{electronics10060724,
+AUTHOR = {Yavariabdi, Amir and Kusetogullari, Huseyin and Celik, Turgay and Cicek, Hasan},
+TITLE = {FastUAV-NET: A Multi-UAV Detection Algorithm for Embedded Platforms},
+JOURNAL = {Electronics},
+VOLUME = {10},
+YEAR = {2021},
+NUMBER = {6},
+ARTICLE-NUMBER = {724},
+URL = {https://www.mdpi.com/2079-9292/10/6/724},
+ISSN = {2079-9292},
+ABSTRACT = {In this paper, a real-time deep learning-based framework for detecting and tracking Unmanned Aerial Vehicles (UAVs) in video streams captured by a fixed-wing UAV is proposed. The proposed framework consists of two steps, namely intra-frame multi-UAV detection and the inter-frame multi-UAV tracking. In the detection step, a new multi-scale UAV detection Convolutional Neural Network (CNN) architecture based on a shallow version of You Only Look Once version 3 (YOLOv3-tiny) widened by Inception blocks is designed to extract local and global features from input video streams. Here, the widened multi-UAV detection network architecture is termed as FastUAV-NET and aims to improve UAV detection accuracy while preserving computing time of one-step deep detection algorithms in the context of UAV-UAV tracking. To detect UAVs, the FastUAV-NET architecture uses five inception units and adopts a feature pyramid network to detect UAVs. To obtain a high frame rate, the proposed method is applied to every nth frame and then the detected UAVs are tracked in intermediate frames using scalable Kernel Correlation Filter algorithm. The results on the generated UAV-UAV dataset illustrate that the proposed framework obtains 0.7916 average precision with 29 FPS performance on Jetson-TX2. The results imply that the widening of CNN network is a much more effective way than increasing the depth of CNN and leading to a good trade-off between accurate detection and real-time performance. The FastUAV-NET model will be publicly available to the research community to further advance multi-UAV-UAV detection algorithms.},
+DOI = {10.3390/electronics10060724}
+}
+
+
+
+@Article{s21062180,
+AUTHOR = {Liu, Chang and Szirányi, Tamás},
+TITLE = {Real-Time Human Detection and Gesture Recognition for On-Board UAV Rescue},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {6},
+ARTICLE-NUMBER = {2180},
+URL = {https://www.mdpi.com/1424-8220/21/6/2180},
+PubMedID = {33804718},
+ISSN = {1424-8220},
+ABSTRACT = {Unmanned aerial vehicles (UAVs) play an important role in numerous technical and scientific fields, especially in wilderness rescue. This paper carries out work on real-time UAV human detection and recognition of body and hand rescue gestures. We use body-featuring solutions to establish biometric communications, like yolo3-tiny for human detection. When the presence of a person is detected, the system will enter the gesture recognition phase, where the user and the drone can communicate briefly and effectively, avoiding the drawbacks of speech communication. A data-set of ten body rescue gestures (i.e., Kick, Punch, Squat, Stand, Attention, Cancel, Walk, Sit, Direction, and PhoneCall) has been created by a UAV on-board camera. The two most important gestures are the novel dynamic Attention and Cancel which represent the set and reset functions respectively. When the rescue gesture of the human body is recognized as Attention, the drone will gradually approach the user with a larger resolution for hand gesture recognition. The system achieves 99.80% accuracy on testing data in body gesture data-set and 94.71% accuracy on testing data in hand gesture data-set by using the deep learning method. Experiments conducted on real-time UAV cameras confirm our solution can achieve our expected UAV rescue purpose.},
+DOI = {10.3390/s21062180}
+}
+
+
+
+@Article{electronics10070820,
+AUTHOR = {Ammar, Adel and Koubaa, Anis and Ahmed, Mohanned and Saad, Abdulrahman and Benjdira, Bilel},
+TITLE = {Vehicle Detection from Aerial Images Using Deep Learning: A Comparative Study},
+JOURNAL = {Electronics},
+VOLUME = {10},
+YEAR = {2021},
+NUMBER = {7},
+ARTICLE-NUMBER = {820},
+URL = {https://www.mdpi.com/2079-9292/10/7/820},
+ISSN = {2079-9292},
+ABSTRACT = {This paper addresses the problem of car detection from aerial images using Convolutional Neural Networks (CNNs). This problem presents additional challenges as compared to car (or any object) detection from ground images because the features of vehicles from aerial images are more difficult to discern. To investigate this issue, we assess the performance of three state-of-the-art CNN algorithms, namely Faster R-CNN, which is the most popular region-based algorithm, as well as YOLOv3 and YOLOv4, which are known to be the fastest detection algorithms. We analyze two datasets with different characteristics to check the impact of various factors, such as the UAV’s (unmanned aerial vehicle) altitude, camera resolution, and object size. A total of 52 training experiments were conducted to account for the effect of different hyperparameter values. The objective of this work is to conduct the most robust and exhaustive comparison between these three cutting-edge algorithms on the specific domain of aerial images. By using a variety of metrics, we show that the difference between YOLOv4 and YOLOv3 on the two datasets is statistically insignificant in terms of Average Precision (AP) (contrary to what was obtained on the COCO dataset). However, both of them yield markedly better performance than Faster R-CNN in most configurations. The only exception is that both of them exhibit a lower recall when object sizes and scales in the testing dataset differ largely from those in the training dataset.},
+DOI = {10.3390/electronics10070820}
+}
+
+
+
+@Article{s21072534,
+AUTHOR = {Doukhi, Oualid and Lee, Deok-Jin},
+TITLE = {Deep Reinforcement Learning for End-to-End Local Motion Planning of Autonomous Aerial Robots in Unknown Outdoor Environments: Real-Time Flight Experiments},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {7},
+ARTICLE-NUMBER = {2534},
+URL = {https://www.mdpi.com/1424-8220/21/7/2534},
+PubMedID = {33916624},
+ISSN = {1424-8220},
+ABSTRACT = {Autonomous navigation and collision avoidance missions represent a significant challenge for robotics systems as they generally operate in dynamic environments that require a high level of autonomy and flexible decision-making capabilities. This challenge becomes more applicable in micro aerial vehicles (MAVs) due to their limited size and computational power. This paper presents a novel approach for enabling a micro aerial vehicle system equipped with a laser range finder to autonomously navigate among obstacles and achieve a user-specified goal location in a GPS-denied environment, without the need for mapping or path planning. The proposed system uses an actor–critic-based reinforcement learning technique to train the aerial robot in a Gazebo simulator to perform a point-goal navigation task by directly mapping the noisy MAV’s state and laser scan measurements to continuous motion control. The obtained policy can perform collision-free flight in the real world while being trained entirely on a 3D simulator. Intensive simulations and real-time experiments were conducted and compared with a nonlinear model predictive control technique to show the generalization capabilities to new unseen environments, and robustness against localization noise. The obtained results demonstrate our system’s effectiveness in flying safely and reaching the desired points by planning smooth forward linear velocity and heading rates.},
+DOI = {10.3390/s21072534}
+}
+
+
+
+@Article{s21082650,
+AUTHOR = {Choi, Daegyun and Bell, William and Kim, Donghoon and Kim, Jichul},
+TITLE = {UAV-Driven Structural Crack Detection and Location Determination Using Convolutional Neural Networks},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {8},
+ARTICLE-NUMBER = {2650},
+URL = {https://www.mdpi.com/1424-8220/21/8/2650},
+PubMedID = {33918951},
+ISSN = {1424-8220},
+ABSTRACT = {Structural cracks are a vital feature in evaluating the health of aging structures. Inspectors regularly monitor structures’ health using visual information because early detection of cracks on highly trafficked structures is critical for maintaining the public’s safety. In this work, a framework for detecting cracks along with their locations is proposed. Image data provided by an unmanned aerial vehicle (UAV) is stitched using image processing techniques to overcome limitations in the resolution of cameras. This stitched image is analyzed to identify cracks using a deep learning model that makes judgements regarding the presence of cracks in the image. Moreover, cracks’ locations are determined using data from UAV sensors. To validate the system, cracks forming on an actual building are captured by a UAV, and these images are analyzed to detect and locate cracks. The proposed framework is proven as an effective way to detect cracks and to represent the cracks’ locations.},
+DOI = {10.3390/s21082650}
+}
+
+
+
+@Article{electronics10091091,
+AUTHOR = {Ayoub, Naeem and Schneider-Kamp, Peter},
+TITLE = {Real-Time On-Board Deep Learning Fault Detection for Autonomous UAV Inspections},
+JOURNAL = {Electronics},
+VOLUME = {10},
+YEAR = {2021},
+NUMBER = {9},
+ARTICLE-NUMBER = {1091},
+URL = {https://www.mdpi.com/2079-9292/10/9/1091},
+ISSN = {2079-9292},
+ABSTRACT = {Inspection of high-voltage power lines using unmanned aerial vehicles is an emerging technological alternative to traditional methods. In the Drones4Energy project, we work toward building an autonomous vision-based beyond-visual-line-of-sight (BVLOS) power line inspection system. In this paper, we present a deep learning-based autonomous vision system to detect faults in power line components. We trained a YOLOv4-tiny architecture-based deep neural network, as it showed prominent results for detecting components with high accuracy. For running such deep learning models in a real-time environment, different single-board devices such as the Raspberry Pi 4, Nvidia Jetson Nano, Nvidia Jetson TX2, and Nvidia Jetson AGX Xavier were used for the experimental evaluation. Our experimental results demonstrated that the proposed approach can be effective and efficient for fully automatic real-time on-board visual power line inspection.},
+DOI = {10.3390/electronics10091091}
+}
+
+
+
+@Article{s21113936,
+AUTHOR = {Spyridis, Yannis and Lagkas, Thomas and Sarigiannidis, Panagiotis and Argyriou, Vasileios and Sarigiannidis, Antonios and Eleftherakis, George and Zhang, Jie},
+TITLE = {Towards 6G IoT: Tracing Mobile Sensor Nodes with Deep Learning Clustering in UAV Networks},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {11},
+ARTICLE-NUMBER = {3936},
+URL = {https://www.mdpi.com/1424-8220/21/11/3936},
+PubMedID = {34200449},
+ISSN = {1424-8220},
+ABSTRACT = {Unmanned aerial vehicles (UAVs) in the role of flying anchor nodes have been proposed to assist the localisation of terrestrial Internet of Things (IoT) sensors and provide relay services in the context of the upcoming 6G networks. This paper considered the objective of tracing a mobile IoT device of unknown location, using a group of UAVs that were equipped with received signal strength indicator (RSSI) sensors. The UAVs employed measurements of the target’s radio frequency (RF) signal power to approach the target as quickly as possible. A deep learning model performed clustering in the UAV network at regular intervals, based on a graph convolutional network (GCN) architecture, which utilised information about the RSSI and the UAV positions. The number of clusters was determined dynamically at each instant using a heuristic method, and the partitions were determined by optimising an RSSI loss function. The proposed algorithm retained the clusters that approached the RF source more effectively, removing the rest of the UAVs, which returned to the base. Simulation experiments demonstrated the improvement of this method compared to a previous deterministic approach, in terms of the time required to reach the target and the total distance covered by the UAVs.},
+DOI = {10.3390/s21113936}
+}
+
+
+
+@Article{drones5020052,
+AUTHOR = {Lee, Thomas and Mckeever, Susan and Courtney, Jane},
+TITLE = {Flying Free: A Research Overview of Deep Learning in Drone Navigation Autonomy},
+JOURNAL = {Drones},
+VOLUME = {5},
+YEAR = {2021},
+NUMBER = {2},
+ARTICLE-NUMBER = {52},
+URL = {https://www.mdpi.com/2504-446X/5/2/52},
+ISSN = {2504-446X},
+ABSTRACT = {With the rise of Deep Learning approaches in computer vision applications, significant strides have been made towards vehicular autonomy. Research activity in autonomous drone navigation has increased rapidly in the past five years, and drones are moving fast towards the ultimate goal of near-complete autonomy. However, while much work in the area focuses on specific tasks in drone navigation, the contribution to the overall goal of autonomy is often not assessed, and a comprehensive overview is needed. In this work, a taxonomy of drone navigation autonomy is established by mapping the definitions of vehicular autonomy levels, as defined by the Society of Automotive Engineers, to specific drone tasks in order to create a clear definition of autonomy when applied to drones. A top–down examination of research work in the area is conducted, focusing on drone navigation tasks, in order to understand the extent of research activity in each area. Autonomy levels are cross-checked against the drone navigation tasks addressed in each work to provide a framework for understanding the trajectory of current research. This work serves as a guide to research in drone autonomy with a particular focus on Deep Learning-based solutions, indicating key works and areas of opportunity for development of this area in the future.},
+DOI = {10.3390/drones5020052}
+}
+
+
+
+@Article{s21134417,
+AUTHOR = {Ukaegbu, Uchechi F. and Tartibu, Lagouge K. and Okwu, Modestus O. and Olayode, Isaac O.},
+TITLE = {Development of a Light-Weight Unmanned Aerial Vehicle for Precision Agriculture},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {13},
+ARTICLE-NUMBER = {4417},
+URL = {https://www.mdpi.com/1424-8220/21/13/4417},
+PubMedID = {34203187},
+ISSN = {1424-8220},
+ABSTRACT = {This paper describes the development of a modular unmanned aerial vehicle for the detection and eradication of weeds on farmland. Precision agriculture entails solving the problem of poor agricultural yield due to competition for nutrients by weeds and provides a faster approach to eliminating the problematic weeds using emerging technologies. This research has addressed the aforementioned problem. A quadcopter was built, and components were assembled with light-weight materials. The system consists of the electric motor, electronic speed controller, propellers, frame, lithium polymer (li-po) battery, flight controller, a global positioning system (GPS), and receiver. A sprayer module which consists of a relay, Raspberry Pi 3, spray pump, 12 V DC source, water hose, and the tank was built. It operated in such a way that when a weed is detected based on the deep learning algorithms deployed on the Raspberry Pi, general purpose input/output (GPIO) 17 or GPIO 18 (of the Raspberry Pi) were activated to supply 3.3 V, which turned on a DC relay to spray herbicides accordingly. The sprayer module was mounted on the quadcopter and from the test-running operation conducted, broadleaf and grass weeds were accurately detected and the spraying of herbicides according to the weed type occurred in less than a second.},
+DOI = {10.3390/s21134417}
+}
+
+
+
+@Article{s21134442,
+AUTHOR = {Niu, Zijie and Deng, Juntao and Zhang, Xu and Zhang, Jun and Pan, Shijia and Mu, Haotian},
+TITLE = {Identifying the Branch of Kiwifruit Based on Unmanned Aerial Vehicle (UAV) Images Using Deep Learning Method},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {13},
+ARTICLE-NUMBER = {4442},
+URL = {https://www.mdpi.com/1424-8220/21/13/4442},
+PubMedID = {34209571},
+ISSN = {1424-8220},
+ABSTRACT = {It is important to obtain accurate information about kiwifruit vines to monitoring their physiological states and undertake precise orchard operations. However, because vines are small and cling to trellises, and have branches laying on the ground, numerous challenges exist in the acquisition of accurate data for kiwifruit vines. In this paper, a kiwifruit canopy distribution prediction model is proposed on the basis of low-altitude unmanned aerial vehicle (UAV) images and deep learning techniques. First, the location of the kiwifruit plants and vine distribution are extracted from high-precision images collected by UAV. The canopy gradient distribution maps with different noise reduction and distribution effects are generated by modifying the threshold and sampling size using the resampling normalization method. The results showed that the accuracies of the vine segmentation using PSPnet, support vector machine, and random forest classification were 71.2%, 85.8%, and 75.26%, respectively. However, the segmentation image obtained using depth semantic segmentation had a higher signal-to-noise ratio and was closer to the real situation. The average intersection over union of the deep semantic segmentation was more than or equal to 80% in distribution maps, whereas, in traditional machine learning, the average intersection was between 20% and 60%. This indicates the proposed model can quickly extract the vine distribution and plant position, and is thus able to perform dynamic monitoring of orchards to provide real-time operation guidance.},
+DOI = {10.3390/s21134442}
+}
+
+
+
+@Article{rs13132536,
+AUTHOR = {Freitas, Sara and Silva, Hugo and Silva, Eduardo},
+TITLE = {Remote Hyperspectral Imaging Acquisition and Characterization for Marine Litter Detection},
+JOURNAL = {Remote Sensing},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {13},
+ARTICLE-NUMBER = {2536},
+URL = {https://www.mdpi.com/2072-4292/13/13/2536},
+ISSN = {2072-4292},
+ABSTRACT = {This paper addresses the development of a remote hyperspectral imaging system for detection and characterization of marine litter concentrations in an oceanic environment. The work performed in this paper is the following: (i) an in-situ characterization was conducted in an outdoor laboratory environment with the hyperspectral imaging system to obtain the spatial and spectral response of a batch of marine litter samples; (ii) a real dataset hyperspectral image acquisition was performed using manned and unmanned aerial platforms, of artificial targets composed of the material analyzed in the laboratory; (iii) comparison of the results (spatial and spectral response) obtained in laboratory conditions with the remote observation data acquired during the dataset flights; (iv) implementation of two different supervised machine learning methods, namely Random Forest (RF) and Support Vector Machines (SVM), for marine litter artificial target detection based on previous training. Obtained results show a marine litter automated detection capability with a 70–80% precision rate of detection in all three targets, compared to ground-truth pixels, as well as recall rates over 50%.},
+DOI = {10.3390/rs13132536}
+}
+
+
+
+@Article{aerospace8070179,
+AUTHOR = {Swinney, Carolyn J. and Woods, John C.},
+TITLE = {The Effect of Real-World Interference on CNN Feature Extraction and Machine Learning Classification of Unmanned Aerial Systems},
+JOURNAL = {Aerospace},
+VOLUME = {8},
+YEAR = {2021},
+NUMBER = {7},
+ARTICLE-NUMBER = {179},
+URL = {https://www.mdpi.com/2226-4310/8/7/179},
+ISSN = {2226-4310},
+ABSTRACT = {Small unmanned aerial systems (UASs) present many potential solutions and enhancements to industry today but equally pose a significant security challenge. We only need to look at the levels of disruption caused by UASs at airports in recent years. The accuracy of UAS detection and classification systems based on radio frequency (RF) signals can be hindered by other interfering signals present in the same frequency band, such as Bluetooth and Wi-Fi devices. In this paper, we evaluate the effect of real-world interference from Bluetooth and Wi-Fi signals concurrently on convolutional neural network (CNN) feature extraction and machine learning classification of UASs. We assess multiple UASs that operate using different transmission systems: Wi-Fi, Lightbridge 2.0, OcuSync 1.0, OcuSync 2.0 and the recently released OcuSync 3.0. We consider 7 popular UASs, evaluating 2 class UAS detection, 8 class UAS type classification and 21 class UAS flight mode classification. Our results show that the process of CNN feature extraction using transfer learning and machine learning classification is fairly robust in the presence of real-world interference. We also show that UASs that are operating using the same transmission system can be distinguished. In the presence of interference from both Bluetooth and Wi-Fi signals, our results show 100% accuracy for UAV detection (2 classes), 98.1% (+/−0.4%) for UAV type classification (8 classes) and 95.4% (+/−0.3%) for UAV flight mode classification (21 classes).},
+DOI = {10.3390/aerospace8070179}
+}
+
+
+
+@Article{rs13132627,
+AUTHOR = {Moura, Marks Melo and de Oliveira, Luiz Eduardo Soares and Sanquetta, Carlos Roberto and Bastos, Alexis and Mohan, Midhun and Corte, Ana Paula Dalla},
+TITLE = {Towards Amazon Forest Restoration: Automatic Detection of Species from UAV Imagery},
+JOURNAL = {Remote Sensing},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {13},
+ARTICLE-NUMBER = {2627},
+URL = {https://www.mdpi.com/2072-4292/13/13/2627},
+ISSN = {2072-4292},
+ABSTRACT = {Precise assessments of forest species’ composition help analyze biodiversity patterns, estimate wood stocks, and improve carbon stock estimates. Therefore, the objective of this work was to evaluate the use of high-resolution images obtained from Unmanned Aerial Vehicle (UAV) for the identification of forest species in areas of forest regeneration in the Amazon. For this purpose, convolutional neural networks (CNN) were trained using the Keras–Tensorflow package with the faster_rcnn_inception_v2_pets model. Samples of six forest species were used to train CNN. From these, attempts were made with the number of thresholds, which is the cutoff value of the function; any value below this output is considered 0, and values above are treated as an output 1; that is, values above the value stipulated in the Threshold are considered as identified species. The results showed that the reduction in the threshold decreases the accuracy of identification, as well as the overlap of the polygons of species identification. However, in comparison with the data collected in the field, it was observed that there exists a high correlation between the trees identified by the CNN and those observed in the plots. The statistical metrics used to validate the classification results showed that CNN are able to identify species with accuracy above 90%. Based on our results, which demonstrate good accuracy and precision in the identification of species, we conclude that convolutional neural networks are an effective tool in classifying objects from UAV images.},
+DOI = {10.3390/rs13132627}
+}
+
+
+
+@Article{rs13142658,
+AUTHOR = {Jozdani, Shahab and Chen, Dongmei and Chen, Wenjun and Leblanc, Sylvain G. and Prévost, Christian and Lovitt, Julie and He, Liming and Johnson, Brian A.},
+TITLE = {Leveraging Deep Neural Networks to Map Caribou Lichen in High-Resolution Satellite Images Based on a Small-Scale, Noisy UAV-Derived Map},
+JOURNAL = {Remote Sensing},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {14},
+ARTICLE-NUMBER = {2658},
+URL = {https://www.mdpi.com/2072-4292/13/14/2658},
+ISSN = {2072-4292},
+ABSTRACT = {Lichen is an important food source for caribou in Canada. Lichen mapping using remote sensing (RS) images could be a challenging task, however, as lichens generally appear in unevenly distributed, small patches, and could resemble surficial features. Moreover, collecting lichen labeled data (reference data) is expensive, which restricts the application of many robust supervised classification models that generally demand a large quantity of labeled data. The goal of this study was to investigate the potential of using a very-high-spatial resolution (1-cm) lichen map of a small sample site (e.g., generated based on a single UAV scene and using field data) to train a subsequent classifier to map caribou lichen over a much larger area (~0.04 km2 vs. ~195 km2) and a lower spatial resolution image (in this case, a 50-cm WorldView-2 image). The limited labeled data from the sample site were also partially noisy due to spatial and temporal mismatching issues. For this, we deployed a recently proposed Teacher-Student semi-supervised learning (SSL) approach (based on U-Net and U-Net++ networks) involving unlabeled data to assist with improving the model performance. Our experiments showed that it was possible to scale-up the UAV-derived lichen map to the WorldView-2 scale with reasonable accuracy (overall accuracy of 85.28% and F1-socre of 84.38%) without collecting any samples directly in the WorldView-2 scene. We also found that our noisy labels were partially beneficial to the SSL robustness because they improved the false positive rate compared to the use of a cleaner training set directly collected within the same area in the WorldView-2 image. As a result, this research opens new insights into how current very high-resolution, small-scale caribou lichen maps can be used for generating more accurate large-scale caribou lichen maps from high-resolution satellite imagery.},
+DOI = {10.3390/rs13142658}
+}
+
+
+
+@Article{rs13142721,
+AUTHOR = {Li, Guang and Han, Wenting and Huang, Shenjin and Ma, Weitong and Ma, Qian and Cui, Xin},
+TITLE = {Extraction of Sunflower Lodging Information Based on UAV Multi-Spectral Remote Sensing and Deep Learning},
+JOURNAL = {Remote Sensing},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {14},
+ARTICLE-NUMBER = {2721},
+URL = {https://www.mdpi.com/2072-4292/13/14/2721},
+ISSN = {2072-4292},
+ABSTRACT = {The rapid and accurate identification of sunflower lodging is important for the assessment of damage to sunflower crops. To develop a fast and accurate method of extraction of information on sunflower lodging, this study improves the inputs to SegNet and U-Net to render them suitable for multi-band image processing. Random forest and two improved deep learning methods are combined with RGB, RGB + NIR, RGB + red-edge, and RGB + NIR + red-edge bands of multi-spectral images captured by a UAV (unmanned aerial vehicle) to construct 12 models to extract information on sunflower lodging. These models are then combined with the method used to ignore edge-related information to predict sunflower lodging. The results of experiments show that the deep learning methods were superior to the random forest method in terms of the obtained lodging information and accuracy. The predictive accuracy of the model constructed by using a combination of SegNet and RGB + NIR had the highest overall accuracy of 88.23%. Adding NIR to RGB improved the accuracy of extraction of the lodging information whereas adding red-edge reduced it. An overlay analysis of the results for the lodging area shows that the extraction error was mainly caused by the failure of the model to recognize lodging in mixed areas and low-coverage areas. The predictive accuracy of information on sunflower lodging when edge-related information was ignored was about 2% higher than that obtained by using the direct splicing method.},
+DOI = {10.3390/rs13142721}
+}
+
+
+
+@Article{app11146524,
+AUTHOR = {Pérez-González, Andrés and Jaramillo-Duque, Álvaro and Cano-Quintero, Juan Bernardo},
+TITLE = {Automatic Boundary Extraction for Photovoltaic Plants Using the Deep Learning U-Net Model},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {14},
+ARTICLE-NUMBER = {6524},
+URL = {https://www.mdpi.com/2076-3417/11/14/6524},
+ISSN = {2076-3417},
+ABSTRACT = {Nowadays, the world is in a transition towards renewable energy solar being one of the most promising sources used today. However, Solar Photovoltaic (PV) systems present great challenges for their proper performance such as dirt and environmental conditions that may reduce the output energy of the PV plants. For this reason, inspection and periodic maintenance are essential to extend useful life. The use of unmanned aerial vehicles (UAV) for inspection and maintenance of PV plants favor a timely diagnosis. UAV path planning algorithm over a PV facility is required to better perform this task. Therefore, it is necessary to explore how to extract the boundary of PV facilities with some techniques. This research work focuses on an automatic boundary extraction method of PV plants from imagery using a deep neural network model with a U-net structure. The results obtained were evaluated by comparing them with other reported works. Additionally, to achieve the boundary extraction processes, the standard metrics Intersection over Union (IoU) and the Dice Coefficient (DC) were considered to make a better conclusion among all methods. The experimental results evaluated on the Amir dataset show that the proposed approach can significantly improve the boundary and segmentation performance in the test stage up to 90.42% and 91.42% as calculated by IoU and DC metrics, respectively. Furthermore, the training period was faster. Consequently, it is envisaged that the proposed U-Net model will be an advantage in remote sensing image segmentation.},
+DOI = {10.3390/app11146524}
+}
+
+
+
+@Article{agronomy11081542,
+AUTHOR = {Wang, Hao and Lyu, Suxing and Ren, Yaxin},
+TITLE = {Paddy Rice Imagery Dataset for Panicle Segmentation},
+JOURNAL = {Agronomy},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {8},
+ARTICLE-NUMBER = {1542},
+URL = {https://www.mdpi.com/2073-4395/11/8/1542},
+ISSN = {2073-4395},
+ABSTRACT = {Accurate panicle identification is a key step in rice-field phenotyping. Deep learning methods based on high-spatial-resolution images provide a high-throughput and accurate solution of panicle segmentation. Panicle segmentation tasks require costly annotations to train an accurate and robust deep learning model. However, few public datasets are available for rice-panicle phenotyping. We present a semi-supervised deep learning model training process, which greatly assists the annotation and refinement of training datasets. The model learns the panicle features with limited annotations and localizes more positive samples in the datasets, without further interaction. After the dataset refinement, the number of annotations increased by 40.6%. In addition, we trained and tested modern deep learning models to show how the dataset is beneficial to both detection and segmentation tasks. Results of our comparison experiments can inspire others in dataset preparation and model selection.},
+DOI = {10.3390/agronomy11081542}
+}
+
+
+
+@Article{rs13163095,
+AUTHOR = {Zhao, Jianqing and Zhang, Xiaohu and Yan, Jiawei and Qiu, Xiaolei and Yao, Xia and Tian, Yongchao and Zhu, Yan and Cao, Weixing},
+TITLE = {A Wheat Spike Detection Method in UAV Images Based on Improved YOLOv5},
+JOURNAL = {Remote Sensing},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {16},
+ARTICLE-NUMBER = {3095},
+URL = {https://www.mdpi.com/2072-4292/13/16/3095},
+ISSN = {2072-4292},
+ABSTRACT = {Deep-learning-based object detection algorithms have significantly improved the performance of wheat spike detection. However, UAV images crowned with small-sized, highly dense, and overlapping spikes cause the accuracy to decrease for detection. This paper proposes an improved YOLOv5 (You Look Only Once)-based method to detect wheat spikes accurately in UAV images and solve spike error detection and miss detection caused by occlusion conditions. The proposed method introduces data cleaning and data augmentation to improve the generalization ability of the detection network. The network is rebuilt by adding a microscale detection layer, setting prior anchor boxes, and adapting the confidence loss function of the detection layer based on the IoU (Intersection over Union). These refinements improve the feature extraction for small-sized wheat spikes and lead to better detection accuracy. With the confidence weights, the detection boxes in multiresolution images are fused to increase the accuracy under occlusion conditions. The result shows that the proposed method is better than the existing object detection algorithms, such as Faster RCNN, Single Shot MultiBox Detector (SSD), RetinaNet, and standard YOLOv5. The average accuracy (AP) of wheat spike detection in UAV images is 94.1%, which is 10.8% higher than the standard YOLOv5. Thus, the proposed method is a practical way to handle the spike detection in complex field scenarios and provide technical references for field-level wheat phenotype monitoring.},
+DOI = {10.3390/rs13163095}
+}
+
+
+
+@Article{rs13163165,
+AUTHOR = {Li, Wenning and Li, Yi and Gong, Jianhua and Feng, Quanlong and Zhou, Jieping and Sun, Jun and Shi, Chenhui and Hu, Weidong},
+TITLE = {Urban Water Extraction with UAV High-Resolution Remote Sensing Data Based on an Improved U-Net Model},
+JOURNAL = {Remote Sensing},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {16},
+ARTICLE-NUMBER = {3165},
+URL = {https://www.mdpi.com/2072-4292/13/16/3165},
+ISSN = {2072-4292},
+ABSTRACT = {Obtaining water body images quickly and reliably is important to guide human production activities and study urban change. This paper presents a fast and accurate method to identify water bodies in complex environments based on UAV high-resolution images. First, an improved U-Net (SU-Net) model is proposed in this paper. By increasing the number of connections in the middle layer of the neural network, more image features can be retained through S-shaped circular connections. Second, aiming at the interference of mixed ground objects and dark ground objects on water detection, the fusion of a deep learning network and visual features is investigated. We analyse the influence of a wavelet transform and grey level cooccurrence matrix (GLCM) on water extraction. Using a confusion matrix to evaluate accuracy, the following conclusions are drawn: (1) Compared with existing methods, the SU-Net method achieves a significant improvement in accuracy, and the overall accuracy (OA) is 96.25%. The kappa coefficient (KC) is 0.952. (2) SU-Net combined with the GLCM has a higher accuracy (OA is 97.4%) and robustness in distinguishing mixed and dark objects. Based on this method, a distinct water boundary in urban areas, which provides data for urban water vector mapping, can be obtained.},
+DOI = {10.3390/rs13163165}
+}
+
+
+
+@Article{app11188419,
+AUTHOR = {Zhao, Jiang and Sun, Jiaming and Cai, Zhihao and Wang, Longhong and Wang, Yingxun},
+TITLE = {End-to-End Deep Reinforcement Learning for Image-Based UAV Autonomous Control},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {18},
+ARTICLE-NUMBER = {8419},
+URL = {https://www.mdpi.com/2076-3417/11/18/8419},
+ISSN = {2076-3417},
+ABSTRACT = {To achieve the perception-based autonomous control of UAVs, schemes with onboard sensing and computing are popular in state-of-the-art work, which often consist of several separated modules with respective complicated algorithms. Most methods depend on handcrafted designs and prior models with little capacity for adaptation and generalization. Inspired by the research on deep reinforcement learning, this paper proposes a new end-to-end autonomous control method to simplify the separate modules in the traditional control pipeline into a single neural network. An image-based reinforcement learning framework is established, depending on the design of the network architecture and the reward function. Training is performed with model-free algorithms developed according to the specific mission, and the control policy network can map the input image directly to the continuous actuator control command. A simulation environment for the scenario of UAV landing was built. In addition, the results under different typical cases, including both the small and large initial lateral or heading angle offsets, show that the proposed end-to-end method is feasible for perception-based autonomous control.},
+DOI = {10.3390/app11188419}
+}
+
+
+
+@Article{aerospace8090258,
+AUTHOR = {Wada, Daichi and Araujo-Estrada, Sergio A. and Windsor, Shane},
+TITLE = {Unmanned Aerial Vehicle Pitch Control under Delay Using Deep Reinforcement Learning with Continuous Action in Wind Tunnel Test},
+JOURNAL = {Aerospace},
+VOLUME = {8},
+YEAR = {2021},
+NUMBER = {9},
+ARTICLE-NUMBER = {258},
+URL = {https://www.mdpi.com/2226-4310/8/9/258},
+ISSN = {2226-4310},
+ABSTRACT = {Nonlinear flight controllers for fixed-wing unmanned aerial vehicles (UAVs) can potentially be developed using deep reinforcement learning. However, there is often a reality gap between the simulation models used to train these controllers and the real world. This study experimentally investigated the application of deep reinforcement learning to the pitch control of a UAV in wind tunnel tests, with a particular focus of investigating the effect of time delays on flight controller performance. Multiple neural networks were trained in simulation with different assumed time delays and then wind tunnel tested. The neural networks trained with shorter delays tended to be susceptible to delay in the real tests and produce fluctuating behaviour. The neural networks trained with longer delays behaved more conservatively and did not produce oscillations but suffered steady state errors under some conditions due to unmodeled frictional effects. These results highlight the importance of performing physical experiments to validate controller performance and how the training approach used with reinforcement learning needs to be robust to reality gaps between simulation and the real world.},
+DOI = {10.3390/aerospace8090258}
+}
+
+
+
+@Article{rs13193892,
+AUTHOR = {Zhang, Tianxiang and Xu, Zhiyong and Su, Jinya and Yang, Zhifang and Liu, Cunjia and Chen, Wen-Hua and Li, Jiangyun},
+TITLE = {Ir-UNet: Irregular Segmentation U-Shape Network for Wheat Yellow Rust Detection by UAV Multispectral Imagery},
+JOURNAL = {Remote Sensing},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {19},
+ARTICLE-NUMBER = {3892},
+URL = {https://www.mdpi.com/2072-4292/13/19/3892},
+ISSN = {2072-4292},
+ABSTRACT = {Crop disease is widely considered as one of the most pressing challenges for food crops, and therefore an accurate crop disease detection algorithm is highly desirable for its sustainable management. The recent use of remote sensing and deep learning is drawing increasing research interests in wheat yellow rust disease detection. However, current solutions on yellow rust detection are generally addressed by RGB images and the basic semantic segmentation algorithms (e.g., UNet), which do not consider the irregular and blurred boundary problems of yellow rust area therein, restricting the disease segmentation performance. Therefore, this work aims to develop an automatic yellow rust disease detection algorithm to cope with these boundary problems. An improved algorithm entitled Ir-UNet by embedding irregular encoder module (IEM), irregular decoder module (IDM) and content-aware channel re-weight module (CCRM) is proposed and compared against the basic UNet while with various input features. The recently collected dataset by DJI M100 UAV equipped with RedEdge multispectral camera is used to evaluate the algorithm performance. Comparative results show that the Ir-UNet with five raw bands outperforms the basic UNet, achieving the highest overall accuracy (OA) score (97.13%) among various inputs. Moreover, the use of three selected bands, Red-NIR-RE, in the proposed Ir-UNet can obtain a comparable result (OA: 96.83%) while with fewer spectral bands and less computation load. It is anticipated that this study by seamlessly integrating the Ir-UNet network and UAV multispectral images can pave the way for automated yellow rust detection at farmland scales.},
+DOI = {10.3390/rs13193892}
+}
+
+
+
+@Article{rs13214330,
+AUTHOR = {Ou, Jiajun and Guo, Xiao and Lou, Wenjie and Zhu, Ming},
+TITLE = {Quadrotor Autonomous Navigation in Semi-Known Environments Based on Deep Reinforcement Learning},
+JOURNAL = {Remote Sensing},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {21},
+ARTICLE-NUMBER = {4330},
+URL = {https://www.mdpi.com/2072-4292/13/21/4330},
+ISSN = {2072-4292},
+ABSTRACT = {In the application scenarios of quadrotors, it is expected that only part of the obstacles can be identified and located in advance. In order to make quadrotors fly safely in this situation, we present a deep reinforcement learning-based framework to realize autonomous navigation in semi-known environments. Specifically, the proposed framework utilizes the dueling double deep recurrent Q-learning, which can implement global path planning with the obstacle map as input. Moreover, the proposed framework combined with contrastive learning-based feature extraction can conduct real-time autonomous obstacle avoidance with monocular vision effectively. The experimental results demonstrate that our framework exhibits remarkable performance for both global path planning and autonomous obstacle avoidance.},
+DOI = {10.3390/rs13214330}
+}
+
+
+
+@Article{s21217307,
+AUTHOR = {Li, Mingjun and Cai, Zhihao and Zhao, Jiang and Wang, Yibo and Wang, Yingxun and Lu, Kelin},
+TITLE = {MNNMs Integrated Control for UAV Autonomous Tracking Randomly Moving Target Based on Learning Method},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {21},
+ARTICLE-NUMBER = {7307},
+URL = {https://www.mdpi.com/1424-8220/21/21/7307},
+PubMedID = {34770614},
+ISSN = {1424-8220},
+ABSTRACT = {In this paper, we investigate the problem of unmanned aerial vehicles (UAVs) autonomous tracking moving target with only an airborne camera sensor. We proposed a novel integrated controller framework for this problem based on multi-neural-network modules (MNNMs). In this framework, two neural networks are designed for target perception and guidance control, respectively. The deep learning method and reinforcement learning method are applied to train the integrated controller. The training result demonstrates that the integrated controller can be trained more quickly and efficiently than the end-to-end controller trained by the deep reinforcement learning method. The flight tests with the integrated controller are implemented in simulated and realistic environments, the results show that the integrated controller trained in simulation can easily be transferred to the realistic environment and achieve the UAV tracking randomly moving target, which has a faster motion velocity. The integrated controller based on the MNNMs structure has a better performance on an autonomous tracking target than the control mode that combines with a perception network and a proportional integral derivative controller.},
+DOI = {10.3390/s21217307}
+}
+
+
+
+@Article{app112110310,
+AUTHOR = {Jang, Keunyoung and Kim, Jong-Woo and Ju, Ki-Beom and An, Yun-Kyu},
+TITLE = {Infrastructure BIM Platform for Lifecycle Management},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {21},
+ARTICLE-NUMBER = {10310},
+URL = {https://www.mdpi.com/2076-3417/11/21/10310},
+ISSN = {2076-3417},
+ABSTRACT = {Recently, the application of the BIM technique to infrastructure lifecycle management has increased rapidly to improve the efficiency of infrastructure management systems. Research on the lifecycle management of infrastructure, from planning and design to construction and management, has been carried out. Therefore, a systematic review of the literature on recent research is performed to analyze the current state of the BIM technique. State-of-the-art techniques for infrastructure lifecycle management, such as unmanned robots, sensors and processing techniques, artificial intelligence, etc., are also reviewed. An infrastructure BIM platform framework composed of BIM and state-of-the-art techniques is then proposed. The proposed platform is a web-based platform that contains quantity, schedule (4D), and cost (5D) construction management, and the monitoring systems enable collaboration with stakeholders in a Common Data Environment (CDE). The lifecycle management methodology, after infrastructure construction, is then completed and is developed using state-of-the-art techniques using unmanned robots, scan-to-BIM, and deep learning networks, etc. It is confirmed that collaboration with stakeholders in the CDE in construction management is possible using an infrastructure BIM platform. Moreover, lifecycle management of infrastructure is possible by systematic management, such as time history analysis, damage growth prediction, decision of repair and demolition, etc., using a regular inspection database based on an infrastructure BIM platform.},
+DOI = {10.3390/app112110310}
+}
+
+
+
+@Article{app112210595,
+AUTHOR = {Zhao, Wenlong and Meng, Zhijun and Wang, Kaipeng and Zhang, Jiahui and Lu, Shaoze},
+TITLE = {Hierarchical Active Tracking Control for UAVs via Deep Reinforcement Learning},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {22},
+ARTICLE-NUMBER = {10595},
+URL = {https://www.mdpi.com/2076-3417/11/22/10595},
+ISSN = {2076-3417},
+ABSTRACT = {Active tracking control is essential for UAVs to perform autonomous operations in GPS-denied environments. In the active tracking task, UAVs take high-dimensional raw images as input and execute motor actions to actively follow the dynamic target. Most research focuses on three-stage methods, which entail perception first, followed by high-level decision-making based on extracted spatial information of the dynamic target, and then UAV movement control, using a low-level dynamic controller. Perception methods based on deep neural networks are powerful but require considerable effort for manual ground truth labeling. Instead, we unify the perception and decision-making stages using a high-level controller and then leverage deep reinforcement learning to learn the mapping from raw images to the high-level action commands in the V-REP-based environment, where simulation data are infinite and inexpensive. This end-to-end method also has the advantages of a small parameter size and reduced effort requirements for parameter turning in the decision-making stage. The high-level controller, which has a novel architecture, explicitly encodes the spatial and temporal features of the dynamic target. Auxiliary segmentation and motion-in-depth losses are introduced to generate denser training signals for the high-level controller’s fast and stable training. The high-level controller and a conventional low-level PID controller constitute our hierarchical active tracking control framework for the UAVs’ active tracking task. Simulation experiments show that our controller trained with several augmentation techniques sufficiently generalizes dynamic targets with random appearances and velocities, and achieves significantly better performance, compared with three-stage methods.},
+DOI = {10.3390/app112210595}
+}
+
+
+
+@Article{math9222984,
+AUTHOR = {Joshi, Gyanendra Prasad and Alenezi, Fayadh and Thirumoorthy, Gopalakrishnan and Dutta, Ashit Kumar and You, Jinsang},
+TITLE = {Ensemble of Deep Learning-Based Multimodal Remote Sensing Image Classification Model on Unmanned Aerial Vehicle Networks},
+JOURNAL = {Mathematics},
+VOLUME = {9},
+YEAR = {2021},
+NUMBER = {22},
+ARTICLE-NUMBER = {2984},
+URL = {https://www.mdpi.com/2227-7390/9/22/2984},
+ISSN = {2227-7390},
+ABSTRACT = {Recently, unmanned aerial vehicles (UAVs) have been used in several applications of environmental modeling and land use inventories. At the same time, the computer vision-based remote sensing image classification models are needed to monitor the modifications over time such as vegetation, inland water, bare soil or human infrastructure regardless of spectral, spatial, temporal, and radiometric resolutions. In this aspect, this paper proposes an ensemble of DL-based multimodal land cover classification (EDL-MMLCC) models using remote sensing images. The EDL-MMLCC technique aims to classify remote sensing images into the different cloud, shades, and land cover classes. Primarily, median filtering-based preprocessing and data augmentation techniques take place. In addition, an ensemble of DL models, namely VGG-19, Capsule Network (CapsNet), and MobileNet, is used for feature extraction. In addition, the training process of the DL models can be enhanced by the use of hosted cuckoo optimization (HCO) algorithm. Finally, the salp swarm algorithm (SSA) with regularized extreme learning machine (RELM) classifier is applied for land cover classification. The design of the HCO algorithm for hyperparameter optimization and SSA for parameter tuning of the RELM model helps to increase the classification outcome to a maximum level considerably. The proposed EDL-MMLCC technique is tested using an Amazon dataset from the Kaggle repository. The experimental results pointed out the promising performance of the EDL-MMLCC technique over the recent state of art approaches.},
+DOI = {10.3390/math9222984}
+}
+
+
+
+@Article{su132312980,
+AUTHOR = {Wang, Zhenhua and Zhang, Xinyue and Li, Jing and Luan, Kuifeng},
+TITLE = {A YOLO-Based Target Detection Model for Offshore Unmanned Aerial Vehicle Data},
+JOURNAL = {Sustainability},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {23},
+ARTICLE-NUMBER = {12980},
+URL = {https://www.mdpi.com/2071-1050/13/23/12980},
+ISSN = {2071-1050},
+ABSTRACT = {Target detection in offshore unmanned aerial vehicle data is still a challenge due to the complex characteristics of targets, such as multi-sizes, alterable orientation, and complex backgrounds. Herein, a YOLO-based detection model (YOLO-D) was proposed for target detection in offshore unmanned aerial vehicle data. Based on the YOLOv3 network, the residual module was improved by establishing dense connections and adding a dual-attention mechanism (CBAM) to enhance the use of features and global information. Then, the loss function of the YOLO-D model was added to the weight coefficients to increase detection accuracy for small-size targets. Finally, the feature pyramid network (FPN) was replaced by the secondary recursive feature pyramid network to reduce the impacts of a complicated environment. Taking the car, boat, and deposit near the coastline as the targets, the proposed YOLO-D model was compared against other models, including the faster R-CNN, SSD, YOLOv3, and YOLOv5, to evaluate its detection performance. The results showed that the evaluation metrics of the YOLO-D model, including precision (Pr), recall (Re), average precision (AP), and the mean of average precision (mAP), had the highest values. The mAP of the YOLO-D model increased by 37.95%, 39.44%, 28.46%, and 5.08% compared to the faster R-CNN, SSD, YOLOv3, and YOLOv5, respectively. The AP of the car, boat, and deposit reached 96.24%, 93.70%, and 96.79% respectively. Moreover, the YOLO-D model had a higher detection accuracy than other models, especially in the detection of small-size targets. Collectively, the proposed YOLO-D model is a suitable model for target detection in offshore unmanned aerial vehicle data.},
+DOI = {10.3390/su132312980}
+}
+
+
+
+@Article{rs13234853,
+AUTHOR = {Wei, Dawei and Xi, Ning and Ma, Jianfeng and He, Lei},
+TITLE = {UAV-Assisted Privacy-Preserving Online Computation Offloading for Internet of Things},
+JOURNAL = {Remote Sensing},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {23},
+ARTICLE-NUMBER = {4853},
+URL = {https://www.mdpi.com/2072-4292/13/23/4853},
+ISSN = {2072-4292},
+ABSTRACT = {Unmanned aerial vehicle (UAV) plays a more and more important role in Internet of Things (IoT) for remote sensing and device interconnecting. Due to the limitation of computing capacity and energy, the UAV cannot handle complex tasks. Recently, computation offloading provides a promising way for the UAV to handle complex tasks by deep reinforcement learning (DRL)-based methods. However, existing DRL-based computation offloading methods merely protect usage pattern privacy and location privacy. In this paper, we consider a new privacy issue in UAV-assisted IoT, namely computation offloading preference leakage, which lacks through study. To cope with this issue, we propose a novel privacy-preserving online computation offloading method for UAV-assisted IoT. Our method integrates the differential privacy mechanism into deep reinforcement learning (DRL), which can protect UAV&rsquo;s offloading preference. We provide the formal analysis on security and utility loss of our method. Extensive real-world experiments are conducted. Results demonstrate that, compared with baseline methods, our method can learn cost-efficient computation offloading policy without preference leakage and a priori knowledge of the wireless channel model.},
+DOI = {10.3390/rs13234853}
+}
+
+
+
+@Article{app112412093,
+AUTHOR = {Pérez-González, Andrés and Benítez-Montoya, Nelson and Jaramillo-Duque, Álvaro and Cano-Quintero, Juan Bernardo},
+TITLE = {Coverage Path Planning with Semantic Segmentation for UAV in PV Plants},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {24},
+ARTICLE-NUMBER = {12093},
+URL = {https://www.mdpi.com/2076-3417/11/24/12093},
+ISSN = {2076-3417},
+ABSTRACT = {Solar energy is one of the most strategic energy sources for the world&rsquo;s economic development. This has caused the number of solar photovoltaic plants to increase around the world; consequently, they are installed in places where their access and manual inspection are arduous and risky tasks. Recently, the inspection of photovoltaic plants has been conducted with the use of unmanned aerial vehicles (UAV). Although the inspection with UAVs can be completed with a drone operator, where the UAV flight path is purely manual or utilizes a previously generated flight path through a ground control station (GCS). However, the path generated in the GCS has many restrictions that the operator must supply. Due to these restrictions, we present a novel way to develop a flight path automatically with coverage path planning (CPP) methods. Using a DL server to segment the region of interest (RoI) within each of the predefined PV plant images, three CPP methods were also considered and their performances were assessed with metrics. The UAV energy consumption performance in each of the CPP methods was assessed using two different UAVs and standard metrics. Six experiments were performed by varying the CPP width, and the consumption metrics were recorded in each experiment. According to the results, the most effective and efficient methods are the exact cellular decomposition boustrophedon and grid-based wavefront coverage, depending on the CPP width and the area of the PV plant. Finally, a relationship was established between the size of the photovoltaic plant area and the best UAV to perform the inspection with the appropriate CPP width. This could be an important result for low-cost inspection with UAVs, without high-resolution cameras on the UAV board, and in small plants.},
+DOI = {10.3390/app112412093}
+}
+
+
+
+@Article{s22010270,
+AUTHOR = {Domingo, Mari Carmen},
+TITLE = {Power Allocation and Energy Cooperation for UAV-Enabled MmWave Networks: A Multi-Agent Deep Reinforcement Learning Approach},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {1},
+ARTICLE-NUMBER = {270},
+URL = {https://www.mdpi.com/1424-8220/22/1/270},
+PubMedID = {35009812},
+ISSN = {1424-8220},
+ABSTRACT = {Unmanned Aerial Vehicle (UAV)-assisted cellular networks over the millimeter-wave (mmWave) frequency band can meet the requirements of a high data rate and flexible coverage in next-generation communication networks. However, higher propagation loss and the use of a large number of antennas in mmWave networks give rise to high energy consumption and UAVs are constrained by their low-capacity onboard battery. Energy harvesting (EH) is a viable solution to reduce the energy cost of UAV-enabled mmWave networks. However, the random nature of renewable energy makes it challenging to maintain robust connectivity in UAV-assisted terrestrial cellular networks. Energy cooperation allows UAVs to send their excessive energy to other UAVs with reduced energy. In this paper, we propose a power allocation algorithm based on energy harvesting and energy cooperation to maximize the throughput of a UAV-assisted mmWave cellular network. Since there is channel-state uncertainty and the amount of harvested energy can be treated as a stochastic process, we propose an optimal multi-agent deep reinforcement learning algorithm (DRL) named Multi-Agent Deep Deterministic Policy Gradient (MADDPG) to solve the renewable energy resource allocation problem for throughput maximization. The simulation results show that the proposed algorithm outperforms the Random Power (RP), Maximal Power (MP) and value-based Deep Q-Learning (DQL) algorithms in terms of network throughput.},
+DOI = {10.3390/s22010270}
+}
+
+
+
+@Article{rs14010199,
+AUTHOR = {Carbonell-Rivera, Juan Pedro and Torralba, Jesús and Estornell, Javier and Ruiz, Luis Ángel and Crespo-Peremarch, Pablo},
+TITLE = {Classification of Mediterranean Shrub Species from UAV Point Clouds},
+JOURNAL = {Remote Sensing},
+VOLUME = {14},
+YEAR = {2022},
+NUMBER = {1},
+ARTICLE-NUMBER = {199},
+URL = {https://www.mdpi.com/2072-4292/14/1/199},
+ISSN = {2072-4292},
+ABSTRACT = {Modelling fire behaviour in forest fires is based on meteorological, topographical, and vegetation data, including species&rsquo; type. To accurately parameterise these models, an inventory of the area of analysis with the maximum spatial and temporal resolution is required. This study investigated the use of UAV-based digital aerial photogrammetry (UAV-DAP) point clouds to classify tree and shrub species in Mediterranean forests, and this information is key for the correct generation of wildfire models. In July 2020, two test sites located in the Natural Park of Sierra Calderona (eastern Spain) were analysed, registering 1036 vegetation individuals as reference data, corresponding to 11 shrub and one tree species. Meanwhile, photogrammetric flights were carried out over the test sites, using a UAV DJI Inspire 2 equipped with a Micasense RedEdge multispectral camera. Geometrical, spectral, and neighbour-based features were obtained from the resulting point cloud generated. Using these features, points belonging to tree and shrub species were classified using several machine learning methods, i.e., Decision Trees, Extra Trees, Gradient Boosting, Random Forest, and MultiLayer Perceptron. The best results were obtained using Gradient Boosting, with a mean cross-validation accuracy of 81.7% and 91.5% for test sites 1 and 2, respectively. Once the best classifier was selected, classified points were clustered based on their geometry and tested with evaluation data, and overall accuracies of 81.9% and 96.4% were obtained for test sites 1 and 2, respectively. Results showed that the use of UAV-DAP allows the classification of Mediterranean tree and shrub species. This technique opens a wide range of possibilities, including the identification of species as a first step for further extraction of structure and fuel variables as input for wildfire behaviour models.},
+DOI = {10.3390/rs14010199}
+}
+
+
+
+@Article{s22020464,
+AUTHOR = {Nepal, Upesh and Eslamiat, Hossein},
+TITLE = {Comparing YOLOv3, YOLOv4 and YOLOv5 for Autonomous Landing Spot Detection in Faulty UAVs},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {2},
+ARTICLE-NUMBER = {464},
+URL = {https://www.mdpi.com/1424-8220/22/2/464},
+PubMedID = {35062425},
+ISSN = {1424-8220},
+ABSTRACT = {In-flight system failure is one of the major safety concerns in the operation of unmanned aerial vehicles (UAVs) in urban environments. To address this concern, a safety framework consisting of following three main tasks can be utilized: (1) Monitoring health of the UAV and detecting failures, (2) Finding potential safe landing spots in case a critical failure is detected in step 1, and (3) Steering the UAV to a safe landing spot found in step 2. In this paper, we specifically look at the second task, where we investigate the feasibility of utilizing object detection methods to spot safe landing spots in case the UAV suffers an in-flight failure. Particularly, we investigate different versions of the YOLO objection detection method and compare their performances for the specific application of detecting a safe landing location for a UAV that has suffered an in-flight failure. We compare the performance of YOLOv3, YOLOv4, and YOLOv5l while training them by a large aerial image dataset called DOTA in a Personal Computer (PC) and also a Companion Computer (CC). We plan to use the chosen algorithm on a CC that can be attached to a UAV, and the PC is used to verify the trends that we see between the algorithms on the CC. We confirm the feasibility of utilizing these algorithms for effective emergency landing spot detection and report their accuracy and speed for that specific application. Our investigation also shows that the YOLOv5l algorithm outperforms YOLOv4 and YOLOv3 in terms of accuracy of detection while maintaining a slightly slower inference speed.},
+DOI = {10.3390/s22020464}
+}
+
+
+
+@Article{pr10010131,
+AUTHOR = {Luo, Wei and Han, Wenlong and Fu, Ping and Wang, Huijuan and Zhao, Yunfeng and Liu, Ke and Liu, Yuyan and Zhao, Zihui and Zhu, Mengxu and Xu, Ruopeng and Wei, Guosheng},
+TITLE = {A Water Surface Contaminants Monitoring Method Based on Airborne Depth Reasoning},
+JOURNAL = {Processes},
+VOLUME = {10},
+YEAR = {2022},
+NUMBER = {1},
+ARTICLE-NUMBER = {131},
+URL = {https://www.mdpi.com/2227-9717/10/1/131},
+ISSN = {2227-9717},
+ABSTRACT = {Water surface plastic pollution turns out to be a global issue, having aroused rising attention worldwide. How to monitor water surface plastic waste in real time and accurately collect and analyze the relevant numerical data has become a hotspot in water environment research. (1) Background: Over the past few years, unmanned aerial vehicles (UAVs) have been progressively adopted to conduct studies on the monitoring of water surface plastic waste. On the whole, the monitored data are stored in the UAVS to be subsequently retrieved and analyzed, thereby probably causing the loss of real-time information and hindering the whole monitoring process from being fully automated. (2) Methods: An investigation was conducted on the relationship, function and relevant mechanism between various types of plastic waste in the water surface system. On that basis, this study built a deep learning-based lightweight water surface plastic waste detection model, which was capable of automatically detecting and locating different water surface plastic waste. Moreover, a UAV platform-based edge computing architecture was built. (3) Results: The delay of return task data and UAV energy consumption were effectively reduced, and computing and network resources were optimally allocated. (4) Conclusions: The UAV platform based on airborne depth reasoning is expected to be the mainstream means of water environment monitoring in the future.},
+DOI = {10.3390/pr10010131}
+}
+
+
+
+@Article{s22031200,
+AUTHOR = {Jang, Younghoon and Raza, Syed M. and Kim, Moonseong and Choo, Hyunseung},
+TITLE = {Proactive Handover Decision for UAVs with Deep Reinforcement Learning},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {3},
+ARTICLE-NUMBER = {1200},
+URL = {https://www.mdpi.com/1424-8220/22/3/1200},
+PubMedID = {35161945},
+ISSN = {1424-8220},
+ABSTRACT = {The applications of Unmanned Aerial Vehicles (UAVs) are rapidly growing in domains such as surveillance, logistics, and entertainment and require continuous connectivity with cellular networks to ensure their seamless operations. However, handover policies in current cellular networks are primarily designed for ground users, and thus are not appropriate for UAVs due to frequent fluctuations of signal strength in the air. This paper presents a novel handover decision scheme deploying Deep Reinforcement Learning (DRL) to prevent unnecessary handovers while maintaining stable connectivity. The proposed DRL framework takes the UAV state as an input for a proximal policy optimization algorithm and develops a Received Signal Strength Indicator (RSSI) based on a reward function for the online learning of UAV handover decisions. The proposed scheme is evaluated in a 3D-emulated UAV mobility environment where it reduces up to 76 and 73% of unnecessary handovers compared to greedy and Q-learning-based UAV handover decision schemes, respectively. Furthermore, this scheme ensures reliable communication with the UAV by maintaining the RSSI above &minus;75 dBm more than 80% of the time.},
+DOI = {10.3390/s22031200}
+}
+
+
+
+@Article{s22052068,
+AUTHOR = {Gromada, Krzysztof and Siemiątkowska, Barbara and Stecz, Wojciech and Płochocki, Krystian and Woźniak, Karol},
+TITLE = {Real-Time Object Detection and Classification by UAV Equipped With SAR},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {5},
+ARTICLE-NUMBER = {2068},
+URL = {https://www.mdpi.com/1424-8220/22/5/2068},
+PubMedID = {35271213},
+ISSN = {1424-8220},
+ABSTRACT = {The article presents real-time object detection and classification methods by unmanned aerial vehicles (UAVs) equipped with a synthetic aperture radar (SAR). Two algorithms have been extensively tested: classic image analysis and convolutional neural networks (YOLOv5). The research resulted in a new method that combines YOLOv5 with post-processing using classic image analysis. It is shown that the new system improves both the classification accuracy and the location of the identified object. The algorithms were implemented and tested on a mobile platform installed on a military-class UAV as the primary unit for online image analysis. The usage of objective low-computational complexity detection algorithms on SAR scans can reduce the size of the scans sent to the ground control station.},
+DOI = {10.3390/s22052068}
+}
+
+
+
+@Article{su14074034,
+AUTHOR = {Zong, Shuya and Chen, Sikai and Alinizzi, Majed and Labi, Samuel},
+TITLE = {Leveraging UAV Capabilities for Vehicle Tracking and Collision Risk Assessment at Road Intersections},
+JOURNAL = {Sustainability},
+VOLUME = {14},
+YEAR = {2022},
+NUMBER = {7},
+ARTICLE-NUMBER = {4034},
+URL = {https://www.mdpi.com/2071-1050/14/7/4034},
+ISSN = {2071-1050},
+ABSTRACT = {Transportation agencies continue to pursue crash reduction. Initiatives include the design of safer facilities, promotion of safe behaviors, and assessments of collision risk as a precursor to the identification of proactive countermeasures. Collision risk assessment includes reliable prediction of vehicle trajectories. Unfortunately, in using traditional tracking equipment, such prediction can be impaired by occlusion. It has been suggested in recent literature that unmanned aerial vehicles (UAVs) can be deployed to address this issue successfully, given their wide visual field and movement flexibility. This paper presents a methodology that integrates UAVs to track the movement of road users and to assess potential collisions at intersections. The proposed methodology includes an existing deep-learning-based algorithm to identify road users, extract trajectories, and calculate collision risk. The methodology was applied using a case study, and the results show that the methodology can provide beneficial information for the purpose of measuring and analyzing the infrastructure performance. Based on vehicle movements it observes, the UAV can communicate its collision risk to each vehicle so that the vehicle can undertake proactive driving decisions. Finally, the proposed framework can serve as a valuable tool for urban road agencies to develop measures to reduce crash risks.},
+DOI = {10.3390/su14074034}
+}
+
+
+

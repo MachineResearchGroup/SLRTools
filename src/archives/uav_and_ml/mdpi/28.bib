@@ -1,0 +1,66 @@
+
+@Article{app9040669,
+AUTHOR = {Cheng, Qiao and Wang, Xiangke and Yang, Jian and Shen, Lincheng},
+TITLE = {Automated Enemy Avoidance of Unmanned Aerial Vehicles Based on Reinforcement Learning},
+JOURNAL = {Applied Sciences},
+VOLUME = {9},
+YEAR = {2019},
+NUMBER = {4},
+ARTICLE-NUMBER = {669},
+URL = {https://www.mdpi.com/2076-3417/9/4/669},
+ISSN = {2076-3417},
+ABSTRACT = {This paper focuses on one of the collision avoidance scenarios for unmanned aerial vehicles (UAVs), where the UAV needs to avoid collision with the enemy UAV during its flying path to the goal point. Such a type of problem is defined as the enemy avoidance problem in this paper. To deal with this problem, a learning based framework is proposed. Under this framework, the enemy avoidance problem is formulated as a Markov Decision Process (MDP), and the maneuver policies for the UAV are learned based on a temporal-difference reinforcement learning method called Sarsa. To handle the enemy avoidance problem in continuous state space, the Cerebellar Model Arithmetic Computer (CMAC) function approximation technique is embodied in the proposed framework. Furthermore, a hardware-in-the-loop (HITL) simulation environment is established. Simulation results show that the UAV agent can learn a satisfying policy under the proposed framework. Comparing with the random policy and the fixed-rule policy, the learned policy can achieve a far higher possibility in reaching the goal point without colliding with the enemy UAV.},
+DOI = {10.3390/app9040669}
+}
+
+
+
+@Article{aerospace8010018,
+AUTHOR = {Wada, Daichi and Araujo-Estrada, Sergio A. and Windsor, Shane},
+TITLE = {Unmanned Aerial Vehicle Pitch Control Using Deep Reinforcement Learning with Discrete Actions in Wind Tunnel Test},
+JOURNAL = {Aerospace},
+VOLUME = {8},
+YEAR = {2021},
+NUMBER = {1},
+ARTICLE-NUMBER = {18},
+URL = {https://www.mdpi.com/2226-4310/8/1/18},
+ISSN = {2226-4310},
+ABSTRACT = {Deep reinforcement learning is a promising method for training a nonlinear attitude controller for fixed-wing unmanned aerial vehicles. Until now, proof-of-concept studies have demonstrated successful attitude control in simulation. However, detailed experimental investigations have not yet been conducted. This study applied deep reinforcement learning for one-degree-of-freedom pitch control in wind tunnel tests with the aim of gaining practical understandings of attitude control application. Three controllers with different discrete action choices, that is, elevator angles, were designed. The controllers with larger action rates exhibited better performance in terms of following angle-of-attack commands. The root mean square errors for tracking angle-of-attack commands decreased from 3.42&deg; to 1.99&deg; as the maximum action rate increased from 10&deg;/s to 50&deg;/s. The comparison between experimental and simulation results showed that the controller with a smaller action rate experienced the friction effect, and the controllers with larger action rates experienced fluctuating behaviors in elevator maneuvers owing to delay. The investigation of the effect of friction and delay on pitch control highlighted the importance of conducting experiments to understand actual control performances, specifically when the controllers were trained with a low-fidelity model.},
+DOI = {10.3390/aerospace8010018}
+}
+
+
+
+@Article{aerospace8090258,
+AUTHOR = {Wada, Daichi and Araujo-Estrada, Sergio A. and Windsor, Shane},
+TITLE = {Unmanned Aerial Vehicle Pitch Control under Delay Using Deep Reinforcement Learning with Continuous Action in Wind Tunnel Test},
+JOURNAL = {Aerospace},
+VOLUME = {8},
+YEAR = {2021},
+NUMBER = {9},
+ARTICLE-NUMBER = {258},
+URL = {https://www.mdpi.com/2226-4310/8/9/258},
+ISSN = {2226-4310},
+ABSTRACT = {Nonlinear flight controllers for fixed-wing unmanned aerial vehicles (UAVs) can potentially be developed using deep reinforcement learning. However, there is often a reality gap between the simulation models used to train these controllers and the real world. This study experimentally investigated the application of deep reinforcement learning to the pitch control of a UAV in wind tunnel tests, with a particular focus of investigating the effect of time delays on flight controller performance. Multiple neural networks were trained in simulation with different assumed time delays and then wind tunnel tested. The neural networks trained with shorter delays tended to be susceptible to delay in the real tests and produce fluctuating behaviour. The neural networks trained with longer delays behaved more conservatively and did not produce oscillations but suffered steady state errors under some conditions due to unmodeled frictional effects. These results highlight the importance of performing physical experiments to validate controller performance and how the training approach used with reinforcement learning needs to be robust to reality gaps between simulation and the real world.},
+DOI = {10.3390/aerospace8090258}
+}
+
+
+
+@Article{s21196499,
+AUTHOR = {Li, Shuyang and Hu, Xiaohui and Du, Yongwen},
+TITLE = {Deep Reinforcement Learning for Computation Offloading and Resource Allocation in Unmanned-Aerial-Vehicle Assisted Edge Computing},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {19},
+ARTICLE-NUMBER = {6499},
+URL = {https://www.mdpi.com/1424-8220/21/19/6499},
+PubMedID = {34640820},
+ISSN = {1424-8220},
+ABSTRACT = {Computation offloading technology extends cloud computing to the edge of the access network close to users, bringing many benefits to terminal devices with limited battery and computational resources. Nevertheless, the existing computation offloading approaches are challenging to apply to specific scenarios, such as the dense distribution of end-users and the sparse distribution of network infrastructure. The technological revolution in the unmanned aerial vehicle (UAV) and chip industry has granted UAVs more computing resources and promoted the emergence of UAV-assisted mobile edge computing (MEC) technology, which could be applied to those scenarios. However, in the MEC system with multiple users and multiple servers, making reasonable offloading decisions and allocating system resources is still a severe challenge. This paper studies the offloading decision and resource allocation problem in the UAV-assisted MEC environment with multiple users and servers. To ensure the quality of service for end-users, we set the weighted total cost of delay, energy consumption, and the size of discarded tasks as our optimization objective. We further formulate the joint optimization problem as a Markov decision process and apply the soft actor–critic (SAC) deep reinforcement learning algorithm to optimize the offloading policy. Numerical simulation results show that the offloading policy optimized by our proposed SAC-based dynamic computing offloading (SACDCO) algorithm effectively reduces the delay, energy consumption, and size of discarded tasks for the UAV-assisted MEC system. Compared with the fixed local-UAV scheme in the specific simulation setting, our proposed approach reduces system delay and energy consumption by approximately 50% and 200%, respectively.},
+DOI = {10.3390/s21196499}
+}
+
+
+

@@ -1,0 +1,424 @@
+
+@Article{app9224964,
+AUTHOR = {Yue, Wei and Guan, Xianhe and Wang, Liyuan},
+TITLE = {A Novel Searching Method Using Reinforcement Learning Scheme for Multi-UAVs in Unknown Environments},
+JOURNAL = {Applied Sciences},
+VOLUME = {9},
+YEAR = {2019},
+NUMBER = {22},
+ARTICLE-NUMBER = {4964},
+URL = {https://www.mdpi.com/2076-3417/9/22/4964},
+ISSN = {2076-3417},
+ABSTRACT = {In this paper, the important topic of cooperative searches for multi-dynamic targets in unknown sea areas by unmanned aerial vehicles (UAVs) is studied based on a reinforcement learning (RL) algorithm. A novel multi-UAV sea area search map is established, in which models of the environment, UAV dynamics, target dynamics, and sensor detection are involved. Then, the search map is updated and extended using the concept of the territory awareness information map. Finally, according to the search efficiency function, a reward and punishment function is designed, and an RL method is used to generate a multi-UAV cooperative search path online. The simulation results show that the proposed algorithm could effectively perform the search task in the sea area with no prior information.},
+DOI = {10.3390/app9224964}
+}
+
+
+
+@Article{app9235173,
+AUTHOR = {Wu, Qinhao and Wang, Hongqiang and Li, Xiang and Zhang, Bo and Peng, Jinlin},
+TITLE = {Reinforcement Learning-Based Anti-Jamming in Networked UAV Radar Systems},
+JOURNAL = {Applied Sciences},
+VOLUME = {9},
+YEAR = {2019},
+NUMBER = {23},
+ARTICLE-NUMBER = {5173},
+URL = {https://www.mdpi.com/2076-3417/9/23/5173},
+ISSN = {2076-3417},
+ABSTRACT = {The networked unmanned aerial vehicle (UAV) radar system may exploit inter-UAV cooperation for enhancing information acquisition capabilities, meanwhile its inter-UAV communications may be interfered with by external jammers. This paper is devoted to quantifying and optimizing the anti-jamming performance of networked UAV radar systems in adversarial electromagnetic environments. Firstly, instead of using the conventional metric of signal-to-interference ratio (SIR), this paper explores use of the theory of radar information representation as the basis of evaluating the information acquisition capabilities of the networked UAV radar systems. Secondly, this paper proposes a modified Q-Learning method based on double greedy algorithm to optimize the anti-jamming performance of the networked UAV radar systems, through joint programming in the frequency-motion-antenna domain. Simulation results prove the effectiveness of the algorithm in two different networking scenarios.},
+DOI = {10.3390/app9235173}
+}
+
+
+
+@Article{rs12040640,
+AUTHOR = {Wan, Kaifang and Gao, Xiaoguang and Hu, Zijian and Wu, Gaofeng},
+TITLE = {Robust Motion Control for UAV in Dynamic Uncertain Environments Using Deep Reinforcement Learning},
+JOURNAL = {Remote Sensing},
+VOLUME = {12},
+YEAR = {2020},
+NUMBER = {4},
+ARTICLE-NUMBER = {640},
+URL = {https://www.mdpi.com/2072-4292/12/4/640},
+ISSN = {2072-4292},
+ABSTRACT = {In this paper, a novel deep reinforcement learning (DRL) method, and robust deep deterministic policy gradient (Robust-DDPG), is proposed for developing a controller that allows robust flying of an unmanned aerial vehicle (UAV) in dynamic uncertain environments. This technique is applicable in many fields, such as penetration and remote surveillance. The learning-based controller is constructed with an actor-critic framework, and can perform a dual-channel continuous control (roll and speed) of the UAV. To overcome the fragility and volatility of original DDPG, three critical learning tricks are introduced in Robust-DDPG: (1) Delayed-learning trick, providing stable learnings, while facing dynamic environments; (2) adversarial attack trick, improving policy&rsquo;s adaptability to uncertain environments; (3) mixed exploration trick, enabling faster convergence of the model. The training experiments show great improvement in its convergence speed, convergence effect, and stability. The exploiting experiments demonstrate high efficiency in providing the UAV a shorter and smoother path. While, the generalization experiments verify its better adaptability to complicated, dynamic and uncertain environments, comparing to Deep Q Network (DQN) and DDPG algorithms.},
+DOI = {10.3390/rs12040640}
+}
+
+
+
+@Article{s20071890,
+AUTHOR = {Hu, Zijian and Wan, Kaifang and Gao, Xiaoguang and Zhai, Yiwei and Wang, Qianglong},
+TITLE = {Deep Reinforcement Learning Approach with Multiple Experience Pools for UAV’s Autonomous Motion Planning in Complex Unknown Environments},
+JOURNAL = {Sensors},
+VOLUME = {20},
+YEAR = {2020},
+NUMBER = {7},
+ARTICLE-NUMBER = {1890},
+URL = {https://www.mdpi.com/1424-8220/20/7/1890},
+ISSN = {1424-8220},
+ABSTRACT = {Autonomous motion planning (AMP) of unmanned aerial vehicles (UAVs) is aimed at enabling a UAV to safely fly to the target without human intervention. Recently, several emerging deep reinforcement learning (DRL) methods have been employed to address the AMP problem in some simplified environments, and these methods have yielded good results. This paper proposes a multiple experience pools (MEPs) framework leveraging human expert experiences for DRL to speed up the learning process. Based on the deep deterministic policy gradient (DDPG) algorithm, a MEP&ndash;DDPG algorithm was designed using model predictive control and simulated annealing to generate expert experiences. On applying this algorithm to a complex unknown simulation environment constructed based on the parameters of the real UAV, the training experiment results showed that the novel DRL algorithm resulted in a performance improvement exceeding 20% as compared with the state-of-the-art DDPG. The results of the experimental testing indicate that UAVs trained using MEP&ndash;DDPG can stably complete a variety of tasks in complex, unknown environments.},
+DOI = {10.3390/s20071890}
+}
+
+
+
+@Article{electronics9071121,
+AUTHOR = {Kong, Weiren and Zhou, Deyun and Yang, Zhen and Zhao, Yiyang and Zhang, Kai},
+TITLE = {UAV Autonomous Aerial Combat Maneuver Strategy Generation with Observation Error Based on State-Adversarial Deep Deterministic Policy Gradient and Inverse Reinforcement Learning},
+JOURNAL = {Electronics},
+VOLUME = {9},
+YEAR = {2020},
+NUMBER = {7},
+ARTICLE-NUMBER = {1121},
+URL = {https://www.mdpi.com/2079-9292/9/7/1121},
+ISSN = {2079-9292},
+ABSTRACT = {With the development of unmanned aerial vehicle (UAV) and artificial intelligence (AI) technology, Intelligent UAV will be widely used in future autonomous aerial combat. Previous researches on autonomous aerial combat within visual range (WVR) have limitations due to simplifying assumptions, limited robustness, and ignoring sensor errors. In this paper, in order to consider the error of the aircraft sensors, we model the aerial combat WVR as a state-adversarial Markov decision process (SA-MDP), which introduce the small adversarial perturbations on state observations and these perturbations do not alter the environment directly, but can mislead the agent into making suboptimal decisions. Meanwhile, we propose a novel autonomous aerial combat maneuver strategy generation algorithm with high-performance and high-robustness based on state-adversarial deep deterministic policy gradient algorithm (SA-DDPG), which add a robustness regularizers related to an upper bound on performance loss at the actor-network. At the same time, a reward shaping method based on maximum entropy (MaxEnt) inverse reinforcement learning algorithm (IRL) is proposed to improve the aerial combat strategy generation algorithm&rsquo;s efficiency. Finally, the efficiency of the aerial combat strategy generation algorithm and the performance and robustness of the resulting aerial combat strategy is verified by simulation experiments. Our main contributions are three-fold. First, to introduce the observation errors of UAV, we are modeling air combat as SA-MDP. Second, to make the strategy network of air combat maneuver more robust in the presence of observation errors, we introduce regularizers into the policy gradient. Third, to solve the problem that air combat&rsquo;s reward function is too sparse, we use MaxEnt IRL to design a shaping reward to accelerate the convergence of SA-DDPG.},
+DOI = {10.3390/electronics9071121}
+}
+
+
+
+@Article{s20195630,
+AUTHOR = {Xie, Jingyi and Peng, Xiaodong and Wang, Haijiao and Niu, Wenlong and Zheng, Xiao},
+TITLE = {UAV Autonomous Tracking and Landing Based on Deep Reinforcement Learning Strategy},
+JOURNAL = {Sensors},
+VOLUME = {20},
+YEAR = {2020},
+NUMBER = {19},
+ARTICLE-NUMBER = {5630},
+URL = {https://www.mdpi.com/1424-8220/20/19/5630},
+ISSN = {1424-8220},
+ABSTRACT = {Unmanned aerial vehicle (UAV) autonomous tracking and landing is playing an increasingly important role in military and civil applications. In particular, machine learning has been successfully introduced to robotics-related tasks. A novel UAV autonomous tracking and landing approach based on a deep reinforcement learning strategy is presented in this paper, with the aim of dealing with the UAV motion control problem in an unpredictable and harsh environment. Instead of building a prior model and inferring the landing actions based on heuristic rules, a model-free method based on a partially observable Markov decision process (POMDP) is proposed. In the POMDP model, the UAV automatically learns the landing maneuver by an end-to-end neural network, which combines the Deep Deterministic Policy Gradients (DDPG) algorithm and heuristic rules. A Modular Open Robots Simulation Engine (MORSE)-based reinforcement learning framework is designed and validated with a continuous UAV tracking and landing task on a randomly moving platform in high sensor noise and intermittent measurements. The simulation results show that when the moving platform is moving in different trajectories, the average landing success rate of the proposed algorithm is about 10% higher than that of the Proportional-Integral-Derivative (PID) method. As an indirect result, a state-of-the-art deep reinforcement learning-based UAV control method is validated, where the UAV can learn the optimal strategy of a continuously autonomous landing and perform properly in a simulation environment.},
+DOI = {10.3390/s20195630}
+}
+
+
+
+@Article{rs12223789,
+AUTHOR = {Li, Bo and Gan, Zhigang and Chen, Daqing and Sergey Aleksandrovich, Dyachenko},
+TITLE = {UAV Maneuvering Target Tracking in Uncertain Environments Based on Deep Reinforcement Learning and Meta-Learning},
+JOURNAL = {Remote Sensing},
+VOLUME = {12},
+YEAR = {2020},
+NUMBER = {22},
+ARTICLE-NUMBER = {3789},
+URL = {https://www.mdpi.com/2072-4292/12/22/3789},
+ISSN = {2072-4292},
+ABSTRACT = {This paper combines deep reinforcement learning (DRL) with meta-learning and proposes a novel approach, named meta twin delayed deep deterministic policy gradient (Meta-TD3), to realize the control of unmanned aerial vehicle (UAV), allowing a UAV to quickly track a target in an environment where the motion of a target is uncertain. This approach can be applied to a variety of scenarios, such as wildlife protection, emergency aid, and remote sensing. We consider a multi-task experience replay buffer to provide data for the multi-task learning of the DRL algorithm, and we combine meta-learning to develop a multi-task reinforcement learning update method to ensure the generalization capability of reinforcement learning. Compared with the state-of-the-art algorithms, namely the deep deterministic policy gradient (DDPG) and twin delayed deep deterministic policy gradient (TD3), experimental results show that the Meta-TD3 algorithm has achieved a great improvement in terms of both convergence value and convergence rate. In a UAV target tracking problem, Meta-TD3 only requires a few steps to train to enable a UAV to adapt quickly to a new target movement mode more and maintain a better tracking effectiveness.},
+DOI = {10.3390/rs12223789}
+}
+
+
+
+@Article{electronics10050543,
+AUTHOR = {Jung, Soyi and Yun, Won Joon and Kim, Joongheon and Kim, Jae-Hyun},
+TITLE = {Coordinated Multi-Agent Deep Reinforcement Learning for Energy-Aware UAV-Based Big-Data Platforms},
+JOURNAL = {Electronics},
+VOLUME = {10},
+YEAR = {2021},
+NUMBER = {5},
+ARTICLE-NUMBER = {543},
+URL = {https://www.mdpi.com/2079-9292/10/5/543},
+ISSN = {2079-9292},
+ABSTRACT = {This paper proposes a novel coordinated multi-agent deep reinforcement learning (MADRL) algorithm for energy sharing among multiple unmanned aerial vehicles (UAVs) in order to conduct big-data processing in a distributed manner. For realizing UAV-assisted aerial surveillance or flexible mobile cellular services, robust wireless charging mechanisms are essential for delivering energy sources from charging towers (i.e., charging infrastructure) to their associated UAVs for seamless operations of autonomous UAVs in the sky. In order to actively and intelligently manage the energy resources in charging towers, a MADRL-based coordinated energy management system is desired and proposed for energy resource sharing among charging towers. When the required energy for charging UAVs is not enough in charging towers, the energy purchase from utility company (i.e., energy source provider in local energy market) is desired, which takes high costs. Therefore, the main objective of our proposed coordinated MADRL-based energy sharing learning algorithm is minimizing energy purchase from external utility companies to minimize system-operational costs. Finally, our performance evaluation results verify that the proposed coordinated MADRL-based algorithm achieves desired performance improvements.},
+DOI = {10.3390/electronics10050543}
+}
+
+
+
+@Article{app11052163,
+AUTHOR = {Munaye, Yirga Yayeh and Juang, Rong-Terng and Lin, Hsin-Piao and Tarekegn, Getaneh Berie and Lin, Ding-Bing},
+TITLE = {Deep Reinforcement Learning Based Resource Management in UAV-Assisted IoT Networks},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {5},
+ARTICLE-NUMBER = {2163},
+URL = {https://www.mdpi.com/2076-3417/11/5/2163},
+ISSN = {2076-3417},
+ABSTRACT = {The resource management in wireless networks with massive Internet of Things (IoT) users is one of the most crucial issues for the advancement of fifth-generation networks. The main objective of this study is to optimize the usage of resources for IoT networks. Firstly, the unmanned aerial vehicle is considered to be a base station for air-to-ground communications. Secondly, according to the distribution and fluctuation of signals; the IoT devices are categorized into urban and suburban clusters. This clustering helps to manage the environment easily. Thirdly, real data collection and preprocessing tasks are carried out. Fourthly, the deep reinforcement learning approach is proposed as a main system development scheme for resource management. Fifthly, K-means and round-robin scheduling algorithms are applied for clustering and managing the users’ resource requests, respectively. Then, the TensorFlow (python) programming tool is used to test the overall capability of the proposed method. Finally, this paper evaluates the proposed approach with related works based on different scenarios. According to the experimental findings, our proposed scheme shows promising outcomes. Moreover, on the evaluation tasks, the outcomes show rapid convergence, suitable for heterogeneous IoT networks, and low complexity.},
+DOI = {10.3390/app11052163}
+}
+
+
+
+@Article{s21062233,
+AUTHOR = {Li, Ke and Zhang, Kun and Zhang, Zhenchong and Liu, Zekun and Hua, Shuai and He, Jianliang},
+TITLE = {A UAV Maneuver Decision-Making Algorithm for Autonomous Airdrop Based on Deep Reinforcement Learning},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {6},
+ARTICLE-NUMBER = {2233},
+URL = {https://www.mdpi.com/1424-8220/21/6/2233},
+PubMedID = {33806886},
+ISSN = {1424-8220},
+ABSTRACT = {How to operate an unmanned aerial vehicle (UAV) safely and efficiently in an interactive environment is challenging. A large amount of research has been devoted to improve the intelligence of a UAV while performing a mission, where finding an optimal maneuver decision-making policy of the UAV has become one of the key issues when we attempt to enable the UAV autonomy. In this paper, we propose a maneuver decision-making algorithm based on deep reinforcement learning, which generates efficient maneuvers for a UAV agent to execute the airdrop mission autonomously in an interactive environment. Particularly, the training set of the learning algorithm by the Prioritized Experience Replay is constructed, that can accelerate the convergence speed of decision network training in the algorithm. It is shown that a desirable and effective maneuver decision-making policy can be found by extensive experimental results.},
+DOI = {10.3390/s21062233}
+}
+
+
+
+@Article{app11093948,
+AUTHOR = {Maw, Aye Aye and Tyan, Maxim and Nguyen, Tuan Anh and Lee, Jae-Woo},
+TITLE = {iADA*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {9},
+ARTICLE-NUMBER = {3948},
+URL = {https://www.mdpi.com/2076-3417/11/9/3948},
+ISSN = {2076-3417},
+ABSTRACT = {Path planning algorithms are of paramount importance in guidance and collision systems to provide trustworthiness and safety for operations of autonomous unmanned aerial vehicles (UAV). Previous works showed different approaches mostly focusing on shortest path discovery without a sufficient consideration on local planning and collision avoidance. In this paper, we propose a hybrid path planning algorithm that uses an anytime graph-based path planning algorithm for global planning and deep reinforcement learning for local planning which applied for a real-time mission planning system of an autonomous UAV. In particular, we aim to achieve a highly autonomous UAV mission planning system that is adaptive to real-world environments consisting of both static and moving obstacles for collision avoidance capabilities. To achieve adaptive behavior for real-world problems, a simulator is required that can imitate real environments for learning. For this reason, the simulator must be sufficiently flexible to allow the UAV to learn about the environment and to adapt to real-world conditions. In our scheme, the UAV first learns about the environment via a simulator, and only then is it applied to the real-world. The proposed system is divided into two main parts: optimal flight path generation and collision avoidance. A hybrid path planning approach is developed by combining a graph-based path planning algorithm with a learning-based algorithm for local planning to allow the UAV to avoid a collision in real time. The global path planning problem is solved in the first stage using a novel anytime incremental search algorithm called improved Anytime Dynamic A* (iADA*). A reinforcement learning method is used to carry out local planning between waypoints, to avoid any obstacles within the environment. The developed hybrid path planning system was investigated and validated in an AirSim environment. A number of different simulations and experiments were performed using AirSim platform in order to demonstrate the effectiveness of the proposed system for an autonomous UAV. This study helps expand the existing research area in designing efficient and safe path planning algorithms for UAVs.},
+DOI = {10.3390/app11093948}
+}
+
+
+
+@Article{s21124121,
+AUTHOR = {Minhas, Hassan Ishtiaq and Ahmad, Rizwan and Ahmed, Waqas and Waheed, Maham and Alam, Muhammad Mahtab and Gul, Sufi Tabassum},
+TITLE = {A Reinforcement Learning Routing Protocol for UAV Aided Public Safety Networks},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {12},
+ARTICLE-NUMBER = {4121},
+URL = {https://www.mdpi.com/1424-8220/21/12/4121},
+PubMedID = {34203912},
+ISSN = {1424-8220},
+ABSTRACT = {In Public Safety Networks (PSNs), the conservation of on-scene device energy is critical to ensure long term connectivity to first responders. Due to the limited transmit power, this connectivity can be ensured by enabling continuous cooperation among on-scene devices through multipath routing. In this paper, we present a Reinforcement Learning (RL) and Unmanned Aerial Vehicle- (UAV) aided multipath routing scheme for PSNs. The aim is to increase network lifetime by improving the Energy Efficiency (EE) of the PSN. First, network configurations are generated by using different clustering schemes. The RL is then applied to configure the routing topology that considers both the immediate energy cost and the total distance cost of the transmission path. The performance of these schemes are analyzed in terms of throughput, energy consumption, number of dead nodes, delay, packet delivery ratio, number of cluster head changes, number of control packets, and EE. The results showed an improvement of approximately 42% in EE of the clustering scheme when compared with non-clustering schemes. Furthermore, the impact of UAV trajectory and the number of UAVs are jointly analyzed by considering various trajectory scenarios around the disaster area. The EE can be further improved by 27% using Two UAVs on Opposite Axis of the building and moving in the Opposite directions (TUOAO) when compared to a single UAV scheme. The result showed that although the number of control packets in both the single and two UAV scenarios are comparable, the total number of CH changes are significantly different.},
+DOI = {10.3390/s21124121}
+}
+
+
+
+@Article{telecom2030017,
+AUTHOR = {Pourroostaei Ardakani, Saeid and Cheshmehzangi, Ali},
+TITLE = {Reinforcement Learning-Enabled UAV Itinerary Planning for Remote Sensing Applications in Smart Farming},
+JOURNAL = {Telecom},
+VOLUME = {2},
+YEAR = {2021},
+NUMBER = {3},
+PAGES = {255--270},
+URL = {https://www.mdpi.com/2673-4001/2/3/17},
+ISSN = {2673-4001},
+ABSTRACT = {UAV path planning for remote sensing aims to find the best-fitted routes to complete a data collection mission. UAVs plan the routes and move through them to remotely collect environmental data from particular target zones by using sensory devices such as cameras. Route planning may utilize machine learning techniques to autonomously find/select cost-effective and/or best-fitted routes and achieve optimized results including: minimized data collection delay, reduced UAV power consumption, decreased flight traversed distance and maximized number of collected data samples. This paper utilizes a reinforcement learning technique (location and energy-aware Q-learning) to plan UAV routes for remote sensing in smart farms. Through this, the UAV avoids heuristically or blindly moving throughout a farm, but this takes the benefits of environment exploration–exploitation to explore the farm and find the shortest and most cost-effective paths into target locations with interesting data samples to collect. According to the simulation results, utilizing the Q-learning technique increases data collection robustness and reduces UAV resource consumption (e.g., power), traversed paths, and remote sensing latency as compared to two well-known benchmarks, IEMF and TBID, especially if the target locations are dense and crowded in a farm.},
+DOI = {10.3390/telecom2030017}
+}
+
+
+
+@Article{electronics10161929,
+AUTHOR = {Shen, Huan and Zhang, Yao and Mao, Jianguo and Yan, Zhiwei and Wu, Linwei},
+TITLE = {Energy Management of Hybrid UAV Based on Reinforcement Learning},
+JOURNAL = {Electronics},
+VOLUME = {10},
+YEAR = {2021},
+NUMBER = {16},
+ARTICLE-NUMBER = {1929},
+URL = {https://www.mdpi.com/2079-9292/10/16/1929},
+ISSN = {2079-9292},
+ABSTRACT = {In order to solve the flight time problem of Unmanned Aerial Vehicles (UAV), this paper proposes a set of energy management strategies based on reinforcement learning for hybrid agricultural UAV. The battery is used to optimize the working point of internal combustion engines to the greatest extent while solving the high power demand issues of UAV and the response problem of internal combustion engines. Firstly, the decision-making oriented hybrid model and UAV dynamic model are established. Owing to the characteristics of the energy management strategy (EMS) based on reinforcement learning (RL), which is an intelligent optimization algorithm that has emerged in recent years, the complex theoretical formula derivation is avoided in the modeling process. In terms of the EMS, a double Q learning algorithm with strong convergence is adopted. The algorithm separates the state action value function database used in derivation decisions and the state action value function-updated database brought by the decision, so as to avoid delay and shock within the convergence process caused by maximum deviation. After the improvement, the off-line training is carried out with a large number of flight data generated in the past. The simulation results demonstrate that the improved algorithm can show better performance with less learning cost than before by virtue of the search function strategy proposed in this paper. In the state space, time-based and residual fuel-based selection are carried out successively, and the convergence rate and application effect are compared and analyzed. The results show that the learning algorithm has stronger robustness and convergence speed due to the appropriate selection of state space under different types of operating cycles. After 120,000 cycles of training, the fuel economy of the improved algorithm in this paper can reach more than 90% of that of the optimal solution, and can perform stably in actual flight.},
+DOI = {10.3390/electronics10161929}
+}
+
+
+
+@Article{app11188419,
+AUTHOR = {Zhao, Jiang and Sun, Jiaming and Cai, Zhihao and Wang, Longhong and Wang, Yingxun},
+TITLE = {End-to-End Deep Reinforcement Learning for Image-Based UAV Autonomous Control},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {18},
+ARTICLE-NUMBER = {8419},
+URL = {https://www.mdpi.com/2076-3417/11/18/8419},
+ISSN = {2076-3417},
+ABSTRACT = {To achieve the perception-based autonomous control of UAVs, schemes with onboard sensing and computing are popular in state-of-the-art work, which often consist of several separated modules with respective complicated algorithms. Most methods depend on handcrafted designs and prior models with little capacity for adaptation and generalization. Inspired by the research on deep reinforcement learning, this paper proposes a new end-to-end autonomous control method to simplify the separate modules in the traditional control pipeline into a single neural network. An image-based reinforcement learning framework is established, depending on the design of the network architecture and the reward function. Training is performed with model-free algorithms developed according to the specific mission, and the control policy network can map the input image directly to the continuous actuator control command. A simulation environment for the scenario of UAV landing was built. In addition, the results under different typical cases, including both the small and large initial lateral or heading angle offsets, show that the proposed end-to-end method is feasible for perception-based autonomous control.},
+DOI = {10.3390/app11188419}
+}
+
+
+
+@Article{app112210595,
+AUTHOR = {Zhao, Wenlong and Meng, Zhijun and Wang, Kaipeng and Zhang, Jiahui and Lu, Shaoze},
+TITLE = {Hierarchical Active Tracking Control for UAVs via Deep Reinforcement Learning},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {22},
+ARTICLE-NUMBER = {10595},
+URL = {https://www.mdpi.com/2076-3417/11/22/10595},
+ISSN = {2076-3417},
+ABSTRACT = {Active tracking control is essential for UAVs to perform autonomous operations in GPS-denied environments. In the active tracking task, UAVs take high-dimensional raw images as input and execute motor actions to actively follow the dynamic target. Most research focuses on three-stage methods, which entail perception first, followed by high-level decision-making based on extracted spatial information of the dynamic target, and then UAV movement control, using a low-level dynamic controller. Perception methods based on deep neural networks are powerful but require considerable effort for manual ground truth labeling. Instead, we unify the perception and decision-making stages using a high-level controller and then leverage deep reinforcement learning to learn the mapping from raw images to the high-level action commands in the V-REP-based environment, where simulation data are infinite and inexpensive. This end-to-end method also has the advantages of a small parameter size and reduced effort requirements for parameter turning in the decision-making stage. The high-level controller, which has a novel architecture, explicitly encodes the spatial and temporal features of the dynamic target. Auxiliary segmentation and motion-in-depth losses are introduced to generate denser training signals for the high-level controller’s fast and stable training. The high-level controller and a conventional low-level PID controller constitute our hierarchical active tracking control framework for the UAVs’ active tracking task. Simulation experiments show that our controller trained with several augmentation techniques sufficiently generalizes dynamic targets with random appearances and velocities, and achieves significantly better performance, compared with three-stage methods.},
+DOI = {10.3390/app112210595}
+}
+
+
+
+@Article{electronics10232953,
+AUTHOR = {Gopi, Sudheesh Puthenveettil and Magarini, Maurizio},
+TITLE = {Reinforcement Learning Aided UAV Base Station Location Optimization for Rate Maximization},
+JOURNAL = {Electronics},
+VOLUME = {10},
+YEAR = {2021},
+NUMBER = {23},
+ARTICLE-NUMBER = {2953},
+URL = {https://www.mdpi.com/2079-9292/10/23/2953},
+ISSN = {2079-9292},
+ABSTRACT = {The application of unmanned aerial vehicles (UAV) as base station (BS) is gaining popularity. In this paper, we consider maximization of the overall data rate by intelligent deployment of UAV BS in the downlink of a cellular system. We investigate a reinforcement learning (RL)-aided approach to optimize the position of flying BSs mounted on board UAVs to support a macro BS (MBS). We propose an algorithm to avoid collision between multiple UAVs undergoing exploratory movements and to restrict UAV BSs movement within a predefined area. Q-learning technique is used to optimize UAV BS position, where the reward is equal to sum of user equipment (UE) data rates. We consider a framework where the UAV BSs carry out exploratory movements in the beginning and exploitary movements in later stages to maximize the overall data rate. Our results show that a cellular system with three UAV BSs and one MBS serving 72 UE reaches 69.2% of the best possible data rate, which is identified by brute force search. Finally, the RL algorithm is compared with a K-means algorithm to study the need of accurate UE locations. Our results show that the RL algorithm outperforms the K-means clustering algorithm when the measure of imperfection is higher. The proposed algorithm can be made use of by a practical MBS&ndash;UAV BSs&ndash;UEs system to provide protection to UAV BSs while maximizing data rate.},
+DOI = {10.3390/electronics10232953}
+}
+
+
+
+@Article{s21238111,
+AUTHOR = {Yoo, Seungho and Lee, Woonghee},
+TITLE = {Federated Reinforcement Learning Based AANs with LEO Satellites and UAVs},
+JOURNAL = {Sensors},
+VOLUME = {21},
+YEAR = {2021},
+NUMBER = {23},
+ARTICLE-NUMBER = {8111},
+URL = {https://www.mdpi.com/1424-8220/21/23/8111},
+PubMedID = {34884115},
+ISSN = {1424-8220},
+ABSTRACT = {Supported by the advances in rocket technology, companies like SpaceX and Amazon competitively have entered the satellite Internet business. These companies said that they could provide Internet service sufficiently to users using their communication resources. However, the Internet service might not be provided in densely populated areas, as the satellites coverage is broad but its resource capacity is limited. To offload the traffic of the densely populated area, we present an adaptable aerial access network (AAN), composed of low-Earth orbit (LEO) satellites and federated reinforcement learning (FRL)-enabled unmanned aerial vehicles (UAVs). Using the proposed system, UAVs could operate with relatively low computation resources than centralized coverage management systems. Furthermore, by utilizing FRL, the system could continuously learn from various environments and perform better with the longer operation times. Based on our proposed design, we implemented FRL, constructed the UAV-aided AAN simulator, and evaluated the proposed system. Base on the evaluation result, we validated that the FRL enabled UAV-aided AAN could operate efficiently in densely populated areas where the satellites cannot provide sufficient Internet services, which improves network performances. In the evaluations, our proposed AAN system provided about 3.25 times more communication resources and had 5.1% lower latency than the satellite-only AAN.},
+DOI = {10.3390/s21238111}
+}
+
+
+
+@Article{s22010270,
+AUTHOR = {Domingo, Mari Carmen},
+TITLE = {Power Allocation and Energy Cooperation for UAV-Enabled MmWave Networks: A Multi-Agent Deep Reinforcement Learning Approach},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {1},
+ARTICLE-NUMBER = {270},
+URL = {https://www.mdpi.com/1424-8220/22/1/270},
+PubMedID = {35009812},
+ISSN = {1424-8220},
+ABSTRACT = {Unmanned Aerial Vehicle (UAV)-assisted cellular networks over the millimeter-wave (mmWave) frequency band can meet the requirements of a high data rate and flexible coverage in next-generation communication networks. However, higher propagation loss and the use of a large number of antennas in mmWave networks give rise to high energy consumption and UAVs are constrained by their low-capacity onboard battery. Energy harvesting (EH) is a viable solution to reduce the energy cost of UAV-enabled mmWave networks. However, the random nature of renewable energy makes it challenging to maintain robust connectivity in UAV-assisted terrestrial cellular networks. Energy cooperation allows UAVs to send their excessive energy to other UAVs with reduced energy. In this paper, we propose a power allocation algorithm based on energy harvesting and energy cooperation to maximize the throughput of a UAV-assisted mmWave cellular network. Since there is channel-state uncertainty and the amount of harvested energy can be treated as a stochastic process, we propose an optimal multi-agent deep reinforcement learning algorithm (DRL) named Multi-Agent Deep Deterministic Policy Gradient (MADDPG) to solve the renewable energy resource allocation problem for throughput maximization. The simulation results show that the proposed algorithm outperforms the Random Power (RP), Maximal Power (MP) and value-based Deep Q-Learning (DQL) algorithms in terms of network throughput.},
+DOI = {10.3390/s22010270}
+}
+
+
+
+@Article{app12020610,
+AUTHOR = {Isufaj, Ralvi and Omeri, Marsel and Piera, Miquel Angel},
+TITLE = {Multi-UAV Conflict Resolution with Graph Convolutional Reinforcement Learning},
+JOURNAL = {Applied Sciences},
+VOLUME = {12},
+YEAR = {2022},
+NUMBER = {2},
+ARTICLE-NUMBER = {610},
+URL = {https://www.mdpi.com/2076-3417/12/2/610},
+ISSN = {2076-3417},
+ABSTRACT = {Safety is the primary concern when it comes to air traffic. In-flight safety between Unmanned Aircraft Vehicles (UAVs) is ensured through pairwise separation minima, utilizing conflict detection and resolution methods. Existing methods mainly deal with pairwise conflicts, however, due to an expected increase in traffic density, encounters with more than two UAVs are likely to happen. In this paper, we model multi-UAV conflict resolution as a multiagent reinforcement learning problem. We implement an algorithm based on graph neural networks where cooperative agents can communicate to jointly generate resolution maneuvers. The model is evaluated in scenarios with 3 and 4 present agents. Results show that agents are able to successfully solve the multi-UAV conflicts through a cooperative strategy.},
+DOI = {10.3390/app12020610}
+}
+
+
+
+@Article{electronics11030441,
+AUTHOR = {Wang, Min and Chen, Peng and Cao, Zhenxin and Chen, Yun},
+TITLE = {Reinforcement Learning-Based UAVs Resource Allocation for Integrated Sensing and Communication (ISAC) System},
+JOURNAL = {Electronics},
+VOLUME = {11},
+YEAR = {2022},
+NUMBER = {3},
+ARTICLE-NUMBER = {441},
+URL = {https://www.mdpi.com/2079-9292/11/3/441},
+ISSN = {2079-9292},
+ABSTRACT = {Due to the limited ability of a single unmanned aerial vehicle (UAV), group unmanned aerial vehicles (UAVs) have attracted more attention in communication and radar fields. The use of an integrated sensing and communication (ISAC) system can make communication and radar modules share a radar module&rsquo;s resources, coupled with efficient resource allocation methods. It can effectively solve the problem of inadequate UAV resources and the low utilization rate of resources. In this paper, the resource allocation problem is addressed for group UAVs to achieve a trade-off between the detection and communication performance, where the ISAC system is equipped in group UAVs. The resource allocation problem is described by an optimization problem, but with group UAVs, the problem is complex and cannot be solved efficiently. Compared with the traditional resource allocation scheme, which needs a lot of calculation or sample set problems, a novel reinforcement-learning-based method is proposed. We formulate a new reward function by combining mutual information (MI) and the communication rate (CR). The MI describes the radar detection performance, and the CR is for wireless communication. Simulation results show that compared with the traditional Kuhn Munkres (KM) or the deep neural network (DNN) methods, this method has better performance with the increase in problem complexity. Additionally, the execution time of this scheme is close to that of the DNN scheme, and it is better than the KM algorithm.},
+DOI = {10.3390/electronics11030441}
+}
+
+
+
+@Article{s22031200,
+AUTHOR = {Jang, Younghoon and Raza, Syed M. and Kim, Moonseong and Choo, Hyunseung},
+TITLE = {Proactive Handover Decision for UAVs with Deep Reinforcement Learning},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {3},
+ARTICLE-NUMBER = {1200},
+URL = {https://www.mdpi.com/1424-8220/22/3/1200},
+PubMedID = {35161945},
+ISSN = {1424-8220},
+ABSTRACT = {The applications of Unmanned Aerial Vehicles (UAVs) are rapidly growing in domains such as surveillance, logistics, and entertainment and require continuous connectivity with cellular networks to ensure their seamless operations. However, handover policies in current cellular networks are primarily designed for ground users, and thus are not appropriate for UAVs due to frequent fluctuations of signal strength in the air. This paper presents a novel handover decision scheme deploying Deep Reinforcement Learning (DRL) to prevent unnecessary handovers while maintaining stable connectivity. The proposed DRL framework takes the UAV state as an input for a proximal policy optimization algorithm and develops a Received Signal Strength Indicator (RSSI) based on a reward function for the online learning of UAV handover decisions. The proposed scheme is evaluated in a 3D-emulated UAV mobility environment where it reduces up to 76 and 73% of unnecessary handovers compared to greedy and Q-learning-based UAV handover decision schemes, respectively. Furthermore, this scheme ensures reliable communication with the UAV by maintaining the RSSI above &minus;75 dBm more than 80% of the time.},
+DOI = {10.3390/s22031200}
+}
+
+
+
+@Article{electronics11030467,
+AUTHOR = {Hu, Jinwen and Wang, Luhe and Hu, Tianmi and Guo, Chubing and Wang, Yanxiong},
+TITLE = {Autonomous Maneuver Decision Making of Dual-UAV Cooperative Air Combat Based on Deep Reinforcement Learning},
+JOURNAL = {Electronics},
+VOLUME = {11},
+YEAR = {2022},
+NUMBER = {3},
+ARTICLE-NUMBER = {467},
+URL = {https://www.mdpi.com/2079-9292/11/3/467},
+ISSN = {2079-9292},
+ABSTRACT = {Autonomous maneuver decision making is the core of intelligent warfare, which has become the main research direction to enable unmanned aerial vehicles (UAVs) to independently generate control commands and complete air combat tasks according to environmental situation information. In this paper, an autonomous maneuver decision making method is proposed for air combat by two cooperative UAVs, which is showcased by using the typical olive formation strategy as a practical example. First, a UAV situation assessment model based on the relative situation is proposed, which uses the real-time target and UAV location information to assess the current situation or threat. Second, the continuous air combat state space is discretized into a 13 dimensional space for dimension reduction and quantitative description, and 15 typical action commands instead of a continuous control space are designed to reduce the difficulty of UAV training. Third, a reward function is designed based on the situation assessment which includes the real-time gain due to maneuver and the final combat winning/losing gain. Fourth, an improved training data sampling strategy is proposed, which samples the data in the experience pool based on priority to accelerate the training convergence. Fifth, a hybrid autonomous maneuver decision strategy for dual-UAV olive formation air combat is proposed which realizes the UAV capability of obstacle avoidance, formation and confrontation. Finally, the air combat task of dual-UAV olive formation is simulated and the results show that the proposed method can help the UAVs defeat the enemy effectively and outperforms the deep Q network (DQN) method without priority sampling in terms of the convergence speed.},
+DOI = {10.3390/electronics11030467}
+}
+
+
+
+@Article{drones6020045,
+AUTHOR = {Siddiqui, Abdul Basit and Aqeel, Iraj and Alkhayyat, Ahmed and Javed, Umer and Kaleem, Zeeshan},
+TITLE = {Prioritized User Association for Sum-Rate Maximization in UAV-Assisted Emergency Communication: A Reinforcement Learning Approach},
+JOURNAL = {Drones},
+VOLUME = {6},
+YEAR = {2022},
+NUMBER = {2},
+ARTICLE-NUMBER = {45},
+URL = {https://www.mdpi.com/2504-446X/6/2/45},
+ISSN = {2504-446X},
+ABSTRACT = {Unmanned air vehicles (UAVs) used as aerial base stations (ABSs) can provide communication services in areas where cellular network is not functional due to a calamity. ABSs provide high coverage and high data rates to the user because of the advantage of a high altitude. ABSs can be static or mobile; they can adjust their position according to real-time location of ground user and maintain a good line-of-sight link with ground users. In this paper, a reinforcement learning framework is proposed to maximize the number of served users by optimizing the ABS 3D location and power. We also design a reward function that prioritize the emergency users to establish a connection with the ABS using Q-learning. Simulation results reveal that the proposed scheme clearly outperforms the baseline schemes.},
+DOI = {10.3390/drones6020045}
+}
+
+
+
+@Article{s22041651,
+AUTHOR = {Jiang, Weiheng and Yu, Wanxin and Wang, Wenbo and Huang, Tiancong},
+TITLE = {Multi-Agent Reinforcement Learning for Joint Cooperative Spectrum Sensing and Channel Access in Cognitive UAV Networks},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {4},
+ARTICLE-NUMBER = {1651},
+URL = {https://www.mdpi.com/1424-8220/22/4/1651},
+PubMedID = {35214553},
+ISSN = {1424-8220},
+ABSTRACT = {This paper studies the problem of distributed spectrum/channel access for cognitive radio-enabled unmanned aerial vehicles (CUAVs) that overlay upon primary channels. Under the framework of cooperative spectrum sensing and opportunistic transmission, a one-shot optimization problem for channel allocation, aiming to maximize the expected cumulative weighted reward of multiple CUAVs, is formulated. To handle the uncertainty due to the lack of prior knowledge about the primary user activities as well as the lack of the channel-access coordinator, the original problem is cast into a competition and cooperation hybrid multi-agent reinforcement learning (CCH-MARL) problem in the framework of Markov game (MG). Then, a value-iteration-based RL algorithm, which features upper confidence bound-Hoeffding (UCB-H) strategy searching, is proposed by treating each CUAV as an independent learner (IL). To address the curse of dimensionality, the UCB-H strategy is further extended with a double deep Q-network (DDQN). Numerical simulations show that the proposed algorithms are able to efficiently converge to stable strategies, and significantly improve the network performance when compared with the benchmark algorithms such as the vanilla Q-learning and DDQN algorithms.},
+DOI = {10.3390/s22041651}
+}
+
+
+
+@Article{s22051919,
+AUTHOR = {Nemer, Ibrahim A. and Sheltami, Tarek R. and Belhaiza, Slim and Mahmoud, Ashraf S.},
+TITLE = {Energy-Efficient UAV Movement Control for Fair Communication Coverage: A Deep Reinforcement Learning Approach},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {5},
+ARTICLE-NUMBER = {1919},
+URL = {https://www.mdpi.com/1424-8220/22/5/1919},
+PubMedID = {35271067},
+ISSN = {1424-8220},
+ABSTRACT = {Unmanned Aerial Vehicles (UAVs) are considered an important element in wireless communication networks due to their agility, mobility, and ability to be deployed as mobile base stations (BSs) in the network to improve the communication quality and coverage area. UAVs can be used to provide communication services for ground users in different scenarios, such as transportation systems, disaster situations, emergency cases, and surveillance. However, covering a specific area under a dynamic environment for a long time using UAV technology is quite challenging due to its limited energy resources, short communication range, and flying regulations and rules. Hence, a distributed solution is needed to overcome these limitations and to handle the interactions among UAVs, which leads to a large state space. In this paper, we introduced a novel distributed control solution to place a group of UAVs in the candidate area in order to improve the coverage score with minimum energy consumption and a high fairness value. The new algorithm is called the state-based game with actor&ndash;critic (SBG-AC). To simplify the complex interactions in the problem, we model SBG-AC using a state-based potential game. Then, we merge SBG-AC with an actor&ndash;critic algorithm to assure the convergence of the model, to control each UAV in a distributed way, and to have learning capabilities in case of dynamic environments. Simulation results show that the SBG-AC outperforms the distributed DRL and the DRL-EC3 in terms of fairness, coverage score, and energy consumption.},
+DOI = {10.3390/s22051919}
+}
+
+
+

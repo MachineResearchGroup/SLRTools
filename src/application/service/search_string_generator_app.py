@@ -1,0 +1,1 @@
+##TODO: Gerador de strings de busca para bases (ScienceDirect, IEEE, ACM e MDPI)
